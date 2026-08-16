@@ -2,7 +2,7 @@
 """External LiveResearchBench adapter for the unmodified ReAct inference stack.
 
 python benchmark/run_liveresearch_bench.py \
-    --run-name liveresearch-20260816-0800 \
+    --run-name liveresearch-20260816-1020 \
     --num-questions 5 \
     --max-workers 1
 """
@@ -48,14 +48,21 @@ def main() -> None:
     data = load_liveresearchbench_dataset(use_realtime=True)
     tasks = [{"qid": qid, "prompt": item["question"], "language": "en"} for qid, item in data.items()]
     completed = {path.stem.removeprefix("qid_").removesuffix("_report") for path in output_dir.glob("qid_*_report.md")}
-    pending = tasks if args.no_resume else [task for task in tasks if task["qid"] not in completed]
-    selected = pending if args.num_questions == -1 else pending[:args.num_questions]
-    print(f"LiveResearchBench: total={len(tasks)}, complete={len(completed)}, selected={len(selected)}")
-    if args.num_questions == 0 or not selected:
+    target = tasks if args.num_questions == -1 else tasks[:max(args.num_questions, 0)]
+    completed_in_target = 0 if args.no_resume else sum(task["qid"] in completed for task in target)
+    to_run = len(target) if args.no_resume else len(target) - completed_in_target
+    print(
+        f"LiveResearchBench: total={len(tasks)}, target={len(target)}, "
+        f"complete_in_target={completed_in_target}, to_run={to_run}"
+    )
+    if args.num_questions == 0 or not target or to_run == 0:
         return
 
     staging = INFERENCE / "eval_data" / "benchmark_staging" / args.run_name / "lrb_tasks.jsonl"
-    mapping = write_input(selected, staging)
+    # Keep the complete target cohort in staging.  The underlying runner uses
+    # its existing iter1.jsonl to skip completed questions when the cohort is
+    # expanded (for example, --num-questions 5 followed by 10).
+    mapping = write_input(target, staging)
     if args.skip_inference:
         if not args.raw_results:
             raise SystemExit("--skip-inference requires --raw-results")

@@ -2,7 +2,7 @@
 """External DeepResearch Bench adapter for the unmodified ReAct inference stack.
 
 python benchmark/run_deepresearch_bench.py \
-    --run-name deepresearch-20260816-0800 \
+    --run-name deepresearch-20260816-1020 \
     --num-questions 5 \
     --max-workers 1
 """
@@ -53,14 +53,20 @@ def main() -> None:
     completed = set()
     if output_file.exists() and not args.no_resume:
         completed = {json.loads(line).get("id") for line in output_file.read_text(encoding="utf-8").split("\n") if line.strip()}
-    pending = tasks if args.no_resume else [task for task in tasks if task["id"] not in completed]
-    selected = pending if args.num_questions == -1 else pending[:args.num_questions]
-    print(f"DeepResearchBench: total={len(tasks)}, complete={len(completed)}, selected={len(selected)}")
-    if args.num_questions == 0 or not selected:
+    target = tasks if args.num_questions == -1 else tasks[:max(args.num_questions, 0)]
+    completed_in_target = 0 if args.no_resume else sum(task["id"] in completed for task in target)
+    to_run = len(target) if args.no_resume else len(target) - completed_in_target
+    print(
+        f"DeepResearchBench: total={len(tasks)}, target={len(target)}, "
+        f"complete_in_target={completed_in_target}, to_run={to_run}"
+    )
+    if args.num_questions == 0 or not target or to_run == 0:
         return
 
     staging = INFERENCE / "eval_data" / "benchmark_staging" / args.run_name / "drb_tasks.jsonl"
-    mapping = write_input(selected, staging)
+    # Keep the complete target cohort in staging so the inference runner can
+    # recognize prior raw results and execute only newly added questions.
+    mapping = write_input(target, staging)
     if args.skip_inference:
         if not args.raw_results:
             raise SystemExit("--skip-inference requires --raw-results")

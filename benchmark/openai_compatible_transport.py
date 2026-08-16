@@ -8,6 +8,7 @@ from typing import Any
 
 from openai import APIConnectionError, APIError, APITimeoutError, OpenAI
 from benchmark.benchmark_stats import current, usage_dict
+from benchmark.llm_trace import next_call_group, record as record_llm_trace
 
 
 NO_SUPPORT_TEMPERATURE_MODELS = {
@@ -37,13 +38,17 @@ def install(react_agent_module: Any) -> None:
 
     def call_server(self: Any, msgs: list[dict[str, str]], planning_port: int, max_tries: int = 10) -> str:
         client = OpenAI(api_key=key, base_url=base_url, timeout=timeout)
+        call_group = next_call_group("main_agent")
         for attempt in range(max_tries):
             from benchmark.tavily_search_tool import raise_if_fatal
+            from benchmark.runtime_stats import raise_if_jina_fatal
             raise_if_fatal()
+            raise_if_jina_fatal()
             try:
                 temperature = self.llm_generate_cfg.get("temperature", 0.6)
                 if attempt >= 1 and model not in NO_SUPPORT_TEMPERATURE_MODELS:
                     temperature = 1
+                started = time.monotonic()
                 response = client.chat.completions.create(
                     model=model,
                     messages=msgs,
@@ -54,14 +59,24 @@ def install(react_agent_module: Any) -> None:
                     presence_penalty=self.llm_generate_cfg.get("presence_penalty", 1.1),
                 )
                 content = response.choices[0].message.content
+                usage = usage_dict(response.usage)
+                record_llm_trace(
+                    purpose="main_agent", call_group=call_group, attempt=attempt + 1,
+                    model=model, temperature=temperature, messages=msgs,
+                    status="success" if content and content.strip() else "empty_response",
+                    duration_seconds=time.monotonic() - started, response=content or "",
+                    usage={**usage, "total_tokens": usage["input_tokens"] + usage["output_tokens"]},
+                )
                 if content and content.strip():
                     if current():
-                        current().on_llm_call(model, msgs, content.strip(), usage_dict(response.usage))
+                        current().on_llm_call(model, msgs, content.strip(), usage)
                     return content.strip()
                 print(f"Warning: external API returned an empty response (attempt {attempt + 1}/{max_tries})")
             except (APIError, APIConnectionError, APITimeoutError) as exc:
+                record_llm_trace(purpose="main_agent",call_group=call_group,attempt=attempt+1,model=model,temperature=locals().get('temperature'),messages=msgs,status="api_error",duration_seconds=time.monotonic()-locals().get('started',time.monotonic()),error=exc)
                 print(f"External API error (attempt {attempt + 1}/{max_tries}): {exc}")
             except Exception as exc:
+                record_llm_trace(purpose="main_agent",call_group=call_group,attempt=attempt+1,model=model,temperature=locals().get('temperature'),messages=msgs,status="unexpected_error",duration_seconds=time.monotonic()-locals().get('started',time.monotonic()),error=exc)
                 print(f"Unexpected external API error (attempt {attempt + 1}/{max_tries}): {exc}")
             if attempt < max_tries - 1:
                 time.sleep(min(2 ** attempt, 30))

@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 from benchmark.benchmark_stats import write_stats
+from benchmark.llm_trace import export as export_llm_trace
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -52,7 +53,9 @@ def run_inference(staging_file: Path, output_base: Path, model: str, max_workers
         "--temperature", str(temperature), "--presence_penalty", str(presence_penalty),
         "--roll_out_count", "1",
     ]
-    subprocess.run(command, cwd=ROOT, check=True)
+    env = os.environ.copy()
+    env["BENCHMARK_LLM_TRACE_DIR"] = str((output_base.parent / ".llm_traces").resolve())
+    subprocess.run(command, cwd=ROOT, check=True, env=env)
     model_name = Path(model.rstrip("/")).name
     return output_base.resolve() / f"{model_name}_sglang" / relative_dataset / "iter1.jsonl"
 
@@ -70,10 +73,14 @@ def export_lrb(results: list[dict[str, Any]], mapping: dict[str, dict[str, Any]]
     for result in results:
         task = mapping.get(result.get("question", ""))
         if task is None:
-            raise ValueError("Inference output question does not match the benchmark input manifest")
+            # A stable run name may have raw results from a previously larger
+            # target cohort.  They are valid history, but not part of this
+            # invocation's requested prefix.
+            continue
         qid = str(task["qid"])
         (output_dir / f"qid_{qid}_report.md").write_text(str(result.get("prediction", "")), encoding="utf-8")
         write_stats(output_dir / f"qid_{qid}_stats.json", result, {"qid": qid, "query": task["prompt"]})
+        export_llm_trace(result.get("question", ""), output_dir / f"qid_{qid}_llm_trace.jsonl", output_dir / ".llm_traces")
 
 
 def export_drb(results: list[dict[str, Any]], mapping: dict[str, dict[str, Any]], output_file: Path, artifact_dir: Path) -> None:
@@ -91,7 +98,9 @@ def export_drb(results: list[dict[str, Any]], mapping: dict[str, dict[str, Any]]
     for result in results:
         task = mapping.get(result.get("question", ""))
         if task is None:
-            raise ValueError("Inference output question does not match the benchmark input manifest")
+            # Ignore valid historical raw results outside the current target
+            # prefix (for example after reducing --num-questions).
+            continue
         task_id = task["id"]
         article = str(result.get("prediction", ""))
         if task_id not in records_by_id:
@@ -99,6 +108,7 @@ def export_drb(results: list[dict[str, Any]], mapping: dict[str, dict[str, Any]]
         records_by_id[task_id] = {"id": task_id, "prompt": task["prompt"], "article": article}
         (artifact_dir / f"id_{task_id}_report.md").write_text(article, encoding="utf-8")
         write_stats(artifact_dir / f"id_{task_id}_stats.json", result, {"id": task_id, "prompt": task["prompt"], "language": task.get("language"), "topic": task.get("topic")})
+        export_llm_trace(result.get("question", ""), artifact_dir / f"id_{task_id}_llm_trace.jsonl", artifact_dir / ".llm_traces")
     output_file.write_text(
         "".join(json.dumps(records_by_id[record_id], ensure_ascii=False) + "\n" for record_id in record_order),
         encoding="utf-8",
