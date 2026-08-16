@@ -34,6 +34,11 @@ def _overflow_log(message: str) -> None:
     print(f"\033[91m[Tavily overflow] {message}\033[0m", flush=True)
 
 
+def _quota_log(message: str) -> None:
+    """Make Tavily quota exhaustion and key rotation conspicuous."""
+    print(f"\033[91m[Tavily quota] {message}\033[0m", flush=True)
+
+
 class TavilySearchTool(BaseTool):
     name = "search"
     description = "Performs batched Tavily web searches."
@@ -52,6 +57,11 @@ class TavilySearchTool(BaseTool):
 
     def __init__(self, cfg: Optional[dict] = None):
         super().__init__(cfg)
+        raw_keys = os.getenv("TAVILY_API_KEY", "")
+        self._api_keys = list(dict.fromkeys(
+            key.strip() for key in raw_keys.split(",") if key.strip()
+        ))
+        self._api_key_index = 0
 
     @staticmethod
     def _max_results() -> int:
@@ -110,42 +120,58 @@ class TavilySearchTool(BaseTool):
         return query[:limit]
 
     def _search_one(self, query: str) -> str:
-        key = os.getenv("TAVILY_API_KEY", "")
-        if not key:
+        if not self._api_keys:
             return "[Search] Tavily API key is not configured."
         effective_query = self._compress_query(query)
-        payload = {
-            "query": effective_query,
-            "search_depth": "basic",
-            "topic": "general",
-            "days": 2,
-            "include_answer": False,
-            "include_raw_content": False,
-            "max_results": self._max_results(),
-            "include_domains": None,
-            "exclude_domains": None,
-            "include_images": False,
-            "api_key": key,
-            "use_cache": True,
-        }
-        try:
-            response = requests.post(
-                "https://api.tavily.com/search",
-                data=json.dumps(payload),
-                headers={"Content-Type": "application/json"},
-                timeout=100,
-            )
-            if response.status_code in (403, 432, 433):
-                if current():
-                    current().on_search_call(query, effective_query, "tavily", 0)
-                global _fatal_error
-                _fatal_error = TavilyUsageLimitExceeded(response.text)
-                raise _fatal_error
-            response.raise_for_status()
-            results = response.json().get("results", [])
-        except Exception as exc:
-            if current(): current().on_search_call(query, effective_query, 'tavily', 0)
-            return f"[Search] Tavily request failed for {query!r}: {exc}"
+        while True:
+            key_number = self._api_key_index + 1
+            key_count = len(self._api_keys)
+            payload = {
+                "query": effective_query,
+                "search_depth": "basic",
+                "topic": "general",
+                "days": 2,
+                "include_answer": False,
+                "include_raw_content": False,
+                "max_results": self._max_results(),
+                "include_domains": None,
+                "exclude_domains": None,
+                "include_images": False,
+                "api_key": self._api_keys[self._api_key_index],
+                "use_cache": True,
+            }
+            try:
+                response = requests.post(
+                    "https://api.tavily.com/search",
+                    data=json.dumps(payload),
+                    headers={"Content-Type": "application/json"},
+                    timeout=100,
+                )
+                if response.status_code in (403, 432, 433):
+                    _quota_log(
+                        f"key {key_number}/{key_count} exhausted: "
+                        f"HTTP {response.status_code}: {response.text}"
+                    )
+                    if self._api_key_index + 1 < key_count:
+                        self._api_key_index += 1
+                        _quota_log(
+                            f"switching from key {key_number}/{key_count} to "
+                            f"key {self._api_key_index + 1}/{key_count}; "
+                            "retrying the same query"
+                        )
+                        continue
+                    _quota_log(f"all {key_count} Tavily keys are exhausted; aborting benchmark")
+                    if current():
+                        current().on_search_call(query, effective_query, "tavily", 0)
+                    global _fatal_error
+                    _fatal_error = TavilyUsageLimitExceeded(response.text)
+                    raise _fatal_error
+                response.raise_for_status()
+                results = response.json().get("results", [])
+                break
+            except Exception as exc:
+                if current(): current().on_search_call(query, effective_query, 'tavily', 0)
+                return f"[Search] Tavily request failed for {query!r}: {exc}"
 
         if current():
             current().on_search_call(

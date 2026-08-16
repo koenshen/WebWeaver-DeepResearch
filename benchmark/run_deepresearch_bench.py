@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""External DeepResearch Bench adapter for the unmodified ReAct inference stack."""
+"""External DeepResearch Bench adapter for the unmodified ReAct inference stack.
+
+python benchmark/run_deepresearch_bench.py \
+    --run-name deepresearch-20260816-0800 \
+    --num-questions 5 \
+    --max-workers 1
+"""
 
 from __future__ import annotations
 

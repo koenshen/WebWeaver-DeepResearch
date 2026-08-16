@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""External LiveResearchBench adapter for the unmodified ReAct inference stack."""
+"""External LiveResearchBench adapter for the unmodified ReAct inference stack.
+
+python benchmark/run_liveresearch_bench.py \
+    --run-name liveresearch-20260816-0800 \
+    --num-questions 5 \
+    --max-workers 1
+"""
 
 from __future__ import annotations
 
