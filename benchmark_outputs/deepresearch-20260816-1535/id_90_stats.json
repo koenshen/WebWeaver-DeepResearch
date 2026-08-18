@@ -1,0 +1,165 @@
+{
+  "total_llm_calls": 3,
+  "total_input_tokens": 66710,
+  "total_output_tokens": 18349,
+  "total_tokens": 85059,
+  "total_search_count": 20,
+  "total_search_results": 184,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 918,
+      "output_tokens": 832,
+      "total_tokens": 1750,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22330,
+      "output_tokens": 224,
+      "total_tokens": 22554,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43462,
+      "output_tokens": 17293,
+      "total_tokens": 60755,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "SAE levels automated driving liability driver responsibility",
+      "effective_query": "SAE levels automated driving liability driver responsibility",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Tesla Autopilot liability case law 2024 2025",
+      "effective_query": "Tesla Autopilot liability case law 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UNECE R157 ALKS liability driver responsibility",
+      "effective_query": "UNECE R157 ALKS liability driver responsibility",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Mercedes Drive Pilot liability legal framework L3",
+      "effective_query": "Mercedes Drive Pilot liability legal framework L3",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UK Automated Vehicles Act 2024 driver liability",
+      "effective_query": "UK Automated Vehicles Act 2024 driver liability",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NHTSA standing general order ADAS crashes report",
+      "effective_query": "NHTSA standing general order ADAS crashes report",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "product liability autonomous vehicles defective design",
+      "effective_query": "product liability autonomous vehicles defective design",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Uber ATG crash Arizona liability ruling",
+      "effective_query": "Uber ATG crash Arizona liability ruling",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "automation bias shared responsibility ADAS accidents",
+      "effective_query": "automation bias shared responsibility ADAS accidents",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Vienna Convention automated driving amendments",
+      "effective_query": "Vienna Convention automated driving amendments",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UK Automated and Electric Vehicles Act 2018 liability insurer",
+      "effective_query": "UK Automated and Electric Vehicles Act 2018 liability insurer",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "German Road Traffic Act StVG automated driving liability amendment 2017",
+      "effective_query": "German Road Traffic Act StVG automated driving liability amendment 2017",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "California autonomous vehicle regulations liability manufacturer",
+      "effective_query": "California autonomous vehicle regulations liability manufacturer",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ADAS data recorder event data recorder liability proof",
+      "effective_query": "ADAS data recorder event data recorder liability proof",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WHOIS DRIVING? Level 3 handover liability challenges",
+      "effective_query": "WHOIS DRIVING? Level 3 handover liability challenges",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Waymo liability accident San Francisco 2024 2025",
+      "effective_query": "Waymo liability accident San Francisco 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "US AV START Act liability framework",
+      "effective_query": "US AV START Act liability framework",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "insurance automated vehicles liability shift product liability",
+      "effective_query": "insurance automated vehicles liability shift product liability",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "German Ethics Commission automated driving 2017 guidelines",
+      "effective_query": "German Ethics Commission automated driving 2017 guidelines",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "liability allocation ADAS shared responsibility law review",
+      "effective_query": "liability allocation ADAS shared responsibility law review",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 171,
+  "duration_seconds": 272.27603638358414,
+  "report_length": 72163,
+  "context_length": 278505,
+  "id": 90,
+  "prompt": "Analyze the complex issue of liability allocation in accidents involving vehicles with advanced driver-assistance systems (ADAS) operating in a shared human-machine driving context. Your analysis should integrate technical principles of ADAS, existing legal frameworks, and relevant case law to systematically examine the boundaries of responsibility between the driver and the system. Conclude with proposed regulatory guidelines or recommendations.",
+  "language": "en",
+  "topic": "Crime & Law"
+}

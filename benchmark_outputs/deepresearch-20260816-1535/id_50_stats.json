@@ -1,0 +1,68 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 18773,
+  "total_output_tokens": 4376,
+  "total_tokens": 23149,
+  "total_search_count": 5,
+  "total_search_results": 45,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 797,
+      "output_tokens": 186,
+      "total_tokens": 983,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17976,
+      "output_tokens": 4190,
+      "total_tokens": 22166,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "儿童身心健康 成长 合理安排 学习 生活 兴趣爱好",
+      "effective_query": "儿童身心健康 成长 合理安排 学习 生活 兴趣爱好",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "how to balance school life and hobbies for children",
+      "effective_query": "how to balance school life and hobbies for children",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "child development social emotional physical health tips",
+      "effective_query": "child development social emotional physical health tips",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "helping children find their passion and goals",
+      "effective_query": "helping children find their passion and goals",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "儿童目标设定 兴趣培养 身心健康发展",
+      "effective_query": "儿童目标设定 兴趣培养 身心健康发展",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 42,
+  "duration_seconds": 210.40297991316766,
+  "report_length": 8769,
+  "context_length": 61172,
+  "id": 50,
+  "prompt": "收集整理有关孩子身心健康成长的相关资料，比如怎样合理安排学习、生活、兴趣爱好，以及怎样找到合适自己的目标方向",
+  "language": "zh",
+  "topic": "Social Life"
+}

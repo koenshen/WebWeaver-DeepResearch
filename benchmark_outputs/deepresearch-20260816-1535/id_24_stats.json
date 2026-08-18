@@ -1,0 +1,380 @@
+{
+  "total_llm_calls": 15,
+  "total_input_tokens": 117075,
+  "total_output_tokens": 32197,
+  "total_tokens": 149272,
+  "total_search_count": 8,
+  "total_search_results": 75,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 786,
+      "output_tokens": 189,
+      "total_tokens": 975,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25427,
+      "output_tokens": 489,
+      "total_tokens": 25916,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 264,
+      "output_tokens": 371,
+      "total_tokens": 635,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3666,
+      "output_tokens": 1247,
+      "total_tokens": 4913,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3644,
+      "output_tokens": 3963,
+      "total_tokens": 7607,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3644,
+      "output_tokens": 3059,
+      "total_tokens": 6703,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3644,
+      "output_tokens": 2581,
+      "total_tokens": 6225,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1134,
+      "output_tokens": 1234,
+      "total_tokens": 2368,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 932,
+      "output_tokens": 691,
+      "total_tokens": 1623,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25017,
+      "output_tokens": 2081,
+      "total_tokens": 27098,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5793,
+      "output_tokens": 1464,
+      "total_tokens": 7257,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3639,
+      "output_tokens": 1702,
+      "total_tokens": 5341,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3215,
+      "output_tokens": 3444,
+      "total_tokens": 6659,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1497,
+      "output_tokens": 928,
+      "total_tokens": 2425,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34773,
+      "output_tokens": 8754,
+      "total_tokens": 43527,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "增强自闭症学生课堂参与度 策略 实证研究",
+      "effective_query": "增强自闭症学生课堂参与度 策略 实证研究",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "autism classroom engagement strategies evidence-based",
+      "effective_query": "autism classroom engagement strategies evidence-based",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "自闭症学生 课堂参与 干预 方法 结构教学 视觉支持",
+      "effective_query": "自闭症学生 课堂参与 干预 方法 结构教学 视觉支持",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "autism spectrum disorder classroom participation interventions",
+      "effective_query": "autism spectrum disorder classroom participation interventions",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TEACCH structured teaching autism classroom engagement",
+      "effective_query": "TEACCH structured teaching autism classroom engagement",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "social stories autism classroom engagement",
+      "effective_query": "social stories autism classroom engagement",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "sensory integration autism classroom participation",
+      "effective_query": "sensory integration autism classroom participation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "peer-mediated instruction autism engagement",
+      "effective_query": "peer-mediated instruction autism engagement",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.agentpanel.cc/question/1410",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.982
+        }
+      ],
+      "content_length": 356,
+      "duration_seconds": 8.982,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.153,
+      "summary_length": 1211,
+      "summary_input_tokens": 264,
+      "summary_output_tokens": 371
+    },
+    {
+      "url": "https://educ-res.com/index.php/er/article/view/6534/6259",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.962
+        }
+      ],
+      "content_length": 7738,
+      "duration_seconds": 11.962,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.433,
+      "summary_length": 2045,
+      "summary_input_tokens": 3666,
+      "summary_output_tokens": 1247
+    },
+    {
+      "url": "https://iris.peabody.vanderbilt.edu/module/asd2/cresource/q1/p02",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 19.234
+        }
+      ],
+      "content_length": 17408,
+      "duration_seconds": 19.234,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.984,
+      "summary_length": 17215,
+      "summary_input_tokens": 3644,
+      "summary_output_tokens": 3963
+    },
+    {
+      "url": "https://www.autismspeaks.org/tool-kit-excerpt/autism-classroom-strategies",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.535
+        }
+      ],
+      "content_length": 4386,
+      "duration_seconds": 9.535,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.774,
+      "summary_length": 4761,
+      "summary_input_tokens": 1134,
+      "summary_output_tokens": 1234
+    },
+    {
+      "url": "https://readingrockets.org/topics/autism-spectrum-disorder/articles/structured-teaching-strategies-students-autism-spectrum",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.841
+        }
+      ],
+      "content_length": 4132,
+      "duration_seconds": 4.841,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.783,
+      "summary_length": 2313,
+      "summary_input_tokens": 932,
+      "summary_output_tokens": 691
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8510990",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.336
+        }
+      ],
+      "content_length": 93337,
+      "duration_seconds": 1.337,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.439,
+      "summary_length": 5044,
+      "summary_input_tokens": 25017,
+      "summary_output_tokens": 2081
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2521874",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.695
+        }
+      ],
+      "content_length": 22787,
+      "duration_seconds": 3.695,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.newpatternsaba.com/blog/classroom-sensory-regulation-strategies-for-autism",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 15.563
+        }
+      ],
+      "content_length": 19162,
+      "duration_seconds": 15.563,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.upandupaba.com/faqs-resources/peer-mediated-instruction-in-autism",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.469
+        }
+      ],
+      "content_length": 16247,
+      "duration_seconds": 1.47,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.573,
+      "summary_length": 15533,
+      "summary_input_tokens": 3215,
+      "summary_output_tokens": 3444
+    },
+    {
+      "url": "https://sense.edb.gov.hk/tc/types-of-special-educational-needs/autism-spectrum-disorder/support-measures.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 14.349
+        }
+      ],
+      "content_length": 2508,
+      "duration_seconds": 14.349,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.013,
+      "summary_length": 1243,
+      "summary_input_tokens": 1497,
+      "summary_output_tokens": 928
+    }
+  ],
+  "source_urls_count": 71,
+  "duration_seconds": 728.1099099190906,
+  "report_length": 21198,
+  "context_length": 156390,
+  "id": 24,
+  "prompt": "如何增强自闭症学生课堂参与度？有哪些有效的策略可供选择？",
+  "language": "zh",
+  "topic": "Education & Jobs"
+}

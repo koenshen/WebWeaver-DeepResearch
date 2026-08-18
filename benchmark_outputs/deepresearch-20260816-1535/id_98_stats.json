@@ -1,0 +1,364 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 73125,
+  "total_output_tokens": 19680,
+  "total_tokens": 92805,
+  "total_search_count": 8,
+  "total_search_results": 74,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 797,
+      "output_tokens": 228,
+      "total_tokens": 1025,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20075,
+      "output_tokens": 388,
+      "total_tokens": 20463,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2359,
+      "output_tokens": 3048,
+      "total_tokens": 5407,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 280,
+      "output_tokens": 209,
+      "total_tokens": 489,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3253,
+      "output_tokens": 1490,
+      "total_tokens": 4743,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1437,
+      "output_tokens": 933,
+      "total_tokens": 2370,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5120,
+      "output_tokens": 1254,
+      "total_tokens": 6374,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3153,
+      "output_tokens": 1134,
+      "total_tokens": 4287,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1636,
+      "output_tokens": 806,
+      "total_tokens": 2442,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3669,
+      "output_tokens": 1127,
+      "total_tokens": 4796,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2151,
+      "output_tokens": 1546,
+      "total_tokens": 3697,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1014,
+      "output_tokens": 590,
+      "total_tokens": 1604,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28181,
+      "output_tokens": 6927,
+      "total_tokens": 35108,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "non-alcoholic cocktail crafting techniques innovative production methods",
+      "effective_query": "non-alcoholic cocktail crafting techniques innovative production methods",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "non-alcoholic cocktail formulation techniques",
+      "effective_query": "non-alcoholic cocktail formulation techniques",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "zero proof cocktail production methods",
+      "effective_query": "zero proof cocktail production methods",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "non-alcoholic spirit distillation techniques",
+      "effective_query": "non-alcoholic spirit distillation techniques",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "clarification fermentation carbonation non-alcoholic cocktails",
+      "effective_query": "clarification fermentation carbonation non-alcoholic cocktails",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "molecular mixology non-alcoholic cocktails",
+      "effective_query": "molecular mixology non-alcoholic cocktails",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "non-alcoholic cocktail fat washing clarification",
+      "effective_query": "non-alcoholic cocktail fat washing clarification",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "non-alcoholic cocktail industry trends 2024 2025",
+      "effective_query": "non-alcoholic cocktail industry trends 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.moju-zero.com/blog/how-are-non-alcoholic-drinks-made-8-common-methods",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.57
+        }
+      ],
+      "content_length": 11475,
+      "duration_seconds": 0.571,
+      "summary_status": "success",
+      "summary_duration_seconds": 140.873,
+      "summary_length": 12090,
+      "summary_input_tokens": 2359,
+      "summary_output_tokens": 3048
+    },
+    {
+      "url": "https://www.betterrhodes.com/blogs/all-together/how-to-distill-non-alcoholic-spirits",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.979
+        }
+      ],
+      "content_length": 370,
+      "duration_seconds": 4.979,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.879,
+      "summary_length": 832,
+      "summary_input_tokens": 280,
+      "summary_output_tokens": 209
+    },
+    {
+      "url": "https://daily.sevenfifty.com/the-science-behind-non-alcoholic-beer-and-wine-production",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.218
+        }
+      ],
+      "content_length": 13580,
+      "duration_seconds": 5.218,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.222,
+      "summary_length": 5546,
+      "summary_input_tokens": 3253,
+      "summary_output_tokens": 1490
+    },
+    {
+      "url": "https://www.seriouseats.com/cocktail-science-mocktail-how-to-replicate-the-taste-of-alcohol-in-a-nonalcoholic-drink",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.809
+        }
+      ],
+      "content_length": 5479,
+      "duration_seconds": 4.809,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.14,
+      "summary_length": 2677,
+      "summary_input_tokens": 1437,
+      "summary_output_tokens": 933
+    },
+    {
+      "url": "https://nicoletcollege.pressbooks.pub/beverage/part/chapter-28-non-alcoholic-cocktails-and-mocktails",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.255
+        }
+      ],
+      "content_length": 26115,
+      "duration_seconds": 2.255,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.521,
+      "summary_length": 5477,
+      "summary_input_tokens": 5120,
+      "summary_output_tokens": 1254
+    },
+    {
+      "url": "https://flavorsum.com/innovation-non-alcoholic-fermented-beverages",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.981
+        }
+      ],
+      "content_length": 11787,
+      "duration_seconds": 4.981,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.309,
+      "summary_length": 3764,
+      "summary_input_tokens": 3153,
+      "summary_output_tokens": 1134
+    },
+    {
+      "url": "https://www.thespruceeats.com/molecular-mixology-760312",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.633
+        }
+      ],
+      "content_length": 6272,
+      "duration_seconds": 7.633,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.193,
+      "summary_length": 3366,
+      "summary_input_tokens": 1636,
+      "summary_output_tokens": 806
+    },
+    {
+      "url": "https://www.forbes.com/sites/shimiteobialo/2025/11/10/investors-tap-into-the-zero-proof-and-non-alcoholic-beverage-market",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 14.461
+        }
+      ],
+      "content_length": 14397,
+      "duration_seconds": 14.461,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.31,
+      "summary_length": 3842,
+      "summary_input_tokens": 3669,
+      "summary_output_tokens": 1127
+    },
+    {
+      "url": "https://www.naturalfoodretailers.com/blogs/madeleine-ware/2025/01/03/cheers-to-dry-january-trends-in-non-alcoholic-beve",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.374
+        }
+      ],
+      "content_length": 9094,
+      "duration_seconds": 6.374,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.583,
+      "summary_length": 2466,
+      "summary_input_tokens": 2151,
+      "summary_output_tokens": 1546
+    },
+    {
+      "url": "https://www.theiwsr.com/insight/key-statistics-and-trends-for-the-us-no-alcohol-market",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.553
+        }
+      ],
+      "content_length": 3650,
+      "duration_seconds": 7.553,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.366,
+      "summary_length": 2164,
+      "summary_input_tokens": 1014,
+      "summary_output_tokens": 590
+    }
+  ],
+  "source_urls_count": 67,
+  "duration_seconds": 456.4356777276844,
+  "report_length": 28721,
+  "context_length": 160322,
+  "id": 98,
+  "prompt": "Research Topic: Crafting Techniques for Non-Alcoholic Cocktails. Objective: Investigate current non-alcoholic cocktails to discover innovative production methods and formulations.",
+  "language": "en",
+  "topic": "Food & Dining"
+}

@@ -1,0 +1,398 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 353046,
+  "total_output_tokens": 26802,
+  "total_tokens": 379848,
+  "total_search_count": 12,
+  "total_search_results": 115,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 858,
+      "output_tokens": 378,
+      "total_tokens": 1236,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10111,
+      "output_tokens": 157,
+      "total_tokens": 10268,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25138,
+      "output_tokens": 325,
+      "total_tokens": 25463,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32061,
+      "output_tokens": 2371,
+      "total_tokens": 34432,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16977,
+      "output_tokens": 3651,
+      "total_tokens": 20628,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37043,
+      "output_tokens": 1762,
+      "total_tokens": 38805,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32533,
+      "output_tokens": 1717,
+      "total_tokens": 34250,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3607,
+      "output_tokens": 892,
+      "total_tokens": 4499,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27097,
+      "output_tokens": 2054,
+      "total_tokens": 29151,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37395,
+      "output_tokens": 612,
+      "total_tokens": 38007,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26543,
+      "output_tokens": 1871,
+      "total_tokens": 28414,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30403,
+      "output_tokens": 1036,
+      "total_tokens": 31439,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38257,
+      "output_tokens": 2083,
+      "total_tokens": 40340,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35023,
+      "output_tokens": 7893,
+      "total_tokens": 42916,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "CD8+ T cell exhaustion mitochondrial dynamics fusion fission",
+      "effective_query": "CD8+ T cell exhaustion mitochondrial dynamics fusion fission",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "m6A modification CD8 T cell exhaustion",
+      "effective_query": "m6A modification CD8 T cell exhaustion",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "histone lactylation CD8 T cell exhaustion",
+      "effective_query": "histone lactylation CD8 T cell exhaustion",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "metabolic epigenetic network modeling T cell exhaustion",
+      "effective_query": "metabolic epigenetic network modeling T cell exhaustion",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "mitochondrial dynamics tissue resident memory T cell Trm",
+      "effective_query": "mitochondrial dynamics tissue resident memory T cell Trm",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "mitochondrial fission Drp1 CD8 T cell exhaustion epigenetic",
+      "effective_query": "mitochondrial fission Drp1 CD8 T cell exhaustion epigenetic",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Opa1 Mfn1 CD8 T cell memory mitochondrial fusion",
+      "effective_query": "Opa1 Mfn1 CD8 T cell memory mitochondrial fusion",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "lactate histone lactylation T cell exhaustion epigenetic",
+      "effective_query": "lactate histone lactylation T cell exhaustion epigenetic",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Mettl3 m6A DNMT3B CD8 T cell exhaustion",
+      "effective_query": "Mettl3 m6A DNMT3B CD8 T cell exhaustion",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "TOX histone lactylation CD8 T cell exhaustion FOXK1",
+      "effective_query": "TOX histone lactylation CD8 T cell exhaustion FOXK1",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "metabolic-epigenetic quantitative model T cell fate",
+      "effective_query": "metabolic-epigenetic quantitative model T cell fate",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "mitochondrial dynamics T cell fate decision mathematical modeling",
+      "effective_query": "mitochondrial dynamics T cell fate decision mathematical modeling",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.01834/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.213
+        }
+      ],
+      "content_length": 100588,
+      "duration_seconds": 7.213,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.593,
+      "summary_length": 7508,
+      "summary_input_tokens": 32061,
+      "summary_output_tokens": 2371
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-025-32938-3",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.649
+        }
+      ],
+      "content_length": 65233,
+      "duration_seconds": 17.649,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.464,
+      "summary_length": 16268,
+      "summary_input_tokens": 16977,
+      "summary_output_tokens": 3651
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.06.697843v1.full-text",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.693
+        }
+      ],
+      "content_length": 127939,
+      "duration_seconds": 6.693,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.1101/2023.08.25.554830v1.full-text",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.814
+        }
+      ],
+      "content_length": 117487,
+      "duration_seconds": 16.815,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12290303",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.702
+        }
+      ],
+      "content_length": 13085,
+      "duration_seconds": 0.702,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01037-4",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.889
+        }
+      ],
+      "content_length": 94418,
+      "duration_seconds": 7.889,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.212,
+      "summary_length": 7265,
+      "summary_input_tokens": 27097,
+      "summary_output_tokens": 2054
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-020-58600-8",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.262
+        }
+      ],
+      "content_length": 122709,
+      "duration_seconds": 5.262,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.363,
+      "summary_length": 1542,
+      "summary_input_tokens": 37395,
+      "summary_output_tokens": 612
+    },
+    {
+      "url": "https://www.cell.com/trends/endocrinology-metabolism/fulltext/S1043-2760(25)00190-0",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.059
+        }
+      ],
+      "content_length": 100438,
+      "duration_seconds": 11.059,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.036,
+      "summary_length": 6395,
+      "summary_input_tokens": 26543,
+      "summary_output_tokens": 1871
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8164981",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.215
+        }
+      ],
+      "content_length": 93608,
+      "duration_seconds": 1.215,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.46,
+      "summary_length": 3670,
+      "summary_input_tokens": 30403,
+      "summary_output_tokens": 1036
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405803326000579",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.683
+        }
+      ],
+      "content_length": 112998,
+      "duration_seconds": 5.684,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.094,
+      "summary_length": 2078,
+      "summary_input_tokens": 38257,
+      "summary_output_tokens": 2083
+    }
+  ],
+  "source_urls_count": 101,
+  "duration_seconds": 674.8972551561892,
+  "report_length": 14986,
+  "context_length": 174878,
+  "id": 26,
+  "prompt": "为我调研在慢性抗原刺激下（如肿瘤微环境或HIV潜伏感染），CD8+ T细胞线粒体动力学（融合/裂变平衡）如何通过调控表观遗传重塑（如m6A修饰、乳酸介导的组蛋白乳酸化）驱动终末耗竭与组织驻留记忆（Trm）细胞命运分岔，基于代谢-表观遗传互作网络定量建模",
+  "language": "zh",
+  "topic": "Health"
+}

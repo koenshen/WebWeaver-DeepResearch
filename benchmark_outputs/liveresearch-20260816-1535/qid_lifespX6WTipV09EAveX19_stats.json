@@ -1,0 +1,139 @@
+{
+  "total_llm_calls": 3,
+  "total_input_tokens": 53428,
+  "total_output_tokens": 8726,
+  "total_tokens": 62154,
+  "total_search_count": 16,
+  "total_search_results": 150,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 953,
+      "output_tokens": 252,
+      "total_tokens": 1205,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18200,
+      "output_tokens": 345,
+      "total_tokens": 18545,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34275,
+      "output_tokens": 8129,
+      "total_tokens": 42404,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "caffeine dose mg/kg cognitive performance acute vigilance reaction time working memory meta-analysis 2017 2026",
+      "effective_query": "caffeine dose mg/kg cognitive performance acute vigilance reaction time working memory meta-analysis 2017 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "caffeine L-theanine co-ingestion cognitive performance randomized controlled trial",
+      "effective_query": "caffeine L-theanine co-ingestion cognitive performance randomized controlled trial",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "caffeine timing circadian phase wake sleep cognitive performance",
+      "effective_query": "caffeine timing circadian phase wake sleep cognitive performance",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "caffeine tolerance cycling washout schedule cognitive performance",
+      "effective_query": "caffeine tolerance cycling washout schedule cognitive performance",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "caffeine anxiety side effects dose response healthy adults",
+      "effective_query": "caffeine anxiety side effects dose response healthy adults",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "caffeine sleep disruption curfew timing chronotype",
+      "effective_query": "caffeine sleep disruption curfew timing chronotype",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "caffeine long-term daily intake cap sustained efficacy three months",
+      "effective_query": "caffeine long-term daily intake cap sustained efficacy three months",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "caffeine sports science position stand guidelines 2020 2025",
+      "effective_query": "caffeine sports science position stand guidelines 2020 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "chronotype caffeine timing cognitive performance morningness eveningness",
+      "effective_query": "chronotype caffeine timing cognitive performance morningness eveningness",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "caffeine curfew 6 hours bedtime sleep disruption",
+      "effective_query": "caffeine curfew 6 hours bedtime sleep disruption",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "caffeine deload week tolerance resensitization protocol",
+      "effective_query": "caffeine deload week tolerance resensitization protocol",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "caffeine 3 mg/kg vs 6 mg/kg cognitive performance meta-analysis 2023 2024 2025",
+      "effective_query": "caffeine 3 mg/kg vs 6 mg/kg cognitive performance meta-analysis 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "caffeine L-theanine ratio optimal cognitive performance anxiety reduction",
+      "effective_query": "caffeine L-theanine ratio optimal cognitive performance anxiety reduction",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "caffeine withdrawal tolerance time course adenosine receptor upregulation",
+      "effective_query": "caffeine withdrawal tolerance time course adenosine receptor upregulation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EFSA caffeine guidelines 400 mg daily safe limits",
+      "effective_query": "EFSA caffeine guidelines 400 mg daily safe limits",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "caffeine cognitive performance systematic review 2023 2024 2025",
+      "effective_query": "caffeine cognitive performance systematic review 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 135,
+  "duration_seconds": 144.44046273641288,
+  "report_length": 32509,
+  "context_length": 188477,
+  "qid": "lifespX6WTipV09EAveX19",
+  "query": "In otherwise healthy adults aged 20–65 who use caffeine to support work/academic focus, which dosing strategies—dose (mg/kg), timing relative to wake/sleep and circadian phase, cycling/washout schedules, and co-ingestion specifically with L-theanine—maximize acute cognitive performance (vigilance, reaction time, working memory) while minimizing tolerance, anxiety symptoms, and sleep disruption? How are these strategies characterized across peer-reviewed clinical and performance literature, sports-science evidence, and health-agency guidelines, and which long-term habits (e.g., daily intake caps, “caffeine curfew,” deload weeks, chronotype-based timing) sustain efficacy over ≥3 months? Synthesize global evidence with priority on 2017-2026 trials and meta-analyses, including case reports/series for context; exclude other nootropics/adaptogens unless directly compared with caffeine in randomized studies."
+}

@@ -1,0 +1,158 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 87001,
+  "total_output_tokens": 15264,
+  "total_tokens": 102265,
+  "total_search_count": 18,
+  "total_search_results": 166,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1005,
+      "output_tokens": 2575,
+      "total_tokens": 3580,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13524,
+      "output_tokens": 131,
+      "total_tokens": 13655,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28747,
+      "output_tokens": 183,
+      "total_tokens": 28930,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43725,
+      "output_tokens": 12375,
+      "total_tokens": 56100,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AI diagnostic accuracy improvement healthcare 2024 2025",
+      "effective_query": "AI diagnostic accuracy improvement healthcare 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI personalized learning effectiveness research 2024 2025 Khanmigo",
+      "effective_query": "AI personalized learning effectiveness research 2024 2025 Khanmigo",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Goldman Sachs McKinsey AI GDP economic impact 2025",
+      "effective_query": "Goldman Sachs McKinsey AI GDP economic impact 2025",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "AI cybersecurity threat detection effectiveness 2025",
+      "effective_query": "AI cybersecurity threat detection effectiveness 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI accessibility tools disabilities 2025 translation",
+      "effective_query": "AI accessibility tools disabilities 2025 translation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI climate change modeling Google DeepMind 2025",
+      "effective_query": "AI climate change modeling Google DeepMind 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI bias racial discrimination hiring algorithms 2024 2025",
+      "effective_query": "AI bias racial discrimination hiring algorithms 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI job displacement automation employment statistics 2025",
+      "effective_query": "AI job displacement automation employment statistics 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI deepfakes misinformation disinformation social media 2025",
+      "effective_query": "AI deepfakes misinformation disinformation social media 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI surveillance China social credit privacy 2025",
+      "effective_query": "AI surveillance China social credit privacy 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI energy consumption carbon footprint data centers 2025",
+      "effective_query": "AI energy consumption carbon footprint data centers 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI copyright infringement lawsuits artists 2025",
+      "effective_query": "AI copyright infringement lawsuits artists 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI medical diagnosis accuracy rate statistics 2024 2025 systematic review",
+      "effective_query": "AI medical diagnosis accuracy rate statistics 2024 2025 systematic review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "World Economic Forum jobs displacement creation AI 2025",
+      "effective_query": "World Economic Forum jobs displacement creation AI 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI deepfake scams financial losses 2025 statistics",
+      "effective_query": "AI deepfake scams financial losses 2025 statistics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI regulation EU AI Act governance 2025",
+      "effective_query": "AI regulation EU AI Act governance 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AI widening inequality gap 2025 research",
+      "effective_query": "AI widening inequality gap 2025 research",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI music generation artist compensation 2025",
+      "effective_query": "AI music generation artist compensation 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 162,
+  "duration_seconds": 142.09048276301473,
+  "report_length": 56923,
+  "context_length": 258423,
+  "qid": "proconoaEUC24gzbaHqsB9",
+  "query": "Conduct a comprehensive analysis on whether AI is good for society, examining impacts across key sectors: healthcare, education, employment/economy, privacy/security, social equity/bias, creative industries, and governance. In the report, I would like to have 6 pro arguments and 6 con arguments. Each pro or con argument should include: (1) A clear thesis statement (2) Multiple supporting points substantiated with credible evidence (including but not limited to statistics, direct quotes, case studies, expert testimony, industry or government reports, academic research, news sources, online forums, and social media), followed by in-depth reasoning and analysis. Prioritize data and research from the past 5 years where available . Format the report as a structured analysis with clear headings and comprehensive prose."
+}

@@ -1,0 +1,457 @@
+{
+  "total_llm_calls": 21,
+  "total_input_tokens": 226556,
+  "total_output_tokens": 45579,
+  "total_tokens": 272135,
+  "total_search_count": 17,
+  "total_search_results": 159,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 997,
+      "output_tokens": 1012,
+      "total_tokens": 2009,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9062,
+      "output_tokens": 104,
+      "total_tokens": 9166,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18649,
+      "output_tokens": 201,
+      "total_tokens": 18850,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18463,
+      "output_tokens": 2463,
+      "total_tokens": 20926,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18542,
+      "output_tokens": 2895,
+      "total_tokens": 21437,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3070,
+      "output_tokens": 4001,
+      "total_tokens": 7071,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2991,
+      "output_tokens": 770,
+      "total_tokens": 3761,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2991,
+      "output_tokens": 1154,
+      "total_tokens": 4145,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1978,
+      "output_tokens": 4001,
+      "total_tokens": 5979,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1978,
+      "output_tokens": 4001,
+      "total_tokens": 5979,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1978,
+      "output_tokens": 3119,
+      "total_tokens": 5097,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2453,
+      "output_tokens": 412,
+      "total_tokens": 2865,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2532,
+      "output_tokens": 2650,
+      "total_tokens": 5182,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21013,
+      "output_tokens": 105,
+      "total_tokens": 21118,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30192,
+      "output_tokens": 197,
+      "total_tokens": 30389,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5366,
+      "output_tokens": 1714,
+      "total_tokens": 7080,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 414,
+      "output_tokens": 3101,
+      "total_tokens": 3515,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3862,
+      "output_tokens": 1954,
+      "total_tokens": 5816,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7609,
+      "output_tokens": 1076,
+      "total_tokens": 8685,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31267,
+      "output_tokens": 123,
+      "total_tokens": 31390,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41149,
+      "output_tokens": 10526,
+      "total_tokens": 51675,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "State of Remote Work 2024 2025 report entry level opportunities",
+      "effective_query": "State of Remote Work 2024 2025 report entry level opportunities",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "remote work impact on early career professionals networking mentorship",
+      "effective_query": "remote work impact on early career professionals networking mentorship",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "most in demand skills for remote jobs 2024 LinkedIn",
+      "effective_query": "most in demand skills for remote jobs 2024 LinkedIn",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "return to office mandates 2025 impact on new graduates",
+      "effective_query": "return to office mandates 2025 impact on new graduates",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "remote work Europe statistics 2024 2025 entry level jobs",
+      "effective_query": "remote work Europe statistics 2024 2025 entry level jobs",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "salary differences remote vs office entry level 2024 2025",
+      "effective_query": "salary differences remote vs office entry level 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "companies committed to remote work 2025 list",
+      "effective_query": "companies committed to remote work 2025 list",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "entry level remote job opportunities early career 2025 research",
+      "effective_query": "entry level remote job opportunities early career 2025 research",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "remote work salary premium entry level 2024 2025 study",
+      "effective_query": "remote work salary premium entry level 2024 2025 study",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "networking remote work early career research 2024",
+      "effective_query": "networking remote work early career research 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "industries with highest remote work adoption 2025",
+      "effective_query": "industries with highest remote work adoption 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WFH Research Nicholas Bloom early career impact 2025",
+      "effective_query": "WFH Research Nicholas Bloom early career impact 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HBR remote work narrowing early career opportunities 2026 full article",
+      "effective_query": "HBR remote work narrowing early career opportunities 2026 full article",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Eurofound remote work Europe 2024 2025 report",
+      "effective_query": "Eurofound remote work Europe 2024 2025 report",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "LinkedIn most in demand skills 2025 remote",
+      "effective_query": "LinkedIn most in demand skills 2025 remote",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "remote work Gen Z networking mentorship study 2024",
+      "effective_query": "remote work Gen Z networking mentorship study 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Federal Reserve New York graduate unemployment remote work 2026",
+      "effective_query": "Federal Reserve New York graduate unemployment remote work 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://blog.theinterviewguys.com/state-of-remote-work-2025",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.811
+        }
+      ],
+      "content_length": 102558,
+      "duration_seconds": 2.812,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.473,
+      "summary_length": 5734,
+      "summary_input_tokens": 18463,
+      "summary_output_tokens": 2463
+    },
+    {
+      "url": "https://builtin.com/articles/remote-work-impact-on-entry-level-hiring",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.68
+        }
+      ],
+      "content_length": 13253,
+      "duration_seconds": 4.681,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.129,
+      "summary_length": 433,
+      "summary_input_tokens": 3070,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.roberthalf.com/us/en/insights/research/remote-work-statistics-and-trends",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.805
+        }
+      ],
+      "content_length": 7372,
+      "duration_seconds": 4.806,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.302,
+      "summary_length": 1795,
+      "summary_input_tokens": 1978,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.linkedin.com/business/learning/blog/top-skills-and-courses/most-in-demand-skills",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.341
+        }
+      ],
+      "content_length": 8865,
+      "duration_seconds": 7.341,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://blog.remotlyjobs.com/europe-remote-work-2025-data-trends",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.748
+        }
+      ],
+      "content_length": 31501,
+      "duration_seconds": 17.749,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://hbr.org/2026/08/research-how-remote-work-is-narrowing-early-career-opportunities",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.618
+        }
+      ],
+      "content_length": 16951,
+      "duration_seconds": 4.618,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.naceweb.org/talent-acquisition/trends-and-predictions/internship-entry-level-job-modality-corresponds-with-students-job-preferences",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.745
+        }
+      ],
+      "content_length": 714,
+      "duration_seconds": 3.745,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.545,
+      "summary_length": 1803,
+      "summary_input_tokens": 414,
+      "summary_output_tokens": 3101
+    },
+    {
+      "url": "https://easystaff.io/remote-work-by-industry-and-region-2025-projections",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.331
+        }
+      ],
+      "content_length": 18511,
+      "duration_seconds": 12.331,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://remotive.com/blog/remote-work-statistics-hiring-trends",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.421
+        }
+      ],
+      "content_length": 29578,
+      "duration_seconds": 8.421,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 138,
+  "duration_seconds": 1012.3129943227395,
+  "report_length": 41408,
+  "context_length": 226076,
+  "qid": "topiczL71JengsGofPr0A",
+  "query": "Help me write a detailed report on the current status of remote work in the United States and Europe, with a focus on full-time employment of recent graduates and early-career professionals entering the job market. I want to understand (1) how remote work is affecting entry-level job opportunities and career growth prospects for new professionals, (2) what skills are most often required for remote positions compared to traditional office jobs, (3) how remote work impacts earning potential and professional networking opportunities for people starting their careers, and (4) which industries and companies are most committed to flexible work arrangements. In the report, include comprehensive analysis with extensive references from 2023 onward (including but not limited to recent studies, employment data, industry surveys, and policy reports)."
+}

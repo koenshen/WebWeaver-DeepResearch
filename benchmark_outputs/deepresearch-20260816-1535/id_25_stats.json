@@ -1,0 +1,378 @@
+{
+  "total_llm_calls": 15,
+  "total_input_tokens": 522517,
+  "total_output_tokens": 39030,
+  "total_tokens": 561547,
+  "total_search_count": 11,
+  "total_search_results": 102,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 904,
+      "output_tokens": 267,
+      "total_tokens": 1171,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11413,
+      "output_tokens": 214,
+      "total_tokens": 11627,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24095,
+      "output_tokens": 201,
+      "total_tokens": 24296,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 92916,
+      "output_tokens": 2521,
+      "total_tokens": 95437,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 58814,
+      "output_tokens": 4001,
+      "total_tokens": 62815,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 93854,
+      "output_tokens": 2898,
+      "total_tokens": 96752,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2240,
+      "output_tokens": 772,
+      "total_tokens": 3012,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38610,
+      "output_tokens": 3798,
+      "total_tokens": 42408,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32204,
+      "output_tokens": 156,
+      "total_tokens": 32360,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14025,
+      "output_tokens": 2412,
+      "total_tokens": 16437,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40946,
+      "output_tokens": 2461,
+      "total_tokens": 43407,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 49078,
+      "output_tokens": 3168,
+      "total_tokens": 52246,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11836,
+      "output_tokens": 2512,
+      "total_tokens": 14348,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11836,
+      "output_tokens": 2412,
+      "total_tokens": 14248,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39746,
+      "output_tokens": 11237,
+      "total_tokens": 50983,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "neutrophil subpopulations brain ischemia acute chronic stages",
+      "effective_query": "neutrophil subpopulations brain ischemia acute chronic stages",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "neutrophil function ischemic stroke acute phase chronic phase",
+      "effective_query": "neutrophil function ischemic stroke acute phase chronic phase",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "neutrophil subsets N1 N2 brain ischemia",
+      "effective_query": "neutrophil subsets N1 N2 brain ischemia",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "neutrophil crosstalk microglia astrocytes stroke",
+      "effective_query": "neutrophil crosstalk microglia astrocytes stroke",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "neutrophil heterogeneity stroke clinical outcomes",
+      "effective_query": "neutrophil heterogeneity stroke clinical outcomes",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "neutrophil chronic phase ischemic stroke weeks months",
+      "effective_query": "neutrophil chronic phase ischemic stroke weeks months",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "neutrophil extracellular traps NETs ischemic stroke brain",
+      "effective_query": "neutrophil extracellular traps NETs ischemic stroke brain",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "neutrophil T cell interaction stroke",
+      "effective_query": "neutrophil T cell interaction stroke",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "neutrophil aging senescence circadian stroke",
+      "effective_query": "neutrophil aging senescence circadian stroke",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "single cell RNA sequencing neutrophil stroke brain",
+      "effective_query": "single cell RNA sequencing neutrophil stroke brain",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "clinical trials targeting neutrophils ischemic stroke",
+      "effective_query": "clinical trials targeting neutrophils ischemic stroke",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10207908",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.969
+        }
+      ],
+      "content_length": 364254,
+      "duration_seconds": 2.97,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.961,
+      "summary_length": 12092,
+      "summary_input_tokens": 92916,
+      "summary_output_tokens": 2521
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.692061/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.04
+        }
+      ],
+      "content_length": 189682,
+      "duration_seconds": 7.04,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2022.1041333/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 22.574
+        }
+      ],
+      "content_length": 519020,
+      "duration_seconds": 22.575,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s12967-026-08786-8",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.528
+        }
+      ],
+      "content_length": 7760,
+      "duration_seconds": 5.529,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.984,
+      "summary_length": 2754,
+      "summary_input_tokens": 2240,
+      "summary_output_tokens": 772
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8393299",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.867
+        }
+      ],
+      "content_length": 124785,
+      "duration_seconds": 1.868,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.531,
+      "summary_length": 18470,
+      "summary_input_tokens": 38610,
+      "summary_output_tokens": 3798
+    },
+    {
+      "url": "https://www.neurology.org/doi/10.1212/NXI.0000000000000571",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 14.445
+        }
+      ],
+      "content_length": 56112,
+      "duration_seconds": 14.446,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.835,
+      "summary_length": 10481,
+      "summary_input_tokens": 14025,
+      "summary_output_tokens": 2412
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-020-16191-y",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.104
+        }
+      ],
+      "content_length": 133370,
+      "duration_seconds": 6.104,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.861,
+      "summary_length": 7749,
+      "summary_input_tokens": 40946,
+      "summary_output_tokens": 2461
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12822775",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.531
+        }
+      ],
+      "content_length": 160354,
+      "duration_seconds": 1.531,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.491,
+      "summary_length": 11183,
+      "summary_input_tokens": 49078,
+      "summary_output_tokens": 3168
+    },
+    {
+      "url": "https://www.jci.org/articles/view/154225",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.998
+        }
+      ],
+      "content_length": 44238,
+      "duration_seconds": 2.999,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.089,
+      "summary_length": 10072,
+      "summary_input_tokens": 11836,
+      "summary_output_tokens": 2512
+    }
+  ],
+  "source_urls_count": 77,
+  "duration_seconds": 580.3623706949875,
+  "report_length": 23458,
+  "context_length": 212501,
+  "id": 25,
+  "prompt": "请为我整合近几年有关“中性粒细胞在脑缺血急性期和慢性期的功能和发展变化”的研究成果。在此基础上预测中性粒细胞各个亚群如何和其他的细胞类型发生相互作用，最终如何导向不同的临床结局。最后，为我分析未来可能需要开展的工作。",
+  "language": "zh",
+  "topic": "Health"
+}

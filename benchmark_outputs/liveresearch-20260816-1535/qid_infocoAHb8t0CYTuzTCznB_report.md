@@ -1,0 +1,1 @@
+Please take a look at the report I've prepared. It identifies AI/ML radiology devices that received their first FDA clearance (510(k) or De Novo) in the past two years, provides clearance dates and manufacturer details, and includes links to both the FDA's official AI/ML device list and supporting med-tech news articles.

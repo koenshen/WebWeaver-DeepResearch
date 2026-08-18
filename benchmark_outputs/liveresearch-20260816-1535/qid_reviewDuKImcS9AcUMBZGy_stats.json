@@ -1,0 +1,103 @@
+{
+  "total_llm_calls": 3,
+  "total_input_tokens": 41073,
+  "total_output_tokens": 10768,
+  "total_tokens": 51841,
+  "total_search_count": 10,
+  "total_search_results": 94,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1058,
+      "output_tokens": 1396,
+      "total_tokens": 2454,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13993,
+      "output_tokens": 123,
+      "total_tokens": 14116,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26022,
+      "output_tokens": 9249,
+      "total_tokens": 35271,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Generative Agents Park et al. 2023 follow-up social simulation",
+      "effective_query": "Generative Agents Park et al. 2023 follow-up social simulation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LLM generative agents memory architecture reflection retrieval survey 2024 2025",
+      "effective_query": "LLM generative agents memory architecture reflection retrieval survey 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Multi-agent LLM frameworks ChatDev AutoGen CAMEL AgentVerse 2024",
+      "effective_query": "Multi-agent LLM frameworks ChatDev AutoGen CAMEL AgentVerse 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "LLM agent social interaction norms theory of mind benchmark",
+      "effective_query": "LLM agent social interaction norms theory of mind benchmark",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Large scale agent based simulation LLM society emergent behavior",
+      "effective_query": "Large scale agent based simulation LLM society emergent behavior",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Concordia Google DeepMind agent social simulation 2024",
+      "effective_query": "Concordia Google DeepMind agent social simulation 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LLM agent evaluation benchmark social simulation believability",
+      "effective_query": "LLM agent evaluation benchmark social simulation believability",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Sotopia social interaction benchmark LLM",
+      "effective_query": "Sotopia social interaction benchmark LLM",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "reflection memory retrieval augmented generation agent architecture 2024",
+      "effective_query": "reflection memory retrieval augmented generation agent architecture 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "generative agent architecture design memory stream retrieval reflection 2024 survey",
+      "effective_query": "generative agent architecture design memory stream retrieval reflection 2024 survey",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 88,
+  "duration_seconds": 289.19125109165907,
+  "report_length": 40953,
+  "context_length": 161818,
+  "qid": "reviewDuKImcS9AcUMBZGy",
+  "query": "Background. Recent advances in LLM-powered generative agents have significantly enhanced the realism and social complexity achievable in agent-based simulations.\n\nLiterature Review Question. What are the recent developments (2023–2025) in LLM-based generative agents (single and multiple agents) for social interaction and societal simulation, and how have design choices (agent memory/“mind” models, social/norm mechanisms, environment sandbox, and scale) shaped emergent behaviors and evaluation practices? \n\nScope & Sources. You should prioritize peer-reviewed work in top venues (NeurIPS, ICML, ICLR, CHI, CSCW, AAAI, ACL/EMNLP, TMLR, TPAMI, Science/Nature HCI), but you can also include arXiv preprints for recent works published in 2025.\n\nTarget Audiences: people with professional background and expertise in the field (researchers and engineers)\n\nDeliverable: A NeurIPS/ICML/ICLR-style literature review section composed of multiple paragraphs, each tracing a coherent line of research."
+}

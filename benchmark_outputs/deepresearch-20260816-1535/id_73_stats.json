@@ -1,0 +1,327 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 105252,
+  "total_output_tokens": 25136,
+  "total_tokens": 130388,
+  "total_search_count": 16,
+  "total_search_results": 150,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 828,
+      "output_tokens": 248,
+      "total_tokens": 1076,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15872,
+      "output_tokens": 426,
+      "total_tokens": 16298,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3959,
+      "output_tokens": 524,
+      "total_tokens": 4483,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14911,
+      "output_tokens": 3206,
+      "total_tokens": 18117,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 348,
+      "output_tokens": 2210,
+      "total_tokens": 2558,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 322,
+      "output_tokens": 2062,
+      "total_tokens": 2384,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4465,
+      "output_tokens": 1186,
+      "total_tokens": 5651,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4465,
+      "output_tokens": 1082,
+      "total_tokens": 5547,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4544,
+      "output_tokens": 4001,
+      "total_tokens": 8545,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2874,
+      "output_tokens": 4001,
+      "total_tokens": 6875,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17950,
+      "output_tokens": 103,
+      "total_tokens": 18053,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34714,
+      "output_tokens": 6087,
+      "total_tokens": 40801,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "holistic empowerment elementary English education teaching",
+      "effective_query": "holistic empowerment elementary English education teaching",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "new paradigm English language teaching elementary",
+      "effective_query": "new paradigm English language teaching elementary",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "empowerment in language learning elementary school",
+      "effective_query": "empowerment in language learning elementary school",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "holistic education English language teaching strategies",
+      "effective_query": "holistic education English language teaching strategies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "student-centered English teaching elementary practical tips",
+      "effective_query": "student-centered English teaching elementary practical tips",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "empowering young learners English as a second language",
+      "effective_query": "empowering young learners English as a second language",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "holistic approach elementary ESL EFL",
+      "effective_query": "holistic approach elementary ESL EFL",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "teacher empowerment elementary English",
+      "effective_query": "teacher empowerment elementary English",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "holistic approach elementary English teaching practical strategies classroom",
+      "effective_query": "holistic approach elementary English teaching practical strategies classroom",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "empowering young English learners practical tips teachers",
+      "effective_query": "empowering young English learners practical tips teachers",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "project-based learning English elementary school",
+      "effective_query": "project-based learning English elementary school",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Content-based instruction elementary ESL",
+      "effective_query": "Content-based instruction elementary ESL",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "social emotional learning English language teaching elementary",
+      "effective_query": "social emotional learning English language teaching elementary",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "holistic assessment elementary English",
+      "effective_query": "holistic assessment elementary English",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "learner autonomy elementary English",
+      "effective_query": "learner autonomy elementary English",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "differentiated instruction English learners elementary",
+      "effective_query": "differentiated instruction English learners elementary",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/d-h/holistic-approach",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.333
+        }
+      ],
+      "content_length": 15521,
+      "duration_seconds": 5.333,
+      "summary_status": "success",
+      "summary_duration_seconds": 2.464,
+      "summary_length": 2753,
+      "summary_input_tokens": 3959,
+      "summary_output_tokens": 524
+    },
+    {
+      "url": "https://www.twinkl.com/blog/the-holistic-view-of-language-teaching",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.919
+        }
+      ],
+      "content_length": 48082,
+      "duration_seconds": 4.919,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://latcomm.com/holistic-approaches-to-language-teaching",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.856
+        }
+      ],
+      "content_length": 351,
+      "duration_seconds": 1.857,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.272,
+      "summary_length": 1494,
+      "summary_input_tokens": 348,
+      "summary_output_tokens": 2210
+    },
+    {
+      "url": "https://www.curriculumassociates.com/blog/5-ways-to-empower-english-learners",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.636
+        }
+      ],
+      "content_length": 199,
+      "duration_seconds": 5.637,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.742,
+      "summary_length": 1296,
+      "summary_input_tokens": 322,
+      "summary_output_tokens": 2062
+    },
+    {
+      "url": "https://www.novakidschool.com/blog/modern-strategies-teaching-english-kids",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.398
+        }
+      ],
+      "content_length": 21130,
+      "duration_seconds": 4.398,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://blog.planbook.com/holistic-learning",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.989
+        }
+      ],
+      "content_length": 12396,
+      "duration_seconds": 5.99,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.705,
+      "summary_length": 4072,
+      "summary_input_tokens": 2874,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 133,
+  "duration_seconds": 651.3866553185508,
+  "report_length": 28721,
+  "context_length": 205354,
+  "id": 73,
+  "prompt": "As a senior elementary school English teacher, I need assistance writing a detailed research paper on a 'New Paradigm of Holistic Empowerment in Elementary English Education and Teaching.' Please provide comprehensive content, suggest relevant keywords, and ensure the paper reflects practical, frontline teaching experience, structured to be helpful for novice teachers.",
+  "language": "en",
+  "topic": "Education & Jobs"
+}

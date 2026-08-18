@@ -1,0 +1,159 @@
+{
+  "total_llm_calls": 3,
+  "total_input_tokens": 136785,
+  "total_output_tokens": 7699,
+  "total_tokens": 144484,
+  "total_search_count": 19,
+  "total_search_results": 181,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 825,
+      "output_tokens": 682,
+      "total_tokens": 1507,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 67906,
+      "output_tokens": 443,
+      "total_tokens": 68349,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 68054,
+      "output_tokens": 6574,
+      "total_tokens": 74628,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "2025 全球十大保险公司 排名 A.M. Best 福布斯",
+      "effective_query": "2025 全球十大保险公司 排名 A.M. Best 福布斯",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2025 top 10 insurance companies by revenue Forbes",
+      "effective_query": "2025 top 10 insurance companies by revenue Forbes",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2025 largest insurance companies in the world by assets",
+      "effective_query": "2025 largest insurance companies in the world by assets",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "安联保险 2025 融资 评级 标普 穆迪",
+      "effective_query": "安联保险 2025 融资 评级 标普 穆迪",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "伯克希尔哈撒韦 2025 保险业务 评级 巴菲特",
+      "effective_query": "伯克希尔哈撒韦 2025 保险业务 评级 巴菲特",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国平安 2025 融资 评级 增长 分红",
+      "effective_query": "中国平安 2025 融资 评级 增长 分红",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "安盛保险 2025 评级 分红 增长",
+      "effective_query": "安盛保险 2025 评级 分红 增长",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "日本生命保险 2025 评级 增长 中国 发展",
+      "effective_query": "日本生命保险 2025 评级 增长 中国 发展",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "大都会人寿 2025 评级 增长 分红 中国",
+      "effective_query": "大都会人寿 2025 评级 增长 分红 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "保德信金融 2025 评级 增长 中国",
+      "effective_query": "保德信金融 2025 评级 增长 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "苏黎世保险 2025 评级 增长 中国",
+      "effective_query": "苏黎世保险 2025 评级 增长 中国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "安达保险 2025 评级 增长 中国",
+      "effective_query": "安达保险 2025 评级 增长 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "法通保险 2025 评级 增长 中国",
+      "effective_query": "法通保险 2025 评级 增长 中国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "荷兰全球人寿 2025 评级 增长 中国",
+      "effective_query": "荷兰全球人寿 2025 评级 增长 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Legal & General 2025 rating growth dividend",
+      "effective_query": "Legal & General 2025 rating growth dividend",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Manulife 2025 rating growth dividend China",
+      "effective_query": "Manulife 2025 rating growth dividend China",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Nippon Life 2025 rating growth dividend",
+      "effective_query": "Nippon Life 2025 rating growth dividend",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Prudential Financial 2025 rating growth dividend China",
+      "effective_query": "Prudential Financial 2025 rating growth dividend China",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "全球保险公司 2025 资产排名 前十 融资 偿付能力",
+      "effective_query": "全球保险公司 2025 资产排名 前十 融资 偿付能力",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 173,
+  "duration_seconds": 117.03008150216192,
+  "report_length": 11869,
+  "context_length": 166301,
+  "id": 2,
+  "prompt": "收集整理目前国际综合实力前十的保险公司的相关资料，横向比较各公司的融资情况、信誉度、过往五年的增长幅度、实际分红、未来在中国发展潜力等维度，并为我评估出最有可能在未来资产排名靠前的2-3家公司",
+  "language": "zh",
+  "topic": "Finance & Business"
+}

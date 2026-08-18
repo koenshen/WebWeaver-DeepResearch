@@ -1,0 +1,333 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 205353,
+  "total_output_tokens": 21966,
+  "total_tokens": 227319,
+  "total_search_count": 8,
+  "total_search_results": 78,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 795,
+      "output_tokens": 93,
+      "total_tokens": 888,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17168,
+      "output_tokens": 136,
+      "total_tokens": 17304,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39236,
+      "output_tokens": 163,
+      "total_tokens": 39399,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 375,
+      "output_tokens": 2221,
+      "total_tokens": 2596,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2761,
+      "output_tokens": 2063,
+      "total_tokens": 4824,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2761,
+      "output_tokens": 1841,
+      "total_tokens": 4602,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2277,
+      "output_tokens": 1011,
+      "total_tokens": 3288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35542,
+      "output_tokens": 4001,
+      "total_tokens": 39543,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3820,
+      "output_tokens": 580,
+      "total_tokens": 4400,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42319,
+      "output_tokens": 143,
+      "total_tokens": 42462,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5157,
+      "output_tokens": 1007,
+      "total_tokens": 6164,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4241,
+      "output_tokens": 1264,
+      "total_tokens": 5505,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3954,
+      "output_tokens": 1579,
+      "total_tokens": 5533,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44947,
+      "output_tokens": 5864,
+      "total_tokens": 50811,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "离散制造 单件小批 自动化 难度 挑战",
+      "effective_query": "离散制造 单件小批 自动化 难度 挑战",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "discrete manufacturing low volume high mix automation challenges",
+      "effective_query": "discrete manufacturing low volume high mix automation challenges",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "单件小批生产 自动化 柔性制造",
+      "effective_query": "单件小批生产 自动化 柔性制造",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "job shop automation challenges skilled labor",
+      "effective_query": "job shop automation challenges skilled labor",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "离散制造 自动化 投资回报 ROI 单件小批",
+      "effective_query": "离散制造 自动化 投资回报 ROI 单件小批",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "skilled labor automation job shop programming challenges",
+      "effective_query": "skilled labor automation job shop programming challenges",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "离散制造 自动化 技术瓶颈 感知 决策 柔性",
+      "effective_query": "离散制造 自动化 技术瓶颈 感知 决策 柔性",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI 机器视觉 多品种小批量 自动化 检测 2024 2025",
+      "effective_query": "AI 机器视觉 多品种小批量 自动化 检测 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://agentpanel.cc/question/1422",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.481
+        }
+      ],
+      "content_length": 486,
+      "duration_seconds": 2.482,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.207,
+      "summary_length": 1714,
+      "summary_input_tokens": 375,
+      "summary_output_tokens": 2221
+    },
+    {
+      "url": "https://www.cognex.com/zh-cn/tools-and-resources/resource-center/automation-without-compromise",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.321
+        }
+      ],
+      "content_length": 5352,
+      "duration_seconds": 10.322,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.fastemschina.com/high-mix-low-volume-automation",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.836
+        }
+      ],
+      "content_length": 4558,
+      "duration_seconds": 2.836,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.717,
+      "summary_length": 1500,
+      "summary_input_tokens": 2277,
+      "summary_output_tokens": 1011
+    },
+    {
+      "url": "https://arxiv.org/html/2602.06966",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.234
+        }
+      ],
+      "content_length": 71291,
+      "duration_seconds": 1.234,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.mckinsey.com.cn/融合生态-拥抱智能：-2030中国智能制造及自动化行业展望",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.411
+        }
+      ],
+      "content_length": 7517,
+      "duration_seconds": 17.412,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.815,
+      "summary_length": 1464,
+      "summary_input_tokens": 3820,
+      "summary_output_tokens": 580
+    },
+    {
+      "url": "https://www.fastems.com/high-mix-low-volume-automation",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.81
+        }
+      ],
+      "content_length": 23521,
+      "duration_seconds": 6.81,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.836,
+      "summary_length": 3134,
+      "summary_input_tokens": 5157,
+      "summary_output_tokens": 1007
+    },
+    {
+      "url": "https://www.automationworld.com/factory/robotics/article/22223407/why-high-mix-low-volume-manufacturers-are-adopting-flexible-automation",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.408
+        }
+      ],
+      "content_length": 15211,
+      "duration_seconds": 8.408,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.639,
+      "summary_length": 3954,
+      "summary_input_tokens": 4241,
+      "summary_output_tokens": 1264
+    },
+    {
+      "url": "https://mw.jgvogel.cn/c1491835.shtml",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.001
+        }
+      ],
+      "content_length": 8378,
+      "duration_seconds": 16.001,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.41,
+      "summary_length": 1748,
+      "summary_input_tokens": 3954,
+      "summary_output_tokens": 1579
+    }
+  ],
+  "source_urls_count": 72,
+  "duration_seconds": 492.7775775929913,
+  "report_length": 11974,
+  "context_length": 130122,
+  "id": 36,
+  "prompt": "制造业离散制造（单件小批）基本上靠人的技能才能完成的，为我调研实现自动化的难度有多大",
+  "language": "zh",
+  "topic": "Industrial"
+}

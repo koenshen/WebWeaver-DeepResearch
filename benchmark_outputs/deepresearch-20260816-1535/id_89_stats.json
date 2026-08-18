@@ -1,0 +1,298 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 162206,
+  "total_output_tokens": 20603,
+  "total_tokens": 182809,
+  "total_search_count": 6,
+  "total_search_results": 53,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 809,
+      "output_tokens": 1061,
+      "total_tokens": 1870,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13654,
+      "output_tokens": 254,
+      "total_tokens": 13908,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3623,
+      "output_tokens": 944,
+      "total_tokens": 4567,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10527,
+      "output_tokens": 2316,
+      "total_tokens": 12843,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21180,
+      "output_tokens": 2203,
+      "total_tokens": 23383,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7698,
+      "output_tokens": 1665,
+      "total_tokens": 9363,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36620,
+      "output_tokens": 3510,
+      "total_tokens": 40130,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28602,
+      "output_tokens": 1303,
+      "total_tokens": 29905,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16320,
+      "output_tokens": 1365,
+      "total_tokens": 17685,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 301,
+      "output_tokens": 401,
+      "total_tokens": 702,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22872,
+      "output_tokens": 5581,
+      "total_tokens": 28453,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "MDA framework critique evolution extensions game design 2024",
+      "effective_query": "MDA framework critique evolution extensions game design 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "latest game design theory frameworks 2024 2025",
+      "effective_query": "latest game design theory frameworks 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Design Dynamics framework game design",
+      "effective_query": "Design Dynamics framework game design",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DDE Design Dynamics Experience game design",
+      "effective_query": "DDE Design Dynamics Experience game design",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI game design tools collaboration research 2024",
+      "effective_query": "AI game design tools collaboration research 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "practical application MDA framework modern game development",
+      "effective_query": "practical application MDA framework modern game development",
+      "retriever": "tavily",
+      "num_results": 7
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-53088-8_3",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 18.424
+        }
+      ],
+      "content_length": 10994,
+      "duration_seconds": 18.424,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.071,
+      "summary_length": 3101,
+      "summary_input_tokens": 3623,
+      "summary_output_tokens": 944
+    },
+    {
+      "url": "https://yukaichou.com/gamification-analysis/mda-framework-hunicke-leblanc-zubek-mechanics-dynamics-aesthetics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.206
+        }
+      ],
+      "content_length": 46796,
+      "duration_seconds": 4.206,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.711,
+      "summary_length": 6262,
+      "summary_input_tokens": 10527,
+      "summary_output_tokens": 2316
+    },
+    {
+      "url": "https://www.mdpi.com/2078-2489/12/10/395",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.802
+        }
+      ],
+      "content_length": 88241,
+      "duration_seconds": 0.803,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.012,
+      "summary_length": 7535,
+      "summary_input_tokens": 21180,
+      "summary_output_tokens": 2203
+    },
+    {
+      "url": "https://www.gamedeveloper.com/design/from-mda-to-dde",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.892
+        }
+      ],
+      "content_length": 32880,
+      "duration_seconds": 7.892,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.996,
+      "summary_length": 6123,
+      "summary_input_tokens": 7698,
+      "summary_output_tokens": 1665
+    },
+    {
+      "url": "https://arxiv.org/html/2509.11898v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.279
+        }
+      ],
+      "content_length": 151788,
+      "duration_seconds": 1.279,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.704,
+      "summary_length": 14446,
+      "summary_input_tokens": 36620,
+      "summary_output_tokens": 3510
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12193870",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.006
+        }
+      ],
+      "content_length": 114265,
+      "duration_seconds": 4.007,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.832,
+      "summary_length": 4213,
+      "summary_input_tokens": 28602,
+      "summary_output_tokens": 1303
+    },
+    {
+      "url": "https://www.universityxp.com/blog/2025/1/14/designing-the-core-dynamics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.665
+        }
+      ],
+      "content_length": 62375,
+      "duration_seconds": 3.665,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.819,
+      "summary_length": 5629,
+      "summary_input_tokens": 16320,
+      "summary_output_tokens": 1365
+    },
+    {
+      "url": "https://gamedesignskills.com/game-design/mda",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.208
+        }
+      ],
+      "content_length": 491,
+      "duration_seconds": 7.208,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.164,
+      "summary_length": 1017,
+      "summary_input_tokens": 301,
+      "summary_output_tokens": 401
+    }
+  ],
+  "source_urls_count": 43,
+  "duration_seconds": 318.01580379903316,
+  "report_length": 24090,
+  "context_length": 132475,
+  "id": 89,
+  "prompt": "Research and analyze the latest advancements and cutting-edge theories within the field of game design. Specifically include recent developments, research, and practical design applications related to established frameworks like MDA (Mechanics-Dynamics-Aesthetics).",
+  "language": "en",
+  "topic": "Games"
+}

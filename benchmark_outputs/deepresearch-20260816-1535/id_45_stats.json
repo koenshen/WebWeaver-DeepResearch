@@ -1,0 +1,68 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 35918,
+  "total_output_tokens": 7547,
+  "total_tokens": 43465,
+  "total_search_count": 5,
+  "total_search_results": 47,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 784,
+      "output_tokens": 271,
+      "total_tokens": 1055,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35134,
+      "output_tokens": 7276,
+      "total_tokens": 42410,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "老子 神 历代注本 发展",
+      "effective_query": "老子 神 历代注本 发展",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "老子 神 注疏 河上公 王弼",
+      "effective_query": "老子 神 注疏 河上公 王弼",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "老子 神 成玄英 重玄",
+      "effective_query": "老子 神 成玄英 重玄",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "老子 神 宋徽宗 苏辙 注",
+      "effective_query": "老子 神 宋徽宗 苏辙 注",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "老子 神 王夫之 现代 研究",
+      "effective_query": "老子 神 王夫之 现代 研究",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 46,
+  "duration_seconds": 130.72808888740838,
+  "report_length": 10751,
+  "context_length": 67566,
+  "id": 45,
+  "prompt": "分析《老子》历代注本中“神”的发展",
+  "language": "zh",
+  "topic": "Religion"
+}

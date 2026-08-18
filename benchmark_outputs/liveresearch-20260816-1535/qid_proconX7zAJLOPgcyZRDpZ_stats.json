@@ -1,0 +1,146 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 58855,
+  "total_output_tokens": 14483,
+  "total_tokens": 73338,
+  "total_search_count": 16,
+  "total_search_results": 151,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1023,
+      "output_tokens": 1614,
+      "total_tokens": 2637,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8494,
+      "output_tokens": 66,
+      "total_tokens": 8560,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16476,
+      "output_tokens": 363,
+      "total_tokens": 16839,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32862,
+      "output_tokens": 12440,
+      "total_tokens": 45302,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "criticisms of standardized testing curriculum narrowing teaching to the test",
+      "effective_query": "criticisms of standardized testing curriculum narrowing teaching to the test",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "standardized testing anxiety mental health effects students",
+      "effective_query": "standardized testing anxiety mental health effects students",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "standardized testing equity bias racial socioeconomic",
+      "effective_query": "standardized testing equity bias racial socioeconomic",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "high stakes testing cheating scandals United States China Japan",
+      "effective_query": "high stakes testing cheating scandals United States China Japan",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "pros benefits of standardized testing accountability data driven education",
+      "effective_query": "pros benefits of standardized testing accountability data driven education",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "standardized tests identify achievement gaps equity data",
+      "effective_query": "standardized tests identify achievement gaps equity data",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PISA rankings China Japan United States education performance",
+      "effective_query": "PISA rankings China Japan United States education performance",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "standardized testing objective measurement fairness advantages",
+      "effective_query": "standardized testing objective measurement fairness advantages",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "standardized testing accountability school improvement evidence United States",
+      "effective_query": "standardized testing accountability school improvement evidence United States",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Gaokao China standardized testing arguments benefits",
+      "effective_query": "Gaokao China standardized testing arguments benefits",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Japan standardized testing high school entrance exams benefits",
+      "effective_query": "Japan standardized testing high school entrance exams benefits",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "standardized testing narrow curriculum evidence creative thinking loss",
+      "effective_query": "standardized testing narrow curriculum evidence creative thinking loss",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "testing anxiety statistics students prevalence 2020 2025",
+      "effective_query": "testing anxiety statistics students prevalence 2020 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "standardized testing socioeconomic bias SAT ACT wealth gap",
+      "effective_query": "standardized testing socioeconomic bias SAT ACT wealth gap",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PISA 2022 results China Japan United States comparison",
+      "effective_query": "PISA 2022 results China Japan United States comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japan standardized testing reform recent changes",
+      "effective_query": "Japan standardized testing reform recent changes",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 138,
+  "duration_seconds": 1094.649664892815,
+  "report_length": 55580,
+  "context_length": 212610,
+  "qid": "proconX7zAJLOPgcyZRDpZ",
+  "query": "Conduct a comprehensive analysis on whether standardized tests improve education, with a primary focus on China, Japan, and the United States. The analysis should focus on K-12 education (elementary through high school). In the report, I would like to have 6 pro arguments and 6 con arguments. Each pro or con argument should include: (1) A clear thesis statement (2) Multiple supporting points substantiated with credible evidence (including but not limited to statistics, direct quotes, case studies, expert testimony, industry or government reports, academic research, news sources, online forums, and social media), followed by in-depth reasoning and analysis. For each argument, incorporate comparative insights across China, Japan, and the United States where relevant, highlighting how different educational systems and cultural contexts demonstrate or challenge the argument. Prioritize data and research from the past 5 years where available ."
+}

@@ -1,0 +1,297 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 102706,
+  "total_output_tokens": 17493,
+  "total_tokens": 120199,
+  "total_search_count": 9,
+  "total_search_results": 82,
+  "total_visit_count": 7,
+  "total_visit_success": 7,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 799,
+      "output_tokens": 207,
+      "total_tokens": 1006,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18787,
+      "output_tokens": 1053,
+      "total_tokens": 19840,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1946,
+      "output_tokens": 1840,
+      "total_tokens": 3786,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 327,
+      "output_tokens": 380,
+      "total_tokens": 707,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 312,
+      "output_tokens": 375,
+      "total_tokens": 687,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3401,
+      "output_tokens": 1163,
+      "total_tokens": 4564,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 325,
+      "output_tokens": 1915,
+      "total_tokens": 2240,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9648,
+      "output_tokens": 3534,
+      "total_tokens": 13182,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2441,
+      "output_tokens": 939,
+      "total_tokens": 3380,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24577,
+      "output_tokens": 196,
+      "total_tokens": 24773,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40143,
+      "output_tokens": 5891,
+      "total_tokens": 46034,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "gold price history 2010 to 2026 annual chart",
+      "effective_query": "gold price history 2010 to 2026 annual chart",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gold price today 2026 August 16",
+      "effective_query": "gold price today 2026 August 16",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "gold technical analysis support resistance 2026",
+      "effective_query": "gold technical analysis support resistance 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gold forecast 2026 2027 outlook",
+      "effective_query": "gold forecast 2026 2027 outlook",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "黄金走势 2010 至今 年度价格 趋势分析",
+      "effective_query": "黄金走势 2010 至今 年度价格 趋势分析",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gold price 2010 2011 2012 2013 2014 2015 annual open high low close",
+      "effective_query": "gold price 2010 2011 2012 2013 2014 2015 annual open high low close",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gold technical analysis 2026 support resistance 200-day moving average",
+      "effective_query": "gold technical analysis 2026 support resistance 200-day moving average",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gold price forecast 2026 JP Morgan Goldman Sachs central bank buying",
+      "effective_query": "gold price forecast 2026 JP Morgan Goldman Sachs central bank buying",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "黄金 2010 年 至 2015 年 年度 价格 走势",
+      "effective_query": "黄金 2010 年 至 2015 年 年度 价格 走势",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.jmbullion.com/charts/gold-price/10-year",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.21
+        }
+      ],
+      "content_length": 6414,
+      "duration_seconds": 7.21,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.macrotrends.net/1333/historical-gold-prices-100-year-chart",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.432
+        }
+      ],
+      "content_length": 514,
+      "duration_seconds": 4.432,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.56,
+      "summary_length": 1130,
+      "summary_input_tokens": 327,
+      "summary_output_tokens": 380
+    },
+    {
+      "url": "https://goldsilver.com/industry-news/article/gold-technical-analysis-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.15
+        }
+      ],
+      "content_length": 503,
+      "duration_seconds": 8.15,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.577,
+      "summary_length": 1136,
+      "summary_input_tokens": 312,
+      "summary_output_tokens": 375
+    },
+    {
+      "url": "https://goldenarkreserve.com/insights/gold-price-forecast-2026-2027",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.694
+        }
+      ],
+      "content_length": 13769,
+      "duration_seconds": 2.694,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.007,
+      "summary_length": 2727,
+      "summary_input_tokens": 3401,
+      "summary_output_tokens": 1163
+    },
+    {
+      "url": "https://www.xlence.com/en/gold-price-forecast-2026-technical-analysis",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.819
+        }
+      ],
+      "content_length": 211,
+      "duration_seconds": 8.819,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.891,
+      "summary_length": 610,
+      "summary_input_tokens": 325,
+      "summary_output_tokens": 1915
+    },
+    {
+      "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.361
+        }
+      ],
+      "content_length": 33733,
+      "duration_seconds": 4.362,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.975,
+      "summary_length": 8189,
+      "summary_input_tokens": 9648,
+      "summary_output_tokens": 3534
+    },
+    {
+      "url": "https://zh.tradingeconomics.com/commodity/gold",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.489
+        }
+      ],
+      "content_length": 4671,
+      "duration_seconds": 0.489,
+      "summary_status": "success",
+      "summary_duration_seconds": 36.052,
+      "summary_length": 1631,
+      "summary_input_tokens": 2441,
+      "summary_output_tokens": 939
+    }
+  ],
+  "source_urls_count": 67,
+  "duration_seconds": 378.2626721030101,
+  "report_length": 11941,
+  "context_length": 138660,
+  "id": 4,
+  "prompt": "分析 2010 年至今的黄金走势，用思维导图告诉我黄金未来有可能的趋势，关键压力，关键支撑位置",
+  "language": "zh",
+  "topic": "Finance & Business"
+}

@@ -1,0 +1,362 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 596685,
+  "total_output_tokens": 22958,
+  "total_tokens": 619643,
+  "total_search_count": 45,
+  "total_search_results": 381,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 854,
+      "output_tokens": 394,
+      "total_tokens": 1248,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14594,
+      "output_tokens": 139,
+      "total_tokens": 14733,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26244,
+      "output_tokens": 119,
+      "total_tokens": 26363,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40508,
+      "output_tokens": 151,
+      "total_tokens": 40659,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 55895,
+      "output_tokens": 133,
+      "total_tokens": 56028,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 70899,
+      "output_tokens": 1507,
+      "total_tokens": 72406,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 80684,
+      "output_tokens": 1797,
+      "total_tokens": 82481,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 94448,
+      "output_tokens": 2107,
+      "total_tokens": 96555,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 106203,
+      "output_tokens": 1544,
+      "total_tokens": 107747,
+      "message_count": 18
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 106356,
+      "output_tokens": 15067,
+      "total_tokens": 121423,
+      "message_count": 20
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "best smartphones 2026 ranked battery life camera price",
+      "effective_query": "best smartphones 2026 ranked battery life camera price",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "top 25 smartphones 2026 list",
+      "effective_query": "top 25 smartphones 2026 list",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 smartphone battery life test hours",
+      "effective_query": "2026 smartphone battery life test hours",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 flagship phones camera megapixels",
+      "effective_query": "2026 flagship phones camera megapixels",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "smartphone retail price 2026 August",
+      "effective_query": "smartphone retail price 2026 August",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "OnePlus 15 battery life test hours 2026",
+      "effective_query": "OnePlus 15 battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Xiaomi 17 Ultra battery life test hours 2026",
+      "effective_query": "Xiaomi 17 Ultra battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Oppo Find X9 Pro battery life test hours 2026",
+      "effective_query": "Oppo Find X9 Pro battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Samsung Galaxy S26 Ultra battery life test hours 2026",
+      "effective_query": "Samsung Galaxy S26 Ultra battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Pixel 10 Pro battery life test hours 2026",
+      "effective_query": "Google Pixel 10 Pro battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "iPhone 17 Pro Max battery life test hours 2026",
+      "effective_query": "iPhone 17 Pro Max battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "OnePlus 15R price camera specs 2026",
+      "effective_query": "OnePlus 15R price camera specs 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Nothing Phone 4a Pro specs price 2026",
+      "effective_query": "Nothing Phone 4a Pro specs price 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Honor Magic 8 Pro battery life camera 2026",
+      "effective_query": "Honor Magic 8 Pro battery life camera 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Vivo X300 Pro battery life camera 2026",
+      "effective_query": "Vivo X300 Pro battery life camera 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Samsung Galaxy S26 price 2026",
+      "effective_query": "Samsung Galaxy S26 price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Pixel 10a price specs battery 2026",
+      "effective_query": "Google Pixel 10a price specs battery 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "iPhone 17 price 2026",
+      "effective_query": "iPhone 17 price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Motorola Razr 2026 battery life specs",
+      "effective_query": "Motorola Razr 2026 battery life specs",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Poco X8 Pro Max price specs battery 2026",
+      "effective_query": "Poco X8 Pro Max price specs battery 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Samsung Galaxy S26 battery life test hours PCMark",
+      "effective_query": "Samsung Galaxy S26 battery life test hours PCMark",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "iPhone 17 Pro Max retail price 2026",
+      "effective_query": "iPhone 17 Pro Max retail price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Xiaomi 17 Ultra retail price 2026",
+      "effective_query": "Xiaomi 17 Ultra retail price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Oppo Find X9 Pro retail price 2026",
+      "effective_query": "Oppo Find X9 Pro retail price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "OnePlus 15 retail price 2026",
+      "effective_query": "OnePlus 15 retail price 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Samsung Galaxy S26+ battery life test hours 2026",
+      "effective_query": "Samsung Galaxy S26+ battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "iPhone 17 Pro battery life test hours 2026",
+      "effective_query": "iPhone 17 Pro battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Xiaomi 17 battery life test hours 2026",
+      "effective_query": "Xiaomi 17 battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Oppo Find X9 Ultra battery life test hours 2026",
+      "effective_query": "Oppo Find X9 Ultra battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Samsung Galaxy Z Fold 7 battery life test hours 2026",
+      "effective_query": "Samsung Galaxy Z Fold 7 battery life test hours 2026",
+      "retriever": "tavily",
+      "num_results": 4
+    },
+    {
+      "query": "Xiaomi 17 price 2026 USD",
+      "effective_query": "Xiaomi 17 price 2026 USD",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Xiaomi 17T Pro price 2026",
+      "effective_query": "Xiaomi 17T Pro price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Pixel 10 Pro price 2026",
+      "effective_query": "Google Pixel 10 Pro price 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Motorola Razr 2026 price USD",
+      "effective_query": "Motorola Razr 2026 price USD",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Honor Magic 8 Pro price USD 2026",
+      "effective_query": "Honor Magic 8 Pro price USD 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "OnePlus 15 camera megapixels specs",
+      "effective_query": "OnePlus 15 camera megapixels specs",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Samsung Galaxy S26 Ultra camera megapixels specs",
+      "effective_query": "Samsung Galaxy S26 Ultra camera megapixels specs",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "iPhone 17 Pro Max camera megapixels specs",
+      "effective_query": "iPhone 17 Pro Max camera megapixels specs",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Google Pixel 10 Pro XL camera megapixels",
+      "effective_query": "Google Pixel 10 Pro XL camera megapixels",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Oppo Find X9 Pro camera megapixels",
+      "effective_query": "Oppo Find X9 Pro camera megapixels",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Xiaomi 17 Pro Max battery life camera price 2026",
+      "effective_query": "Xiaomi 17 Pro Max battery life camera price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "iPhone 17 camera megapixels specs 2026",
+      "effective_query": "iPhone 17 camera megapixels specs 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Samsung Galaxy S26+ camera megapixels 2026",
+      "effective_query": "Samsung Galaxy S26+ camera megapixels 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Motorola Razr 2026 camera megapixels",
+      "effective_query": "Motorola Razr 2026 camera megapixels",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Google Pixel 10 Pro battery life hours 2026",
+      "effective_query": "Google Pixel 10 Pro battery life hours 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 340,
+  "duration_seconds": 1109.7625087890774,
+  "report_length": 14094,
+  "context_length": 405338,
+  "qid": "rankliscQtnu8LeS5DQPDu",
+  "query": "What are the top 25 smartphones in 2026 (as of August 16, 2026), ranked overall by combining battery life (in hours), camera megapixels, and retail price, with retail price used to favor lower-priced smartphones (i.e., better value)? In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking."
+}

@@ -1,0 +1,437 @@
+{
+  "total_llm_calls": 20,
+  "total_input_tokens": 165514,
+  "total_output_tokens": 50633,
+  "total_tokens": 216147,
+  "total_search_count": 12,
+  "total_search_results": 111,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 874,
+      "output_tokens": 269,
+      "total_tokens": 1143,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15052,
+      "output_tokens": 290,
+      "total_tokens": 15342,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4058,
+      "output_tokens": 1456,
+      "total_tokens": 5514,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6957,
+      "output_tokens": 821,
+      "total_tokens": 7778,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2304,
+      "output_tokens": 1431,
+      "total_tokens": 3735,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8234,
+      "output_tokens": 4001,
+      "total_tokens": 12235,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8234,
+      "output_tokens": 4001,
+      "total_tokens": 12235,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8234,
+      "output_tokens": 4001,
+      "total_tokens": 12235,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8313,
+      "output_tokens": 4001,
+      "total_tokens": 12314,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5451,
+      "output_tokens": 4001,
+      "total_tokens": 9452,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5372,
+      "output_tokens": 2635,
+      "total_tokens": 8007,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5372,
+      "output_tokens": 1498,
+      "total_tokens": 6870,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2587,
+      "output_tokens": 1471,
+      "total_tokens": 4058,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1495,
+      "output_tokens": 1239,
+      "total_tokens": 2734,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9457,
+      "output_tokens": 2536,
+      "total_tokens": 11993,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3113,
+      "output_tokens": 3981,
+      "total_tokens": 7094,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4650,
+      "output_tokens": 2887,
+      "total_tokens": 7537,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4650,
+      "output_tokens": 3397,
+      "total_tokens": 8047,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23579,
+      "output_tokens": 133,
+      "total_tokens": 23712,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37528,
+      "output_tokens": 6584,
+      "total_tokens": 44112,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "gRPC API design options low latency backward compatibility heterogeneous clients mobile web IoT edge",
+      "effective_query": "gRPC API design options low latency backward compatibility heterogeneous clients mobile web IoT edge",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gRPC-Web limitations browser streaming Envoy proxy",
+      "effective_query": "gRPC-Web limitations browser streaming Envoy proxy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gRPC REST transcoding Envoy proxy pros cons",
+      "effective_query": "gRPC REST transcoding Envoy proxy pros cons",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gRPC protocol buffers versioning backward compatibility best practices",
+      "effective_query": "gRPC protocol buffers versioning backward compatibility best practices",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gRPC low bandwidth IoT edge devices optimization",
+      "effective_query": "gRPC low bandwidth IoT edge devices optimization",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gRPC client-side load balancing service mesh",
+      "effective_query": "gRPC client-side load balancing service mesh",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gRPC-Web alternatives Connect gRPC protocol browser compatibility 2024 2025",
+      "effective_query": "gRPC-Web alternatives Connect gRPC protocol browser compatibility 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gRPC REST transcoding vs gRPC-Web tradeoffs comparison",
+      "effective_query": "gRPC REST transcoding vs gRPC-Web tradeoffs comparison",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "gRPC versioning strategies semantic versioning protobuf package",
+      "effective_query": "gRPC versioning strategies semantic versioning protobuf package",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gRPC IoT optimization protobuf payload size edge computing",
+      "effective_query": "gRPC IoT optimization protobuf payload size edge computing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Envoy gRPC sidecar proxy infrastructure cost scalability",
+      "effective_query": "Envoy gRPC sidecar proxy infrastructure cost scalability",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gRPC developer productivity code generation protobuf tools",
+      "effective_query": "gRPC developer productivity code generation protobuf tools",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://grpc.io/blog/state-of-grpc-web",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.689
+        }
+      ],
+      "content_length": 13422,
+      "duration_seconds": 3.69,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.817,
+      "summary_length": 4432,
+      "summary_input_tokens": 4058,
+      "summary_output_tokens": 1456
+    },
+    {
+      "url": "https://kreya.app/blog/grpc-web-deep-dive",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.656
+        }
+      ],
+      "content_length": 26644,
+      "duration_seconds": 2.657,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.259,
+      "summary_length": 2290,
+      "summary_input_tokens": 6957,
+      "summary_output_tokens": 821
+    },
+    {
+      "url": "https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/grpc_json_transcoder_filter",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.121
+        }
+      ],
+      "content_length": 7951,
+      "duration_seconds": 1.121,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.563,
+      "summary_length": 3734,
+      "summary_input_tokens": 2304,
+      "summary_output_tokens": 1431
+    },
+    {
+      "url": "https://oneuptime.com/blog/post/2026-01-08-grpc-api-versioning/view",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.658
+        }
+      ],
+      "content_length": 29824,
+      "duration_seconds": 0.658,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.474,
+      "summary_length": 11220,
+      "summary_input_tokens": 8234,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.datadoghq.com/blog/grpc-at-datadog",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.926
+        }
+      ],
+      "content_length": 22158,
+      "duration_seconds": 6.926,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.08,
+      "summary_length": 4614,
+      "summary_input_tokens": 5451,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.bytesizego.com/blog/grpc-load-balancing",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.664
+        }
+      ],
+      "content_length": 10870,
+      "duration_seconds": 2.665,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.rapidseasuite.com/blog/grpc-in-modern-iot-architectures-enabling-fast-secure-and-scalable-communication",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.601
+        }
+      ],
+      "content_length": 7055,
+      "duration_seconds": 0.601,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.11,
+      "summary_length": 4120,
+      "summary_input_tokens": 1495,
+      "summary_output_tokens": 1239
+    },
+    {
+      "url": "https://www.levo.ai/resources/blogs/grpc-api",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.006
+        }
+      ],
+      "content_length": 46475,
+      "duration_seconds": 5.006,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.938,
+      "summary_length": 5236,
+      "summary_input_tokens": 9457,
+      "summary_output_tokens": 2536
+    },
+    {
+      "url": "https://earthly.dev/blog/backward-and-forward-compatibility",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.171
+        }
+      ],
+      "content_length": 13354,
+      "duration_seconds": 3.171,
+      "summary_status": "success",
+      "summary_duration_seconds": 73.518,
+      "summary_length": 10283,
+      "summary_input_tokens": 3113,
+      "summary_output_tokens": 3981
+    },
+    {
+      "url": "https://istio.io/latest/blog/2021/proxyless-grpc",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.865
+        }
+      ],
+      "content_length": 15677,
+      "duration_seconds": 2.865,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 101,
+  "duration_seconds": 1533.6629663938656,
+  "report_length": 26422,
+  "context_length": 194305,
+  "qid": "techspsK4Re3Jq5v6Zj5AB",
+  "query": "What design options exist for building a gRPC-based API layer that maintains low latency and backward compatibility across heterogeneous clients (mobile, web via gRPC-Web, desktop, IoT/edge), assuming mostly stable contracts but with special considerations for environments such as low-bandwidth IoT devices and browser limitations?\n\nFor each option, provide 3 pros and 3 cons, and analyze trade-offs across:\n        •        Scalability\n        •        Developer Productivity\n        •        Infrastructure Cost\n        •        Ease of Client Integration"
+}

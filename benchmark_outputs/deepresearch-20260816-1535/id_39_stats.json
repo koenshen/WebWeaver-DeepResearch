@@ -1,0 +1,124 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 98701,
+  "total_output_tokens": 6800,
+  "total_tokens": 105501,
+  "total_search_count": 12,
+  "total_search_results": 112,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 785,
+      "output_tokens": 452,
+      "total_tokens": 1237,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12061,
+      "output_tokens": 103,
+      "total_tokens": 12164,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42864,
+      "output_tokens": 96,
+      "total_tokens": 42960,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42991,
+      "output_tokens": 6149,
+      "total_tokens": 49140,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "MOBA游戏 用户画像 2024 2025",
+      "effective_query": "MOBA游戏 用户画像 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Battle Royale 用户画像 核心玩家 特征",
+      "effective_query": "Battle Royale 用户画像 核心玩家 特征",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "开放世界RPG 用户画像 特征 2024",
+      "effective_query": "开放世界RPG 用户画像 特征 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "休闲游戏 用户画像 2025 中国",
+      "effective_query": "休闲游戏 用户画像 2025 中国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "女性向游戏 用户画像 2025",
+      "effective_query": "女性向游戏 用户画像 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SLG策略游戏 用户画像 2025",
+      "effective_query": "SLG策略游戏 用户画像 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "二次元游戏 用户画像 2025",
+      "effective_query": "二次元游戏 用户画像 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "派对游戏 用户画像 2025",
+      "effective_query": "派对游戏 用户画像 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FPS射击游戏 用户画像 2025 中国",
+      "effective_query": "FPS射击游戏 用户画像 2025 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "MMORPG 用户画像 2025",
+      "effective_query": "MMORPG 用户画像 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "卡牌游戏 用户画像 2025",
+      "effective_query": "卡牌游戏 用户画像 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "模拟经营游戏 用户画像 2025",
+      "effective_query": "模拟经营游戏 用户画像 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 92,
+  "duration_seconds": 156.7482440872118,
+  "report_length": 11305,
+  "context_length": 92094,
+  "id": 39,
+  "prompt": "我是一名游戏开发，帮我分析一下不同类型游戏的用户群体画像",
+  "language": "zh",
+  "topic": "Games"
+}

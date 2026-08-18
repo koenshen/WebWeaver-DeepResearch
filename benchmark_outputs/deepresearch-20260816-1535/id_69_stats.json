@@ -1,0 +1,387 @@
+{
+  "total_llm_calls": 17,
+  "total_input_tokens": 133599,
+  "total_output_tokens": 29348,
+  "total_tokens": 162947,
+  "total_search_count": 7,
+  "total_search_results": 63,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 815,
+      "output_tokens": 155,
+      "total_tokens": 970,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10790,
+      "output_tokens": 169,
+      "total_tokens": 10959,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5289,
+      "output_tokens": 1272,
+      "total_tokens": 6561,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2325,
+      "output_tokens": 1014,
+      "total_tokens": 3339,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2650,
+      "output_tokens": 4001,
+      "total_tokens": 6651,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2571,
+      "output_tokens": 1304,
+      "total_tokens": 3875,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11594,
+      "output_tokens": 3927,
+      "total_tokens": 15521,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2617,
+      "output_tokens": 1703,
+      "total_tokens": 4320,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15770,
+      "output_tokens": 113,
+      "total_tokens": 15883,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 682,
+      "output_tokens": 640,
+      "total_tokens": 1322,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1305,
+      "output_tokens": 1665,
+      "total_tokens": 2970,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16959,
+      "output_tokens": 150,
+      "total_tokens": 17109,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5665,
+      "output_tokens": 2091,
+      "total_tokens": 7756,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3828,
+      "output_tokens": 863,
+      "total_tokens": 4691,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2239,
+      "output_tokens": 3578,
+      "total_tokens": 5817,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20451,
+      "output_tokens": 75,
+      "total_tokens": 20526,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28049,
+      "output_tokens": 6628,
+      "total_tokens": 34677,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Google A2A protocol",
+      "effective_query": "Google A2A protocol",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google A2A protocol MCP differences",
+      "effective_query": "Google A2A protocol MCP differences",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Agent-to-Agent protocol A2A",
+      "effective_query": "Agent-to-Agent protocol A2A",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MCP protocol Model Context Protocol",
+      "effective_query": "MCP protocol Model Context Protocol",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MCP vs A2A comparison table detailed",
+      "effective_query": "MCP vs A2A comparison table detailed",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MCP protocol architecture specification",
+      "effective_query": "MCP protocol architecture specification",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "A2A protocol innovative aspects enterprise multi-agent",
+      "effective_query": "A2A protocol innovative aspects enterprise multi-agent",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.701
+        }
+      ],
+      "content_length": 24443,
+      "duration_seconds": 1.702,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.757,
+      "summary_length": 5068,
+      "summary_input_tokens": 5289,
+      "summary_output_tokens": 1272
+    },
+    {
+      "url": "https://github.com/a2aproject/A2A",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.143
+        }
+      ],
+      "content_length": 7490,
+      "duration_seconds": 5.143,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.412,
+      "summary_length": 3146,
+      "summary_input_tokens": 2325,
+      "summary_output_tokens": 1014
+    },
+    {
+      "url": "https://www.merge.dev/blog/mcp-vs-a2a",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.18
+        }
+      ],
+      "content_length": 8422,
+      "duration_seconds": 3.18,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.717,
+      "summary_length": 243,
+      "summary_input_tokens": 2650,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://auth0.com/blog/mcp-vs-a2a",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.581
+        }
+      ],
+      "content_length": 35957,
+      "duration_seconds": 6.581,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.149,
+      "summary_length": 4065,
+      "summary_input_tokens": 11594,
+      "summary_output_tokens": 3927
+    },
+    {
+      "url": "https://www.ibm.com/think/topics/agent2agent-protocol",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.482
+        }
+      ],
+      "content_length": 10446,
+      "duration_seconds": 12.482,
+      "summary_status": "success",
+      "summary_duration_seconds": 40.07,
+      "summary_length": 7307,
+      "summary_input_tokens": 2617,
+      "summary_output_tokens": 1703
+    },
+    {
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.355
+        }
+      ],
+      "content_length": 2265,
+      "duration_seconds": 4.355,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.668,
+      "summary_length": 2403,
+      "summary_input_tokens": 682,
+      "summary_output_tokens": 640
+    },
+    {
+      "url": "https://www.anthropic.com/news/model-context-protocol",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.577
+        }
+      ],
+      "content_length": 5274,
+      "duration_seconds": 0.578,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.819,
+      "summary_length": 4662,
+      "summary_input_tokens": 1305,
+      "summary_output_tokens": 1665
+    },
+    {
+      "url": "https://atlan.com/know/google-a2a-protocol",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.784
+        }
+      ],
+      "content_length": 24438,
+      "duration_seconds": 5.785,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.018,
+      "summary_length": 9082,
+      "summary_input_tokens": 5665,
+      "summary_output_tokens": 2091
+    },
+    {
+      "url": "https://galileo.ai/blog/google-agent2agent-a2a-protocol-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.588
+        }
+      ],
+      "content_length": 20937,
+      "duration_seconds": 2.588,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.968,
+      "summary_length": 4968,
+      "summary_input_tokens": 3828,
+      "summary_output_tokens": 863
+    },
+    {
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/agent2agent-protocol-is-getting-an-upgrade",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.466
+        }
+      ],
+      "content_length": 9023,
+      "duration_seconds": 0.466,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 48,
+  "duration_seconds": 433.940844736062,
+  "report_length": 27002,
+  "context_length": 163423,
+  "id": 69,
+  "prompt": "Please provide a detailed explanation of the differences and connections between Google's recently released A2A protocol and the MCP protocol. Furthermore, elaborate on the innovative aspects of the A2A protocol and the specific problems it is designed to address.",
+  "language": "en",
+  "topic": "Software Development"
+}

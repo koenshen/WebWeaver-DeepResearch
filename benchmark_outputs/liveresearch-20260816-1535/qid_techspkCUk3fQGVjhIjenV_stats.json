@@ -1,0 +1,178 @@
+{
+  "total_llm_calls": 6,
+  "total_input_tokens": 123246,
+  "total_output_tokens": 10888,
+  "total_tokens": 134134,
+  "total_search_count": 19,
+  "total_search_results": 180,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1032,
+      "output_tokens": 1806,
+      "total_tokens": 2838,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5328,
+      "output_tokens": 118,
+      "total_tokens": 5446,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14756,
+      "output_tokens": 123,
+      "total_tokens": 14879,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25592,
+      "output_tokens": 96,
+      "total_tokens": 25688,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33799,
+      "output_tokens": 119,
+      "total_tokens": 33918,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42739,
+      "output_tokens": 8626,
+      "total_tokens": 51365,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "ArgoCD vs Tekton vs Spinnaker vs Flux comparison 2024",
+      "effective_query": "ArgoCD vs Tekton vs Spinnaker vs Flux comparison 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GitOps tools comparison ArgoCD Flux Spinnaker",
+      "effective_query": "GitOps tools comparison ArgoCD Flux Spinnaker",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ArgoCD deployment strategies canary blue green",
+      "effective_query": "ArgoCD deployment strategies canary blue green",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tekton pipelines CI/CD GKE multi-cluster",
+      "effective_query": "Tekton pipelines CI/CD GKE multi-cluster",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Spinnaker security RBAC secrets management HIPAA",
+      "effective_query": "Spinnaker security RBAC secrets management HIPAA",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Flux GitOps multi-tenant security compliance",
+      "effective_query": "Flux GitOps multi-tenant security compliance",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ArgoCD managed service Akuity cloud",
+      "effective_query": "ArgoCD managed service Akuity cloud",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tekton vs ArgoCD vs Jenkins X comparison pros cons",
+      "effective_query": "Tekton vs ArgoCD vs Jenkins X comparison pros cons",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spinnaker managed service Armory",
+      "effective_query": "Spinnaker managed service Armory",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Flux managed service ControlPlane Weave GitOps",
+      "effective_query": "Flux managed service ControlPlane Weave GitOps",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kubernetes CI/CD tools healthcare HIPAA compliance 2024",
+      "effective_query": "Kubernetes CI/CD tools healthcare HIPAA compliance 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ArgoCD pros cons 2024",
+      "effective_query": "ArgoCD pros cons 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Flux vs ArgoCD vs Spinnaker pros cons",
+      "effective_query": "Flux vs ArgoCD vs Spinnaker pros cons",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tekton pipelines pros cons limitation",
+      "effective_query": "Tekton pipelines pros cons limitation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Spinnaker pros cons 2024 Kubernetes",
+      "effective_query": "Spinnaker pros cons 2024 Kubernetes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GKE CI/CD ArgoCD Tekton Spinnaker Flux best practices",
+      "effective_query": "GKE CI/CD ArgoCD Tekton Spinnaker Flux best practices",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ArgoCD GKE managed offering comparison",
+      "effective_query": "ArgoCD GKE managed offering comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spinnaker GKE deployment managed service 2024",
+      "effective_query": "Spinnaker GKE deployment managed service 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Flux managed service enterprise offering 2024",
+      "effective_query": "Flux managed service enterprise offering 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 154,
+  "duration_seconds": 245.22166659031063,
+  "report_length": 33623,
+  "context_length": 234273,
+  "qid": "techspkCUk3fQGVjhIjenV",
+  "query": "In the context of Kubernetes-based applications running on GKE, what are the key differences among modern end-to-end CI/CD pipeline designs? Please compare how ArgoCD, Tekton, Spinnaker, and Flux differ in:\n        •        Deployment strategies (e.g., GitOps, canary, blue/green, rolling updates).\n        •        Scalability (handling large workloads, multi-cluster support, auto-scaling pipelines).\n        •        Security integration (RBAC, secrets management, compliance with industry requirements such as HIPAA in healthcare).\n        •        Operational complexity (setup, maintenance, learning curve, observability).\n\nFor each tool, provide at least 3 pros and 3 cons, and note if there are managed or hosted offerings available and how these compare to popular self-managed models.\n\nAssume the target industry could be healthcare or similarly regulated sectors where security, compliance, and reliability are high priorities."
+}

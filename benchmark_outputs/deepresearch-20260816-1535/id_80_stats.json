@@ -1,0 +1,431 @@
+{
+  "total_llm_calls": 18,
+  "total_input_tokens": 298976,
+  "total_output_tokens": 22485,
+  "total_tokens": 321461,
+  "total_search_count": 13,
+  "total_search_results": 118,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 931,
+      "output_tokens": 1875,
+      "total_tokens": 2806,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9792,
+      "output_tokens": 115,
+      "total_tokens": 9907,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18532,
+      "output_tokens": 228,
+      "total_tokens": 18760,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7068,
+      "output_tokens": 2509,
+      "total_tokens": 9577,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1879,
+      "output_tokens": 737,
+      "total_tokens": 2616,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 228,
+      "output_tokens": 459,
+      "total_tokens": 687,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12963,
+      "output_tokens": 4001,
+      "total_tokens": 16964,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12884,
+      "output_tokens": 791,
+      "total_tokens": 13675,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 540,
+      "output_tokens": 697,
+      "total_tokens": 1237,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 64379,
+      "output_tokens": 2767,
+      "total_tokens": 67146,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 64300,
+      "output_tokens": 811,
+      "total_tokens": 65111,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22883,
+      "output_tokens": 117,
+      "total_tokens": 23000,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34342,
+      "output_tokens": 250,
+      "total_tokens": 34592,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 735,
+      "output_tokens": 736,
+      "total_tokens": 1471,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11233,
+      "output_tokens": 1712,
+      "total_tokens": 12945,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 295,
+      "output_tokens": 512,
+      "total_tokens": 807,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 285,
+      "output_tokens": 237,
+      "total_tokens": 522,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35707,
+      "output_tokens": 3931,
+      "total_tokens": 39638,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "shoujo manga language gendered pronouns",
+      "effective_query": "shoujo manga language gendered pronouns",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japanese queer community language pronouns",
+      "effective_query": "Japanese queer community language pronouns",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "onee kotoba sentence final particles",
+      "effective_query": "onee kotoba sentence final particles",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "yakuwarigo shoujo manga gender",
+      "effective_query": "yakuwarigo shoujo manga gender",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "queer Japanese young adults pronoun use shoujo manga influence",
+      "effective_query": "queer Japanese young adults pronoun use shoujo manga influence",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "sentence final particles Japanese queer community",
+      "effective_query": "sentence final particles Japanese queer community",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "shoujo manga language influence Japanese LGBTQ",
+      "effective_query": "shoujo manga language influence Japanese LGBTQ",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Japanese queer language media consumption study",
+      "effective_query": "Japanese queer language media consumption study",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "shoujo manga influence pronoun use Japanese youth",
+      "effective_query": "shoujo manga influence pronoun use Japanese youth",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japanese queer youth language shoujo manga consumption",
+      "effective_query": "Japanese queer youth language shoujo manga consumption",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "shoujo manga gendered speech influence on readers",
+      "effective_query": "shoujo manga gendered speech influence on readers",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Japanese queer linguistics media influence",
+      "effective_query": "Japanese queer linguistics media influence",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "shoujo manga watashi boku atashi usage",
+      "effective_query": "shoujo manga watashi boku atashi usage",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.tofugu.com/japanese/queer-japanese",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.305
+        }
+      ],
+      "content_length": 27936,
+      "duration_seconds": 3.305,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.558,
+      "summary_length": 9823,
+      "summary_input_tokens": 7068,
+      "summary_output_tokens": 2509
+    },
+    {
+      "url": "https://www.tokyoweekender.com/art_and_culture/queer-japan-gender-japanese-language",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.128
+        }
+      ],
+      "content_length": 7396,
+      "duration_seconds": 11.129,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.026,
+      "summary_length": 2499,
+      "summary_input_tokens": 1879,
+      "summary_output_tokens": 737
+    },
+    {
+      "url": "https://theses.cz/id/3m3ezv/kloutvorova_dissertation.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.31
+        }
+      ],
+      "content_length": 98,
+      "duration_seconds": 4.311,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.152,
+      "summary_length": 717,
+      "summary_input_tokens": 228,
+      "summary_output_tokens": 459
+    },
+    {
+      "url": "https://www.mdpi.com/2226-471X/8/3/222",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.022
+        }
+      ],
+      "content_length": 47599,
+      "duration_seconds": 7.022,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.245,
+      "summary_length": 2362,
+      "summary_input_tokens": 12963,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://gupea.ub.gu.se/items/6e449a21-1ee6-4162-a6e9-8838e6fa5de1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.152
+        }
+      ],
+      "content_length": 1567,
+      "duration_seconds": 6.152,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.815,
+      "summary_length": 2582,
+      "summary_input_tokens": 540,
+      "summary_output_tokens": 697
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/LGBTQ_themes_in_anime_and_manga",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.522
+        }
+      ],
+      "content_length": 206989,
+      "duration_seconds": 3.522,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://unseenjapan.medium.com/why-are-more-japanese-girls-calling-themselves-boku-d9cc30ca2378",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.772
+        }
+      ],
+      "content_length": 1808,
+      "duration_seconds": 4.773,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.751,
+      "summary_length": 1223,
+      "summary_input_tokens": 735,
+      "summary_output_tokens": 736
+    },
+    {
+      "url": "https://www.academia.edu/39600002/Shoujo_manga_and_gender_identity",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.68
+        }
+      ],
+      "content_length": 46030,
+      "duration_seconds": 6.68,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://journals.linguisticsociety.org/proceedings/index.php/ExtendedAbs/article/view/514/424",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.345
+        }
+      ],
+      "content_length": 434,
+      "duration_seconds": 3.346,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.06,
+      "summary_length": 1112,
+      "summary_input_tokens": 295,
+      "summary_output_tokens": 512
+    },
+    {
+      "url": "https://kb.osu.edu/server/api/core/bitstreams/19805a1d-86b1-478a-b6a4-39f4f80296ff/content",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.087
+        }
+      ],
+      "content_length": 259,
+      "duration_seconds": 7.087,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.859,
+      "summary_length": 577,
+      "summary_input_tokens": 285,
+      "summary_output_tokens": 237
+    }
+  ],
+  "source_urls_count": 86,
+  "duration_seconds": 1299.379559027031,
+  "report_length": 15516,
+  "context_length": 170450,
+  "id": 80,
+  "prompt": "Please investigate the influence of mass media on language, specifically the queer community of Japan. I am trying to see if the consumption of shoujo manga by queer Japanese young adults affects their pronoun use and sentence ending particles. Both grammatical categories are gendered in Japanese and a distinct pattern emerges in shoujo manga compared to majority use in society, so observing a minority group would give insight into the effect of media in personal expression.",
+  "language": "en",
+  "topic": "Literature"
+}

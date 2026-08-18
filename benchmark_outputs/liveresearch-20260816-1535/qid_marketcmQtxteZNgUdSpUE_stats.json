@@ -1,0 +1,243 @@
+{
+  "total_llm_calls": 5,
+  "total_input_tokens": 205320,
+  "total_output_tokens": 10820,
+  "total_tokens": 216140,
+  "total_search_count": 31,
+  "total_search_results": 292,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 892,
+      "output_tokens": 263,
+      "total_tokens": 1155,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22353,
+      "output_tokens": 654,
+      "total_tokens": 23007,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42138,
+      "output_tokens": 169,
+      "total_tokens": 42307,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 58554,
+      "output_tokens": 155,
+      "total_tokens": 58709,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 81383,
+      "output_tokens": 9579,
+      "total_tokens": 90962,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "global e-commerce platform market size 2025 2026 growth rate",
+      "effective_query": "global e-commerce platform market size 2025 2026 growth rate",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "e-commerce platform market segmentation B2B B2C SMB enterprise 2025",
+      "effective_query": "e-commerce platform market segmentation B2B B2C SMB enterprise 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "cross-border e-commerce trends 2025 2026 growth",
+      "effective_query": "cross-border e-commerce trends 2025 2026 growth",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI tools for e-commerce merchants 2025 2026",
+      "effective_query": "AI tools for e-commerce merchants 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shopify GMV merchants 2025 2026",
+      "effective_query": "Shopify GMV merchants 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BigCommerce GMV revenue 2025 2026",
+      "effective_query": "BigCommerce GMV revenue 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WooCommerce market share merchant count 2025",
+      "effective_query": "WooCommerce market share merchant count 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Amazon marketplace GMV merchant count 2025",
+      "effective_query": "Amazon marketplace GMV merchant count 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shopify pricing tiers 2025 2026 Basic Shopify Plus",
+      "effective_query": "Shopify pricing tiers 2025 2026 Basic Shopify Plus",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "BigCommerce pricing tiers enterprise SMB 2025",
+      "effective_query": "BigCommerce pricing tiers enterprise SMB 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WooCommerce pricing cost 2025 2026",
+      "effective_query": "WooCommerce pricing cost 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Amazon marketplace seller fees pricing 2025",
+      "effective_query": "Amazon marketplace seller fees pricing 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "e-commerce platform market share comparison Shopify WooCommerce BigCommerce 2025",
+      "effective_query": "e-commerce platform market share comparison Shopify WooCommerce BigCommerce 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Shopify vs BigCommerce vs WooCommerce enterprise adoption 2025",
+      "effective_query": "Shopify vs BigCommerce vs WooCommerce enterprise adoption 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "e-commerce platform innovations AI partnerships 2025 2026",
+      "effective_query": "e-commerce platform innovations AI partnerships 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "integrated payments logistics e-commerce platform trend 2025 2026",
+      "effective_query": "integrated payments logistics e-commerce platform trend 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Shopify innovations partnerships 2025 2026 AI",
+      "effective_query": "Shopify innovations partnerships 2025 2026 AI",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "BigCommerce innovations partnerships 2025 2026",
+      "effective_query": "BigCommerce innovations partnerships 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WooCommerce innovations 2025 2026 AI",
+      "effective_query": "WooCommerce innovations 2025 2026 AI",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Amazon marketplace innovations 2025 2026",
+      "effective_query": "Amazon marketplace innovations 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "e-commerce platform market segmentation by customer size 2025",
+      "effective_query": "e-commerce platform market segmentation by customer size 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shopify Plus enterprise merchants 2025",
+      "effective_query": "Shopify Plus enterprise merchants 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BigCommerce enterprise merchants 2025",
+      "effective_query": "BigCommerce enterprise merchants 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Amazon marketplace GMV 2025 2026 third party",
+      "effective_query": "Amazon marketplace GMV 2025 2026 third party",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Shopify GMV 2025 $378 billion",
+      "effective_query": "Shopify GMV 2025 $378 billion",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "BigCommerce GMV $34 billion 2025",
+      "effective_query": "BigCommerce GMV $34 billion 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WooCommerce GMV estimate 2025",
+      "effective_query": "WooCommerce GMV estimate 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Shopify revenue 2025 $11.6 billion",
+      "effective_query": "Shopify revenue 2025 $11.6 billion",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Amazon marketplace seller count 2025",
+      "effective_query": "Amazon marketplace seller count 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "global e-commerce platform market size 2025 $11.55 billion Fortune Business Insights",
+      "effective_query": "global e-commerce platform market size 2025 $11.55 billion Fortune Business Insights",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "e-commerce platform market large enterprise SMB segment share 2025",
+      "effective_query": "e-commerce platform market large enterprise SMB segment share 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 254,
+  "duration_seconds": 372.87426669336855,
+  "report_length": 35674,
+  "context_length": 381852,
+  "qid": "marketcmQtxteZNgUdSpUE",
+  "query": "What is the size, growth trajectory, and segmentation of the global e-commerce platform market during 2025–2026? What macro trends (cross-border commerce, AI tools for merchants, integrated payments/logistics) are reshaping the industry? How do Shopify, Amazon Marketplace, BigCommerce, and WooCommerce position themselves in merchant adoption, GMV, and pricing tiers? What customer segments dominate (SMBs vs. enterprise), and what innovations or partnerships are driving differentiation? The report should be structured with clear sections (and subsections when appropriate), include tables or charts for quantitative comparisons, and provide cited data where available."
+}

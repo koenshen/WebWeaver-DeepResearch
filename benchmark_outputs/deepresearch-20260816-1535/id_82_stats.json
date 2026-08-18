@@ -1,0 +1,480 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 548303,
+  "total_output_tokens": 37806,
+  "total_tokens": 586109,
+  "total_search_count": 32,
+  "total_search_results": 298,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 900,
+      "output_tokens": 1452,
+      "total_tokens": 2352,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27849,
+      "output_tokens": 607,
+      "total_tokens": 28456,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57779,
+      "output_tokens": 4000,
+      "total_tokens": 61779,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57779,
+      "output_tokens": 3655,
+      "total_tokens": 61434,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57779,
+      "output_tokens": 2294,
+      "total_tokens": 60073,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25663,
+      "output_tokens": 2099,
+      "total_tokens": 27762,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13991,
+      "output_tokens": 1769,
+      "total_tokens": 15760,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12385,
+      "output_tokens": 3530,
+      "total_tokens": 15915,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60406,
+      "output_tokens": 11,
+      "total_tokens": 60417,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 61029,
+      "output_tokens": 1656,
+      "total_tokens": 62685,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7108,
+      "output_tokens": 3838,
+      "total_tokens": 10946,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35067,
+      "output_tokens": 198,
+      "total_tokens": 35265,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57500,
+      "output_tokens": 184,
+      "total_tokens": 57684,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 73068,
+      "output_tokens": 12513,
+      "total_tokens": 85581,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Post war reconstruction Europe Marshall Plan economic development",
+      "effective_query": "Post war reconstruction Europe Marshall Plan economic development",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "East Asian Miracle export-led growth industrial policy success factors",
+      "effective_query": "East Asian Miracle export-led growth industrial policy success factors",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Import substitution industrialization Latin America debt crisis 1980s",
+      "effective_query": "Import substitution industrialization Latin America debt crisis 1980s",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "China economic reform 1978 Deng Xiaoping development strategy",
+      "effective_query": "China economic reform 1978 Deng Xiaoping development strategy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Nordic model welfare state economic growth competitiveness",
+      "effective_query": "Nordic model welfare state economic growth competitiveness",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japan post war economic miracle zaibatsu keiretsu MITI",
+      "effective_query": "Japan post war economic miracle zaibatsu keiretsu MITI",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "South Korea development state heavy chemical industry Park Chung Hee",
+      "effective_query": "South Korea development state heavy chemical industry Park Chung Hee",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Chile Chicago Boys economic reforms privatization results",
+      "effective_query": "Chile Chicago Boys economic reforms privatization results",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "India 1991 economic liberalization reforms LPG",
+      "effective_query": "India 1991 economic liberalization reforms LPG",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Eastern Europe transition economy shock therapy mass privatization",
+      "effective_query": "Eastern Europe transition economy shock therapy mass privatization",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Developmental State theory Chalmers Johnson",
+      "effective_query": "Developmental State theory Chalmers Johnson",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Middle income trap Latin America vs East Asia comparison",
+      "effective_query": "Middle income trap Latin America vs East Asia comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Germany social market economy ordoliberalism post-war reconstruction",
+      "effective_query": "Germany social market economy ordoliberalism post-war reconstruction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "France postwar planning indicative planning Monnet Plan",
+      "effective_query": "France postwar planning indicative planning Monnet Plan",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Brazil import substitution industrialization economic development",
+      "effective_query": "Brazil import substitution industrialization economic development",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Turkey post-war development strategy import substitution",
+      "effective_query": "Turkey post-war development strategy import substitution",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Costa Rica development strategy welfare state",
+      "effective_query": "Costa Rica development strategy welfare state",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Botswana diamond-led development state capacity",
+      "effective_query": "Botswana diamond-led development state capacity",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mauritius export processing zone textile miracle",
+      "effective_query": "Mauritius export processing zone textile miracle",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Russia post-Soviet transition 1990s recession recovery",
+      "effective_query": "Russia post-Soviet transition 1990s recession recovery",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Poland shock therapy Balcerowicz Plan outcomes",
+      "effective_query": "Poland shock therapy Balcerowicz Plan outcomes",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Singapore Lee Kuan Yew economic development strategy",
+      "effective_query": "Singapore Lee Kuan Yew economic development strategy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Taiwan economic development Kuomintang industrial policy",
+      "effective_query": "Taiwan economic development Kuomintang industrial policy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Malaysia New Economic Policy development Bumiputera",
+      "effective_query": "Malaysia New Economic Policy development Bumiputera",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Austria post-war recovery nationalization industries",
+      "effective_query": "Austria post-war recovery nationalization industries",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ireland economic development Celtic Tiger 1990s",
+      "effective_query": "Ireland economic development Celtic Tiger 1990s",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Spain economic miracle desarrollismo Franco",
+      "effective_query": "Spain economic miracle desarrollismo Franco",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Finland post-war economic development export-led",
+      "effective_query": "Finland post-war economic development export-led",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Vietnam Doi Moi economic reform 1986",
+      "effective_query": "Vietnam Doi Moi economic reform 1986",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Indonesia Suharto New Order development strategy",
+      "effective_query": "Indonesia Suharto New Order development strategy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ghana economic development post-independence",
+      "effective_query": "Ghana economic development post-independence",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "South Africa post-apartheid economic policy",
+      "effective_query": "South Africa post-apartheid economic policy",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Marshall_Plan",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.06
+        }
+      ],
+      "content_length": 209103,
+      "duration_seconds": 4.06,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.882,
+      "summary_length": 20541,
+      "summary_input_tokens": 57779,
+      "summary_output_tokens": 4000
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/East_Asian_Miracle",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.814
+        }
+      ],
+      "content_length": 87700,
+      "duration_seconds": 3.814,
+      "summary_status": "failed",
+      "summary_duration_seconds": 35.32,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "BadRequestError: Error code: 400 - {'error': {'message': 'Model service provider exception: {Response code: 400, message: Bad Request, body: {\"request_id\":\"124aceaa-194c-4241-9c27-630164c756f4\",\"code\":\"InvalidParameter\",\"message\":\"Input data may contain inappropriate content. For details, see: https://***.com/***/***/***', 'type': 'bad_response_status_code', 'param': '', 'code': 'bad_response_status_code'}}"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Japanese_economic_miracle",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.268
+        }
+      ],
+      "content_length": 52895,
+      "duration_seconds": 1.269,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.265,
+      "summary_length": 6040,
+      "summary_input_tokens": 13991,
+      "summary_output_tokens": 1769
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Developmental_state",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.642
+        }
+      ],
+      "content_length": 50384,
+      "duration_seconds": 4.642,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.211,
+      "summary_length": 12430,
+      "summary_input_tokens": 12385,
+      "summary_output_tokens": 3530
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Reform_and_opening_up",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.083
+        }
+      ],
+      "content_length": 212229,
+      "duration_seconds": 10.083,
+      "summary_status": "failed",
+      "summary_duration_seconds": 112.538,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "BadRequestError: Error code: 400 - {'error': {'message': 'Model service provider exception: {Response code: 400, message: Bad Request, body: {\"request_id\":\"045ecca9-a284-4c06-a75d-4c9cbbee2886\",\"code\":\"InvalidParameter\",\"message\":\"Input data may contain inappropriate content. For details, see: https://***.com/***/***/***', 'type': 'bad_response_status_code', 'param': '', 'code': 'bad_response_status_code'}}"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Economic_liberalisation_in_India",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.19
+        }
+      ],
+      "content_length": 103827,
+      "duration_seconds": 3.19,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chicago_Boys",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.839
+        }
+      ],
+      "content_length": 24016,
+      "duration_seconds": 3.839,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Latin_American_debt_crisis",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.945
+        }
+      ],
+      "content_length": 37598,
+      "duration_seconds": 1.945,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 298,
+  "duration_seconds": 1173.2258460577577,
+  "report_length": 56451,
+  "context_length": 403348,
+  "id": 82,
+  "prompt": "Research and analyze the diverse paths taken by various countries in Europe, Asia, and the Americas to transition into the ranks of 'developed nations' following World War II. The analysis should cover their foundational conditions, resource endowments, development strategies, and other relevant factors.",
+  "language": "en",
+  "topic": "History"
+}

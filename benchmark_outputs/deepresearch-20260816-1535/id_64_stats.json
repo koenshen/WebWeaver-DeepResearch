@@ -1,0 +1,230 @@
+{
+  "total_llm_calls": 8,
+  "total_input_tokens": 127324,
+  "total_output_tokens": 14840,
+  "total_tokens": 142164,
+  "total_search_count": 8,
+  "total_search_results": 78,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 843,
+      "output_tokens": 192,
+      "total_tokens": 1035,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20244,
+      "output_tokens": 358,
+      "total_tokens": 20602,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21829,
+      "output_tokens": 2494,
+      "total_tokens": 24323,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27223,
+      "output_tokens": 1215,
+      "total_tokens": 28438,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11921,
+      "output_tokens": 2364,
+      "total_tokens": 14285,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5163,
+      "output_tokens": 1305,
+      "total_tokens": 6468,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14571,
+      "output_tokens": 1514,
+      "total_tokens": 16085,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25530,
+      "output_tokens": 5398,
+      "total_tokens": 30928,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "UAV attitude control cascaded PID parameter tuning methods",
+      "effective_query": "UAV attitude control cascaded PID parameter tuning methods",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "adaptive PID control UAV flight controller gain scheduling",
+      "effective_query": "adaptive PID control UAV flight controller gain scheduling",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "fuzzy PID UAV attitude control implementation",
+      "effective_query": "fuzzy PID UAV attitude control implementation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "neural network PID tuning quadcopter attitude control",
+      "effective_query": "neural network PID tuning quadcopter attitude control",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "genetic algorithm PID optimization UAV flight controller",
+      "effective_query": "genetic algorithm PID optimization UAV flight controller",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "robust PID control UAV varying flight conditions",
+      "effective_query": "robust PID control UAV varying flight conditions",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "LQR MPC comparison cascaded PID UAV attitude control",
+      "effective_query": "LQR MPC comparison cascaded PID UAV attitude control",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PX4 ArduPilot PID parameter tuning guide practical",
+      "effective_query": "PX4 ArduPilot PID parameter tuning guide practical",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8954855/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.175
+        }
+      ],
+      "content_length": 75283,
+      "duration_seconds": 1.175,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.357,
+      "summary_length": 11026,
+      "summary_input_tokens": 21829,
+      "summary_output_tokens": 2494
+    },
+    {
+      "url": "https://arxiv.org/html/2509.17423v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.984
+        }
+      ],
+      "content_length": 111985,
+      "duration_seconds": 1.984,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.594,
+      "summary_length": 2985,
+      "summary_input_tokens": 27223,
+      "summary_output_tokens": 1215
+    },
+    {
+      "url": "https://www.opastpublishers.com/open-access-articles/pid-control-and-alternative-control-approaches-in-uav-systems-9726.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.914
+        }
+      ],
+      "content_length": 42605,
+      "duration_seconds": 0.914,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.01,
+      "summary_length": 4271,
+      "summary_input_tokens": 11921,
+      "summary_output_tokens": 2364
+    },
+    {
+      "url": "https://docs.px4.io/main/en/config_mc/pid_tuning_guide_multicopter",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.675
+        }
+      ],
+      "content_length": 19035,
+      "duration_seconds": 1.675,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.108,
+      "summary_length": 3968,
+      "summary_input_tokens": 5163,
+      "summary_output_tokens": 1305
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12820076/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.022
+        }
+      ],
+      "content_length": 64502,
+      "duration_seconds": 1.023,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 72,
+  "duration_seconds": 775.2339521218091,
+  "report_length": 22957,
+  "context_length": 144690,
+  "id": 64,
+  "prompt": "Regarding the attitude control problem for UAVs, most open-source flight controllers currently implement cascaded PID control algorithms. However, a single set of PID controller parameters typically performs well only under specific flight conditions. In practical applications, UAVs operate across diverse flight states. What methods can be employed to enhance the actual control performance of PID algorithms, and how should PID parameters be optimally selected?",
+  "language": "en",
+  "topic": "Science & Technology"
+}

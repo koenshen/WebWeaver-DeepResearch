@@ -1,0 +1,511 @@
+{
+  "total_llm_calls": 19,
+  "total_input_tokens": 468779,
+  "total_output_tokens": 42776,
+  "total_tokens": 511555,
+  "total_search_count": 29,
+  "total_search_results": 259,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 847,
+      "output_tokens": 204,
+      "total_tokens": 1051,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11426,
+      "output_tokens": 184,
+      "total_tokens": 11610,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26997,
+      "output_tokens": 948,
+      "total_tokens": 27945,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26997,
+      "output_tokens": 1809,
+      "total_tokens": 28806,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53982,
+      "output_tokens": 1744,
+      "total_tokens": 55726,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7164,
+      "output_tokens": 1033,
+      "total_tokens": 8197,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15432,
+      "output_tokens": 678,
+      "total_tokens": 16110,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13170,
+      "output_tokens": 137,
+      "total_tokens": 13307,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23627,
+      "output_tokens": 121,
+      "total_tokens": 23748,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32352,
+      "output_tokens": 788,
+      "total_tokens": 33140,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44944,
+      "output_tokens": 10155,
+      "total_tokens": 55099,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 54747,
+      "output_tokens": 9627,
+      "total_tokens": 64374,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8952,
+      "output_tokens": 973,
+      "total_tokens": 9925,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9411,
+      "output_tokens": 1332,
+      "total_tokens": 10743,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7217,
+      "output_tokens": 1088,
+      "total_tokens": 8305,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8091,
+      "output_tokens": 1540,
+      "total_tokens": 9631,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6014,
+      "output_tokens": 827,
+      "total_tokens": 6841,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 56883,
+      "output_tokens": 1293,
+      "total_tokens": 58176,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60526,
+      "output_tokens": 8295,
+      "total_tokens": 68821,
+      "message_count": 18
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "best coffee makers 2025",
+      "effective_query": "best coffee makers 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "best coffee makers 2026",
+      "effective_query": "best coffee makers 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "coffee maker brew temperature consistency test",
+      "effective_query": "coffee maker brew temperature consistency test",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "coffee maker brewing time minutes",
+      "effective_query": "coffee maker brewing time minutes",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "coffee maker warranty length years comparison",
+      "effective_query": "coffee maker warranty length years comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Fellow Aiden coffee maker brew temperature consistency warranty",
+      "effective_query": "Fellow Aiden coffee maker brew temperature consistency warranty",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Breville Luxe Brewer brew temperature time warranty",
+      "effective_query": "Breville Luxe Brewer brew temperature time warranty",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ratio Six coffee maker brew temperature time warranty",
+      "effective_query": "Ratio Six coffee maker brew temperature time warranty",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Technivorm Moccamaster brew temperature consistency variance",
+      "effective_query": "Technivorm Moccamaster brew temperature consistency variance",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "OXO Brew 9-Cup coffee maker brew temperature consistency warranty",
+      "effective_query": "OXO Brew 9-Cup coffee maker brew temperature consistency warranty",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ninja coffee maker brew temperature time warranty 2025",
+      "effective_query": "Ninja coffee maker brew temperature time warranty 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bunn Speed Brew coffee maker brew temperature time warranty",
+      "effective_query": "Bunn Speed Brew coffee maker brew temperature time warranty",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cuisinart coffee maker brew temperature consistency warranty",
+      "effective_query": "Cuisinart coffee maker brew temperature consistency warranty",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Ninja Luxe Cafe Pro brew temperature time warranty",
+      "effective_query": "Ninja Luxe Cafe Pro brew temperature time warranty",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "De'Longhi coffee maker brew temperature consistency warranty",
+      "effective_query": "De'Longhi coffee maker brew temperature consistency warranty",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Braun PureFlavor coffee maker brew temperature time warranty",
+      "effective_query": "Braun PureFlavor coffee maker brew temperature time warranty",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "coffee maker brew temperature variance test results",
+      "effective_query": "coffee maker brew temperature variance test results",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SCA certified coffee maker brew temperature consistency data",
+      "effective_query": "SCA certified coffee maker brew temperature consistency data",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "brew temperature consistency drip coffee maker comparison 2025",
+      "effective_query": "brew temperature consistency drip coffee maker comparison 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "best coffee maker 2025 breville precision brewer temperature consistency",
+      "effective_query": "best coffee maker 2025 breville precision brewer temperature consistency",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ratio Six coffee maker brew temperature variance data",
+      "effective_query": "Ratio Six coffee maker brew temperature variance data",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cuisinart PerfecTemp DCC-3200 brew temperature consistency",
+      "effective_query": "Cuisinart PerfecTemp DCC-3200 brew temperature consistency",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ninja CE251 brew temperature range",
+      "effective_query": "Ninja CE251 brew temperature range",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "De'Longhi Dinamica Plus brew temperature consistency brew time",
+      "effective_query": "De'Longhi Dinamica Plus brew temperature consistency brew time",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Braun KF5650 brew temperature brew time",
+      "effective_query": "Braun KF5650 brew temperature brew time",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bunn Speed Brew temperature consistency brew time specifications",
+      "effective_query": "Bunn Speed Brew temperature consistency brew time specifications",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "OXO Rapid Brewer brew temperature time warranty",
+      "effective_query": "OXO Rapid Brewer brew temperature time warranty",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Mr. Coffee Perfect Brew temperature time warranty",
+      "effective_query": "Mr. Coffee Perfect Brew temperature time warranty",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ratio Eight coffee maker brew temperature time warranty",
+      "effective_query": "Ratio Eight coffee maker brew temperature time warranty",
+      "retriever": "tavily",
+      "num_results": 7
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.seriouseats.com/best-coffee-makers-7484583",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.038
+        }
+      ],
+      "content_length": 77963,
+      "duration_seconds": 2.038,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-coffee-maker",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.744
+        }
+      ],
+      "content_length": 181688,
+      "duration_seconds": 5.744,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.304,
+      "summary_length": 3209,
+      "summary_input_tokens": 53982,
+      "summary_output_tokens": 1744
+    },
+    {
+      "url": "https://www.cnn.com/cnn-underscored/reviews/best-coffee-makers",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.883
+        }
+      ],
+      "content_length": 24944,
+      "duration_seconds": 1.884,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.04,
+      "summary_length": 2315,
+      "summary_input_tokens": 7164,
+      "summary_output_tokens": 1033
+    },
+    {
+      "url": "https://www.consumerreports.org/appliances/coffee-makers/best-coffee-makers-of-the-year-a9612622702",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.476
+        }
+      ],
+      "content_length": 53314,
+      "duration_seconds": 5.477,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.275,
+      "summary_length": 2157,
+      "summary_input_tokens": 15432,
+      "summary_output_tokens": 678
+    },
+    {
+      "url": "https://www.coffeeness.de/en/ratio-six-coffee-maker-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.12
+        }
+      ],
+      "content_length": 33876,
+      "duration_seconds": 9.12,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.019,
+      "summary_length": 1890,
+      "summary_input_tokens": 8952,
+      "summary_output_tokens": 973
+    },
+    {
+      "url": "https://www.coffeeness.de/en/moccamaster-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.564
+        }
+      ],
+      "content_length": 33969,
+      "duration_seconds": 6.564,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.298,
+      "summary_length": 2313,
+      "summary_input_tokens": 9411,
+      "summary_output_tokens": 1332
+    },
+    {
+      "url": "https://www.coffeeness.de/en/fellow-aiden-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.966
+        }
+      ],
+      "content_length": 26552,
+      "duration_seconds": 5.966,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.308,
+      "summary_length": 2074,
+      "summary_input_tokens": 7217,
+      "summary_output_tokens": 1088
+    },
+    {
+      "url": "https://www.coffeeness.de/en/breville-luxe-brewer-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.104
+        }
+      ],
+      "content_length": 30950,
+      "duration_seconds": 6.104,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.915,
+      "summary_length": 1852,
+      "summary_input_tokens": 8091,
+      "summary_output_tokens": 1540
+    },
+    {
+      "url": "https://www.coffeeness.de/en/bunn-speed-brew-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.08
+        }
+      ],
+      "content_length": 22500,
+      "duration_seconds": 7.081,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.517,
+      "summary_length": 2781,
+      "summary_input_tokens": 6014,
+      "summary_output_tokens": 827
+    }
+  ],
+  "source_urls_count": 241,
+  "duration_seconds": 762.1022073701024,
+  "report_length": 18135,
+  "context_length": 273399,
+  "qid": "rankliQW3nT9D69Y9z2IwY",
+  "query": "What are the top 12 coffee makers released between 2025 and 2026, identified based on an aggregate ranking that combines brew temperature consistency (°F variance), brewing time (minutes), and warranty length (years), considering all types of coffee makers? In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking."
+}

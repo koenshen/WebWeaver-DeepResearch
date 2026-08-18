@@ -1,0 +1,504 @@
+{
+  "total_llm_calls": 21,
+  "total_input_tokens": 388072,
+  "total_output_tokens": 51800,
+  "total_tokens": 439872,
+  "total_search_count": 18,
+  "total_search_results": 173,
+  "total_visit_count": 11,
+  "total_visit_success": 11,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 845,
+      "output_tokens": 99,
+      "total_tokens": 944,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13504,
+      "output_tokens": 189,
+      "total_tokens": 13693,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15255,
+      "output_tokens": 4001,
+      "total_tokens": 19256,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15255,
+      "output_tokens": 4001,
+      "total_tokens": 19256,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19419,
+      "output_tokens": 738,
+      "total_tokens": 20157,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25833,
+      "output_tokens": 4001,
+      "total_tokens": 29834,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38249,
+      "output_tokens": 1229,
+      "total_tokens": 39478,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18267,
+      "output_tokens": 2340,
+      "total_tokens": 20607,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18346,
+      "output_tokens": 4001,
+      "total_tokens": 22347,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18267,
+      "output_tokens": 1106,
+      "total_tokens": 19373,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15708,
+      "output_tokens": 2663,
+      "total_tokens": 18371,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17389,
+      "output_tokens": 115,
+      "total_tokens": 17504,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30178,
+      "output_tokens": 221,
+      "total_tokens": 30399,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9681,
+      "output_tokens": 3313,
+      "total_tokens": 12994,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14707,
+      "output_tokens": 1766,
+      "total_tokens": 16473,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18344,
+      "output_tokens": 4001,
+      "total_tokens": 22345,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18344,
+      "output_tokens": 4001,
+      "total_tokens": 22345,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 350,
+      "output_tokens": 1952,
+      "total_tokens": 2302,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 400,
+      "output_tokens": 1125,
+      "total_tokens": 1525,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33589,
+      "output_tokens": 127,
+      "total_tokens": 33716,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46142,
+      "output_tokens": 10811,
+      "total_tokens": 56953,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "badminton player action recognition deep learning survey",
+      "effective_query": "badminton player action recognition deep learning survey",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "badminton video analysis object detection tracking shuttlecock",
+      "effective_query": "badminton video analysis object detection tracking shuttlecock",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "sports action recognition temporal convolutional network badminton",
+      "effective_query": "sports action recognition temporal convolutional network badminton",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "badminton tactical analysis deep learning",
+      "effective_query": "badminton tactical analysis deep learning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "badminton player action prediction machine learning",
+      "effective_query": "badminton player action prediction machine learning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "sports video action anticipation forecasting deep learning",
+      "effective_query": "sports video action anticipation forecasting deep learning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "badminton shuttlecock tracking TrackNet deep learning",
+      "effective_query": "badminton shuttlecock tracking TrackNet deep learning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "badminton player pose estimation OpenPose AlphaPose",
+      "effective_query": "badminton player pose estimation OpenPose AlphaPose",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "badminton stroke recognition LSTM CNN",
+      "effective_query": "badminton stroke recognition LSTM CNN",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "badminton tactical intent recognition AI",
+      "effective_query": "badminton tactical intent recognition AI",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "badminton shot prediction transformer model",
+      "effective_query": "badminton shot prediction transformer model",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "state-of-the-art object detection YOLOv8 badminton player detection",
+      "effective_query": "state-of-the-art object detection YOLOv8 badminton player detection",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "badminton pose estimation dataset ShuttleSet",
+      "effective_query": "badminton pose estimation dataset ShuttleSet",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "badminton rally analysis deep learning literature review",
+      "effective_query": "badminton rally analysis deep learning literature review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "video action recognition 3D CNN I3D SlowFast sports",
+      "effective_query": "video action recognition 3D CNN I3D SlowFast sports",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "badminton action quality assessment deep learning",
+      "effective_query": "badminton action quality assessment deep learning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "TrackNetV3 shuttlecock tracking accuracy performance",
+      "effective_query": "TrackNetV3 shuttlecock tracking accuracy performance",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ShuttleNet badminton stroke forecasting",
+      "effective_query": "ShuttleNet badminton stroke forecasting",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.nature.com/articles/s41598-025-02771-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.853
+        }
+      ],
+      "content_length": 66515,
+      "duration_seconds": 5.853,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/html/2403.12385v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.638
+        }
+      ],
+      "content_length": 77116,
+      "duration_seconds": 9.639,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.863,
+      "summary_length": 3212,
+      "summary_input_tokens": 19419,
+      "summary_output_tokens": 738
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/24/13/4372",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.58
+        }
+      ],
+      "content_length": 92827,
+      "duration_seconds": 4.58,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405844024148967",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.907
+        }
+      ],
+      "content_length": 112998,
+      "duration_seconds": 6.907,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.95,
+      "summary_length": 1404,
+      "summary_input_tokens": 38249,
+      "summary_output_tokens": 1229
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11563442",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.223
+        }
+      ],
+      "content_length": 74412,
+      "duration_seconds": 1.223,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-025-87610-7",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.366
+        }
+      ],
+      "content_length": 55346,
+      "duration_seconds": 7.367,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.013,
+      "summary_length": 13035,
+      "summary_input_tokens": 15708,
+      "summary_output_tokens": 2663
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024W/CVsports/papers/Ibh_A_Stroke_of_Genius_Predicting_the_Next_Move_in_Badminton_CVPRW_2024_paper.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.88
+        }
+      ],
+      "content_length": 39860,
+      "duration_seconds": 3.88,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.162,
+      "summary_length": 12261,
+      "summary_input_tokens": 9681,
+      "summary_output_tokens": 3313
+    },
+    {
+      "url": "https://arxiv.org/html/2502.21085v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.754
+        }
+      ],
+      "content_length": 54431,
+      "duration_seconds": 3.754,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11563442",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.173
+        }
+      ],
+      "content_length": 74412,
+      "duration_seconds": 1.173,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.263,
+      "summary_length": 784,
+      "summary_input_tokens": 18344,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://dr.lib.iastate.edu/bitstreams/24171391-e255-411c-8c4e-0d0e3d7c0953/download",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.086
+        }
+      ],
+      "content_length": 252,
+      "duration_seconds": 6.086,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.116,
+      "summary_length": 1644,
+      "summary_input_tokens": 350,
+      "summary_output_tokens": 1952
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/3413584",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.368
+        }
+      ],
+      "content_length": 512,
+      "duration_seconds": 4.368,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.192,
+      "summary_length": 1423,
+      "summary_input_tokens": 400,
+      "summary_output_tokens": 1125
+    }
+  ],
+  "source_urls_count": 134,
+  "duration_seconds": 1539.680396007374,
+  "report_length": 46306,
+  "context_length": 260776,
+  "id": 92,
+  "prompt": "For a research project titled 'Analysis and Study of Singles Badminton Player Actions Using Sports Videos,' please refine and optimize the following four research components: 1) Object Detection and Tracking within Badminton Videos; 2) Recognition of Technical Actions performed by Singles Players; 3) Recognition of Tactical Intent behind Singles Players' Actions; 4) Prediction of Singles Players' Subsequent Actions.",
+  "language": "en",
+  "topic": "Sports & Fitness"
+}

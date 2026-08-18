@@ -1,0 +1,146 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 68556,
+  "total_output_tokens": 7563,
+  "total_tokens": 76119,
+  "total_search_count": 16,
+  "total_search_results": 147,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 943,
+      "output_tokens": 1096,
+      "total_tokens": 2039,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8838,
+      "output_tokens": 167,
+      "total_tokens": 9005,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22119,
+      "output_tokens": 396,
+      "total_tokens": 22515,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36656,
+      "output_tokens": 5904,
+      "total_tokens": 42560,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "high altitude pulmonary edema pathophysiology ski mountaineering",
+      "effective_query": "high altitude pulmonary edema pathophysiology ski mountaineering",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE case report ski mountaineer 2020",
+      "effective_query": "HAPE case report ski mountaineer 2020",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE pathophysiology exaggerated hypoxic pulmonary vasoconstriction uneven",
+      "effective_query": "HAPE pathophysiology exaggerated hypoxic pulmonary vasoconstriction uneven",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "capillary stress failure HAPE mechanism",
+      "effective_query": "capillary stress failure HAPE mechanism",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE treatment nifedipine dexamethasone evidence 2020",
+      "effective_query": "HAPE treatment nifedipine dexamethasone evidence 2020",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE prevention acetazolamide nifedipine tadalafil acclimatization protocol",
+      "effective_query": "HAPE prevention acetazolamide nifedipine tadalafil acclimatization protocol",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE case series 2020 2021 2022 2023 2024 2025 2026",
+      "effective_query": "HAPE case series 2020 2021 2022 2023 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ski mountaineering HAPE incidence altitude 3000 meters",
+      "effective_query": "ski mountaineering HAPE incidence altitude 3000 meters",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE long-term recovery outcomes lung function",
+      "effective_query": "HAPE long-term recovery outcomes lung function",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE recurrence prevention strategies high altitude",
+      "effective_query": "HAPE recurrence prevention strategies high altitude",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HAPE ski mountaineer case report 2022 2023",
+      "effective_query": "HAPE ski mountaineer case report 2022 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "high altitude pulmonary edema review 2023 2024 2025",
+      "effective_query": "high altitude pulmonary edema review 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HAPE pathophysiology 2024 review",
+      "effective_query": "HAPE pathophysiology 2024 review",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE treatment guidelines 2024 2025",
+      "effective_query": "HAPE treatment guidelines 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HAPE long-term pulmonary hypertension follow-up",
+      "effective_query": "HAPE long-term pulmonary hypertension follow-up",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "acclimatization staged ascent protocol HAPE prevention",
+      "effective_query": "acclimatization staged ascent protocol HAPE prevention",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 96,
+  "duration_seconds": 483.6639257725328,
+  "report_length": 23121,
+  "context_length": 185340,
+  "qid": "lifespOPMqhxL5pPFJsWd8",
+  "query": "In ski mountaineers operating at altitudes ≥3,000 m who develop high-altitude pulmonary edema (HAPE), what are the predominant pathophysiological mechanisms, how have comparable cases been documented across the high-altitude medicine literature (including case reports and case series), which acute and long-term treatments have the best outcomes, and which acclimatization and prevention protocols most effectively reduce recurrence—considering the full historical record with an emphasis on evidence from 2020–2026?"
+}

@@ -1,0 +1,183 @@
+{
+  "total_llm_calls": 5,
+  "total_input_tokens": 149381,
+  "total_output_tokens": 10852,
+  "total_tokens": 160233,
+  "total_search_count": 21,
+  "total_search_results": 195,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 912,
+      "output_tokens": 788,
+      "total_tokens": 1700,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18035,
+      "output_tokens": 199,
+      "total_tokens": 18234,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33282,
+      "output_tokens": 139,
+      "total_tokens": 33421,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41855,
+      "output_tokens": 137,
+      "total_tokens": 41992,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 55297,
+      "output_tokens": 9589,
+      "total_tokens": 64886,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Illinois BIPA 740 ILCS 14 current text 2025 2026 amendments",
+      "effective_query": "Illinois BIPA 740 ILCS 14 current text 2025 2026 amendments",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Texas CUBI Tex Bus & Com Code 503.001 2023 2024 2025 updates",
+      "effective_query": "Texas CUBI Tex Bus & Com Code 503.001 2023 2024 2025 updates",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Washington RCW 19.375 biometric law current amendments 2025",
+      "effective_query": "Washington RCW 19.375 biometric law current amendments 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Illinois BIPA class action retail healthcare workplace 2024 2025",
+      "effective_query": "Illinois BIPA class action retail healthcare workplace 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Texas CUBI lawsuit enforcement case 2024 2025 retail healthcare workplace",
+      "effective_query": "Texas CUBI lawsuit enforcement case 2024 2025 retail healthcare workplace",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Washington biometric privacy law class action enforcement 2024 2025",
+      "effective_query": "Washington biometric privacy law class action enforcement 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Washington My Health My Data Act biometric private right of action 2024 2025 class action",
+      "effective_query": "Washington My Health My Data Act biometric private right of action 2024 2025 class action",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Texas CUBI retail healthcare workplace enforcement cases 2024 2025",
+      "effective_query": "Texas CUBI retail healthcare workplace enforcement cases 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Washington RCW 19.375 enforcement case AG 2024 2025",
+      "effective_query": "Washington RCW 19.375 enforcement case AG 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Illinois BIPA healthcare hospital case 2024 2025",
+      "effective_query": "Illinois BIPA healthcare hospital case 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Illinois BIPA retail consumer class action settlement 2024 2025",
+      "effective_query": "Illinois BIPA retail consumer class action settlement 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Texas CUBI Google settlement 2025 details",
+      "effective_query": "Texas CUBI Google settlement 2025 details",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Washington RCW 19.375 penalty structure private right of action enforcement",
+      "effective_query": "Washington RCW 19.375 penalty structure private right of action enforcement",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Illinois BIPA section 15 consent requirements written release 2024 amendment",
+      "effective_query": "Illinois BIPA section 15 consent requirements written release 2024 amendment",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Texas CUBI retention destruction requirement reasonable time",
+      "effective_query": "Texas CUBI retention destruction requirement reasonable time",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BIPA CUBI Washington biometric law comparison chart 2025",
+      "effective_query": "BIPA CUBI Washington biometric law comparison chart 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Illinois BIPA workplace fingerprint timeclock class action settlement 2024 2025",
+      "effective_query": "Illinois BIPA workplace fingerprint timeclock class action settlement 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Texas CUBI workplace employee biometric consent 2024",
+      "effective_query": "Texas CUBI workplace employee biometric consent 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Washington My Health My Data Act biometric class action 2025 retail",
+      "effective_query": "Washington My Health My Data Act biometric class action 2025 retail",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Clearview AI BIPA settlement 2024 2025",
+      "effective_query": "Clearview AI BIPA settlement 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Speedway BIPA settlement 2024 2025 finger scan employees",
+      "effective_query": "Speedway BIPA settlement 2024 2025 finger scan employees",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 138,
+  "duration_seconds": 384.0427566561848,
+  "report_length": 39383,
+  "context_length": 293723,
+  "qid": "policy6ukPGIQni5apWCMS",
+  "query": "Target audience: a privacy compliance manager managing both consumer-facing and employee biometric data (e.g., facial recognition, fingerprints, voiceprints, and time-tracking systems) across states, compare the most current enforceable versions (including recent amendments) of Illinois’ BIPA, Texas’ CUBI, and Washington’s biometric law. Goal: analyze across consent mechanisms, penalty structures, private right of action availability, and technology restrictions. Provide:\n\n- A short description of each law\n- A multi-column comparison table covering all dimensions\n- Multiple real-world enforcement cases and class action examples per law, with relevance to retail, healthcare, and workplace contexts\n- An analysis of strategic implications for enterprises with multi-state biometric data operations"
+}

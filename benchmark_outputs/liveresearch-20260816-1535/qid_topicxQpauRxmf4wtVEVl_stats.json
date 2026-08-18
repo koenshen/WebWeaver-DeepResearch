@@ -1,0 +1,343 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 175115,
+  "total_output_tokens": 26013,
+  "total_tokens": 201128,
+  "total_search_count": 22,
+  "total_search_results": 197,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1013,
+      "output_tokens": 1312,
+      "total_tokens": 2325,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3576,
+      "output_tokens": 174,
+      "total_tokens": 3750,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13122,
+      "output_tokens": 273,
+      "total_tokens": 13395,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2041,
+      "output_tokens": 4001,
+      "total_tokens": 6042,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2041,
+      "output_tokens": 4001,
+      "total_tokens": 6042,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 360,
+      "output_tokens": 3787,
+      "total_tokens": 4147,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1238,
+      "output_tokens": 930,
+      "total_tokens": 2168,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23812,
+      "output_tokens": 3650,
+      "total_tokens": 27462,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14049,
+      "output_tokens": 124,
+      "total_tokens": 14173,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27689,
+      "output_tokens": 184,
+      "total_tokens": 27873,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37195,
+      "output_tokens": 115,
+      "total_tokens": 37310,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48979,
+      "output_tokens": 7462,
+      "total_tokens": 56441,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AAP screen time guidelines 2024 2025 children 10 year old",
+      "effective_query": "AAP screen time guidelines 2024 2025 children 10 year old",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "educational apps effectiveness children learning 2024 research",
+      "effective_query": "educational apps effectiveness children learning 2024 research",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "screen time effects sleep behavior social skills children 2024 2025",
+      "effective_query": "screen time effects sleep behavior social skills children 2024 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "interactive vs passive screen time children impact research",
+      "effective_query": "interactive vs passive screen time children impact research",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "practical screen time management strategies working parents",
+      "effective_query": "practical screen time management strategies working parents",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Common Sense Media screen time guidelines 2024 2025 school age children",
+      "effective_query": "Common Sense Media screen time guidelines 2024 2025 school age children",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AAP 2026 screen time guidelines no time limits",
+      "effective_query": "AAP 2026 screen time guidelines no time limits",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "screen time blue light sleep children melatonin",
+      "effective_query": "screen time blue light sleep children melatonin",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "educational apps meta-analysis 2024 2025 efficacy",
+      "effective_query": "educational apps meta-analysis 2024 2025 efficacy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "working parents screen time strategies without battles",
+      "effective_query": "working parents screen time strategies without battles",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "How to manage screen time conflict with 10 year old",
+      "effective_query": "How to manage screen time conflict with 10 year old",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "active vs passive screen time children social emotional development",
+      "effective_query": "active vs passive screen time children social emotional development",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Common Sense Census 2025 media use 8-12 year olds screen time hours",
+      "effective_query": "Common Sense Census 2025 media use 8-12 year olds screen time hours",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AAP 5 Cs of media use school age children",
+      "effective_query": "AAP 5 Cs of media use school age children",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "screen time displacement physical activity outdoor play children",
+      "effective_query": "screen time displacement physical activity outdoor play children",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "parental co-viewing screen time benefits children",
+      "effective_query": "parental co-viewing screen time benefits children",
+      "retriever": "tavily",
+      "num_results": 0
+    },
+    {
+      "query": "blue light screen time 1 hour before bed children melatonin study",
+      "effective_query": "blue light screen time 1 hour before bed children melatonin study",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Screen time social skills development children 8-12 years old studies",
+      "effective_query": "Screen time social skills development children 8-12 years old studies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "video games cooperative play social skills children research",
+      "effective_query": "video games cooperative play social skills children research",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Harvard educational apps meta-analysis Kim Gilbert 2024",
+      "effective_query": "Harvard educational apps meta-analysis Kim Gilbert 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "replacement strategy screen time busy parents practical",
+      "effective_query": "replacement strategy screen time busy parents practical",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "American Academy of Pediatrics screen time school age children 2024 2025 entertainment",
+      "effective_query": "American Academy of Pediatrics screen time school age children 2024 2025 entertainment",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://health.choc.org/updated-aap-recommendations-for-screen-time",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.484
+        }
+      ],
+      "content_length": 8246,
+      "duration_seconds": 4.484,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://publications.aap.org/pediatrics/article/157/2/e2025075320/206129/Digital-Ecosystems-Children-and-Adolescents-Policy",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.626
+        }
+      ],
+      "content_length": 359,
+      "duration_seconds": 0.626,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.054,
+      "summary_length": 1702,
+      "summary_input_tokens": 360,
+      "summary_output_tokens": 3787
+    },
+    {
+      "url": "https://www.apa.org/news/press/releases/2025/06/screen-time-problems-children",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.643
+        }
+      ],
+      "content_length": 5191,
+      "duration_seconds": 10.643,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41599-026-06609-1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.056
+        }
+      ],
+      "content_length": 102093,
+      "duration_seconds": 7.056,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1737937/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.453
+        }
+      ],
+      "content_length": 82614,
+      "duration_seconds": 6.453,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 147,
+  "duration_seconds": 966.8393166447058,
+  "report_length": 28909,
+  "context_length": 259067,
+  "qid": "topicxQpauRxmf4wtVEVl",
+  "query": "As a working parent of a 10-year-old trying to balance career and family, help me understand the real impact of both passive screen time (like TV and YouTube) and interactive screen time (like educational apps, games, and tablets) on children of similar age. I want to know (1) how much screen time is actually harmful and what types of content or activities matter most at this age, (2) whether educational apps and online learning are genuinely helping my child learn or just keeping them busy, (3) how screen time affects children's sleep, behavior, and social skills in ways I can actually observe, and (4) what realistic strategies work for busy families to manage screen time with children without constant battles. Give me practical guidance based on recent research, not just general recommendations that don't fit real family life."
+}

@@ -1,0 +1,287 @@
+{
+  "total_llm_calls": 7,
+  "total_input_tokens": 324043,
+  "total_output_tokens": 5353,
+  "total_tokens": 329396,
+  "total_search_count": 36,
+  "total_search_results": 332,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 851,
+      "output_tokens": 199,
+      "total_tokens": 1050,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8673,
+      "output_tokens": 228,
+      "total_tokens": 8901,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27508,
+      "output_tokens": 191,
+      "total_tokens": 27699,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46976,
+      "output_tokens": 512,
+      "total_tokens": 47488,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 63220,
+      "output_tokens": 457,
+      "total_tokens": 63677,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 81215,
+      "output_tokens": 216,
+      "total_tokens": 81431,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 95600,
+      "output_tokens": 3550,
+      "total_tokens": 99150,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "2026 beauty brand creator incubator program launch",
+      "effective_query": "2026 beauty brand creator incubator program launch",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 cosmetics brand TikTok 1 million followers milestone",
+      "effective_query": "2026 cosmetics brand TikTok 1 million followers milestone",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "publicly traded cosmetics company creator incubator 2026",
+      "effective_query": "publicly traded cosmetics company creator incubator 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 TikTok 1 million followers beauty brand milestone",
+      "effective_query": "2026 TikTok 1 million followers beauty brand milestone",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "publicly traded beauty brand creator incubator program 2026",
+      "effective_query": "publicly traded beauty brand creator incubator program 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "e.l.f. Cosmetics creator incubator program 2026",
+      "effective_query": "e.l.f. Cosmetics creator incubator program 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Estée Lauder creator incubator 2026 TikTok",
+      "effective_query": "Estée Lauder creator incubator 2026 TikTok",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Coty creator incubator program 2026",
+      "effective_query": "Coty creator incubator program 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TikTok 1 million followers beauty brand 2026 announcement",
+      "effective_query": "TikTok 1 million followers beauty brand 2026 announcement",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "US publicly traded cosmetics brand TikTok 1 million 2026",
+      "effective_query": "US publicly traded cosmetics brand TikTok 1 million 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "creator incubator program beauty brand 2026 press release",
+      "effective_query": "creator incubator program beauty brand 2026 press release",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2026 creator incubator program beauty brand",
+      "effective_query": "2026 creator incubator program beauty brand",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TikTok creator incubator beauty brand 2026",
+      "effective_query": "TikTok creator incubator beauty brand 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 brand incubator program TikTok creators cosmetics",
+      "effective_query": "2026 brand incubator program TikTok creators cosmetics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "beauty brand TikTok 1 million followers 2026",
+      "effective_query": "beauty brand TikTok 1 million followers 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cosmetics brand launches creator program 2026",
+      "effective_query": "cosmetics brand launches creator program 2026",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "TikTok 1M followers milestone 2026 beauty brand press release",
+      "effective_query": "TikTok 1M followers milestone 2026 beauty brand press release",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Socialblade 1 million TikTok followers beauty brand 2026",
+      "effective_query": "Socialblade 1 million TikTok followers beauty brand 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 TikTok 1 million followers brand milestone cosmetics",
+      "effective_query": "2026 TikTok 1 million followers brand milestone cosmetics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "beauty brand incubator creator program 2026 launch",
+      "effective_query": "beauty brand incubator creator program 2026 launch",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "elf cosmetics TikTok 1 million followers 2026",
+      "effective_query": "elf cosmetics TikTok 1 million followers 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "rare beauty creator incubator 2026",
+      "effective_query": "rare beauty creator incubator 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "fenty beauty creator incubator 2026",
+      "effective_query": "fenty beauty creator incubator 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "glossier creator incubator 2026",
+      "effective_query": "glossier creator incubator 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Tarte cosmetics creator incubator 2026",
+      "effective_query": "Tarte cosmetics creator incubator 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2026 TikTok 1 million followers first time brand cosmetics",
+      "effective_query": "2026 TikTok 1 million followers first time brand cosmetics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "publicly traded beauty brand TikTok 1 million followers 2026",
+      "effective_query": "publicly traded beauty brand TikTok 1 million followers 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cosmetics brand reaches 1 million TikTok followers 2026",
+      "effective_query": "cosmetics brand reaches 1 million TikTok followers 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2026 beauty brand crosses 1 million TikTok followers",
+      "effective_query": "2026 beauty brand crosses 1 million TikTok followers",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "tonal cosmetics TikTok followers 2026",
+      "effective_query": "tonal cosmetics TikTok followers 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "basek beauty TikTok followers 2026",
+      "effective_query": "basek beauty TikTok followers 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "beauty brand \"creator incubator\" 2026 launch press release",
+      "effective_query": "beauty brand \"creator incubator\" 2026 launch press release",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "\"creator incubator\" cosmetics 2026",
+      "effective_query": "\"creator incubator\" cosmetics 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "\"1 million TikTok followers\" 2026 cosmetics brand",
+      "effective_query": "\"1 million TikTok followers\" 2026 cosmetics brand",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cosmetics brand \"incubator program\" creators 2026",
+      "effective_query": "cosmetics brand \"incubator program\" creators 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "TikTok 1M followers first time 2026 brand cosmetics",
+      "effective_query": "TikTok 1M followers first time 2026 brand cosmetics",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 189,
+  "duration_seconds": 200.51683872472495,
+  "report_length": 11146,
+  "context_length": 417915,
+  "qid": "infocoUaNfGu8KK80qMmpg",
+  "query": "List publicly listed cosmetics brands (including makeup, fragrance, skincare, etc.) in the US that hit >1 million TikTok followers for the first time in 2026 and launched an official ‘creator incubator’ program the same year. For each brand give: TikTok handle, date followers crossed 1 M (Socialblade screenshot), program name, and links to the launch press release and independent marketing‑trade coverage."
+}

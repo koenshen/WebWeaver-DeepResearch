@@ -1,0 +1,573 @@
+{
+  "total_llm_calls": 25,
+  "total_input_tokens": 372298,
+  "total_output_tokens": 57884,
+  "total_tokens": 430182,
+  "total_search_count": 8,
+  "total_search_results": 77,
+  "total_visit_count": 16,
+  "total_visit_success": 16,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 850,
+      "output_tokens": 231,
+      "total_tokens": 1081,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20184,
+      "output_tokens": 350,
+      "total_tokens": 20534,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37285,
+      "output_tokens": 4001,
+      "total_tokens": 41286,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37285,
+      "output_tokens": 4001,
+      "total_tokens": 41286,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37285,
+      "output_tokens": 4001,
+      "total_tokens": 41286,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10760,
+      "output_tokens": 1159,
+      "total_tokens": 11919,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4501,
+      "output_tokens": 3090,
+      "total_tokens": 7591,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25152,
+      "output_tokens": 2917,
+      "total_tokens": 28069,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4694,
+      "output_tokens": 1766,
+      "total_tokens": 6460,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2691,
+      "output_tokens": 1813,
+      "total_tokens": 4504,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2691,
+      "output_tokens": 1307,
+      "total_tokens": 3998,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2691,
+      "output_tokens": 1167,
+      "total_tokens": 3858,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2150,
+      "output_tokens": 1561,
+      "total_tokens": 3711,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2069,
+      "output_tokens": 1829,
+      "total_tokens": 3898,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 86659,
+      "output_tokens": 4001,
+      "total_tokens": 90660,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29418,
+      "output_tokens": 200,
+      "total_tokens": 29618,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5482,
+      "output_tokens": 1825,
+      "total_tokens": 7307,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4767,
+      "output_tokens": 4001,
+      "total_tokens": 8768,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4688,
+      "output_tokens": 1476,
+      "total_tokens": 6164,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1884,
+      "output_tokens": 1733,
+      "total_tokens": 3617,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2467,
+      "output_tokens": 2301,
+      "total_tokens": 4768,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2467,
+      "output_tokens": 2260,
+      "total_tokens": 4727,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2181,
+      "output_tokens": 1008,
+      "total_tokens": 3189,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5805,
+      "output_tokens": 2903,
+      "total_tokens": 8708,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36192,
+      "output_tokens": 6983,
+      "total_tokens": 43175,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AIGC AI generated content K-12 classroom case studies global",
+      "effective_query": "AIGC AI generated content K-12 classroom case studies global",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI generated content primary secondary school classrooms examples",
+      "effective_query": "AI generated content primary secondary school classrooms examples",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AIGC education applications K-12 2024 2025 case study",
+      "effective_query": "AIGC education applications K-12 2024 2025 case study",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "generative AI in schools practical implementation approaches",
+      "effective_query": "generative AI in schools practical implementation approaches",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI in education personalized learning content generation case studies",
+      "effective_query": "AI in education personalized learning content generation case studies",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "teacher AI tools lesson plan generation classroom use cases",
+      "effective_query": "teacher AI tools lesson plan generation classroom use cases",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI generated curriculum materials K-12 schools",
+      "effective_query": "AI generated curriculum materials K-12 schools",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "future trends AI in education 2025 2026",
+      "effective_query": "future trends AI in education 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.linkedin.com/pulse/ai-k12-classrooms-tools-case-studies-implementation-jacob-brewer-6wzve",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.141
+        }
+      ],
+      "content_length": 117007,
+      "duration_seconds": 17.141,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://fifthrow.com/blog/ai-in-k-12-education-global-policies-outcomes-and-actionable-best-practices",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.259
+        }
+      ],
+      "content_length": 42453,
+      "duration_seconds": 8.259,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.86,
+      "summary_length": 5316,
+      "summary_input_tokens": 10760,
+      "summary_output_tokens": 1159
+    },
+    {
+      "url": "https://learnercentered.org/wp-content/uploads/2025/07/AI-case-study.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.256
+        }
+      ],
+      "content_length": 20333,
+      "duration_seconds": 2.256,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.456,
+      "summary_length": 13760,
+      "summary_input_tokens": 4501,
+      "summary_output_tokens": 3090
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1647573/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.58
+        }
+      ],
+      "content_length": 89540,
+      "duration_seconds": 6.58,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.983,
+      "summary_length": 9762,
+      "summary_input_tokens": 25152,
+      "summary_output_tokens": 2917
+    },
+    {
+      "url": "https://www.raisesummit.com/post/ai-case-studies-education",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 15.766
+        }
+      ],
+      "content_length": 20752,
+      "duration_seconds": 15.766,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.157,
+      "summary_length": 6298,
+      "summary_input_tokens": 4694,
+      "summary_output_tokens": 1766
+    },
+    {
+      "url": "https://avidopenaccess.org/resource/463-generative-ai-applications-for-the-k-12-classroom",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.437
+        }
+      ],
+      "content_length": 12663,
+      "duration_seconds": 16.437,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.hanoverresearch.com/insights-blog/k-12-education/developing-k-12-ai-literacy-for-your-district",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.3
+        }
+      ],
+      "content_length": 10120,
+      "duration_seconds": 6.3,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.479,
+      "summary_length": 6725,
+      "summary_input_tokens": 2150,
+      "summary_output_tokens": 1561
+    },
+    {
+      "url": "https://schoolai.com/blog/ai-curriculum-generator",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.396
+        }
+      ],
+      "content_length": 9619,
+      "duration_seconds": 4.396,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.591,
+      "summary_length": 5684,
+      "summary_input_tokens": 2069,
+      "summary_output_tokens": 1829
+    },
+    {
+      "url": "https://www.engageli.com/blog/ai-in-education-statistics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.976
+        }
+      ],
+      "content_length": 25955,
+      "duration_seconds": 3.976,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.895
+        }
+      ],
+      "content_length": 273640,
+      "duration_seconds": 13.896,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://leadingeducators.org/generative-practice",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.368
+        }
+      ],
+      "content_length": 22773,
+      "duration_seconds": 4.368,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.567,
+      "summary_length": 5482,
+      "summary_input_tokens": 5482,
+      "summary_output_tokens": 1825
+    },
+    {
+      "url": "https://www.raisesummit.com/post/ai-case-studies-education",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.221
+        }
+      ],
+      "content_length": 20752,
+      "duration_seconds": 1.221,
+      "summary_status": "success",
+      "summary_duration_seconds": 56.012,
+      "summary_length": 291,
+      "summary_input_tokens": 4767,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://knowledgeworks.org/resources/artificial-intelligence-optimize-personalized-learning",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.947
+        }
+      ],
+      "content_length": 9884,
+      "duration_seconds": 3.947,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.401,
+      "summary_length": 8302,
+      "summary_input_tokens": 1884,
+      "summary_output_tokens": 1733
+    },
+    {
+      "url": "https://www.edutopia.org/article/using-ai-generate-lesson-ideas",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.938
+        }
+      ],
+      "content_length": 10610,
+      "duration_seconds": 7.939,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.panoramaed.com/blog/generative-ai-in-education",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.171
+        }
+      ],
+      "content_length": 10113,
+      "duration_seconds": 4.172,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.937,
+      "summary_length": 4303,
+      "summary_input_tokens": 2181,
+      "summary_output_tokens": 1008
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00220671.2025.2514913",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.915
+        }
+      ],
+      "content_length": 25340,
+      "duration_seconds": 6.915,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.21,
+      "summary_length": 7274,
+      "summary_input_tokens": 5805,
+      "summary_output_tokens": 2903
+    }
+  ],
+  "source_urls_count": 67,
+  "duration_seconds": 1180.1957279117778,
+  "report_length": 27891,
+  "context_length": 212109,
+  "id": 71,
+  "prompt": "Acting as an expert in K-12 education research and an experienced frontline teacher, research and analyze global case studies on the practical application of AIGC (AI-Generated Content) in primary and secondary school classrooms. Identify, categorize, and analyze various application approaches and their corresponding examples. The final report should present an overall framework, detailed category discussions, practical implementation methods, future trends, and recommendations for educators.",
+  "language": "en",
+  "topic": "Education & Jobs"
+}

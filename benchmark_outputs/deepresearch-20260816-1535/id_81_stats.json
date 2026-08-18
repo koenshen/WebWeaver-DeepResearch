@@ -1,0 +1,239 @@
+{
+  "total_llm_calls": 8,
+  "total_input_tokens": 152579,
+  "total_output_tokens": 13474,
+  "total_tokens": 166053,
+  "total_search_count": 23,
+  "total_search_results": 219,
+  "total_visit_count": 1,
+  "total_visit_success": 1,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 910,
+      "output_tokens": 1591,
+      "total_tokens": 2501,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11935,
+      "output_tokens": 497,
+      "total_tokens": 12432,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12259,
+      "output_tokens": 114,
+      "total_tokens": 12373,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1442,
+      "output_tokens": 4001,
+      "total_tokens": 5443,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12429,
+      "output_tokens": 122,
+      "total_tokens": 12551,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25256,
+      "output_tokens": 167,
+      "total_tokens": 25423,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38438,
+      "output_tokens": 88,
+      "total_tokens": 38526,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 49910,
+      "output_tokens": 6894,
+      "total_tokens": 56804,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "ideologisation of history instrumentalisation of the past historical memory scholarly",
+      "effective_query": "ideologisation of history instrumentalisation of the past historical memory scholarly",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "reclaiming silenced narratives historical memory contemporary examples",
+      "effective_query": "reclaiming silenced narratives historical memory contemporary examples",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "commemorative practices shaping historiography politics of memory",
+      "effective_query": "commemorative practices shaping historiography politics of memory",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Pierre Nora lieux de mémoire theory historical memory",
+      "effective_query": "Pierre Nora lieux de mémoire theory historical memory",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Michel-Rolph Trouillot silencing the past historiography",
+      "effective_query": "Michel-Rolph Trouillot silencing the past historiography",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "far-right memory politics instrumentalisation past Berghof case studies",
+      "effective_query": "far-right memory politics instrumentalisation past Berghof case studies",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "memory laws post-conflict societies divided societies legislative memory",
+      "effective_query": "memory laws post-conflict societies divided societies legislative memory",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "counter-memory subaltern history reclaiming silenced voices",
+      "effective_query": "counter-memory subaltern history reclaiming silenced voices",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "commemorative practices monuments contested memory studies",
+      "effective_query": "commemorative practices monuments contested memory studies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "historical memory contemporary political discourse polarization",
+      "effective_query": "historical memory contemporary political discourse polarization",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "revisionist history political instrumentalisation examples",
+      "effective_query": "revisionist history political instrumentalisation examples",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Confederate monuments removal debate memory politics United States",
+      "effective_query": "Confederate monuments removal debate memory politics United States",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Rhodes Must Fall statue removal South Africa Oxford memory",
+      "effective_query": "Rhodes Must Fall statue removal South Africa Oxford memory",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Holocaust memory laws Europe denial legislation",
+      "effective_query": "Holocaust memory laws Europe denial legislation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Indian Partition women silenced narratives oral history",
+      "effective_query": "Indian Partition women silenced narratives oral history",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Stalin monuments Eastern Europe memory politics",
+      "effective_query": "Stalin monuments Eastern Europe memory politics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "National day commemorations politics memory identity",
+      "effective_query": "National day commemorations politics memory identity",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Great Man history vs history from below historiography theory",
+      "effective_query": "Great Man history vs history from below historiography theory",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Halbwachs collective memory theory social frameworks",
+      "effective_query": "Halbwachs collective memory theory social frameworks",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "postcolonial historiography decolonising history education",
+      "effective_query": "postcolonial historiography decolonising history education",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Indigenous history reclaiming narratives truth commission",
+      "effective_query": "Indigenous history reclaiming narratives truth commission",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "transitional justice memory reparations South Africa Truth and Reconciliation",
+      "effective_query": "transitional justice memory reparations South Africa Truth and Reconciliation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "public history museums contested narratives national narrative",
+      "effective_query": "public history museums contested narratives national narrative",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://berghof-foundation.org/news/feature-the-rise-of-far-right-memory-politics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.266
+        }
+      ],
+      "content_length": 5907,
+      "duration_seconds": 6.266,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.77,
+      "summary_length": 697,
+      "summary_input_tokens": 1442,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 210,
+  "duration_seconds": 407.2622613031417,
+  "report_length": 31932,
+  "context_length": 267880,
+  "id": 81,
+  "prompt": "Write an analysis exploring how historical narratives are being reinterpreted through contemporary political and social lenses. Focus on areas like ideologisation of history, instrumentalisation of the past and efforts to reclaim silenced narratives. Analyze how commemorative practices shape historiography and how historical memory serves current agendas. Please provide relevant examples and scholarly perspectives.",
+  "language": "en",
+  "topic": "History"
+}

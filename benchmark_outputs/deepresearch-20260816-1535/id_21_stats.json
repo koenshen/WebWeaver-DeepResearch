@@ -1,0 +1,425 @@
+{
+  "total_llm_calls": 15,
+  "total_input_tokens": 237212,
+  "total_output_tokens": 33475,
+  "total_tokens": 270687,
+  "total_search_count": 19,
+  "total_search_results": 178,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 821,
+      "output_tokens": 471,
+      "total_tokens": 1292,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28298,
+      "output_tokens": 281,
+      "total_tokens": 28579,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5038,
+      "output_tokens": 2567,
+      "total_tokens": 7605,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4688,
+      "output_tokens": 3872,
+      "total_tokens": 8560,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7565,
+      "output_tokens": 3067,
+      "total_tokens": 10632,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5906,
+      "output_tokens": 1767,
+      "total_tokens": 7673,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2299,
+      "output_tokens": 4001,
+      "total_tokens": 6300,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2220,
+      "output_tokens": 3071,
+      "total_tokens": 5291,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 897,
+      "output_tokens": 1258,
+      "total_tokens": 2155,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2033,
+      "output_tokens": 2004,
+      "total_tokens": 4037,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 967,
+      "output_tokens": 474,
+      "total_tokens": 1441,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4637,
+      "output_tokens": 2087,
+      "total_tokens": 6724,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40796,
+      "output_tokens": 107,
+      "total_tokens": 40903,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 65449,
+      "output_tokens": 140,
+      "total_tokens": 65589,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 65598,
+      "output_tokens": 8308,
+      "total_tokens": 73906,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AI in education 2026 real-world applications case studies",
+      "effective_query": "AI in education 2026 real-world applications case studies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "人工智能 教育 落地 场景 2025 2026",
+      "effective_query": "人工智能 教育 落地 场景 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI in education challenges ethics data privacy 2026",
+      "effective_query": "AI in education challenges ethics data privacy 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "top university AI talent cultivation system undergraduate program 2026",
+      "effective_query": "top university AI talent cultivation system undergraduate program 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI research talent development higher education 2026",
+      "effective_query": "AI research talent development higher education 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "China AI talent pipeline strengthening education system 2026",
+      "effective_query": "China AI talent pipeline strengthening education system 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI 人才培养 体系 高校 本科 2025 2026",
+      "effective_query": "AI 人才培养 体系 高校 本科 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "MIT AI undergraduate curriculum 2026",
+      "effective_query": "MIT AI undergraduate curriculum 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Stanford AI graduate program curriculum 2026",
+      "effective_query": "Stanford AI graduate program curriculum 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "清华大学 人工智能 人才培养 体系 2026",
+      "effective_query": "清华大学 人工智能 人才培养 体系 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "北京大学 人工智能学院 课程体系 2026",
+      "effective_query": "北京大学 人工智能学院 课程体系 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "上海交通大学 人工智能 人才培养 项目 2026",
+      "effective_query": "上海交通大学 人工智能 人才培养 项目 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Carnegie Mellon AI undergraduate program curriculum 2026",
+      "effective_query": "Carnegie Mellon AI undergraduate program curriculum 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "卡内基梅隆大学 人工智能 本科 课程 2026",
+      "effective_query": "卡内基梅隆大学 人工智能 本科 课程 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI in education UNESCO policy 2026",
+      "effective_query": "AI in education UNESCO policy 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "人工智能 教育 挑战 数据隐私 偏见 2026",
+      "effective_query": "人工智能 教育 挑战 数据隐私 偏见 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI talent cultivation system China 2026",
+      "effective_query": "AI talent cultivation system China 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "高校 人工智能 人才培养 体系 2026 北京大学 清华大学 上海交大",
+      "effective_query": "高校 人工智能 人才培养 体系 2026 北京大学 清华大学 上海交大",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI education K-12 China 2026",
+      "effective_query": "AI education K-12 China 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.itransition.com/ai/education",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.164
+        }
+      ],
+      "content_length": 25968,
+      "duration_seconds": 1.164,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.874,
+      "summary_length": 10866,
+      "summary_input_tokens": 5038,
+      "summary_output_tokens": 2567
+    },
+    {
+      "url": "https://www.raisesummit.com/post/ai-case-studies-education",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.906
+        }
+      ],
+      "content_length": 20752,
+      "duration_seconds": 4.907,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.696,
+      "summary_length": 16306,
+      "summary_input_tokens": 4688,
+      "summary_output_tokens": 3872
+    },
+    {
+      "url": "https://www.tommasomariaricci.com/blog/ai-for-education-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.024
+        }
+      ],
+      "content_length": 40412,
+      "duration_seconds": 5.024,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.976,
+      "summary_length": 16556,
+      "summary_input_tokens": 7565,
+      "summary_output_tokens": 3067
+    },
+    {
+      "url": "https://www.structural-learning.com/post/ai-ethics-in-education",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.436
+        }
+      ],
+      "content_length": 27399,
+      "duration_seconds": 3.436,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.future-ed.org/legislative-tracker-2026-state-ai-in-education-bills",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.066
+        }
+      ],
+      "content_length": 10677,
+      "duration_seconds": 11.066,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.481,
+      "summary_length": 3031,
+      "summary_input_tokens": 2299,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.qstheory.cn/20260615/e0aef3d60e9f4095b287ab330389cdc6/c.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.259
+        }
+      ],
+      "content_length": 1434,
+      "duration_seconds": 7.259,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.997,
+      "summary_length": 2987,
+      "summary_input_tokens": 897,
+      "summary_output_tokens": 1258
+    },
+    {
+      "url": "https://www.iedumedia.com/news/newsinfo/1681",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.728
+        }
+      ],
+      "content_length": 3645,
+      "duration_seconds": 2.728,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.307,
+      "summary_length": 1926,
+      "summary_input_tokens": 2033,
+      "summary_output_tokens": 2004
+    },
+    {
+      "url": "https://www.moe.gov.cn/fbh/live/2026/77927",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.314
+        }
+      ],
+      "content_length": 2038,
+      "duration_seconds": 7.314,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.953,
+      "summary_length": 1304,
+      "summary_input_tokens": 967,
+      "summary_output_tokens": 474
+    },
+    {
+      "url": "https://www.moe.gov.cn/srcsite/A16/s7062/201804/t20180410_332722.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.555
+        }
+      ],
+      "content_length": 8924,
+      "duration_seconds": 2.556,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.746,
+      "summary_length": 3948,
+      "summary_input_tokens": 4637,
+      "summary_output_tokens": 2087
+    }
+  ],
+  "source_urls_count": 170,
+  "duration_seconds": 827.2674606125802,
+  "report_length": 19260,
+  "context_length": 232323,
+  "id": 21,
+  "prompt": "现在AI这么热门，我最感兴趣的就是人工智能在教育领域应用现状，实际能落地的场景还有在教育领域所面临的挑战，再就是反过来教育对培养人工智能高尖端人才的支撑作用如何强化，学校都有怎样的对应的培养AI人才的体系。",
+  "language": "zh",
+  "topic": "Education & Jobs"
+}

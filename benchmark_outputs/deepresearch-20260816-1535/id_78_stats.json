@@ -1,0 +1,402 @@
+{
+  "total_llm_calls": 15,
+  "total_input_tokens": 169066,
+  "total_output_tokens": 22024,
+  "total_tokens": 191090,
+  "total_search_count": 11,
+  "total_search_results": 100,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 851,
+      "output_tokens": 118,
+      "total_tokens": 969,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13277,
+      "output_tokens": 324,
+      "total_tokens": 13601,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13606,
+      "output_tokens": 155,
+      "total_tokens": 13761,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 244,
+      "output_tokens": 485,
+      "total_tokens": 729,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1812,
+      "output_tokens": 1520,
+      "total_tokens": 3332,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 242,
+      "output_tokens": 326,
+      "total_tokens": 568,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2236,
+      "output_tokens": 4001,
+      "total_tokens": 6237,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2157,
+      "output_tokens": 1588,
+      "total_tokens": 3745,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15380,
+      "output_tokens": 220,
+      "total_tokens": 15600,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1355,
+      "output_tokens": 890,
+      "total_tokens": 2245,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2755,
+      "output_tokens": 1468,
+      "total_tokens": 4223,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35198,
+      "output_tokens": 4001,
+      "total_tokens": 39199,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35119,
+      "output_tokens": 608,
+      "total_tokens": 35727,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16186,
+      "output_tokens": 162,
+      "total_tokens": 16348,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28648,
+      "output_tokens": 6158,
+      "total_tokens": 34806,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Parkinson's disease stages health warning signs family intervention",
+      "effective_query": "Parkinson's disease stages health warning signs family intervention",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Parkinson's disease red flags seek medical advice caregivers",
+      "effective_query": "Parkinson's disease red flags seek medical advice caregivers",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Deep Brain Stimulation DBS daily life adjustments post-surgery care",
+      "effective_query": "Deep Brain Stimulation DBS daily life adjustments post-surgery care",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Parkinson's disease progression signs family members should know",
+      "effective_query": "Parkinson's disease progression signs family members should know",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "DBS surgery Parkinson's lifestyle modifications support strategies",
+      "effective_query": "DBS surgery Parkinson's lifestyle modifications support strategies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Parkinson's disease Hoehn Yahr stages symptoms chart",
+      "effective_query": "Parkinson's disease Hoehn Yahr stages symptoms chart",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Parkinson's disease when to call doctor emergency signs",
+      "effective_query": "Parkinson's disease when to call doctor emergency signs",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "DBS surgery recovery tips daily living adjustments",
+      "effective_query": "DBS surgery recovery tips daily living adjustments",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Parkinson's disease caregiver red flags hospitalization",
+      "effective_query": "Parkinson's disease caregiver red flags hospitalization",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Deep brain stimulation Parkinson's lifestyle exercise diet",
+      "effective_query": "Deep brain stimulation Parkinson's lifestyle exercise diet",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Parkinson's disease advanced stage hospice signs",
+      "effective_query": "Parkinson's disease advanced stage hospice signs",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.parkinson.org/understanding-parkinsons/what-is-parkinsons/stages",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.492
+        }
+      ],
+      "content_length": 196,
+      "duration_seconds": 5.493,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.459,
+      "summary_length": 1217,
+      "summary_input_tokens": 244,
+      "summary_output_tokens": 485
+    },
+    {
+      "url": "https://www.healthline.com/health/parkinsons/stages",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.024
+        }
+      ],
+      "content_length": 7615,
+      "duration_seconds": 9.024,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.parkinson.org/understanding-parkinsons/10-early-signs",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.822
+        }
+      ],
+      "content_length": 185,
+      "duration_seconds": 4.822,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.196,
+      "summary_length": 714,
+      "summary_input_tokens": 242,
+      "summary_output_tokens": 326
+    },
+    {
+      "url": "https://www.mayoclinic.org/diseases-conditions/parkinsons-disease/symptoms-causes/syc-20376055",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.217
+        }
+      ],
+      "content_length": 9580,
+      "duration_seconds": 16.217,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.614,
+      "summary_length": 1428,
+      "summary_input_tokens": 2236,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.parkinson.org/living-with-parkinsons/treatment/surgical-treatment-options/deep-brain-stimulation",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.884
+        }
+      ],
+      "content_length": 36695,
+      "duration_seconds": 1.884,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.dbsandme.com/en/support-and-resources/articles/what-to-expect-after-dbs-surgery.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.362
+        }
+      ],
+      "content_length": 43649,
+      "duration_seconds": 4.362,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/parkinsons-disease/the-parkinsons-caregiver-7-ways-to-help-your-loved-one",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.931
+        }
+      ],
+      "content_length": 5213,
+      "duration_seconds": 5.931,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://mian-neurosurgery.com/dbs-patient-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.259
+        }
+      ],
+      "content_length": 11374,
+      "duration_seconds": 3.259,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.caregiver.org/resource/parkinsons-disease-caregiving",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.625
+        }
+      ],
+      "content_length": 28371,
+      "duration_seconds": 2.625,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5961706",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.479
+        }
+      ],
+      "content_length": 113681,
+      "duration_seconds": 4.479,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.086,
+      "summary_length": 25,
+      "summary_input_tokens": 35198,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 80,
+  "duration_seconds": 1730.5212778458372,
+  "report_length": 26385,
+  "context_length": 159723,
+  "id": 78,
+  "prompt": "Parkinson's disease has a profound impact on patients. What are the potential health warning signs associated with different stages of the disease? As family members, which specific signs should alert us to intervene or seek medical advice regarding the patient's condition? Furthermore, for patients who have undergone Deep Brain Stimulation (DBS) surgery, what daily life adjustments and support strategies can be implemented to improve their comfort and overall well-being?",
+  "language": "en",
+  "topic": "Health"
+}

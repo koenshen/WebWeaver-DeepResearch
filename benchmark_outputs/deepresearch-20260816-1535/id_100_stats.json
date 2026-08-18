@@ -1,0 +1,307 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 295964,
+  "total_output_tokens": 32249,
+  "total_tokens": 328213,
+  "total_search_count": 5,
+  "total_search_results": 49,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 797,
+      "output_tokens": 171,
+      "total_tokens": 968,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12447,
+      "output_tokens": 273,
+      "total_tokens": 12720,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45279,
+      "output_tokens": 2866,
+      "total_tokens": 48145,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 54417,
+      "output_tokens": 4001,
+      "total_tokens": 58418,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 54417,
+      "output_tokens": 1936,
+      "total_tokens": 56353,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40850,
+      "output_tokens": 3161,
+      "total_tokens": 44011,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1724,
+      "output_tokens": 781,
+      "total_tokens": 2505,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 249,
+      "output_tokens": 453,
+      "total_tokens": 702,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13986,
+      "output_tokens": 2874,
+      "total_tokens": 16860,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2063,
+      "output_tokens": 1071,
+      "total_tokens": 3134,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22581,
+      "output_tokens": 4001,
+      "total_tokens": 26582,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22581,
+      "output_tokens": 2596,
+      "total_tokens": 25177,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24573,
+      "output_tokens": 8065,
+      "total_tokens": 32638,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AI interaction influence interpersonal relationships research",
+      "effective_query": "AI interaction influence interpersonal relationships research",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI companions social robots impact human relationships",
+      "effective_query": "AI companions social robots impact human relationships",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI-mediated communication effects on social bonds",
+      "effective_query": "AI-mediated communication effects on social bonds",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI chatbots loneliness interpersonal skills",
+      "effective_query": "AI chatbots loneliness interpersonal skills",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "artificial intelligence social connection psychology",
+      "effective_query": "artificial intelligence social connection psychology",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.nature.com/articles/s44271-025-00391-7",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.357
+        }
+      ],
+      "content_length": 158178,
+      "duration_seconds": 1.358,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.007,
+      "summary_length": 11831,
+      "summary_input_tokens": 45279,
+      "summary_output_tokens": 2866
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12960742",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.751
+        }
+      ],
+      "content_length": 196429,
+      "duration_seconds": 1.752,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.392,
+      "summary_length": 17578,
+      "summary_input_tokens": 54417,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00146-025-02318-6",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.173
+        }
+      ],
+      "content_length": 149119,
+      "duration_seconds": 1.173,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.551,
+      "summary_length": 13659,
+      "summary_input_tokens": 40850,
+      "summary_output_tokens": 3161
+    },
+    {
+      "url": "https://socialsciences.byu.edu/articles/byu-researchers-explore-the-impact-of-ai-on-human-relationships",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.553
+        }
+      ],
+      "content_length": 6666,
+      "duration_seconds": 0.553,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.006,
+      "summary_length": 3466,
+      "summary_input_tokens": 1724,
+      "summary_output_tokens": 781
+    },
+    {
+      "url": "https://www.apa.org/monitor/2026/01-02/trends-digital-ai-relationships-emotional-connection",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.793
+        }
+      ],
+      "content_length": 233,
+      "duration_seconds": 17.793,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.555,
+      "summary_length": 930,
+      "summary_input_tokens": 249,
+      "summary_output_tokens": 453
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10073210",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.271
+        }
+      ],
+      "content_length": 55850,
+      "duration_seconds": 1.271,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://publichealth.gmu.edu/news/2025-09/ai-loneliness-and-value-human-connection",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.711
+        }
+      ],
+      "content_length": 7589,
+      "duration_seconds": 8.711,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.197,
+      "summary_length": 3684,
+      "summary_input_tokens": 2063,
+      "summary_output_tokens": 1071
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12928748",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.359
+        }
+      ],
+      "content_length": 76674,
+      "duration_seconds": 1.359,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.619,
+      "summary_length": 17305,
+      "summary_input_tokens": 22581,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 43,
+  "duration_seconds": 394.1910782735795,
+  "report_length": 36639,
+  "context_length": 162430,
+  "id": 100,
+  "prompt": "Write a paper to discuss the influence of AI interaction on interpersonal relations, considering AI's potential to fundamentally change how and why individuals relate to each other.",
+  "language": "en",
+  "topic": "Social Life"
+}

@@ -1,0 +1,148 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 76169,
+  "total_output_tokens": 6719,
+  "total_tokens": 82888,
+  "total_search_count": 16,
+  "total_search_results": 150,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 814,
+      "output_tokens": 144,
+      "total_tokens": 958,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10570,
+      "output_tokens": 116,
+      "total_tokens": 10686,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24737,
+      "output_tokens": 90,
+      "total_tokens": 24827,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40048,
+      "output_tokens": 6369,
+      "total_tokens": 46417,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Middle Eastern North African films transgender themes",
+      "effective_query": "Middle Eastern North African films transgender themes",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "transgender film theory Middle East",
+      "effective_query": "transgender film theory Middle East",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "trans theory Middle Eastern cinema",
+      "effective_query": "trans theory Middle Eastern cinema",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MENA transgender film list",
+      "effective_query": "MENA transgender film list",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Facing Mirrors film 2011 Iran transgender",
+      "effective_query": "Facing Mirrors film 2011 Iran transgender",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Circumstance film 2011 Lebanon transgender",
+      "effective_query": "Circumstance film 2011 Lebanon transgender",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "In Between film 2016 Palestine transgender",
+      "effective_query": "In Between film 2016 Palestine transgender",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Warsha film 2022 Lebanon transgender",
+      "effective_query": "Warsha film 2022 Lebanon transgender",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Cinema Fouad documentary transgender Syria",
+      "effective_query": "Cinema Fouad documentary transgender Syria",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mona Hatoum film transgender",
+      "effective_query": "Mona Hatoum film transgender",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "transgender studies theory film theory Middle East",
+      "effective_query": "transgender studies theory film theory Middle East",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Jack Halberstam trans cinema theory",
+      "effective_query": "Jack Halberstam trans cinema theory",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Susan Stryker transgender studies",
+      "effective_query": "Susan Stryker transgender studies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "trans phenomenology film",
+      "effective_query": "trans phenomenology film",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "trans gaze film theory",
+      "effective_query": "trans gaze film theory",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Judith Butler performativity Arab cinema",
+      "effective_query": "Judith Butler performativity Arab cinema",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 139,
+  "duration_seconds": 122.64908145461231,
+  "report_length": 26545,
+  "context_length": 196020,
+  "id": 79,
+  "prompt": "Write a paper on Middle Eastern and North African Films with Transgender Themes. Provide a broad overview with extensive references to both trans theory and film theory, and make sure to include in-depth discussion of at least three films.",
+  "language": "en",
+  "topic": "Literature"
+}

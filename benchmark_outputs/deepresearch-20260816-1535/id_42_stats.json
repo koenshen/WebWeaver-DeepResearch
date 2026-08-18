@@ -1,0 +1,187 @@
+{
+  "total_llm_calls": 8,
+  "total_input_tokens": 105885,
+  "total_output_tokens": 16053,
+  "total_tokens": 121938,
+  "total_search_count": 4,
+  "total_search_results": 39,
+  "total_visit_count": 4,
+  "total_visit_success": 4,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 834,
+      "output_tokens": 299,
+      "total_tokens": 1133,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23762,
+      "output_tokens": 212,
+      "total_tokens": 23974,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14762,
+      "output_tokens": 2493,
+      "total_tokens": 17255,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3803,
+      "output_tokens": 1183,
+      "total_tokens": 4986,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14941,
+      "output_tokens": 4001,
+      "total_tokens": 18942,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14941,
+      "output_tokens": 2188,
+      "total_tokens": 17129,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3226,
+      "output_tokens": 905,
+      "total_tokens": 4131,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29616,
+      "output_tokens": 4772,
+      "total_tokens": 34388,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "《教育强国建设规划纲要（2024—2035年）》 学生体质强健计划 每天综合体育活动时间不低于2小时",
+      "effective_query": "《教育强国建设规划纲要（2024—2035年）》 学生体质强健计划 每天综合体育活动时间不低于2小时",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中小学生每天综合体育活动时间 现状 调查",
+      "effective_query": "中小学生每天综合体育活动时间 现状 调查",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中小学生体育活动时间 影响因素",
+      "effective_query": "中小学生体育活动时间 影响因素",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "教育强国建设规划纲要 2025 学生体质强健计划 政策",
+      "effective_query": "教育强国建设规划纲要 2025 学生体质强健计划 政策",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11167545",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.416
+        }
+      ],
+      "content_length": 34709,
+      "duration_seconds": 1.417,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.633,
+      "summary_length": 4446,
+      "summary_input_tokens": 14762,
+      "summary_output_tokens": 2493
+    },
+    {
+      "url": "http://www.jyb.cn/rmtzcg/xwy/wzxw/202505/t20250528_2111349903.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.843
+        }
+      ],
+      "content_length": 6521,
+      "duration_seconds": 16.843,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.324,
+      "summary_length": 1981,
+      "summary_input_tokens": 3803,
+      "summary_output_tokens": 1183
+    },
+    {
+      "url": "https://www.cnaes.edu.cn/post/151510",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.861
+        }
+      ],
+      "content_length": 26878,
+      "duration_seconds": 11.862,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "http://www.moe.gov.cn/srcsite/A17/moe_938/s3273/202511/t20251119_1420840.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.809
+        }
+      ],
+      "content_length": 5681,
+      "duration_seconds": 8.809,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 36,
+  "duration_seconds": 467.76120922900736,
+  "report_length": 8871,
+  "context_length": 69405,
+  "id": 42,
+  "prompt": "中共中央 国务院2025年印发的《教育强国建设规划纲要（2024—2035年）》指出实施学生体质强健计划，中小学生每天综合体育活动时间不低于2小时。目前中小学生每天综合体育活动时间是多少？什么因素影响了体育活动时间？如何制定相关政策来保证该计划的实施？",
+  "language": "zh",
+  "topic": "Sports & Fitness"
+}

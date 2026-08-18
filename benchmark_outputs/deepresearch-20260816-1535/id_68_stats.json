@@ -1,0 +1,364 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 139653,
+  "total_output_tokens": 21142,
+  "total_tokens": 160795,
+  "total_search_count": 8,
+  "total_search_results": 74,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 861,
+      "output_tokens": 381,
+      "total_tokens": 1242,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19518,
+      "output_tokens": 288,
+      "total_tokens": 19806,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28759,
+      "output_tokens": 1120,
+      "total_tokens": 29879,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34764,
+      "output_tokens": 1623,
+      "total_tokens": 36387,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4254,
+      "output_tokens": 1032,
+      "total_tokens": 5286,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4704,
+      "output_tokens": 3438,
+      "total_tokens": 8142,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3519,
+      "output_tokens": 1132,
+      "total_tokens": 4651,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2334,
+      "output_tokens": 1050,
+      "total_tokens": 3384,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2155,
+      "output_tokens": 1322,
+      "total_tokens": 3477,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1197,
+      "output_tokens": 688,
+      "total_tokens": 1885,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2126,
+      "output_tokens": 2657,
+      "total_tokens": 4783,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5252,
+      "output_tokens": 1209,
+      "total_tokens": 6461,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30210,
+      "output_tokens": 5202,
+      "total_tokens": 35412,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "predictive autoscaling Kubernetes nodes",
+      "effective_query": "predictive autoscaling Kubernetes nodes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "scheduled cluster autoscaler Kubernetes",
+      "effective_query": "scheduled cluster autoscaler Kubernetes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kubernetes node autoscaling alternative to cluster autoscaler",
+      "effective_query": "Kubernetes node autoscaling alternative to cluster autoscaler",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "proactive scaling Kubernetes nodes based on metrics",
+      "effective_query": "proactive scaling Kubernetes nodes based on metrics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kubernetes predictive node autoscaler open source",
+      "effective_query": "Kubernetes predictive node autoscaler open source",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kubernetes cron job node scaling",
+      "effective_query": "Kubernetes cron job node scaling",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Karpenter vs Cluster Autoscaler predictive scaling",
+      "effective_query": "Karpenter vs Cluster Autoscaler predictive scaling",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI driven Kubernetes cluster autoscaling",
+      "effective_query": "AI driven Kubernetes cluster autoscaling",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.689
+        }
+      ],
+      "content_length": 113962,
+      "duration_seconds": 7.69,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.498,
+      "summary_length": 3439,
+      "summary_input_tokens": 28759,
+      "summary_output_tokens": 1120
+    },
+    {
+      "url": "https://kubernetes.io/docs/concepts/cluster-administration/node-autoscaling",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.314
+        }
+      ],
+      "content_length": 132683,
+      "duration_seconds": 2.314,
+      "summary_status": "success",
+      "summary_duration_seconds": 112.526,
+      "summary_length": 7762,
+      "summary_input_tokens": 34764,
+      "summary_output_tokens": 1623
+    },
+    {
+      "url": "https://keda.sh",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.111
+        }
+      ],
+      "content_length": 14189,
+      "duration_seconds": 1.111,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.794,
+      "summary_length": 1816,
+      "summary_input_tokens": 4254,
+      "summary_output_tokens": 1032
+    },
+    {
+      "url": "https://dysnix.com/predictkube",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.504
+        }
+      ],
+      "content_length": 14937,
+      "duration_seconds": 0.504,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.642,
+      "summary_length": 11490,
+      "summary_input_tokens": 4704,
+      "summary_output_tokens": 3438
+    },
+    {
+      "url": "https://github.com/redhat-cop/proactive-node-scaling-operator",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.688
+        }
+      ],
+      "content_length": 13073,
+      "duration_seconds": 4.688,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.127,
+      "summary_length": 4164,
+      "summary_input_tokens": 3519,
+      "summary_output_tokens": 1132
+    },
+    {
+      "url": "https://minimaldevops.com/predictive-autoscaling-in-kubernetes-with-keda-and-prophet-cbccd96cf881",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.171
+        }
+      ],
+      "content_length": 9841,
+      "duration_seconds": 4.171,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.892,
+      "summary_length": 2756,
+      "summary_input_tokens": 2334,
+      "summary_output_tokens": 1050
+    },
+    {
+      "url": "https://kedify.io/resources/blog/predictive-autoscaling",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.85
+        }
+      ],
+      "content_length": 8564,
+      "duration_seconds": 0.85,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.783,
+      "summary_length": 5177,
+      "summary_input_tokens": 2155,
+      "summary_output_tokens": 1322
+    },
+    {
+      "url": "https://zesty.co/blog/how-predictive-scaling-transforms-k8s-from-reactive-to-proactive",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.18
+        }
+      ],
+      "content_length": 6050,
+      "duration_seconds": 3.18,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.414,
+      "summary_length": 3181,
+      "summary_input_tokens": 1197,
+      "summary_output_tokens": 688
+    },
+    {
+      "url": "https://www.redhat.com/en/blog/how-full-is-my-cluster-part-6-proactive-node-autoscaling",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.715
+        }
+      ],
+      "content_length": 8918,
+      "duration_seconds": 5.715,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.985,
+      "summary_length": 9916,
+      "summary_input_tokens": 2126,
+      "summary_output_tokens": 2657
+    },
+    {
+      "url": "https://cast.ai/blog/karpenter-vs-cluster-autoscaler",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.608
+        }
+      ],
+      "content_length": 21544,
+      "duration_seconds": 8.608,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.157,
+      "summary_length": 3418,
+      "summary_input_tokens": 5252,
+      "summary_output_tokens": 1209
+    }
+  ],
+  "source_urls_count": 61,
+  "duration_seconds": 360.7026050593704,
+  "report_length": 20622,
+  "context_length": 163821,
+  "id": 68,
+  "prompt": "I need to dynamically adjust Kubernetes (K8S) cluster node counts based on fluctuating business request volumes, ensuring resources are scaled up proactively before peak loads and scaled down promptly during troughs. The standard Cluster Autoscaler (CA) isn't suitable as it relies on pending pods and might not fit non-elastic node group scenarios. What are effective implementation strategies, best practices, or existing projects that address predictive or scheduled autoscaling for K8S nodes?",
+  "language": "en",
+  "topic": "Software Development"
+}

@@ -1,0 +1,429 @@
+{
+  "total_llm_calls": 16,
+  "total_input_tokens": 263304,
+  "total_output_tokens": 35174,
+  "total_tokens": 298478,
+  "total_search_count": 8,
+  "total_search_results": 70,
+  "total_visit_count": 12,
+  "total_visit_success": 12,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 977,
+      "output_tokens": 1361,
+      "total_tokens": 2338,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20293,
+      "output_tokens": 476,
+      "total_tokens": 20769,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31641,
+      "output_tokens": 4001,
+      "total_tokens": 35642,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31562,
+      "output_tokens": 4000,
+      "total_tokens": 35562,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4704,
+      "output_tokens": 2216,
+      "total_tokens": 6920,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21081,
+      "output_tokens": 1251,
+      "total_tokens": 22332,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1650,
+      "output_tokens": 4001,
+      "total_tokens": 5651,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8882,
+      "output_tokens": 1477,
+      "total_tokens": 10359,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21885,
+      "output_tokens": 233,
+      "total_tokens": 22118,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34055,
+      "output_tokens": 2379,
+      "total_tokens": 36434,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21081,
+      "output_tokens": 1640,
+      "total_tokens": 22721,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31562,
+      "output_tokens": 2919,
+      "total_tokens": 34481,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1571,
+      "output_tokens": 941,
+      "total_tokens": 2512,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2576,
+      "output_tokens": 1222,
+      "total_tokens": 3798,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1125,
+      "output_tokens": 1526,
+      "total_tokens": 2651,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28659,
+      "output_tokens": 5531,
+      "total_tokens": 34190,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AASM jet lag clinical practice guideline",
+      "effective_query": "AASM jet lag clinical practice guideline",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "meta-analysis melatonin jet lag dose timing",
+      "effective_query": "meta-analysis melatonin jet lag dose timing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "light exposure phase response curve jet lag timing",
+      "effective_query": "light exposure phase response curve jet lag timing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "pre-trip sleep shifting jet lag protocol",
+      "effective_query": "pre-trip sleep shifting jet lag protocol",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "exercise phase response curve circadian timing",
+      "effective_query": "exercise phase response curve circadian timing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "meal timing fasting jet lag adaptation",
+      "effective_query": "meal timing fasting jet lag adaptation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "caffeine jet lag timing strategic napping",
+      "effective_query": "caffeine jet lag timing strategic napping",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "multi-leg jet lag management strategies",
+      "effective_query": "multi-leg jet lag management strategies",
+      "retriever": "tavily",
+      "num_results": 7
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2019.00927/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.25
+        }
+      ],
+      "content_length": 96914,
+      "duration_seconds": 6.25,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/jet-lag-disorder.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.567
+        }
+      ],
+      "content_length": 19296,
+      "duration_seconds": 16.567,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8958662",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.493
+        }
+      ],
+      "content_length": 78488,
+      "duration_seconds": 4.493,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2829880",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.143
+        }
+      ],
+      "content_length": 112536,
+      "duration_seconds": 1.143,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.health.harvard.edu/blog/resetting-your-circadian-clock-to-minimize-jet-lag-2016090810279",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.3
+        }
+      ],
+      "content_length": 5594,
+      "duration_seconds": 7.3,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://sleepeducation.org/sleep-disorders/jet-lag",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.69
+        }
+      ],
+      "content_length": 35298,
+      "duration_seconds": 4.69,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2829880",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.28
+        }
+      ],
+      "content_length": 112536,
+      "duration_seconds": 1.281,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.351,
+      "summary_length": 5824,
+      "summary_input_tokens": 34055,
+      "summary_output_tokens": 2379
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8958662",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.12
+        }
+      ],
+      "content_length": 78488,
+      "duration_seconds": 1.12,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.917,
+      "summary_length": 5594,
+      "summary_input_tokens": 21081,
+      "summary_output_tokens": 1640
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2019.00927/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.81
+        }
+      ],
+      "content_length": 96914,
+      "duration_seconds": 0.81,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.292,
+      "summary_length": 9587,
+      "summary_input_tokens": 31562,
+      "summary_output_tokens": 2919
+    },
+    {
+      "url": "https://www.health.harvard.edu/blog/resetting-your-circadian-clock-to-minimize-jet-lag-2016090810279",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.47
+        }
+      ],
+      "content_length": 5594,
+      "duration_seconds": 0.47,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.521,
+      "summary_length": 3455,
+      "summary_input_tokens": 1571,
+      "summary_output_tokens": 941
+    },
+    {
+      "url": "https://www.healthline.com/health/healthy-sleep/how-to-get-over-jet-lag",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.376
+        }
+      ],
+      "content_length": 9038,
+      "duration_seconds": 7.376,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.98,
+      "summary_length": 3742,
+      "summary_input_tokens": 2576,
+      "summary_output_tokens": 1222
+    },
+    {
+      "url": "https://www.sleephealthfoundation.org.au/sleep-topics/tips-to-help-combat-jet-lag",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.656
+        }
+      ],
+      "content_length": 3632,
+      "duration_seconds": 2.656,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.61,
+      "summary_length": 4226,
+      "summary_input_tokens": 1125,
+      "summary_output_tokens": 1526
+    }
+  ],
+  "source_urls_count": 60,
+  "duration_seconds": 1034.953811521642,
+  "report_length": 22140,
+  "context_length": 154384,
+  "qid": "lifesp3dNgib6HFZgsHUFR",
+  "query": "For adult travelers (18–75) crossing ≥3 time zones—eastbound or westbound—who want to cut jet lag and stay sharp during the day, which strategies (smart light exposure by direction, well-timed melatonin and dose, pre-trip sleep shifting, planned exercise and meal timing, and caffeine timing) work best? How strong is the evidence from peer-reviewed studies and consensus guidelines, and which simple routines (e.g., light schedule, sleep window, meal plan, movement, caffeine cutoff, strategic naps) keep benefits going on multi-leg trips or quick turnarounds—reviewing all literature with extra weight on findings from ?"
+}

@@ -1,0 +1,429 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 453084,
+  "total_output_tokens": 27681,
+  "total_tokens": 480765,
+  "total_search_count": 29,
+  "total_search_results": 259,
+  "total_visit_count": 7,
+  "total_visit_success": 7,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 959,
+      "output_tokens": 329,
+      "total_tokens": 1288,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41593,
+      "output_tokens": 250,
+      "total_tokens": 41843,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 61841,
+      "output_tokens": 289,
+      "total_tokens": 62130,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36256,
+      "output_tokens": 1950,
+      "total_tokens": 38206,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34854,
+      "output_tokens": 2221,
+      "total_tokens": 37075,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6795,
+      "output_tokens": 2638,
+      "total_tokens": 9433,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11200,
+      "output_tokens": 2764,
+      "total_tokens": 13964,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 69403,
+      "output_tokens": 243,
+      "total_tokens": 69646,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5891,
+      "output_tokens": 2196,
+      "total_tokens": 8087,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9530,
+      "output_tokens": 931,
+      "total_tokens": 10461,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10773,
+      "output_tokens": 3822,
+      "total_tokens": 14595,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 73911,
+      "output_tokens": 334,
+      "total_tokens": 74245,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 90078,
+      "output_tokens": 9714,
+      "total_tokens": 99792,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AMD Ryzen 9 9950X3D price Amazon Micro Center Best Buy 2026",
+      "effective_query": "AMD Ryzen 9 9950X3D price Amazon Micro Center Best Buy 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AMD Ryzen 9 9900X3D price US retailer 2026",
+      "effective_query": "AMD Ryzen 9 9900X3D price US retailer 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AMD Ryzen 7 9800X3D price 2026",
+      "effective_query": "AMD Ryzen 7 9800X3D price 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AMD Ryzen 9 9950X price 2026",
+      "effective_query": "AMD Ryzen 9 9950X price 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AMD Ryzen 9 9900X price 2026",
+      "effective_query": "AMD Ryzen 9 9900X price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AMD Ryzen 7 9700X price 2026",
+      "effective_query": "AMD Ryzen 7 9700X price 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AMD Ryzen 5 9600X price 2026",
+      "effective_query": "AMD Ryzen 5 9600X price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Intel Core Ultra 9 285K price 2026",
+      "effective_query": "Intel Core Ultra 9 285K price 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Intel Core Ultra 7 265K price 2026",
+      "effective_query": "Intel Core Ultra 7 265K price 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Intel Core Ultra 5 245K price 2026",
+      "effective_query": "Intel Core Ultra 5 245K price 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Intel Core i9-14900K price 2026",
+      "effective_query": "Intel Core i9-14900K price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Intel Core i9-14900KS price 2026",
+      "effective_query": "Intel Core i9-14900KS price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Intel Core i7-14700K price 2026",
+      "effective_query": "Intel Core i7-14700K price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Intel Core i5-14600K price 2026",
+      "effective_query": "Intel Core i5-14600K price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AMD Ryzen 9 9950X3D vs Intel Core Ultra 9 285K gaming benchmark 2026",
+      "effective_query": "AMD Ryzen 9 9950X3D vs Intel Core Ultra 9 285K gaming benchmark 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AMD Ryzen 9 9950X3D vs 9800X3D gaming benchmark 1440p 4K 2026",
+      "effective_query": "AMD Ryzen 9 9950X3D vs 9800X3D gaming benchmark 1440p 4K 2026",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Intel Core Ultra 9 285K vs 14900K gaming benchmark 2026",
+      "effective_query": "Intel Core Ultra 9 285K vs 14900K gaming benchmark 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AMD Ryzen 9950X3D vs 9950X productivity benchmark 2026",
+      "effective_query": "AMD Ryzen 9950X3D vs 9950X productivity benchmark 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Intel Core Ultra 285K vs 265K vs 245K power efficiency thermal 2026",
+      "effective_query": "Intel Core Ultra 285K vs 265K vs 245K power efficiency thermal 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AMD Ryzen 9000X3D power consumption thermal 2026",
+      "effective_query": "AMD Ryzen 9000X3D power consumption thermal 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Intel Core i9-14900K i7-14700K i5-14600K gaming benchmark 2026",
+      "effective_query": "Intel Core i9-14900K i7-14700K i5-14600K gaming benchmark 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AMD Ryzen 9 9950X3D rendering video editing code compilation benchmark 2026",
+      "effective_query": "AMD Ryzen 9 9950X3D rendering video editing code compilation benchmark 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AMD Ryzen 9 9900X3D gaming benchmark 1440p 4K 2026",
+      "effective_query": "AMD Ryzen 9 9900X3D gaming benchmark 1440p 4K 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AMD Ryzen 9 9900X3D vs 9900X productivity benchmark",
+      "effective_query": "AMD Ryzen 9 9900X3D vs 9900X productivity benchmark",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Intel Core Ultra 5 245K vs i5-14600K gaming benchmark",
+      "effective_query": "Intel Core Ultra 5 245K vs i5-14600K gaming benchmark",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AMD Ryzen 7 9700X vs 9600X gaming benchmark 1440p 2026",
+      "effective_query": "AMD Ryzen 7 9700X vs 9600X gaming benchmark 1440p 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AMD Ryzen 9 9950X3D power consumption temperature review",
+      "effective_query": "AMD Ryzen 9 9950X3D power consumption temperature review",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Intel Core i9-14900KS vs 14900K gaming benchmark 2026",
+      "effective_query": "Intel Core i9-14900KS vs 14900K gaming benchmark 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Intel Core i5-14600K vs i7-14700K gaming benchmark 1440p 2026",
+      "effective_query": "Intel Core i5-14600K vs i7-14700K gaming benchmark 1440p 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-9-9950x3d-vs-intel-core-ultra-9-285k-faceoff",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 24.671
+        }
+      ],
+      "content_length": 104990,
+      "duration_seconds": 24.671,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.567,
+      "summary_length": 4797,
+      "summary_input_tokens": 36256,
+      "summary_output_tokens": 1950
+    },
+    {
+      "url": "https://www.pcmag.com/comparisons/amd-ryzen-9-9950x3d-vs-intel-core-ultra-9-285k-which-desktop-cpu-is-best",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.59
+        }
+      ],
+      "content_length": 103680,
+      "duration_seconds": 8.59,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.096,
+      "summary_length": 4926,
+      "summary_input_tokens": 34854,
+      "summary_output_tokens": 2221
+    },
+    {
+      "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-9-9950x3d-vs-amd-ryzen-7-9800x3d-faceoff",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.516
+        }
+      ],
+      "content_length": 25091,
+      "duration_seconds": 8.516,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.133,
+      "summary_length": 8997,
+      "summary_input_tokens": 6795,
+      "summary_output_tokens": 2638
+    },
+    {
+      "url": "https://gamersnexus.net/cpus/amd-ryzen-9-9950x3d-cpu-review-benchmarks-vs-9800x3d-285k-9950x-more",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.964
+        }
+      ],
+      "content_length": 35071,
+      "duration_seconds": 2.964,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.101,
+      "summary_length": 8026,
+      "summary_input_tokens": 11200,
+      "summary_output_tokens": 2764
+    },
+    {
+      "url": "https://www.club386.com/intel-core-ultra-9-285k-vs-intel-core-i9-14900k/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.092
+        }
+      ],
+      "content_length": 19025,
+      "duration_seconds": 3.092,
+      "summary_status": "success",
+      "summary_duration_seconds": 45.637,
+      "summary_length": 4369,
+      "summary_input_tokens": 5891,
+      "summary_output_tokens": 2196
+    },
+    {
+      "url": "https://www.corsair.com/us/en/explorer/gamer/gaming-pcs/intel-core-ultra-9-285k-vs-14900kks-which-is-better",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.932
+        }
+      ],
+      "content_length": 28254,
+      "duration_seconds": 4.933,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.972,
+      "summary_length": 2451,
+      "summary_input_tokens": 9530,
+      "summary_output_tokens": 931
+    },
+    {
+      "url": "https://gamersnexus.net/cpus/intel-core-ultra-7-265k-cpu-review-benchmarks-vs-285k-245k-7800x3d-7900x-more",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.942
+        }
+      ],
+      "content_length": 33475,
+      "duration_seconds": 3.942,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 258,
+  "duration_seconds": 466.71733564231545,
+  "report_length": 19396,
+  "context_length": 315304,
+  "qid": "prodcpk7qXxlpmrrTy0GyZ",
+  "query": "Compare AMD Ryzen 9 9950X3D, 9900X3D, 9800X3D, 9950X, 9900X, 9700X, 9600X vs Intel Core Ultra 9 285K, Ultra 7 265K, Ultra 5 245K, and Core i9-14900K/KS, i7-14700K, i5-14600K on gaming performance (2k and 4k across AAA and esports titles), productivity workloads (e.g., video editing, 3D rendering, code compilation, streaming), power efficiency, thermal characteristics, and CPU prices in the US from popular platforms such as Amazon, Micro Center, Warmart, Bestbuy, etc. as of now ({{current_date}}). In the final report, you should include a detailed table for the summarized results, and provide cited data where available."
+}

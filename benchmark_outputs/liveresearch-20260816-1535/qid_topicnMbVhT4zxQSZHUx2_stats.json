@@ -1,0 +1,96 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 21465,
+  "total_output_tokens": 7264,
+  "total_tokens": 28729,
+  "total_search_count": 10,
+  "total_search_results": 95,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 924,
+      "output_tokens": 175,
+      "total_tokens": 1099,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20541,
+      "output_tokens": 7089,
+      "total_tokens": 27630,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "loneliness epidemic seniors 65+ United States statistics 2020 COVID-19 social isolation",
+      "effective_query": "loneliness epidemic seniors 65+ United States statistics 2020 COVID-19 social isolation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "health risks loneliness older adults systematic review",
+      "effective_query": "health risks loneliness older adults systematic review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "community programs reduce loneliness seniors government nonprofit",
+      "effective_query": "community programs reduce loneliness seniors government nonprofit",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "technology solutions senior connectivity digital divide",
+      "effective_query": "technology solutions senior connectivity digital divide",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "practical steps combat loneliness older adults success stories",
+      "effective_query": "practical steps combat loneliness older adults success stories",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AARP loneliness programs seniors",
+      "effective_query": "AARP loneliness programs seniors",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NIH social isolation older adults health risks",
+      "effective_query": "NIH social isolation older adults health risks",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Eldercare Locator social connection programs",
+      "effective_query": "Eldercare Locator social connection programs",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "NCOA senior isolation resources",
+      "effective_query": "NCOA senior isolation resources",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Senior Planet technology training older adults",
+      "effective_query": "Senior Planet technology training older adults",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 84,
+  "duration_seconds": 197.54751187935472,
+  "report_length": 30359,
+  "context_length": 131559,
+  "qid": "topicnMbVhT4zxQSZHUx2",
+  "query": "As a retiree aged 65 or older living in the United States, help me understand the loneliness epidemic among seniors and what I can do about it. I want to know (1) why social isolation has worsened for people in my age group, particularly since early 2020 and the onset of COVID-19, (2) how loneliness impacts my health and mental well-being, including specific health risks I should be aware of, (3) what community programs, technologies, and both in-person and digital solutions effectively help seniors stay connected — including government initiatives, nonprofit programs, and grassroots efforts, and (4) practical steps I can take to protect myself and support other seniors in my community. Please provide real examples, success stories, and practical resources with detailed information wherever possible."
+}

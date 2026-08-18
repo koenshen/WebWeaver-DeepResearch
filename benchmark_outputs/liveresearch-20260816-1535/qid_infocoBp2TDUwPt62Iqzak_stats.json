@@ -1,0 +1,428 @@
+{
+  "total_llm_calls": 20,
+  "total_input_tokens": 207003,
+  "total_output_tokens": 49198,
+  "total_tokens": 256201,
+  "total_search_count": 17,
+  "total_search_results": 160,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 855,
+      "output_tokens": 174,
+      "total_tokens": 1029,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12931,
+      "output_tokens": 232,
+      "total_tokens": 13163,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5404,
+      "output_tokens": 1966,
+      "total_tokens": 7370,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3647,
+      "output_tokens": 4001,
+      "total_tokens": 7648,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16597,
+      "output_tokens": 901,
+      "total_tokens": 17498,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14236,
+      "output_tokens": 267,
+      "total_tokens": 14503,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36068,
+      "output_tokens": 1372,
+      "total_tokens": 37440,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3875,
+      "output_tokens": 686,
+      "total_tokens": 4561,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3875,
+      "output_tokens": 682,
+      "total_tokens": 4557,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3875,
+      "output_tokens": 1914,
+      "total_tokens": 5789,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1488,
+      "output_tokens": 1740,
+      "total_tokens": 3228,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1855,
+      "output_tokens": 3969,
+      "total_tokens": 5824,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2447,
+      "output_tokens": 4001,
+      "total_tokens": 6448,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2447,
+      "output_tokens": 4001,
+      "total_tokens": 6448,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2368,
+      "output_tokens": 1705,
+      "total_tokens": 4073,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2352,
+      "output_tokens": 4001,
+      "total_tokens": 6353,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2352,
+      "output_tokens": 4001,
+      "total_tokens": 6353,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2352,
+      "output_tokens": 3081,
+      "total_tokens": 5433,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38838,
+      "output_tokens": 1922,
+      "total_tokens": 40760,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 49141,
+      "output_tokens": 8582,
+      "total_tokens": 57723,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "GDPR fines over €50 million 2022 2023 2024 2025 2026 final decisions list",
+      "effective_query": "GDPR fines over €50 million 2022 2023 2024 2025 2026 final decisions list",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "largest GDPR fines 2022 2023 2024 2025 €50 million final",
+      "effective_query": "largest GDPR fines 2022 2023 2024 2025 €50 million final",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GDPR enforcement tracker fines over 50 million euros 2022 2023 2024 2025",
+      "effective_query": "GDPR enforcement tracker fines over 50 million euros 2022 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EU data protection fines 2022 2023 2024 2025 above 50 million final decisions",
+      "effective_query": "EU data protection fines 2022 2023 2024 2025 above 50 million final decisions",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Enel Energia GDPR fine €79 million final decision appeal status",
+      "effective_query": "Enel Energia GDPR fine €79 million final decision appeal status",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ridetech International GDPR fine €100 million Netherlands 2026",
+      "effective_query": "Ridetech International GDPR fine €100 million Netherlands 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shein GDPR fine €150 million 2025 appeal status",
+      "effective_query": "Shein GDPR fine €150 million 2025 appeal status",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Meta €251 million GDPR fine 2024 appeal status final",
+      "effective_query": "Meta €251 million GDPR fine 2024 appeal status final",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Uber €290 million GDPR fine Netherlands 2024 appeal status",
+      "effective_query": "Uber €290 million GDPR fine Netherlands 2024 appeal status",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LinkedIn €310 million GDPR fine Ireland 2024 appeal status",
+      "effective_query": "LinkedIn €310 million GDPR fine Ireland 2024 appeal status",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "TikTok €530 million GDPR fine 2025 appeal status",
+      "effective_query": "TikTok €530 million GDPR fine 2025 appeal status",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Meta €405 million GDPR fine 2022 appeal status",
+      "effective_query": "Meta €405 million GDPR fine 2022 appeal status",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Meta €390 million GDPR fine 2023 appeal status",
+      "effective_query": "Meta €390 million GDPR fine 2023 appeal status",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google €325 million GDPR fine CNIL 2025 final decision",
+      "effective_query": "Google €325 million GDPR fine CNIL 2025 final decision",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TikTok €345 million GDPR fine 2023 appeal status",
+      "effective_query": "TikTok €345 million GDPR fine 2023 appeal status",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Meta €265 million GDPR fine 2022 appeal status",
+      "effective_query": "Meta €265 million GDPR fine 2022 appeal status",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GDPR fines over 50 million 2022 2023 2024 2025 2026 complete list enforcementtracker",
+      "effective_query": "GDPR fines over 50 million 2022 2023 2024 2025 2026 complete list enforcementtracker",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.enforcementtracker.com",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.806
+        }
+      ],
+      "content_length": 15319,
+      "duration_seconds": 5.806,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://privacyterms.io/biggest-gdpr-fines-all-time",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.79
+        }
+      ],
+      "content_length": 14467,
+      "duration_seconds": 2.79,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://cms.law/en/int/publication/GDPR-Enforcement-Tracker-Report/numbers-and-figures",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.036
+        }
+      ],
+      "content_length": 58999,
+      "duration_seconds": 8.037,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.772,
+      "summary_length": 3795,
+      "summary_input_tokens": 16597,
+      "summary_output_tokens": 901
+    },
+    {
+      "url": "https://gdprfine.com/fines",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.393
+        }
+      ],
+      "content_length": 15213,
+      "duration_seconds": 2.394,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.dataprotection.ie/en/news-media/press-releases/irish-data-protection-commission-fines-meta-eu251-million",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.488
+        }
+      ],
+      "content_length": 6040,
+      "duration_seconds": 2.489,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.393,
+      "summary_length": 7268,
+      "summary_input_tokens": 1488,
+      "summary_output_tokens": 1740
+    },
+    {
+      "url": "https://www.dataprotection.ie/en/news-media/press-releases/irish-data-protection-commission-fines-linkedin-ireland-eu310-million",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.09
+        }
+      ],
+      "content_length": 7387,
+      "duration_seconds": 17.09,
+      "summary_status": "success",
+      "summary_duration_seconds": 42.596,
+      "summary_length": 3887,
+      "summary_input_tokens": 1855,
+      "summary_output_tokens": 3969
+    },
+    {
+      "url": "https://www.dataprotection.ie/en/news-media/latest-news/irish-data-protection-commission-fines-tiktok-eu530-million-and-orders-corrective-measures-following",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.583
+        }
+      ],
+      "content_length": 10439,
+      "duration_seconds": 5.583,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.187,
+      "summary_length": 852,
+      "summary_input_tokens": 2447,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.dataprotection.ie/en/news-media/data-protection-commission-announces-conclusion-two-inquiries-meta-ireland",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.725
+        }
+      ],
+      "content_length": 10277,
+      "duration_seconds": 5.725,
+      "summary_status": "success",
+      "summary_duration_seconds": 41.742,
+      "summary_length": 4849,
+      "summary_input_tokens": 2352,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 125,
+  "duration_seconds": 1548.6355981426314,
+  "report_length": 24783,
+  "context_length": 241455,
+  "qid": "infocoBp2TDUwPt62Iqzak",
+  "query": "Which organizations were fined more than €50 million under GDPR in calendar‑years 2022‑2026? Provide organization, fine amount, date, infringement summary, and links to the data‑protection‑authority decision and an independent privacy‑law tracker. I am interested in all sectors (e.g., tech, finance, retail). The fines should be limited to final decisions only, and should not include proposed/appealed ones."
+}

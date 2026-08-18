@@ -1,0 +1,484 @@
+{
+  "total_llm_calls": 16,
+  "total_input_tokens": 235388,
+  "total_output_tokens": 30097,
+  "total_tokens": 265485,
+  "total_search_count": 24,
+  "total_search_results": 211,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 941,
+      "output_tokens": 971,
+      "total_tokens": 1912,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9033,
+      "output_tokens": 366,
+      "total_tokens": 9399,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2088,
+      "output_tokens": 2250,
+      "total_tokens": 4338,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9128,
+      "output_tokens": 1538,
+      "total_tokens": 10666,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10335,
+      "output_tokens": 1940,
+      "total_tokens": 12275,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12917,
+      "output_tokens": 2578,
+      "total_tokens": 15495,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8054,
+      "output_tokens": 2498,
+      "total_tokens": 10552,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8847,
+      "output_tokens": 1850,
+      "total_tokens": 10697,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10215,
+      "output_tokens": 1381,
+      "total_tokens": 11596,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7057,
+      "output_tokens": 2114,
+      "total_tokens": 9171,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2712,
+      "output_tokens": 1070,
+      "total_tokens": 3782,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4291,
+      "output_tokens": 1987,
+      "total_tokens": 6278,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16369,
+      "output_tokens": 203,
+      "total_tokens": 16572,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34846,
+      "output_tokens": 678,
+      "total_tokens": 35524,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42903,
+      "output_tokens": 146,
+      "total_tokens": 43049,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 55652,
+      "output_tokens": 8527,
+      "total_tokens": 64179,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "best gaming monitors 2026 refresh rate response time",
+      "effective_query": "best gaming monitors 2026 refresh rate response time",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "top gaming monitors 2026 release date",
+      "effective_query": "top gaming monitors 2026 release date",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 high refresh rate monitor 540Hz 480Hz",
+      "effective_query": "2026 high refresh rate monitor 540Hz 480Hz",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ASUS ROG Swift PG27AQWP price 2026",
+      "effective_query": "ASUS ROG Swift PG27AQWP price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MSI MPG 271QR QD-OLED X50 price 2026",
+      "effective_query": "MSI MPG 271QR QD-OLED X50 price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ASUS ROG Strix OLED XG259QWPG Ace price 2026",
+      "effective_query": "ASUS ROG Strix OLED XG259QWPG Ace price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LG UltraGear 27GR83Q price 2026",
+      "effective_query": "LG UltraGear 27GR83Q price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Alienware AW2725DF price 2026 $649",
+      "effective_query": "Alienware AW2725DF price 2026 $649",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Samsung Odyssey G6 G60H price 2026",
+      "effective_query": "Samsung Odyssey G6 G60H price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ASUS ROG Swift Pro PG248QP price 2026",
+      "effective_query": "ASUS ROG Swift Pro PG248QP price 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Alienware AW2524HF price 2026",
+      "effective_query": "Alienware AW2524HF price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CTX OM 27 price 2026",
+      "effective_query": "CTX OM 27 price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CTX GE 245 price 2026",
+      "effective_query": "CTX GE 245 price 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Philips Evnia 27M2N6501L price USD 2026",
+      "effective_query": "Philips Evnia 27M2N6501L price USD 2026",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "ASUS ROG Swift PG27AQDP price 2026",
+      "effective_query": "ASUS ROG Swift PG27AQDP price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Titan Army P2712V price 2026",
+      "effective_query": "Titan Army P2712V price 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AOC Q27G4ZR price 2026",
+      "effective_query": "AOC Q27G4ZR price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MSI MPG 272QRF X36 price 2026 $649",
+      "effective_query": "MSI MPG 272QRF X36 price 2026 $649",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Samsung Odyssey OLED G60SF price 2026 $999",
+      "effective_query": "Samsung Odyssey OLED G60SF price 2026 $999",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MSI MAG 272QP QD-OLED X50 price 2026",
+      "effective_query": "MSI MAG 272QP QD-OLED X50 price 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "ASUS ROG Strix XG27AQDMG price 2026",
+      "effective_query": "ASUS ROG Strix XG27AQDMG price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Dell Alienware AW2725DM price 2026",
+      "effective_query": "Dell Alienware AW2725DM price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LG 27GX790B-B price 2026",
+      "effective_query": "LG 27GX790B-B price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Gigabyte MO27Q28G price 2026",
+      "effective_query": "Gigabyte MO27Q28G price 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://vibetric.com/best-gaming-monitor-2026-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.127
+        }
+      ],
+      "content_length": 7028,
+      "duration_seconds": 7.127,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.334,
+      "summary_length": 2952,
+      "summary_input_tokens": 2088,
+      "summary_output_tokens": 2250
+    },
+    {
+      "url": "https://www.pcgamer.com/best-high-refresh-rate-monitor-for-gaming",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.969
+        }
+      ],
+      "content_length": 32776,
+      "duration_seconds": 7.969,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-gaming-monitor",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.93
+        }
+      ],
+      "content_length": 40108,
+      "duration_seconds": 8.931,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.tomshardware.com/reviews/best-gaming-monitors,4533.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.648
+        }
+      ],
+      "content_length": 45140,
+      "duration_seconds": 10.648,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.369,
+      "summary_length": 4444,
+      "summary_input_tokens": 12917,
+      "summary_output_tokens": 2578
+    },
+    {
+      "url": "https://www.rtings.com/monitor/reviews/best/by-usage/gaming",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.315
+        }
+      ],
+      "content_length": 26890,
+      "duration_seconds": 9.315,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.club386.com/best-gaming-monitor",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.858
+        }
+      ],
+      "content_length": 31091,
+      "duration_seconds": 3.858,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://tftcentral.co.uk/recommendations/the-best-oled-gaming-monitors-to-buy-in-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.626
+        }
+      ],
+      "content_length": 39023,
+      "duration_seconds": 5.626,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.985,
+      "summary_length": 3516,
+      "summary_input_tokens": 10215,
+      "summary_output_tokens": 1381
+    },
+    {
+      "url": "https://press.asus.com/news/press-releases/asus-rog-computex-2026-new-displays-oled-proart-zenscreen",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.099
+        }
+      ],
+      "content_length": 22870,
+      "duration_seconds": 4.099,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.564,
+      "summary_length": 3441,
+      "summary_input_tokens": 7057,
+      "summary_output_tokens": 2114
+    },
+    {
+      "url": "https://www.techpowerup.com/forums/threads/ctx-shows-540-hz-qhd-oled-gaming-monitor-at-ces-2026.345090",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.815
+        }
+      ],
+      "content_length": 7776,
+      "duration_seconds": 12.815,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.pcworld.com/article/3024313/the-10-best-pc-monitors-at-ces-2026.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.17
+        }
+      ],
+      "content_length": 14479,
+      "duration_seconds": 9.17,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.716,
+      "summary_length": 4020,
+      "summary_input_tokens": 4291,
+      "summary_output_tokens": 1987
+    }
+  ],
+  "source_urls_count": 206,
+  "duration_seconds": 1285.0773608852178,
+  "report_length": 14186,
+  "context_length": 200842,
+  "qid": "rankli824vjs9DMOPbb7HD",
+  "query": "What are the top 12 gaming monitors released or available for purchase in 2026, based on refresh rate (Hz), response time (ms), and price per inch of screen size? Please assume all three criteria are weighted equally. No specific panel technologies or size requirements are set; consider all currently available monitors within this timeframe. In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking."
+}

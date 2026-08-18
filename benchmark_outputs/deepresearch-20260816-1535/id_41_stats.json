@@ -1,0 +1,192 @@
+{
+  "total_llm_calls": 7,
+  "total_input_tokens": 232389,
+  "total_output_tokens": 11918,
+  "total_tokens": 244307,
+  "total_search_count": 13,
+  "total_search_results": 122,
+  "total_visit_count": 2,
+  "total_visit_success": 2,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 812,
+      "output_tokens": 261,
+      "total_tokens": 1073,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21732,
+      "output_tokens": 990,
+      "total_tokens": 22722,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 72341,
+      "output_tokens": 2629,
+      "total_tokens": 74970,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4963,
+      "output_tokens": 609,
+      "total_tokens": 5572,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24890,
+      "output_tokens": 148,
+      "total_tokens": 25038,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53782,
+      "output_tokens": 170,
+      "total_tokens": 53952,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53869,
+      "output_tokens": 7111,
+      "total_tokens": 60980,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "2026年中国电影票房排行榜前十",
+      "effective_query": "2026年中国电影票房排行榜前十",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国电影票房总榜前十 2026",
+      "effective_query": "中国电影票房总榜前十 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国电影票房前十 主题 制作公司 题材 时长",
+      "effective_query": "中国电影票房前十 主题 制作公司 题材 时长",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "哪吒之魔童闹海 制作公司 主题 题材 时长",
+      "effective_query": "哪吒之魔童闹海 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "长津湖 电影 制作公司 主题 题材 时长",
+      "effective_query": "长津湖 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "战狼2 电影 制作公司 主题 题材 时长",
+      "effective_query": "战狼2 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "你好李焕英 电影 制作公司 主题 题材 时长",
+      "effective_query": "你好李焕英 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "哪吒之魔童降世 电影 制作公司 主题 题材 时长",
+      "effective_query": "哪吒之魔童降世 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "流浪地球 电影 制作公司 主题 题材 时长",
+      "effective_query": "流浪地球 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "疯狂动物城2 电影 制作公司 主题 题材 时长",
+      "effective_query": "疯狂动物城2 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "满江红 电影 制作公司 主题 题材 时长",
+      "effective_query": "满江红 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "唐人街探案3 电影 制作公司 主题 题材 时长",
+      "effective_query": "唐人街探案3 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "飞驰人生3 电影 制作公司 主题 题材 时长",
+      "effective_query": "飞驰人生3 电影 制作公司 主题 题材 时长",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://zh.wikipedia.org/zh-hans/%E4%B8%AD%E5%9B%BD%E5%86%85%E5%9C%B0%E6%9C%80%E9%AB%98%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.179
+        }
+      ],
+      "content_length": 130661,
+      "duration_seconds": 3.18,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.535,
+      "summary_length": 4082,
+      "summary_input_tokens": 72341,
+      "summary_output_tokens": 2629
+    },
+    {
+      "url": "http://www.boxofficecn.com/the-red-box-office",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.196
+        }
+      ],
+      "content_length": 9517,
+      "duration_seconds": 5.196,
+      "summary_status": "success",
+      "summary_duration_seconds": 2.316,
+      "summary_length": 991,
+      "summary_input_tokens": 4963,
+      "summary_output_tokens": 609
+    }
+  ],
+  "source_urls_count": 114,
+  "duration_seconds": 226.4646541029215,
+  "report_length": 10432,
+  "context_length": 109347,
+  "id": 41,
+  "prompt": "收集整理目前中国电影票房前十的电影的相关资料，横向比较各电影的主题、技制作公司、题材、时长等维度，并为我评估出最有可能在未来实现高票房的电影类型",
+  "language": "zh",
+  "topic": "Entertainment"
+}

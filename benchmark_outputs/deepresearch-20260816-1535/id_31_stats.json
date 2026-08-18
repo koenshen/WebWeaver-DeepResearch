@@ -1,0 +1,154 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 125688,
+  "total_output_tokens": 13011,
+  "total_tokens": 138699,
+  "total_search_count": 17,
+  "total_search_results": 157,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 931,
+      "output_tokens": 486,
+      "total_tokens": 1417,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28262,
+      "output_tokens": 242,
+      "total_tokens": 28504,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48162,
+      "output_tokens": 166,
+      "total_tokens": 48328,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48333,
+      "output_tokens": 12117,
+      "total_tokens": 60450,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "中国博物馆教育 现状 特点 2024",
+      "effective_query": "中国博物馆教育 现状 特点 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "国外博物馆教育 现状 美国 英国 法国 日本",
+      "effective_query": "国外博物馆教育 现状 美国 英国 法国 日本",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "博物馆教育 未来趋势 数字化 人工智能",
+      "effective_query": "博物馆教育 未来趋势 数字化 人工智能",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国博物馆 分类 国家级 省级 市级 博物馆教育 特点",
+      "effective_query": "中国博物馆 分类 国家级 省级 市级 博物馆教育 特点",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "博物馆教育 理念 发展趋势 2025",
+      "effective_query": "博物馆教育 理念 发展趋势 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国博物馆教育 政策 国家文物局 2024",
+      "effective_query": "中国博物馆教育 政策 国家文物局 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "美国博物馆教育 现状 特点 史密森尼 教育项目",
+      "effective_query": "美国博物馆教育 现状 特点 史密森尼 教育项目",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "英国博物馆教育 现状 馆校合作 大英博物馆",
+      "effective_query": "英国博物馆教育 现状 馆校合作 大英博物馆",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "法国博物馆教育 现状 卢浮宫 教育项目",
+      "effective_query": "法国博物馆教育 现状 卢浮宫 教育项目",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "日本博物馆教育 现状 社会教育 特征",
+      "effective_query": "日本博物馆教育 现状 社会教育 特征",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "博物馆教育 国际比较 美国 英国 法国 日本 德国",
+      "effective_query": "博物馆教育 国际比较 美国 英国 法国 日本 德国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国博物馆 国家级 省级 市级 博物馆教育 特点 对比",
+      "effective_query": "中国博物馆 国家级 省级 市级 博物馆教育 特点 对比",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国民办博物馆 教育 现状 2024",
+      "effective_query": "中国民办博物馆 教育 现状 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "博物馆教育 未来趋势 沉浸式体验 个性化学习 2025",
+      "effective_query": "博物馆教育 未来趋势 沉浸式体验 个性化学习 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国博物馆 教育 数字化 转型 案例",
+      "effective_query": "中国博物馆 教育 数字化 转型 案例",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "美国博物馆 教育 项目 案例 大都会 自然历史",
+      "effective_query": "美国博物馆 教育 项目 案例 大都会 自然历史",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "日本博物馆教育 法 社会教育 馆校合作",
+      "effective_query": "日本博物馆教育 法 社会教育 馆校合作",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 145,
+  "duration_seconds": 432.86666066851467,
+  "report_length": 23487,
+  "context_length": 121339,
+  "id": 31,
+  "prompt": "选题：中外博物馆教育的现状与未来趋势。要求1.分别总结国内外的现状与特点，特别是国外的现状要按代表性国家分别归纳。2.博物馆要进行分类总结，如按级别国家级、省级、市级、村级、或按国有和私人，分类要自成体系。3.结合科技发展趋势和教育理念发展，谈一下未来发展趋势，针对中国博物馆要详写。",
+  "language": "zh",
+  "topic": "History"
+}

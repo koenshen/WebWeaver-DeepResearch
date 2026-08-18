@@ -1,0 +1,668 @@
+{
+  "total_llm_calls": 25,
+  "total_input_tokens": 539344,
+  "total_output_tokens": 41431,
+  "total_tokens": 580775,
+  "total_search_count": 34,
+  "total_search_results": 318,
+  "total_visit_count": 13,
+  "total_visit_success": 13,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 899,
+      "output_tokens": 131,
+      "total_tokens": 1030,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15577,
+      "output_tokens": 171,
+      "total_tokens": 15748,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30288,
+      "output_tokens": 216,
+      "total_tokens": 30504,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44313,
+      "output_tokens": 175,
+      "total_tokens": 44488,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2463,
+      "output_tokens": 2278,
+      "total_tokens": 4741,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8694,
+      "output_tokens": 1114,
+      "total_tokens": 9808,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2711,
+      "output_tokens": 3100,
+      "total_tokens": 5811,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46582,
+      "output_tokens": 126,
+      "total_tokens": 46708,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8477,
+      "output_tokens": 4001,
+      "total_tokens": 12478,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8398,
+      "output_tokens": 1991,
+      "total_tokens": 10389,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46795,
+      "output_tokens": 131,
+      "total_tokens": 46926,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3844,
+      "output_tokens": 1190,
+      "total_tokens": 5034,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2195,
+      "output_tokens": 1125,
+      "total_tokens": 3320,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6246,
+      "output_tokens": 709,
+      "total_tokens": 6955,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48888,
+      "output_tokens": 118,
+      "total_tokens": 49006,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 791,
+      "output_tokens": 902,
+      "total_tokens": 1693,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 940,
+      "output_tokens": 1565,
+      "total_tokens": 2505,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50464,
+      "output_tokens": 108,
+      "total_tokens": 50572,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 61775,
+      "output_tokens": 148,
+      "total_tokens": 61923,
+      "message_count": 18
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2754,
+      "output_tokens": 829,
+      "total_tokens": 3583,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2833,
+      "output_tokens": 3605,
+      "total_tokens": 6438,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2236,
+      "output_tokens": 4001,
+      "total_tokens": 6237,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2236,
+      "output_tokens": 3883,
+      "total_tokens": 6119,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 63286,
+      "output_tokens": 191,
+      "total_tokens": 63477,
+      "message_count": 20
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 75659,
+      "output_tokens": 9623,
+      "total_tokens": 85282,
+      "message_count": 22
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Spotify vs Apple Music vs YouTube Music vs Amazon Music vs Pandora vs Tidal comparison 2026",
+      "effective_query": "Spotify vs Apple Music vs YouTube Music vs Amazon Music vs Pandora vs Tidal comparison 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Spotify music discovery features algorithmic recommendations 2026",
+      "effective_query": "Spotify music discovery features algorithmic recommendations 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Apple Music music discovery features 2026",
+      "effective_query": "Apple Music music discovery features 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "YouTube Music discovery features algorithm 2026",
+      "effective_query": "YouTube Music discovery features algorithm 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tidal music discovery features 2026",
+      "effective_query": "Tidal music discovery features 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Amazon Music discovery features 2026",
+      "effective_query": "Amazon Music discovery features 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pandora music discovery features 2026",
+      "effective_query": "Pandora music discovery features 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spotify Apple Music Tidal audio quality comparison bitrate lossless hi-res 2026",
+      "effective_query": "Spotify Apple Music Tidal audio quality comparison bitrate lossless hi-res 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "music streaming podcast selection comparison global availability 2026",
+      "effective_query": "music streaming podcast selection comparison global availability 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spotify vs Apple Music vs YouTube Music pricing 2026 family plan individual plan",
+      "effective_query": "Spotify vs Apple Music vs YouTube Music pricing 2026 family plan individual plan",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "music streaming artist payout rates per stream 2026 comparison",
+      "effective_query": "music streaming artist payout rates per stream 2026 comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "music streaming service library size catalog 100 million tracks 2026",
+      "effective_query": "music streaming service library size catalog 100 million tracks 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spotify Apple Music Tidal high-end audio equipment compatibility DAC support 2026",
+      "effective_query": "Spotify Apple Music Tidal high-end audio equipment compatibility DAC support 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pandora audio quality bitrate 2026",
+      "effective_query": "Pandora audio quality bitrate 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pandora podcast selection 2026",
+      "effective_query": "Pandora podcast selection 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tidal exclusive content early releases 2026",
+      "effective_query": "Tidal exclusive content early releases 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Apple Music exclusive content 2026",
+      "effective_query": "Apple Music exclusive content 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Spotify exclusive content early releases 2026",
+      "effective_query": "Spotify exclusive content early releases 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Amazon Music exclusive content 2026",
+      "effective_query": "Amazon Music exclusive content 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "YouTube Music exclusive content 2026",
+      "effective_query": "YouTube Music exclusive content 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pandora Premium features 2026 on-demand",
+      "effective_query": "Pandora Premium features 2026 on-demand",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pandora user interface navigation 2026",
+      "effective_query": "Pandora user interface navigation 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "YouTube Music podcast selection 2026",
+      "effective_query": "YouTube Music podcast selection 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Amazon Music podcast catalog size 2026",
+      "effective_query": "Amazon Music podcast catalog size 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Tidal podcast availability 2026",
+      "effective_query": "Tidal podcast availability 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Apple Music podcast integration 2026",
+      "effective_query": "Apple Music podcast integration 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pandora music library size 2026 number of tracks",
+      "effective_query": "Pandora music library size 2026 number of tracks",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pandora social features sharing 2026",
+      "effective_query": "Pandora social features sharing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spotify social discovery features collaborative playlists 2026",
+      "effective_query": "Spotify social discovery features collaborative playlists 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Tidal social features 2026",
+      "effective_query": "Tidal social features 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "YouTube Music user interface design 2026",
+      "effective_query": "YouTube Music user interface design 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Tidal user interface design 2026",
+      "effective_query": "Tidal user interface design 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spotify user interface design 2026",
+      "effective_query": "Spotify user interface design 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Apple Music user interface design 2026",
+      "effective_query": "Apple Music user interface design 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://vohnicmusic.com/blog/best-music-streaming-service-comparison-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.21
+        }
+      ],
+      "content_length": 9951,
+      "duration_seconds": 6.21,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.901,
+      "summary_length": 4664,
+      "summary_input_tokens": 2463,
+      "summary_output_tokens": 2278
+    },
+    {
+      "url": "https://www.cnet.com/tech/services-and-software/best-music-streaming-service",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.084
+        }
+      ],
+      "content_length": 31939,
+      "duration_seconds": 17.084,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://soundiiz.com/blog/whats-the-best-music-streaming-service-in-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.169
+        }
+      ],
+      "content_length": 20788,
+      "duration_seconds": 5.169,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://freeyourmusic.com/blog/spotify-vs-apple-music-vs-youtube-music-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.257
+        }
+      ],
+      "content_length": 11623,
+      "duration_seconds": 5.257,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.chartlex.com/blog/money/how-much-streaming-services-pay-artists-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.35
+        }
+      ],
+      "content_length": 24944,
+      "duration_seconds": 1.35,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.chartlex.com/blog/streaming/apple-music-for-artists-complete-guide-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.262
+        }
+      ],
+      "content_length": 36509,
+      "duration_seconds": 3.262,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://freeyourmusic.com/blog/apple-music-vs-tidal-sound-quality-music-discovery-cost-compared-2024",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.96
+        }
+      ],
+      "content_length": 15440,
+      "duration_seconds": 4.96,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.091,
+      "summary_length": 3550,
+      "summary_input_tokens": 3844,
+      "summary_output_tokens": 1190
+    },
+    {
+      "url": "https://www.isrc.com/how-much-streaming-services-pay-artists-per-play-2026.php",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.964
+        }
+      ],
+      "content_length": 7404,
+      "duration_seconds": 3.965,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.334,
+      "summary_length": 3411,
+      "summary_input_tokens": 2195,
+      "summary_output_tokens": 1125
+    },
+    {
+      "url": "https://www.affiliatebooster.com/amazon-music-statistics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.785
+        }
+      ],
+      "content_length": 24182,
+      "duration_seconds": 5.785,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.749,
+      "summary_length": 2342,
+      "summary_input_tokens": 6246,
+      "summary_output_tokens": 709
+    },
+    {
+      "url": "https://www.lissen.com/blog/reviews/amazon-music-review-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.782
+        }
+      ],
+      "content_length": 2859,
+      "duration_seconds": 2.783,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.555,
+      "summary_length": 3777,
+      "summary_input_tokens": 791,
+      "summary_output_tokens": 902
+    },
+    {
+      "url": "https://www.lissen.com/blog/reviews/tidal-review-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.401
+        }
+      ],
+      "content_length": 3140,
+      "duration_seconds": 3.402,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.668,
+      "summary_length": 3397,
+      "summary_input_tokens": 940,
+      "summary_output_tokens": 1565
+    },
+    {
+      "url": "https://routenote.com/radar/is-pandora-plus-worth-it-in-2026-price-features-and-spotify-comparison",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.786
+        }
+      ],
+      "content_length": 13242,
+      "duration_seconds": 16.787,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.dumpmedia.com/pandora-music-converter/pandora-sound-quality.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.347
+        }
+      ],
+      "content_length": 8801,
+      "duration_seconds": 11.347,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.431,
+      "summary_length": 2496,
+      "summary_input_tokens": 2236,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 276,
+  "duration_seconds": 1170.1266565397382,
+  "report_length": 30488,
+  "context_length": 356790,
+  "qid": "prodcponmUtiKpSBpdwMUq",
+  "query": "Compare Spotify, Apple Music, Youtube Music, Amazon Music, Pandora, and Tidal on music discovery features (including algorithmic recommendations, curated playlists, and social discovery), audio quality (with reference to both technical specifications and perceived listening experience), and podcast selection (considering global availability), user interface design and ease of navigation, music library size and catalog completeness, exclusive content and early releases, pricing structures for individual and family plans, artist compensation and payout rates, and compatibility with high-end audio equipment as of now ({{current_date}}). In the final report, you should include a detailed table for the summarized results, and provide cited data where available."
+}

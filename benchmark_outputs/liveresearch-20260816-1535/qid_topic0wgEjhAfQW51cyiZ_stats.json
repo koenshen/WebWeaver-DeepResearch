@@ -1,0 +1,505 @@
+{
+  "total_llm_calls": 23,
+  "total_input_tokens": 657652,
+  "total_output_tokens": 39912,
+  "total_tokens": 697564,
+  "total_search_count": 26,
+  "total_search_results": 239,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1007,
+      "output_tokens": 1599,
+      "total_tokens": 2606,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9329,
+      "output_tokens": 234,
+      "total_tokens": 9563,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36309,
+      "output_tokens": 120,
+      "total_tokens": 36429,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 52156,
+      "output_tokens": 583,
+      "total_tokens": 52739,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 52715,
+      "output_tokens": 88,
+      "total_tokens": 52803,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1270,
+      "output_tokens": 4001,
+      "total_tokens": 5271,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 52884,
+      "output_tokens": 80,
+      "total_tokens": 52964,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18842,
+      "output_tokens": 4001,
+      "total_tokens": 22843,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18842,
+      "output_tokens": 3292,
+      "total_tokens": 22134,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53560,
+      "output_tokens": 167,
+      "total_tokens": 53727,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2511,
+      "output_tokens": 4001,
+      "total_tokens": 6512,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53713,
+      "output_tokens": 90,
+      "total_tokens": 53803,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1535,
+      "output_tokens": 4001,
+      "total_tokens": 5536,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53872,
+      "output_tokens": 101,
+      "total_tokens": 53973,
+      "message_count": 18
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8376,
+      "output_tokens": 1447,
+      "total_tokens": 9823,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8376,
+      "output_tokens": 2617,
+      "total_tokens": 10993,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53970,
+      "output_tokens": 91,
+      "total_tokens": 54061,
+      "message_count": 20
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3765,
+      "output_tokens": 984,
+      "total_tokens": 4749,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 54755,
+      "output_tokens": 111,
+      "total_tokens": 54866,
+      "message_count": 22
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2130,
+      "output_tokens": 1820,
+      "total_tokens": 3950,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 55697,
+      "output_tokens": 110,
+      "total_tokens": 55807,
+      "message_count": 24
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3307,
+      "output_tokens": 3712,
+      "total_tokens": 7019,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 58731,
+      "output_tokens": 6662,
+      "total_tokens": 65393,
+      "message_count": 26
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "standardized testing student stress anxiety survey",
+      "effective_query": "standardized testing student stress anxiety survey",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "teaching to the test effect on critical thinking skills research",
+      "effective_query": "teaching to the test effect on critical thinking skills research",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "SAT score predictive validity college success",
+      "effective_query": "SAT score predictive validity college success",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "alternatives to standardized testing K-12 schools performance assessment",
+      "effective_query": "alternatives to standardized testing K-12 schools performance assessment",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "student stress standardized testing survey 2023",
+      "effective_query": "student stress standardized testing survey 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "National Assessment of Educational Progress test anxiety",
+      "effective_query": "National Assessment of Educational Progress test anxiety",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "teaching to the test narrow curriculum effects",
+      "effective_query": "teaching to the test narrow curriculum effects",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "critical thinking standardized testing correlation studies",
+      "effective_query": "critical thinking standardized testing correlation studies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SAT ACT predictive validity first year college GPA research",
+      "effective_query": "SAT ACT predictive validity first year college GPA research",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "test optional admissions college outcomes research",
+      "effective_query": "test optional admissions college outcomes research",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "performance based assessment schools examples",
+      "effective_query": "performance based assessment schools examples",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "New Hampshire performance assessment PACE program",
+      "effective_query": "New Hampshire performance assessment PACE program",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mastery transcript consortium schools",
+      "effective_query": "Mastery transcript consortium schools",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "standardized testing love of learning student survey",
+      "effective_query": "standardized testing love of learning student survey",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Reddit standardized testing stress kids",
+      "effective_query": "Reddit standardized testing stress kids",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "standardized testing alternatives research evidence",
+      "effective_query": "standardized testing alternatives research evidence",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "college and career readiness assessment beyond test scores",
+      "effective_query": "college and career readiness assessment beyond test scores",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "project based learning assessment examples",
+      "effective_query": "project based learning assessment examples",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "standardized testing impact student motivation intrinsic motivation research",
+      "effective_query": "standardized testing impact student motivation intrinsic motivation research",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "NAEP scores trends 2022 2024 reading math",
+      "effective_query": "NAEP scores trends 2022 2024 reading math",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "teaching to the test teacher surveys",
+      "effective_query": "teaching to the test teacher surveys",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SAT correlation college GPA meta-analysis",
+      "effective_query": "SAT correlation college GPA meta-analysis",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "ACT predictive validity college persistence graduation",
+      "effective_query": "ACT predictive validity college persistence graduation",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "test optional admissions impact diversity enrollment",
+      "effective_query": "test optional admissions impact diversity enrollment",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "portfolio assessment validity reliability research",
+      "effective_query": "portfolio assessment validity reliability research",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "student voice standardized testing surveys 2023 2024",
+      "effective_query": "student voice standardized testing surveys 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.gse.harvard.edu/ideas/usable-knowledge/19/02/tests-and-stress-bias",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.126
+        }
+      ],
+      "content_length": 4894,
+      "duration_seconds": 7.126,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nber.org/digest/mar19/test-related-stress-and-student-scores-high-stakes-exams",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.757
+        }
+      ],
+      "content_length": 71497,
+      "duration_seconds": 5.757,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.edutopia.org/article/psychological-toll-high-stakes-testing",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.008
+        }
+      ],
+      "content_length": 10740,
+      "duration_seconds": 17.008,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.ascd.org/el/articles/high-stakes-testing-narrows-the-curriculum",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.025
+        }
+      ],
+      "content_length": 6724,
+      "duration_seconds": 5.025,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.readingrockets.org/topics/curriculum-and-instruction/articles/teach-test-just-say-no",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.989
+        }
+      ],
+      "content_length": 35150,
+      "duration_seconds": 4.989,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://opportunityinsights.org/paper/test-scores",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.235
+        }
+      ],
+      "content_length": 15674,
+      "duration_seconds": 5.235,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.019,
+      "summary_length": 3817,
+      "summary_input_tokens": 3765,
+      "summary_output_tokens": 984
+    },
+    {
+      "url": "https://www.education.nh.gov/who-we-are/division-of-learner-support/bureau-of-instructional-support/performance-assessment-competency-education",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.621
+        }
+      ],
+      "content_length": 7883,
+      "duration_seconds": 3.621,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.102,
+      "summary_length": 5252,
+      "summary_input_tokens": 2130,
+      "summary_output_tokens": 1820
+    },
+    {
+      "url": "https://www.nea.org/nea-today/all-news-articles/standardized-testing-still-failing-students",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.048
+        }
+      ],
+      "content_length": 14776,
+      "duration_seconds": 4.048,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.683,
+      "summary_length": 14822,
+      "summary_input_tokens": 3307,
+      "summary_output_tokens": 3712
+    }
+  ],
+  "source_urls_count": 208,
+  "duration_seconds": 1296.3295921599492,
+  "report_length": 31562,
+  "context_length": 321279,
+  "qid": "topic0wgEjhAfQW51cyiZ",
+  "query": "As a parent concerned about my child's education and development in the United States, help me understand whether standardized testing is actually helping or hurting my kid's learning throughout their K-12 education. I want to know (1) how these tests - including state assessments, SAT/ACT, and other standardized exams - affect my child's stress levels and love of learning at different grade levels, (2) whether schools are just teaching to the test instead of providing real education and critical thinking skills, (3) how test scores actually relate to future success in college and career outcomes, and (4) what alternatives exist that might be better for kids, including examples from schools or districts that have tried different approaches. Your report should include evidence such as research studies, expert opinions, surveys, or online forum discussions."
+}

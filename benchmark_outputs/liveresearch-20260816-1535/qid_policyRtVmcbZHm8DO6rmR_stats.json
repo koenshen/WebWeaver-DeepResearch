@@ -1,0 +1,158 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 90223,
+  "total_output_tokens": 8466,
+  "total_tokens": 98689,
+  "total_search_count": 18,
+  "total_search_results": 167,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 902,
+      "output_tokens": 323,
+      "total_tokens": 1225,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11732,
+      "output_tokens": 135,
+      "total_tokens": 11867,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31329,
+      "output_tokens": 127,
+      "total_tokens": 31456,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46260,
+      "output_tokens": 7881,
+      "total_tokens": 54141,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "SEC Climate Disclosure Rule 2026 status update",
+      "effective_query": "SEC Climate Disclosure Rule 2026 status update",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "EU CSRD implementation timeline 2026",
+      "effective_query": "EU CSRD implementation timeline 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "California SB 219 2026 climate disclosure law",
+      "effective_query": "California SB 219 2026 climate disclosure law",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "California SB 253 SB 261 climate disclosure 2026",
+      "effective_query": "California SB 253 SB 261 climate disclosure 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SEC climate disclosure rule cost estimates industry analysis",
+      "effective_query": "SEC climate disclosure rule cost estimates industry analysis",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CSRD compliance cost estimates 2026",
+      "effective_query": "CSRD compliance cost estimates 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "California SB 253 compliance cost estimates",
+      "effective_query": "California SB 253 compliance cost estimates",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "California SB 261 enforcement penalties",
+      "effective_query": "California SB 261 enforcement penalties",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SEC climate rule materiality thresholds",
+      "effective_query": "SEC climate rule materiality thresholds",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CSRD double materiality concept",
+      "effective_query": "CSRD double materiality concept",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "SB 219 assurance requirements limited reasonable",
+      "effective_query": "SB 219 assurance requirements limited reasonable",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SEC climate disclosure verification standards",
+      "effective_query": "SEC climate disclosure verification standards",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CSRD compliance cost survey 2025 2026 PwC Deloitte",
+      "effective_query": "CSRD compliance cost survey 2025 2026 PwC Deloitte",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SB 253 cost estimates per company consulting",
+      "effective_query": "SB 253 cost estimates per company consulting",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SEC climate rule cost savings rescission table",
+      "effective_query": "SEC climate rule cost savings rescission table",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EU Omnibus CSRD changes 2026 scope reduction",
+      "effective_query": "EU Omnibus CSRD changes 2026 scope reduction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "multinational overlapping ESG compliance challenges",
+      "effective_query": "multinational overlapping ESG compliance challenges",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "California SB 253 SB 261 CARB initial regulation February 2026",
+      "effective_query": "California SB 253 SB 261 CARB initial regulation February 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 134,
+  "duration_seconds": 124.47110948804766,
+  "report_length": 29269,
+  "context_length": 248626,
+  "qid": "policyRtVmcbZHm8DO6rmR",
+  "query": "As a sustainability consultant advising on global ESG reporting strategies, help me compare the most recent versions (as of 2026) of the SEC Climate Disclosure Rule, the EU Corporate Sustainability Reporting Directive (CSRD), and California’s SB-219 climate disclosure legislation across reporting timelines, data verification standards, materiality thresholds, and enforcement mechanisms. Provide a general cross-industry overview, drawing cost estimates from both government reports and reputable industry analyses. Provide:\n\n- A short description of each framework\n- A multi-column comparison table covering all dimensions\n- Multiple real-world enterprise compliance challenges and cost estimates per framework\n- An analysis of strategic implications for multinational enterprises managing overlapping ESG requirements"
+}

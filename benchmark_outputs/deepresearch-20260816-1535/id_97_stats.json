@@ -1,0 +1,320 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 191541,
+  "total_output_tokens": 15265,
+  "total_tokens": 206806,
+  "total_search_count": 13,
+  "total_search_results": 120,
+  "total_visit_count": 7,
+  "total_visit_success": 7,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 808,
+      "output_tokens": 437,
+      "total_tokens": 1245,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19242,
+      "output_tokens": 262,
+      "total_tokens": 19504,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 818,
+      "output_tokens": 1067,
+      "total_tokens": 1885,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2606,
+      "output_tokens": 879,
+      "total_tokens": 3485,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38172,
+      "output_tokens": 483,
+      "total_tokens": 38655,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8928,
+      "output_tokens": 1763,
+      "total_tokens": 10691,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4532,
+      "output_tokens": 2059,
+      "total_tokens": 6591,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17901,
+      "output_tokens": 1910,
+      "total_tokens": 19811,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38171,
+      "output_tokens": 475,
+      "total_tokens": 38646,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23721,
+      "output_tokens": 114,
+      "total_tokens": 23835,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36642,
+      "output_tokens": 5816,
+      "total_tokens": 42458,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "economic impact of regional airport 500,000 passengers",
+      "effective_query": "economic impact of regional airport 500,000 passengers",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "socioeconomic impact of small airports case study",
+      "effective_query": "socioeconomic impact of small airports case study",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "airport economic impact study 500k passengers per year",
+      "effective_query": "airport economic impact study 500k passengers per year",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "local economic benefits of regional airports jobs GDP",
+      "effective_query": "local economic benefits of regional airports jobs GDP",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Airports Council International economic impact of regional airports",
+      "effective_query": "Airports Council International economic impact of regional airports",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FAA economic impact of small airports report",
+      "effective_query": "FAA economic impact of small airports report",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "small airport multiplier effect economic impact",
+      "effective_query": "small airport multiplier effect economic impact",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "negative impacts of regional airports on local communities",
+      "effective_query": "negative impacts of regional airports on local communities",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Eugene Airport economic impact study 2024 jobs output",
+      "effective_query": "Eugene Airport economic impact study 2024 jobs output",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "small airport economic impact 500,000 passengers per year collective",
+      "effective_query": "small airport economic impact 500,000 passengers per year collective",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ACI Europe economic and social impact of airports 2024",
+      "effective_query": "ACI Europe economic and social impact of airports 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "regional airport job creation per passenger evidence",
+      "effective_query": "regional airport job creation per passenger evidence",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "airport economic impact studies non-hub small hub comparison",
+      "effective_query": "airport economic impact studies non-hub small hub comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://rapairport.com/2023-economic-impact-study",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.82
+        }
+      ],
+      "content_length": 2831,
+      "duration_seconds": 1.82,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.151,
+      "summary_length": 4132,
+      "summary_input_tokens": 818,
+      "summary_output_tokens": 1067
+    },
+    {
+      "url": "https://www.gmcnetwork.com/news/2025/01/the-surprising-impact-of-airports-in-smaller-communities",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.178
+        }
+      ],
+      "content_length": 12077,
+      "duration_seconds": 5.179,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.174,
+      "summary_length": 3392,
+      "summary_input_tokens": 2606,
+      "summary_output_tokens": 879
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S096669232100315X",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.159
+        }
+      ],
+      "content_length": 112999,
+      "duration_seconds": 1.16,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.174,
+      "summary_length": 1363,
+      "summary_input_tokens": 38172,
+      "summary_output_tokens": 483
+    },
+    {
+      "url": "https://www.nationalacademies.org/read/28759/chapter/5",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.567
+        }
+      ],
+      "content_length": 36681,
+      "duration_seconds": 0.567,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.514,
+      "summary_length": 2663,
+      "summary_input_tokens": 8928,
+      "summary_output_tokens": 1763
+    },
+    {
+      "url": "https://crp.trb.org/acrpwebresource12/understanding-air-service-and-regional-economic-activity/the-role-of-aviation-in-supporting-local-economic-activity",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.585
+        }
+      ],
+      "content_length": 20206,
+      "duration_seconds": 5.585,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.006,
+      "summary_length": 4389,
+      "summary_input_tokens": 4532,
+      "summary_output_tokens": 2059
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8783399",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.389
+        }
+      ],
+      "content_length": 74505,
+      "duration_seconds": 2.389,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.812,
+      "summary_length": 4298,
+      "summary_input_tokens": 17901,
+      "summary_output_tokens": 1910
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0969699725001176",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.848
+        }
+      ],
+      "content_length": 112996,
+      "duration_seconds": 0.848,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.681,
+      "summary_length": 1180,
+      "summary_input_tokens": 38171,
+      "summary_output_tokens": 475
+    }
+  ],
+  "source_urls_count": 71,
+  "duration_seconds": 218.1516528306529,
+  "report_length": 23022,
+  "context_length": 195277,
+  "id": 97,
+  "prompt": "Find data and evidence to support or refute the hypothesis that an airport handling an annual passenger throughput of 500,000 (five hundred thousand) can generate significant and measurable socioeconomic impacts on its surrounding region.",
+  "language": "en",
+  "topic": "Travel"
+}

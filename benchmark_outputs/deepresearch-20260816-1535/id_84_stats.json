@@ -1,0 +1,308 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 215889,
+  "total_output_tokens": 35484,
+  "total_tokens": 251373,
+  "total_search_count": 17,
+  "total_search_results": 164,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 888,
+      "output_tokens": 2500,
+      "total_tokens": 3388,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27110,
+      "output_tokens": 107,
+      "total_tokens": 27217,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43240,
+      "output_tokens": 205,
+      "total_tokens": 43445,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2995,
+      "output_tokens": 4001,
+      "total_tokens": 6996,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4520,
+      "output_tokens": 1921,
+      "total_tokens": 6441,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27286,
+      "output_tokens": 4001,
+      "total_tokens": 31287,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27286,
+      "output_tokens": 4001,
+      "total_tokens": 31287,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17274,
+      "output_tokens": 4001,
+      "total_tokens": 21275,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17274,
+      "output_tokens": 4001,
+      "total_tokens": 21275,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2628,
+      "output_tokens": 1435,
+      "total_tokens": 4063,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45388,
+      "output_tokens": 9311,
+      "total_tokens": 54699,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "FinFET vs planar SRAM static noise margin butterfly curve",
+      "effective_query": "FinFET vs planar SRAM static noise margin butterfly curve",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "EUV lithography SRAM variability line edge roughness",
+      "effective_query": "EUV lithography SRAM variability line edge roughness",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GAA nanosheet FET SRAM hold noise margin read stability",
+      "effective_query": "GAA nanosheet FET SRAM hold noise margin read stability",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "random dopant fluctuation SRAM static noise margin 6T cell",
+      "effective_query": "random dopant fluctuation SRAM static noise margin 6T cell",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "negative capacitance FET SRAM static noise margin improvement",
+      "effective_query": "negative capacitance FET SRAM static noise margin improvement",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "backside power delivery network SRAM noise margin",
+      "effective_query": "backside power delivery network SRAM noise margin",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UTBB FD-SOI SRAM static noise margin back bias",
+      "effective_query": "UTBB FD-SOI SRAM static noise margin back bias",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SRAM write assist read assist circuit techniques process variation",
+      "effective_query": "SRAM write assist read assist circuit techniques process variation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MoS2 2D material SRAM static noise margin",
+      "effective_query": "MoS2 2D material SRAM static noise margin",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SRAM cell stability advanced process nodes 3nm 2nm",
+      "effective_query": "SRAM cell stability advanced process nodes 3nm 2nm",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SRAM static noise margin improvement techniques review paper",
+      "effective_query": "SRAM static noise margin improvement techniques review paper",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "hold static noise margin read static noise margin definition SRAM butterfly curve",
+      "effective_query": "hold static noise margin read static noise margin definition SRAM butterfly curve",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FinFET SRAM read stability improvement process",
+      "effective_query": "FinFET SRAM read stability improvement process",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SRAM cell ratio pull up ratio pull down ratio noise margin",
+      "effective_query": "SRAM cell ratio pull up ratio pull down ratio noise margin",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EUV stochastic variation SRAM Vmin",
+      "effective_query": "EUV stochastic variation SRAM Vmin",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "nanosheet SRAM 6T cell stability variation",
+      "effective_query": "nanosheet SRAM 6T cell stability variation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SRAM buried power rail IR drop SNM",
+      "effective_query": "SRAM buried power rail IR drop SNM",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Backside_power_delivery",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.766
+        }
+      ],
+      "content_length": 10448,
+      "duration_seconds": 4.767,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.patsnap.com/resources/blog/rd-blog/buried-power-rail-ir-drop-at-2nm-patsnap-eureka",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.608
+        }
+      ],
+      "content_length": 19101,
+      "duration_seconds": 7.608,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-025-59993-8",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 18.463
+        }
+      ],
+      "content_length": 88468,
+      "duration_seconds": 18.463,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://semiwiki.com/forum/threads/sram-scaling-isnt-dead-after-all-%E2%80%94-tsmcs-2nm-process-tech-claims-major-improvements.21414",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.206
+        }
+      ],
+      "content_length": 59774,
+      "duration_seconds": 2.206,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0038110122001903",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.996
+        }
+      ],
+      "content_length": 10249,
+      "duration_seconds": 9.996,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.087,
+      "summary_length": 6621,
+      "summary_input_tokens": 2628,
+      "summary_output_tokens": 1435
+    }
+  ],
+  "source_urls_count": 134,
+  "duration_seconds": 823.3209742698818,
+  "report_length": 34947,
+  "context_length": 222863,
+  "id": 84,
+  "prompt": "Research for me how to improve the Static Noise Margin of SRAM (Static Random Access Memory) through advancements in chip manufacturing processes, to make SRAM storage signals more stable and less susceptible to bit flips?",
+  "language": "en",
+  "topic": "Hardware"
+}

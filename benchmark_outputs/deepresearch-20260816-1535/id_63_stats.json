@@ -1,0 +1,302 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 147241,
+  "total_output_tokens": 14584,
+  "total_tokens": 161825,
+  "total_search_count": 10,
+  "total_search_results": 95,
+  "total_visit_count": 7,
+  "total_visit_success": 7,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 789,
+      "output_tokens": 184,
+      "total_tokens": 973,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14421,
+      "output_tokens": 253,
+      "total_tokens": 14674,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14040,
+      "output_tokens": 1637,
+      "total_tokens": 15677,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21933,
+      "output_tokens": 1428,
+      "total_tokens": 23361,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17353,
+      "output_tokens": 1013,
+      "total_tokens": 18366,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21917,
+      "output_tokens": 2173,
+      "total_tokens": 24090,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 370,
+      "output_tokens": 293,
+      "total_tokens": 663,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3075,
+      "output_tokens": 1018,
+      "total_tokens": 4093,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 369,
+      "output_tokens": 481,
+      "total_tokens": 850,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19613,
+      "output_tokens": 125,
+      "total_tokens": 19738,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33361,
+      "output_tokens": 5979,
+      "total_tokens": 39340,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "mitigate plasma etching damage lithium niobate",
+      "effective_query": "mitigate plasma etching damage lithium niobate",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "post-etch damage repair lithium niobate",
+      "effective_query": "post-etch damage repair lithium niobate",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "annealing lithium niobate after plasma etch",
+      "effective_query": "annealing lithium niobate after plasma etch",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "plasma etching LN damage reduction",
+      "effective_query": "plasma etching LN damage reduction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "lithium niobate plasma etch damage recovery",
+      "effective_query": "lithium niobate plasma etch damage recovery",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "lithium niobate post-etch annealing oxygen recovery",
+      "effective_query": "lithium niobate post-etch annealing oxygen recovery",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "wet cleaning lithium niobate after plasma etch SC-1 HF",
+      "effective_query": "wet cleaning lithium niobate after plasma etch SC-1 HF",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "pulsed bias plasma etching lithium niobate",
+      "effective_query": "pulsed bias plasma etching lithium niobate",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cryogenic etching lithium niobate",
+      "effective_query": "cryogenic etching lithium niobate",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "lithium niobate ion beam etching damage mitigation",
+      "effective_query": "lithium niobate ion beam etching damage mitigation",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://arxiv.org/html/2511.01825v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.115
+        }
+      ],
+      "content_length": 47639,
+      "duration_seconds": 1.116,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.618,
+      "summary_length": 5748,
+      "summary_input_tokens": 14040,
+      "summary_output_tokens": 1637
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11501321",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.948
+        }
+      ],
+      "content_length": 70353,
+      "duration_seconds": 0.948,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.346,
+      "summary_length": 4745,
+      "summary_input_tokens": 21933,
+      "summary_output_tokens": 1428
+    },
+    {
+      "url": "https://www.mdpi.com/2079-4991/12/16/2836",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.234
+        }
+      ],
+      "content_length": 54211,
+      "duration_seconds": 4.234,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.992,
+      "summary_length": 3872,
+      "summary_input_tokens": 17353,
+      "summary_output_tokens": 1013
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10609314",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.317
+        }
+      ],
+      "content_length": 71201,
+      "duration_seconds": 1.317,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.916,
+      "summary_length": 5368,
+      "summary_input_tokens": 21917,
+      "summary_output_tokens": 2173
+    },
+    {
+      "url": "https://opg.optica.org/ome/fulltext.cfm?uri=ome-15-11-2826",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 14.615
+        }
+      ],
+      "content_length": 669,
+      "duration_seconds": 14.615,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.166,
+      "summary_length": 803,
+      "summary_input_tokens": 370,
+      "summary_output_tokens": 293
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925346715301816",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.145
+        }
+      ],
+      "content_length": 12941,
+      "duration_seconds": 12.145,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.664,
+      "summary_length": 3693,
+      "summary_input_tokens": 3075,
+      "summary_output_tokens": 1018
+    },
+    {
+      "url": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-4-6870",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.242
+        }
+      ],
+      "content_length": 666,
+      "duration_seconds": 12.242,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.089,
+      "summary_length": 1453,
+      "summary_input_tokens": 369,
+      "summary_output_tokens": 481
+    }
+  ],
+  "source_urls_count": 61,
+  "duration_seconds": 818.9005961893126,
+  "report_length": 22002,
+  "context_length": 164107,
+  "id": 63,
+  "prompt": "(working on LN-based nonlinear photonics):\nPossible ways to mitigate the material damage of LN after plasma etching?",
+  "language": "en",
+  "topic": "Science & Technology"
+}

@@ -1,0 +1,92 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 22892,
+  "total_output_tokens": 6575,
+  "total_tokens": 29467,
+  "total_search_count": 9,
+  "total_search_results": 81,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 778,
+      "output_tokens": 304,
+      "total_tokens": 1082,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22114,
+      "output_tokens": 6271,
+      "total_tokens": 28385,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "world's wealthiest governments investment strategies",
+      "effective_query": "world's wealthiest governments investment strategies",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "sovereign wealth fund investment portfolio allocation",
+      "effective_query": "sovereign wealth fund investment portfolio allocation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Norway Government Pension Fund Global investment strategy",
+      "effective_query": "Norway Government Pension Fund Global investment strategy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "China Investment Corporation investment portfolio",
+      "effective_query": "China Investment Corporation investment portfolio",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Singapore Temasek Holdings investment approach",
+      "effective_query": "Singapore Temasek Holdings investment approach",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Abu Dhabi Investment Authority asset allocation",
+      "effective_query": "Abu Dhabi Investment Authority asset allocation",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Saudi Arabia Public Investment Fund strategy",
+      "effective_query": "Saudi Arabia Public Investment Fund strategy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "US federal government investment funds",
+      "effective_query": "US federal government investment funds",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japan Government Pension Investment Fund allocation",
+      "effective_query": "Japan Government Pension Investment Fund allocation",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 81,
+  "duration_seconds": 81.54271071590483,
+  "report_length": 25132,
+  "context_length": 130632,
+  "id": 53,
+  "prompt": "Researching how the world's wealthiest governments invest.",
+  "language": "en",
+  "topic": "Finance & Business"
+}

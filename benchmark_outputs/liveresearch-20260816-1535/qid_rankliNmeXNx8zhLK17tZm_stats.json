@@ -1,0 +1,576 @@
+{
+  "total_llm_calls": 22,
+  "total_input_tokens": 464652,
+  "total_output_tokens": 42251,
+  "total_tokens": 506903,
+  "total_search_count": 23,
+  "total_search_results": 200,
+  "total_visit_count": 13,
+  "total_visit_success": 13,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 834,
+      "output_tokens": 163,
+      "total_tokens": 997,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10265,
+      "output_tokens": 305,
+      "total_tokens": 10570,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42110,
+      "output_tokens": 1841,
+      "total_tokens": 43951,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17432,
+      "output_tokens": 4001,
+      "total_tokens": 21433,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17353,
+      "output_tokens": 1196,
+      "total_tokens": 18549,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17353,
+      "output_tokens": 1011,
+      "total_tokens": 18364,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6853,
+      "output_tokens": 1741,
+      "total_tokens": 8594,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 80791,
+      "output_tokens": 1136,
+      "total_tokens": 81927,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11667,
+      "output_tokens": 1774,
+      "total_tokens": 13441,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11398,
+      "output_tokens": 900,
+      "total_tokens": 12298,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2907,
+      "output_tokens": 727,
+      "total_tokens": 3634,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7351,
+      "output_tokens": 3841,
+      "total_tokens": 11192,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15918,
+      "output_tokens": 165,
+      "total_tokens": 16083,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30638,
+      "output_tokens": 171,
+      "total_tokens": 30809,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48303,
+      "output_tokens": 5930,
+      "total_tokens": 54233,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 61450,
+      "output_tokens": 1217,
+      "total_tokens": 62667,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4514,
+      "output_tokens": 1865,
+      "total_tokens": 6379,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10479,
+      "output_tokens": 830,
+      "total_tokens": 11309,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3389,
+      "output_tokens": 681,
+      "total_tokens": 4070,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 357,
+      "output_tokens": 463,
+      "total_tokens": 820,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 254,
+      "output_tokens": 278,
+      "total_tokens": 532,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 63036,
+      "output_tokens": 12015,
+      "total_tokens": 75051,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "2026 laptop Geekbench scores",
+      "effective_query": "2026 laptop Geekbench scores",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "best professional laptops 2026 benchmark battery weight",
+      "effective_query": "best professional laptops 2026 benchmark battery weight",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2026 laptop battery life hours weight pounds professional",
+      "effective_query": "2026 laptop battery life hours weight pounds professional",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 laptop Geekbench 6 multi-core score list",
+      "effective_query": "2026 laptop Geekbench 6 multi-core score list",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "MacBook Pro M5 Geekbench 6 2026",
+      "effective_query": "MacBook Pro M5 Geekbench 6 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Dell XPS 14 2026 Geekbench 6",
+      "effective_query": "Dell XPS 14 2026 Geekbench 6",
+      "retriever": "tavily",
+      "num_results": 5
+    },
+    {
+      "query": "ThinkPad X1 Carbon Gen 13 Geekbench 6",
+      "effective_query": "ThinkPad X1 Carbon Gen 13 Geekbench 6",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Asus Zenbook A14 Geekbench 6 2026",
+      "effective_query": "Asus Zenbook A14 Geekbench 6 2026",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "HP OmniBook 5 Geekbench 6 2026",
+      "effective_query": "HP OmniBook 5 Geekbench 6 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Lenovo Yoga Slim 7i Geekbench 6 2026",
+      "effective_query": "Lenovo Yoga Slim 7i Geekbench 6 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 laptop Geekbench 6 multi-core score battery weight list",
+      "effective_query": "2026 laptop Geekbench 6 multi-core score battery weight list",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "best laptops 2026 for professionals benchmark scores",
+      "effective_query": "best laptops 2026 for professionals benchmark scores",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2026 professional laptop benchmark Geekbench 6 battery life weight",
+      "effective_query": "2026 professional laptop benchmark Geekbench 6 battery life weight",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2026 business laptop Geekbench 6 multi-core score",
+      "effective_query": "2026 business laptop Geekbench 6 multi-core score",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Asus ProArt P16 2026 Geekbench 6",
+      "effective_query": "Asus ProArt P16 2026 Geekbench 6",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MSI Prestige 16 2026 Geekbench 6 battery weight",
+      "effective_query": "MSI Prestige 16 2026 Geekbench 6 battery weight",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Samsung Galaxy Book6 Ultra 2026 Geekbench 6",
+      "effective_query": "Samsung Galaxy Book6 Ultra 2026 Geekbench 6",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Acer Swift 16 AI 2026 Geekbench 6",
+      "effective_query": "Acer Swift 16 AI 2026 Geekbench 6",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Lenovo Yoga 9i 2026 Geekbench 6 multi-core",
+      "effective_query": "Lenovo Yoga 9i 2026 Geekbench 6 multi-core",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HP OmniBook 5 2026 Geekbench 6 multi-core score",
+      "effective_query": "HP OmniBook 5 2026 Geekbench 6 multi-core score",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Dell Precision 5690 2026 Geekbench 6",
+      "effective_query": "Dell Precision 5690 2026 Geekbench 6",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Dell Pro Max 16 Plus 2026 battery weight",
+      "effective_query": "Dell Pro Max 16 Plus 2026 battery weight",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MSI Prestige 16 AI Evo 2026 battery weight",
+      "effective_query": "MSI Prestige 16 AI Evo 2026 battery weight",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://mashable.com/roundup/best-laptops-2026-reviewed",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.798
+        }
+      ],
+      "content_length": 117806,
+      "duration_seconds": 7.798,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.928,
+      "summary_length": 3541,
+      "summary_input_tokens": 42110,
+      "summary_output_tokens": 1841
+    },
+    {
+      "url": "https://www.cnet.com/tech/computing/best-laptop",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.972
+        }
+      ],
+      "content_length": 62522,
+      "duration_seconds": 10.972,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.378,
+      "summary_length": 2668,
+      "summary_input_tokens": 17432,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.tomshardware.com/laptops/best-laptops",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.822
+        }
+      ],
+      "content_length": 24911,
+      "duration_seconds": 9.822,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.688,
+      "summary_length": 4229,
+      "summary_input_tokens": 6853,
+      "summary_output_tokens": 1741
+    },
+    {
+      "url": "https://www.pcmag.com/picks/the-best-battery-life-laptops",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.588
+        }
+      ],
+      "content_length": 217893,
+      "duration_seconds": 16.589,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.419,
+      "summary_length": 2764,
+      "summary_input_tokens": 80791,
+      "summary_output_tokens": 1136
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-laptops",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.215
+        }
+      ],
+      "content_length": 45527,
+      "duration_seconds": 6.216,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.079,
+      "summary_length": 2589,
+      "summary_input_tokens": 11667,
+      "summary_output_tokens": 1774
+    },
+    {
+      "url": "https://www.pcworld.com/article/436674/best-pc-laptops.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.781
+        }
+      ],
+      "content_length": 37968,
+      "duration_seconds": 8.781,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.267,
+      "summary_length": 1812,
+      "summary_input_tokens": 11398,
+      "summary_output_tokens": 900
+    },
+    {
+      "url": "https://www.newegg.com/insider/best-ultrabooks-and-thin-laptops-for-business-in-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.026
+        }
+      ],
+      "content_length": 10508,
+      "duration_seconds": 4.026,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.974,
+      "summary_length": 1710,
+      "summary_input_tokens": 2907,
+      "summary_output_tokens": 727
+    },
+    {
+      "url": "https://www.rtings.com/laptop/reviews/best/by-usage/business",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.889
+        }
+      ],
+      "content_length": 25340,
+      "duration_seconds": 5.889,
+      "summary_status": "success",
+      "summary_duration_seconds": 48.585,
+      "summary_length": 3069,
+      "summary_input_tokens": 7351,
+      "summary_output_tokens": 3841
+    },
+    {
+      "url": "https://www.storagereview.com/best/business-laptops",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.952
+        }
+      ],
+      "content_length": 15760,
+      "duration_seconds": 1.953,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.ultrabookreview.com/76168-lenovo-yoga-9i2in1-pantherlake-review/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.11
+        }
+      ],
+      "content_length": 37098,
+      "duration_seconds": 1.11,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.69,
+      "summary_length": 1939,
+      "summary_input_tokens": 10479,
+      "summary_output_tokens": 830
+    },
+    {
+      "url": "https://www.itpro.com/hardware/laptops/the-acer-swift-16-ai-is-an-impressive-slimline-16-incher-that-makes-the-most-of-panther-lakes-performance-and-it-has-an-absolutely-massive-touchpad",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.236
+        }
+      ],
+      "content_length": 12448,
+      "duration_seconds": 10.236,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.656,
+      "summary_length": 1826,
+      "summary_input_tokens": 3389,
+      "summary_output_tokens": 681
+    },
+    {
+      "url": "https://www.91mobiles.com/geekbench-scores",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.792
+        }
+      ],
+      "content_length": 793,
+      "duration_seconds": 3.792,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.277,
+      "summary_length": 1610,
+      "summary_input_tokens": 357,
+      "summary_output_tokens": 463
+    },
+    {
+      "url": "https://browser.geekbench.com/v6/cpu/17095068",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.597
+        }
+      ],
+      "content_length": 281,
+      "duration_seconds": 0.598,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.885,
+      "summary_length": 867,
+      "summary_input_tokens": 254,
+      "summary_output_tokens": 278
+    }
+  ],
+  "source_urls_count": 163,
+  "duration_seconds": 665.8863684665412,
+  "report_length": 19054,
+  "context_length": 234922,
+  "qid": "rankliNmeXNx8zhLK17tZm",
+  "query": "What are the top 25 laptops in 2026 for professionals based on benchmark scores (Geekbench), battery life (hours), and weight (pounds), regardless of operating system? In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking."
+}

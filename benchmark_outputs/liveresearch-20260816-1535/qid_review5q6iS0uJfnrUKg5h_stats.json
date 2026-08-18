@@ -1,0 +1,332 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 257486,
+  "total_output_tokens": 13290,
+  "total_tokens": 270776,
+  "total_search_count": 22,
+  "total_search_results": 213,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1049,
+      "output_tokens": 814,
+      "total_tokens": 1863,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13945,
+      "output_tokens": 200,
+      "total_tokens": 14145,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34258,
+      "output_tokens": 168,
+      "total_tokens": 34426,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14611,
+      "output_tokens": 2191,
+      "total_tokens": 16802,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5717,
+      "output_tokens": 1119,
+      "total_tokens": 6836,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5119,
+      "output_tokens": 881,
+      "total_tokens": 6000,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5387,
+      "output_tokens": 670,
+      "total_tokens": 6057,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21077,
+      "output_tokens": 2178,
+      "total_tokens": 23255,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39162,
+      "output_tokens": 147,
+      "total_tokens": 39309,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53376,
+      "output_tokens": 117,
+      "total_tokens": 53493,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 63785,
+      "output_tokens": 4805,
+      "total_tokens": 68590,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "hallucination detection benchmarks LLM EMNLP ACL NeurIPS 2023 2024",
+      "effective_query": "hallucination detection benchmarks LLM EMNLP ACL NeurIPS 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "uncertainty based hallucination detection LLM ICML 2023 2024",
+      "effective_query": "uncertainty based hallucination detection LLM ICML 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "factual consistency evaluation summarization generation EMNLP ACL 2023 2024",
+      "effective_query": "factual consistency evaluation summarization generation EMNLP ACL 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "probing internal states for hallucination detection LLM NeurIPS 2023 2024",
+      "effective_query": "probing internal states for hallucination detection LLM NeurIPS 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "theoretical analysis hallucination large language models ICML 2023 2024",
+      "effective_query": "theoretical analysis hallucination large language models ICML 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HaluEval benchmark EMNLP 2023 hallucination evaluation",
+      "effective_query": "HaluEval benchmark EMNLP 2023 hallucination evaluation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FactScore factual consistency atomic facts NeurIPS 2023",
+      "effective_query": "FactScore factual consistency atomic facts NeurIPS 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SelfCheckGPT EMNLP 2023 zero-resource hallucination detection",
+      "effective_query": "SelfCheckGPT EMNLP 2023 zero-resource hallucination detection",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "semantic entropy Kuhn hallucination detection NeurIPS 2023",
+      "effective_query": "semantic entropy Kuhn hallucination detection NeurIPS 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "INSIDE hallucination detection ICLR 2024 internal states",
+      "effective_query": "INSIDE hallucination detection ICLR 2024 internal states",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Mündler self-contradictory hallucinations ICLR 2024",
+      "effective_query": "Mündler self-contradictory hallucinations ICLR 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HaloScope NeurIPS 2024 hallucination detection unlabeled generations",
+      "effective_query": "HaloScope NeurIPS 2024 hallucination detection unlabeled generations",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EigenScore INSIDE ICLR 2024 hallucination detection",
+      "effective_query": "EigenScore INSIDE ICLR 2024 hallucination detection",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Lookback Lens EMNLP 2024 attention maps hallucination",
+      "effective_query": "Lookback Lens EMNLP 2024 attention maps hallucination",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ANAH ACL 2024 analytical annotation hallucination",
+      "effective_query": "ANAH ACL 2024 analytical annotation hallucination",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LLM-Check NeurIPS 2024 hallucination detection",
+      "effective_query": "LLM-Check NeurIPS 2024 hallucination detection",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Semantic Entropy Probes ICML 2024 hallucination detection",
+      "effective_query": "Semantic Entropy Probes ICML 2024 hallucination detection",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "hallucination detection theoretical impossibility LLM Xu 2024",
+      "effective_query": "hallucination detection theoretical impossibility LLM Xu 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ERBench NeurIPS 2024 hallucination benchmark",
+      "effective_query": "ERBench NeurIPS 2024 hallucination benchmark",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PHANTOM NeurIPS 2025 hallucination detection financial",
+      "effective_query": "PHANTOM NeurIPS 2025 hallucination detection financial",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "alignscore factual consistency summarization ACL 2023",
+      "effective_query": "alignscore factual consistency summarization ACL 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "G-Eval NLG evaluation GPT-4 EMNLP 2023",
+      "effective_query": "G-Eval NLG evaluation GPT-4 EMNLP 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.397.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.705
+        }
+      ],
+      "content_length": 61218,
+      "duration_seconds": 3.706,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.51,
+      "summary_length": 7405,
+      "summary_input_tokens": 14611,
+      "summary_output_tokens": 2191
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.741",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.225
+        }
+      ],
+      "content_length": 20490,
+      "duration_seconds": 3.225,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.523,
+      "summary_length": 2827,
+      "summary_input_tokens": 5717,
+      "summary_output_tokens": 1119
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.557",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.635
+        }
+      ],
+      "content_length": 19097,
+      "duration_seconds": 3.635,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.0,
+      "summary_length": 3142,
+      "summary_input_tokens": 5119,
+      "summary_output_tokens": 881
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.58",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.199
+        }
+      ],
+      "content_length": 19743,
+      "duration_seconds": 10.199,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.083,
+      "summary_length": 2440,
+      "summary_input_tokens": 5387,
+      "summary_output_tokens": 670
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.127.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.494
+        }
+      ],
+      "content_length": 79120,
+      "duration_seconds": 3.495,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.349,
+      "summary_length": 7271,
+      "summary_input_tokens": 21077,
+      "summary_output_tokens": 2178
+    }
+  ],
+  "source_urls_count": 194,
+  "duration_seconds": 393.12902741879225,
+  "report_length": 17469,
+  "context_length": 291132,
+  "qid": "review5q6iS0uJfnrUKg5h",
+  "query": "As a researcher specializing in large language models (LLM), I would like to understand the recent development of the field of hallucination detection for LLMs. Please help me draft a literature review section in the style of NeurIPS/ICML/ICLR papers. The section should contain multiple paragraphs, where each paragraph illustrates the progression of a coherent line of research.\nRequirements: (1) Only include papers published in top AI conferences and journals (ICML, NeurIPS, ICLR, EMNLP, ACL, AAAI, COLING, COLM, TPAMI, TMLR, etc.). Do not include preprints from arXiv. (2) Focus specifically on the development of the field from 2023–2025.  (3) I would like to know empirical techniques (e.g., benchmarks, detection algorithms), theoretical, and interpretability works. (3) There is no restriction on tasks. You should at least cover common tasks such as summarization and open-ended QA."
+}

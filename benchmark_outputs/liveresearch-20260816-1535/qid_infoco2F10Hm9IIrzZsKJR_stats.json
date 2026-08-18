@@ -1,0 +1,581 @@
+{
+  "total_llm_calls": 18,
+  "total_input_tokens": 313270,
+  "total_output_tokens": 30165,
+  "total_tokens": 343435,
+  "total_search_count": 38,
+  "total_search_results": 350,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 847,
+      "output_tokens": 183,
+      "total_tokens": 1030,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21437,
+      "output_tokens": 604,
+      "total_tokens": 22041,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45742,
+      "output_tokens": 486,
+      "total_tokens": 46228,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1672,
+      "output_tokens": 3702,
+      "total_tokens": 5374,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15536,
+      "output_tokens": 3086,
+      "total_tokens": 18622,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10316,
+      "output_tokens": 1966,
+      "total_tokens": 12282,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5012,
+      "output_tokens": 514,
+      "total_tokens": 5526,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3557,
+      "output_tokens": 1911,
+      "total_tokens": 5468,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1428,
+      "output_tokens": 3717,
+      "total_tokens": 5145,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10761,
+      "output_tokens": 2269,
+      "total_tokens": 13030,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1359,
+      "output_tokens": 510,
+      "total_tokens": 1869,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1438,
+      "output_tokens": 1868,
+      "total_tokens": 3306,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1254,
+      "output_tokens": 575,
+      "total_tokens": 1829,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1254,
+      "output_tokens": 1241,
+      "total_tokens": 2495,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1507,
+      "output_tokens": 1071,
+      "total_tokens": 2578,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50154,
+      "output_tokens": 393,
+      "total_tokens": 50547,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 62501,
+      "output_tokens": 1107,
+      "total_tokens": 63608,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 77495,
+      "output_tokens": 4962,
+      "total_tokens": 82457,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "generative AI voice assistant production vehicle launch 2023 2024 automaker",
+      "effective_query": "generative AI voice assistant production vehicle launch 2023 2024 automaker",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "OEM generative AI voice assistant in-car production launch",
+      "effective_query": "OEM generative AI voice assistant in-car production launch",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BMW generative AI voice assistant launch production",
+      "effective_query": "BMW generative AI voice assistant launch production",
+      "retriever": "tavily",
+      "num_results": 5
+    },
+    {
+      "query": "Mercedes-Benz MBUX virtual assistant generative AI launch",
+      "effective_query": "Mercedes-Benz MBUX virtual assistant generative AI launch",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Volkswagen ChatGPT voice assistant IDA launch production",
+      "effective_query": "Volkswagen ChatGPT voice assistant IDA launch production",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GM generative AI voice assistant production vehicle",
+      "effective_query": "GM generative AI voice assistant production vehicle",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Hyundai generative AI voice assistant production vehicle",
+      "effective_query": "Hyundai generative AI voice assistant production vehicle",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Kia generative AI voice assistant production vehicle",
+      "effective_query": "Kia generative AI voice assistant production vehicle",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Toyota generative AI voice assistant production vehicle",
+      "effective_query": "Toyota generative AI voice assistant production vehicle",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ford generative AI voice assistant production vehicle",
+      "effective_query": "Ford generative AI voice assistant production vehicle",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Volvo generative AI voice assistant production vehicle",
+      "effective_query": "Volvo generative AI voice assistant production vehicle",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Stellantis DS Automobiles SoundHound Chat AI generative AI voice assistant launch March 2024 production",
+      "effective_query": "Stellantis DS Automobiles SoundHound Chat AI generative AI voice assistant launch March 2024 production",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mercedes-Benz MBUX ChatGPT beta June 2023 production rollout",
+      "effective_query": "Mercedes-Benz MBUX ChatGPT beta June 2023 production rollout",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Volkswagen IDA ChatGPT launch production vehicles 2024",
+      "effective_query": "Volkswagen IDA ChatGPT launch production vehicles 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BMW Intelligent Personal Assistant Alexa generative AI launch 2024",
+      "effective_query": "BMW Intelligent Personal Assistant Alexa generative AI launch 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "General Motors Google Gemini rollout production vehicles 2025",
+      "effective_query": "General Motors Google Gemini rollout production vehicles 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Hyundai AI Assistant generative AI voice control launch 2025",
+      "effective_query": "Hyundai AI Assistant generative AI voice control launch 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kia AI Assistant EV3 launch Europe March 2025 generative AI",
+      "effective_query": "Kia AI Assistant EV3 launch Europe March 2025 generative AI",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Volvo Polestar Google Gemini AI assistant rollout 2025",
+      "effective_query": "Volvo Polestar Google Gemini AI assistant rollout 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Honda generative AI voice assistant production vehicle launch",
+      "effective_query": "Honda generative AI voice assistant production vehicle launch",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Nissan generative AI voice assistant production vehicle launch",
+      "effective_query": "Nissan generative AI voice assistant production vehicle launch",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Renault generative AI voice assistant production vehicle launch",
+      "effective_query": "Renault generative AI voice assistant production vehicle launch",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Tesla Grok voice assistant production vehicle launch",
+      "effective_query": "Tesla Grok voice assistant production vehicle launch",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Mercedes-Benz MBUX ChatGPT production rollout full production 2024 2025 not beta",
+      "effective_query": "Mercedes-Benz MBUX ChatGPT production rollout full production 2024 2025 not beta",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Volkswagen IDA ChatGPT launch date Q2 2024 production vehicles",
+      "effective_query": "Volkswagen IDA ChatGPT launch date Q2 2024 production vehicles",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Hyundai IONIQ 9 AI Assistant launch date 2025",
+      "effective_query": "Hyundai IONIQ 9 AI Assistant launch date 2025",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Tesla Grok voice assistant July 2025 production rollout US",
+      "effective_query": "Tesla Grok voice assistant July 2025 production rollout US",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Volvo Gemini rollout month 2025 production start",
+      "effective_query": "Volvo Gemini rollout month 2025 production start",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Lucid Motors generative AI voice assistant SoundHound production launch",
+      "effective_query": "Lucid Motors generative AI voice assistant SoundHound production launch",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "BYD generative AI voice assistant production vehicle launch 2024 2025",
+      "effective_query": "BYD generative AI voice assistant production vehicle launch 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mercedes-Benz MBUX ChatGPT production rollout December 2024 3 million vehicles",
+      "effective_query": "Mercedes-Benz MBUX ChatGPT production rollout December 2024 3 million vehicles",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Polestar Google Gemini rollout April 30 2026 production",
+      "effective_query": "Polestar Google Gemini rollout April 30 2026 production",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Volvo Gemini rollout April 30 2026 US production",
+      "effective_query": "Volvo Gemini rollout April 30 2026 US production",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Lucid Assistant SoundHound Chat AI production launch January 2025",
+      "effective_query": "Lucid Assistant SoundHound Chat AI production launch January 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BYD Cerence AI assistant production launch spring 2026",
+      "effective_query": "BYD Cerence AI assistant production launch spring 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Renault Reno generative AI Cerence production launch 2024",
+      "effective_query": "Renault Reno generative AI Cerence production launch 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Stellantis Mistral AI voice assistant production launch",
+      "effective_query": "Stellantis Mistral AI voice assistant production launch",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Honda Gemini AI assistant production July 2026",
+      "effective_query": "Honda Gemini AI assistant production July 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.soundhound.com/newsroom/press-releases/global-first-as-soundhound-ais-voice-assistant-with-integrated-chatgpt-goes-into-full-production-with-stellantis-ds-automobiles-in-car-usage-sees-huge-growth",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.964
+        }
+      ],
+      "content_length": 6525,
+      "duration_seconds": 7.964,
+      "summary_status": "success",
+      "summary_duration_seconds": 58.467,
+      "summary_length": 2650,
+      "summary_input_tokens": 1672,
+      "summary_output_tokens": 3702
+    },
+    {
+      "url": "https://www.volkswagen-newsroom.com/en/press-releases/chatgpt-is-now-available-in-many-volkswagen-models-18459",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.987
+        }
+      ],
+      "content_length": 45227,
+      "duration_seconds": 4.987,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.598,
+      "summary_length": 2658,
+      "summary_input_tokens": 15536,
+      "summary_output_tokens": 3086
+    },
+    {
+      "url": "https://www.wardsauto.com/news/archive-auto-kia-debuts-ai-powered-assistant-ev3-europe/745563",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.517
+        }
+      ],
+      "content_length": 32390,
+      "duration_seconds": 12.517,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.volvocars.com/en-th/news/technology/google-gemini-is-coming-to-your-volvo-with-google-built-in",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.327
+        }
+      ],
+      "content_length": 18553,
+      "duration_seconds": 7.327,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.219,
+      "summary_length": 1663,
+      "summary_input_tokens": 5012,
+      "summary_output_tokens": 514
+    },
+    {
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/apr/0428-Google-Gemini.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.384
+        }
+      ],
+      "content_length": 14863,
+      "duration_seconds": 3.384,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://developer.amazon.com/en-US/blogs/alexa/alexa-auto/2024/12/bmw-group-is-the-first-oem-to-deliver-voice-technology-using-ale",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.799
+        }
+      ],
+      "content_length": 5901,
+      "duration_seconds": 6.8,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.548,
+      "summary_length": 2258,
+      "summary_input_tokens": 1428,
+      "summary_output_tokens": 3717
+    },
+    {
+      "url": "https://group.mercedes-benz.com/technology/digitalisation/connectivity/car-voice-control-with-chatgpt.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.261
+        }
+      ],
+      "content_length": 39416,
+      "duration_seconds": 3.261,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.382,
+      "summary_length": 1571,
+      "summary_input_tokens": 10761,
+      "summary_output_tokens": 2269
+    },
+    {
+      "url": "https://www.hyundai.news/eu/articles/press-releases/ioniq-9-how-ai-enhances-the-driving-experience.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.382
+        }
+      ],
+      "content_length": 6041,
+      "duration_seconds": 4.382,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://hondanews.com/en-US/honda-automobiles/releases/release-197619b9ee3ec0adfccef0bd5f096c4f-honda-adds-google-gemini-a-helpful-ai-assistant-to-civic-accord-cr-v-pilot-and-more-vehicles-with-google-built-in",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.55
+        }
+      ],
+      "content_length": 5031,
+      "duration_seconds": 3.551,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://media.polestar.com/releases/polestar-launches-google-gemini-to-transform-the-driver-experience?lang=en_US",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.789
+        }
+      ],
+      "content_length": 6729,
+      "duration_seconds": 5.789,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.242,
+      "summary_length": 2224,
+      "summary_input_tokens": 1507,
+      "summary_output_tokens": 1071
+    }
+  ],
+  "source_urls_count": 290,
+  "duration_seconds": 781.3390941545367,
+  "report_length": 15155,
+  "context_length": 362928,
+  "qid": "infoco2F10Hm9IIrzZsKJR",
+  "query": "Which automakers launched a generative‑AI voice assistant in production vehicles (public rollout, not pilot) between 2023‑2026? Return automaker, assistant name, LLM partner, launch region, launch month, and links to the OEM press release and an automotive‑tech publication. Focus on only passenger vehicle automakers (e.g., no trucks, motorcycles, or commercial fleets)."
+}

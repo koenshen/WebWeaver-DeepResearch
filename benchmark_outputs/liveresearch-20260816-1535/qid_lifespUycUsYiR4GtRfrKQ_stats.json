@@ -1,0 +1,489 @@
+{
+  "total_llm_calls": 17,
+  "total_input_tokens": 340280,
+  "total_output_tokens": 39882,
+  "total_tokens": 380162,
+  "total_search_count": 24,
+  "total_search_results": 225,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1037,
+      "output_tokens": 1015,
+      "total_tokens": 2052,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17108,
+      "output_tokens": 364,
+      "total_tokens": 17472,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35757,
+      "output_tokens": 403,
+      "total_tokens": 36160,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 389,
+      "output_tokens": 1108,
+      "total_tokens": 1497,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18676,
+      "output_tokens": 4001,
+      "total_tokens": 22677,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18676,
+      "output_tokens": 4001,
+      "total_tokens": 22677,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18597,
+      "output_tokens": 2251,
+      "total_tokens": 20848,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8502,
+      "output_tokens": 3221,
+      "total_tokens": 11723,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26276,
+      "output_tokens": 4001,
+      "total_tokens": 30277,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26276,
+      "output_tokens": 3008,
+      "total_tokens": 29284,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 980,
+      "output_tokens": 823,
+      "total_tokens": 1803,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8623,
+      "output_tokens": 1572,
+      "total_tokens": 10195,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8095,
+      "output_tokens": 1182,
+      "total_tokens": 9277,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21649,
+      "output_tokens": 2001,
+      "total_tokens": 23650,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24499,
+      "output_tokens": 1788,
+      "total_tokens": 26287,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45075,
+      "output_tokens": 132,
+      "total_tokens": 45207,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60065,
+      "output_tokens": 9011,
+      "total_tokens": 69076,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "chronic ankle instability basketball biomechanics 2020",
+      "effective_query": "chronic ankle instability basketball biomechanics 2020",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "lateral ankle sprain recurrence prevention basketball",
+      "effective_query": "lateral ankle sprain recurrence prevention basketball",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Broström-Gould repair outcomes return to sport",
+      "effective_query": "Broström-Gould repair outcomes return to sport",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "peroneal weakness proprioception ankle instability rehabilitation",
+      "effective_query": "peroneal weakness proprioception ankle instability rehabilitation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ankle sprain prevention protocols bracing taping basketball",
+      "effective_query": "ankle sprain prevention protocols bracing taping basketball",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cavovarus foot ankle instability treatment",
+      "effective_query": "cavovarus foot ankle instability treatment",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "internal brace augmentation ankle ligament repair",
+      "effective_query": "internal brace augmentation ankle ligament repair",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "return to sport criteria after lateral ankle sprain",
+      "effective_query": "return to sport criteria after lateral ankle sprain",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "chronic ankle instability return to play criteria functional testing 2022",
+      "effective_query": "chronic ankle instability return to play criteria functional testing 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "lateral ankle sprain rehabilitation balance proprioceptive training randomized controlled trial 2021",
+      "effective_query": "lateral ankle sprain rehabilitation balance proprioceptive training randomized controlled trial 2021",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cavovarus foot ankle instability basketball biomechanics",
+      "effective_query": "cavovarus foot ankle instability basketball biomechanics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ankle instability neuromuscular perturbation training outcomes",
+      "effective_query": "ankle instability neuromuscular perturbation training outcomes",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "arthroscopic Brostrom repair versus open outcomes",
+      "effective_query": "arthroscopic Brostrom repair versus open outcomes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "internal brace Brostrom return to sport 2023",
+      "effective_query": "internal brace Brostrom return to sport 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "recurrent ankle sprain prevention load management basketball",
+      "effective_query": "recurrent ankle sprain prevention load management basketball",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ankle sprain recurrence prevention systematic review 2022",
+      "effective_query": "ankle sprain recurrence prevention systematic review 2022",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "balance training versus strength training ankle instability comparative study",
+      "effective_query": "balance training versus strength training ankle instability comparative study",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "peroneal strengthening exercises ankle sprain prevention evidence",
+      "effective_query": "peroneal strengthening exercises ankle sprain prevention evidence",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "bracing versus taping ankle sprain prevention basketball",
+      "effective_query": "bracing versus taping ankle sprain prevention basketball",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "functional testing thresholds return to play ankle sprain",
+      "effective_query": "functional testing thresholds return to play ankle sprain",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "workload management ankle injury prevention basketball",
+      "effective_query": "workload management ankle injury prevention basketball",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "lateral ankle sprain rehabilitation systematic review 2023",
+      "effective_query": "lateral ankle sprain rehabilitation systematic review 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ALR-RSI score ankle ligament reconstruction return to sport",
+      "effective_query": "ALR-RSI score ankle ligament reconstruction return to sport",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ankle instability sensorimotor control deficits landing mechanics",
+      "effective_query": "ankle instability sensorimotor control deficits landing mechanics",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6602401",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.704
+        }
+      ],
+      "content_length": 116548,
+      "duration_seconds": 1.704,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6602402",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.76
+        }
+      ],
+      "content_length": 495,
+      "duration_seconds": 0.76,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.987,
+      "summary_length": 834,
+      "summary_input_tokens": 389,
+      "summary_output_tokens": 1108
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299886",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.132
+        }
+      ],
+      "content_length": 60050,
+      "duration_seconds": 1.132,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6389534",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.359
+        }
+      ],
+      "content_length": 28195,
+      "duration_seconds": 16.359,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10776890",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.231
+        }
+      ],
+      "content_length": 89551,
+      "duration_seconds": 1.231,
+      "summary_status": "success",
+      "summary_duration_seconds": 40.969,
+      "summary_length": 9979,
+      "summary_input_tokens": 26276,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9660380",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.801
+        }
+      ],
+      "content_length": 3357,
+      "duration_seconds": 0.801,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.934,
+      "summary_length": 2655,
+      "summary_input_tokens": 980,
+      "summary_output_tokens": 823
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11697995",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.548
+        }
+      ],
+      "content_length": 29522,
+      "duration_seconds": 1.549,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.314,
+      "summary_length": 4770,
+      "summary_input_tokens": 8623,
+      "summary_output_tokens": 1572
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7329740",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.79
+        }
+      ],
+      "content_length": 22435,
+      "duration_seconds": 0.79,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.133,
+      "summary_length": 3026,
+      "summary_input_tokens": 8095,
+      "summary_output_tokens": 1182
+    },
+    {
+      "url": "https://www.jssm.org/jssm-18-653.xml%3EFulltext",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.617
+        }
+      ],
+      "content_length": 77092,
+      "duration_seconds": 7.617,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.097,
+      "summary_length": 7410,
+      "summary_input_tokens": 21649,
+      "summary_output_tokens": 2001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10618240",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.959
+        }
+      ],
+      "content_length": 86261,
+      "duration_seconds": 0.959,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.299,
+      "summary_length": 4242,
+      "summary_input_tokens": 24499,
+      "summary_output_tokens": 1788
+    }
+  ],
+  "source_urls_count": 196,
+  "duration_seconds": 742.6227609608322,
+  "report_length": 37112,
+  "context_length": 313438,
+  "qid": "lifespUycUsYiR4GtRfrKQ",
+  "query": "In 16–30-year-old recreational and collegiate basketball players (all genders) with recurrent lateral ankle sprains and season-to-season instability, which biomechanical and neuromuscular factors (e.g., peroneal weakness, proprioceptive deficits, cavovarus alignment, talar tilt/anterior drawer laxity) are most implicated; how are similar patterns documented across the international literature (including case reports and case series); what are the comparative outcomes and return-to-play timelines for specific rehabilitation programs (balance/proprioceptive, neuromuscular/perturbation, peroneal strengthening, bracing/taping) versus surgical stabilization (e.g., Broström-Gould, arthroscopic vs. open repair, internal-brace augmentation); and which return-to-play criteria and prevention protocols (functional testing thresholds, external supports, workload/load-management strategies) most effectively reduce re-injury—reviewing the full record with an emphasis on evidence from 2020–2026?"
+}

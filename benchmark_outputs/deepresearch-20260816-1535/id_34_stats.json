@@ -1,0 +1,269 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 294668,
+  "total_output_tokens": 25456,
+  "total_tokens": 320124,
+  "total_search_count": 12,
+  "total_search_results": 110,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 863,
+      "output_tokens": 249,
+      "total_tokens": 1112,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13889,
+      "output_tokens": 363,
+      "total_tokens": 14252,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28954,
+      "output_tokens": 297,
+      "total_tokens": 29251,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25228,
+      "output_tokens": 3641,
+      "total_tokens": 28869,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31637,
+      "output_tokens": 3945,
+      "total_tokens": 35582,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39881,
+      "output_tokens": 1599,
+      "total_tokens": 41480,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40074,
+      "output_tokens": 4001,
+      "total_tokens": 44075,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39995,
+      "output_tokens": 2667,
+      "total_tokens": 42662,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40074,
+      "output_tokens": 2348,
+      "total_tokens": 42422,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34073,
+      "output_tokens": 6346,
+      "total_tokens": 40419,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "unifying theory low contact resistance 2D semiconductors MoS2",
+      "effective_query": "unifying theory low contact resistance 2D semiconductors MoS2",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "common mechanism Ohmic contact two-dimensional materials",
+      "effective_query": "common mechanism Ohmic contact two-dimensional materials",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Fermi level pinning 2D metal semiconductor contact reducing contact resistance",
+      "effective_query": "Fermi level pinning 2D metal semiconductor contact reducing contact resistance",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "van der Waals contact 2D materials low resistance theory",
+      "effective_query": "van der Waals contact 2D materials low resistance theory",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "semi-metal contact MoS2 low contact resistance mechanism",
+      "effective_query": "semi-metal contact MoS2 low contact resistance mechanism",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gold contact MoS2 ultralow contact resistance explanation",
+      "effective_query": "gold contact MoS2 ultralow contact resistance explanation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "weak metalization semimetal contact Schottky barrier lowering 2D",
+      "effective_query": "weak metalization semimetal contact Schottky barrier lowering 2D",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gap-state saturation mechanism bismuth MoS2 contact",
+      "effective_query": "gap-state saturation mechanism bismuth MoS2 contact",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Fermi level depinning mechanism 2D semiconductor contact",
+      "effective_query": "Fermi level depinning mechanism 2D semiconductor contact",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "unified theory ohmic contact 2D materials review",
+      "effective_query": "unified theory ohmic contact 2D materials review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "common origin low contact resistance 2D semiconductors",
+      "effective_query": "common origin low contact resistance 2D semiconductors",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "contact resistance roadmap 2D semiconductors future directions",
+      "effective_query": "contact resistance roadmap 2D semiconductors future directions",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.nature.com/articles/s41699-023-00402-3",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.325
+        }
+      ],
+      "content_length": 88720,
+      "duration_seconds": 1.325,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(20)30324-6",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.821
+        }
+      ],
+      "content_length": 110838,
+      "duration_seconds": 11.821,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.094,
+      "summary_length": 15586,
+      "summary_input_tokens": 31637,
+      "summary_output_tokens": 3945
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-025-59174-7",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.088
+        }
+      ],
+      "content_length": 130812,
+      "duration_seconds": 7.088,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.553,
+      "summary_length": 5331,
+      "summary_input_tokens": 39881,
+      "summary_output_tokens": 1599
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-026-71986-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.231
+        }
+      ],
+      "content_length": 131698,
+      "duration_seconds": 5.231,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-025-65695-y",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.955
+        }
+      ],
+      "content_length": 127164,
+      "duration_seconds": 0.955,
+      "summary_status": "success",
+      "summary_duration_seconds": 39.108,
+      "summary_length": 1784,
+      "summary_input_tokens": 40074,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 83,
+  "duration_seconds": 575.0812505716458,
+  "report_length": 12542,
+  "context_length": 160400,
+  "id": 34,
+  "prompt": "在二维半导体的接触领域，科研人员为了降低接触电阻做了许多努力。以二硫化钼为例，半金属接触，纯金接触等均表现出非常小的接触电阻。但每种低电阻的接触往往有自己独特的理论解释，导致该领域一直没有一个明确的发展方向。这些降低接触电阻的方法是否有共通之处？是否有一个大一统的理论能够解释大多数降低接触电阻的方法？按照这个方法该领域将来的发展方向是什么呢？",
+  "language": "zh",
+  "topic": "Hardware"
+}

@@ -1,0 +1,357 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 569296,
+  "total_output_tokens": 12592,
+  "total_tokens": 581888,
+  "total_search_count": 43,
+  "total_search_results": 398,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 864,
+      "output_tokens": 100,
+      "total_tokens": 964,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9305,
+      "output_tokens": 115,
+      "total_tokens": 9420,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18615,
+      "output_tokens": 64,
+      "total_tokens": 18679,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26942,
+      "output_tokens": 204,
+      "total_tokens": 27146,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35828,
+      "output_tokens": 121,
+      "total_tokens": 35949,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43995,
+      "output_tokens": 120,
+      "total_tokens": 44115,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60748,
+      "output_tokens": 955,
+      "total_tokens": 61703,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 73417,
+      "output_tokens": 852,
+      "total_tokens": 74269,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 86736,
+      "output_tokens": 911,
+      "total_tokens": 87647,
+      "message_count": 18
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 100561,
+      "output_tokens": 1092,
+      "total_tokens": 101653,
+      "message_count": 20
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 112285,
+      "output_tokens": 8058,
+      "total_tokens": 120343,
+      "message_count": 22
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Fortune 500 companies CEO also Chairman of the Board 2026",
+      "effective_query": "Fortune 500 companies CEO also Chairman of the Board 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Fortune Global 500 CEO and Chairman same person 2026",
+      "effective_query": "Fortune Global 500 CEO and Chairman same person 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "list of Fortune 500 CEOs who are also board chairs August 2026",
+      "effective_query": "list of Fortune 500 CEOs who are also board chairs August 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CEO also chairman of the board Fortune 500 2026 proxy statement",
+      "effective_query": "CEO also chairman of the board Fortune 500 2026 proxy statement",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "dual role CEO chairman Fortune Global 500 list 2026",
+      "effective_query": "dual role CEO chairman Fortune Global 500 list 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "companies where CEO is also board chair 2026 Fortune 500",
+      "effective_query": "companies where CEO is also board chair 2026 Fortune 500",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CEOs serving as chairman of the board 2026 large companies list",
+      "effective_query": "CEOs serving as chairman of the board 2026 large companies list",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "which companies have CEO as chairman 2026 governance",
+      "effective_query": "which companies have CEO as chairman 2026 governance",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Fortune 500 CEO chair dual role 2026 proxy",
+      "effective_query": "Fortune 500 CEO chair dual role 2026 proxy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Jamie Dimon chairman and CEO 2026",
+      "effective_query": "Jamie Dimon chairman and CEO 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "David Solomon chairman and CEO Goldman Sachs 2026",
+      "effective_query": "David Solomon chairman and CEO Goldman Sachs 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mary Barra chairman and CEO General Motors 2026",
+      "effective_query": "Mary Barra chairman and CEO General Motors 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Brian Moynihan chairman and CEO Bank of America 2026",
+      "effective_query": "Brian Moynihan chairman and CEO Bank of America 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Tim Cook Apple chairman of the board 2026",
+      "effective_query": "Tim Cook Apple chairman of the board 2026",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Satya Nadella Microsoft chairman 2026",
+      "effective_query": "Satya Nadella Microsoft chairman 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mark Zuckerberg Meta chairman CEO 2026",
+      "effective_query": "Mark Zuckerberg Meta chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Andy Jassy Amazon chairman CEO 2026",
+      "effective_query": "Andy Jassy Amazon chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "JPMorgan Chase 2026 proxy statement chairman CEO",
+      "effective_query": "JPMorgan Chase 2026 proxy statement chairman CEO",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Goldman Sachs 2026 proxy statement chairman CEO",
+      "effective_query": "Goldman Sachs 2026 proxy statement chairman CEO",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "General Motors 2026 proxy statement chairman CEO",
+      "effective_query": "General Motors 2026 proxy statement chairman CEO",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Bank of America 2026 proxy statement chairman CEO",
+      "effective_query": "Bank of America 2026 proxy statement chairman CEO",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Meta 2026 proxy statement chairman CEO",
+      "effective_query": "Meta 2026 proxy statement chairman CEO",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft 2026 proxy statement chairman CEO",
+      "effective_query": "Microsoft 2026 proxy statement chairman CEO",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Chevron CEO chairman 2026 proxy statement",
+      "effective_query": "Chevron CEO chairman 2026 proxy statement",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Colgate-Palmolive Noel Wallace chairman CEO 2026",
+      "effective_query": "Colgate-Palmolive Noel Wallace chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "PNC Bill Demchak chairman CEO 2026",
+      "effective_query": "PNC Bill Demchak chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Comcast Brian Roberts chairman CEO 2026",
+      "effective_query": "Comcast Brian Roberts chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Procter and Gamble Jon Moeller chairman CEO 2026",
+      "effective_query": "Procter and Gamble Jon Moeller chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shailesh Jejurikar chairman CEO Procter and Gamble 2026",
+      "effective_query": "Shailesh Jejurikar chairman CEO Procter and Gamble 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Fortune Global 500 combined CEO chair 2026 list",
+      "effective_query": "Fortune Global 500 combined CEO chair 2026 list",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UnitedHealth Group CEO chairman 2026",
+      "effective_query": "UnitedHealth Group CEO chairman 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Walmart CEO chairman 2026",
+      "effective_query": "Walmart CEO chairman 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tesla Elon Musk chairman 2026",
+      "effective_query": "Tesla Elon Musk chairman 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Cigna David Cordani chairman CEO 2026",
+      "effective_query": "Cigna David Cordani chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cisco Chuck Robbins chairman CEO 2026",
+      "effective_query": "Cisco Chuck Robbins chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CME Group Terry Duffy chairman CEO 2026",
+      "effective_query": "CME Group Terry Duffy chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Alphabet Sundar Pichai chairman 2026",
+      "effective_query": "Alphabet Sundar Pichai chairman 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "BlackRock Larry Fink chairman CEO 2026",
+      "effective_query": "BlackRock Larry Fink chairman CEO 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Wells Fargo CEO chairman 2026",
+      "effective_query": "Wells Fargo CEO chairman 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Citigroup CEO chairman 2026",
+      "effective_query": "Citigroup CEO chairman 2026",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Morgan Stanley CEO chairman 2026",
+      "effective_query": "Morgan Stanley CEO chairman 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Johnson and Johnson CEO chairman 2026",
+      "effective_query": "Johnson and Johnson CEO chairman 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Home Depot CEO chairman 2026",
+      "effective_query": "Home Depot CEO chairman 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 366,
+  "duration_seconds": 390.866417250596,
+  "report_length": 28199,
+  "context_length": 497833,
+  "qid": "infocomcw7CBtHAmVbvEYm",
+  "query": "As of August 17, 2026, which Fortune 500 companies (globally) have their CEO also serving as Board Chair? For each company, list the executive’s name, the date they assumed the dual role, and provide links to both the latest proxy statement (DEF 14A) and one independent news source confirming the arrangement. Note that you should not include those who held both titles earlier but no longer do as of August 17, 2026."
+}

@@ -1,0 +1,265 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 103959,
+  "total_output_tokens": 22813,
+  "total_tokens": 126772,
+  "total_search_count": 6,
+  "total_search_results": 56,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 788,
+      "output_tokens": 249,
+      "total_tokens": 1037,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10617,
+      "output_tokens": 80,
+      "total_tokens": 10697,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18749,
+      "output_tokens": 154,
+      "total_tokens": 18903,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3228,
+      "output_tokens": 3426,
+      "total_tokens": 6654,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3810,
+      "output_tokens": 4001,
+      "total_tokens": 7811,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3731,
+      "output_tokens": 3678,
+      "total_tokens": 7409,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 647,
+      "output_tokens": 534,
+      "total_tokens": 1181,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25508,
+      "output_tokens": 133,
+      "total_tokens": 25641,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1223,
+      "output_tokens": 467,
+      "total_tokens": 1690,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2682,
+      "output_tokens": 3465,
+      "total_tokens": 6147,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3648,
+      "output_tokens": 2085,
+      "total_tokens": 5733,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29328,
+      "output_tokens": 4541,
+      "total_tokens": 33869,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Anthropic Streamable HTTP 实现方案",
+      "effective_query": "Anthropic Streamable HTTP 实现方案",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Anthropic Streamable HTTP API 2025",
+      "effective_query": "Anthropic Streamable HTTP API 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Streamable HTTP Anthropic engineering",
+      "effective_query": "Streamable HTTP Anthropic engineering",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Streamable HTTP MCP protocol specification 2025",
+      "effective_query": "Streamable HTTP MCP protocol specification 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MCP Streamable HTTP implementation details",
+      "effective_query": "MCP Streamable HTTP implementation details",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Anthropic Streamable HTTP transport specification GitHub",
+      "effective_query": "Anthropic Streamable HTTP transport specification GitHub",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-03-26/basic/transports",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.441
+        }
+      ],
+      "content_length": 12606,
+      "duration_seconds": 6.441,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.458,
+      "summary_length": 11873,
+      "summary_input_tokens": 3228,
+      "summary_output_tokens": 3426
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.331
+        }
+      ],
+      "content_length": 14804,
+      "duration_seconds": 6.332,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.36,
+      "summary_length": 11077,
+      "summary_input_tokens": 3810,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://medium.com/the-ai-language/a-visual-guide-to-mcps-streamable-http-transport-6dc18fe751ad",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.19
+        }
+      ],
+      "content_length": 1910,
+      "duration_seconds": 1.19,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.22,
+      "summary_length": 2751,
+      "summary_input_tokens": 647,
+      "summary_output_tokens": 534
+    },
+    {
+      "url": "https://github.com/invariantlabs-ai/mcp-streamable-http",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.345
+        }
+      ],
+      "content_length": 3962,
+      "duration_seconds": 5.345,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.432,
+      "summary_length": 2454,
+      "summary_input_tokens": 1223,
+      "summary_output_tokens": 467
+    },
+    {
+      "url": "https://blog.fka.dev/blog/2025-06-06-why-mcp-deprecated-sse-and-go-with-streamable-http",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.916
+        }
+      ],
+      "content_length": 12257,
+      "duration_seconds": 3.916,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.919,
+      "summary_length": 7639,
+      "summary_input_tokens": 2682,
+      "summary_output_tokens": 3465
+    },
+    {
+      "url": "https://cloud.tencent.com/developer/article/2556166",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.703
+        }
+      ],
+      "content_length": 7081,
+      "duration_seconds": 6.704,
+      "summary_status": "success",
+      "summary_duration_seconds": 206.402,
+      "summary_length": 4445,
+      "summary_input_tokens": 3648,
+      "summary_output_tokens": 2085
+    }
+  ],
+  "source_urls_count": 48,
+  "duration_seconds": 527.341857297346,
+  "report_length": 11393,
+  "context_length": 128015,
+  "id": 20,
+  "prompt": "研究下Anthropic最新发布的Streamable HTTP的工程中的具体实现方案",
+  "language": "zh",
+  "topic": "Software Development"
+}

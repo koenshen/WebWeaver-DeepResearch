@@ -1,0 +1,74 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 37095,
+  "total_output_tokens": 5510,
+  "total_tokens": 42605,
+  "total_search_count": 6,
+  "total_search_results": 56,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 795,
+      "output_tokens": 233,
+      "total_tokens": 1028,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36300,
+      "output_tokens": 5277,
+      "total_tokens": 41577,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "中国金融未来发展趋势 2025 2026",
+      "effective_query": "中国金融未来发展趋势 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国投资银行 发展前景 2025",
+      "effective_query": "中国投资银行 发展前景 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国私募股权 PE 行业未来趋势 2025",
+      "effective_query": "中国私募股权 PE 行业未来趋势 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国固定收益 固收 市场 发展前景 2025",
+      "effective_query": "中国固定收益 固收 市场 发展前景 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国金融强国 政策 资本市场改革 2025",
+      "effective_query": "中国金融强国 政策 资本市场改革 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国金融细分领域 上升空间 投行 PE 固收 财富管理",
+      "effective_query": "中国金融细分领域 上升空间 投行 PE 固收 财富管理",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 56,
+  "duration_seconds": 153.63994618784636,
+  "report_length": 8871,
+  "context_length": 80581,
+  "id": 3,
+  "prompt": "中国金融未来的发展趋势，未来哪一个细分领域（例如投行、pe、固收等）更有上升空间",
+  "language": "zh",
+  "topic": "Finance & Business"
+}

@@ -1,0 +1,86 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 20697,
+  "total_output_tokens": 5853,
+  "total_tokens": 26550,
+  "total_search_count": 8,
+  "total_search_results": 74,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 892,
+      "output_tokens": 874,
+      "total_tokens": 1766,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19805,
+      "output_tokens": 4979,
+      "total_tokens": 24784,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "smart home trends 2025 2026 future outlook",
+      "effective_query": "smart home trends 2025 2026 future outlook",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "generative AI smart home products 2025 2026",
+      "effective_query": "generative AI smart home products 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Matter smart home protocol adoption 2025",
+      "effective_query": "Matter smart home protocol adoption 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "smart home energy management market trends 2025",
+      "effective_query": "smart home energy management market trends 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "smart home health monitoring aging in place trends",
+      "effective_query": "smart home health monitoring aging in place trends",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "smart home robotics market forecast 2026",
+      "effective_query": "smart home robotics market forecast 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "smart home security privacy trends 2025",
+      "effective_query": "smart home security privacy trends 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ambient computing smart home future",
+      "effective_query": "ambient computing smart home future",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 69,
+  "duration_seconds": 68.87954600527883,
+  "report_length": 22187,
+  "context_length": 115546,
+  "id": 96,
+  "prompt": "Please draft a research report analyzing future product development trends within the smart home industry. The report should conclude by identifying specific types of products, or products with particular features, that are expected to be major trends shaping the industry's future.",
+  "language": "en",
+  "topic": "Home & Hobbies"
+}

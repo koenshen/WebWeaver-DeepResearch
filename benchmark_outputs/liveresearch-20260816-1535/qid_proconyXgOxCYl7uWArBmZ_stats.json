@@ -1,0 +1,225 @@
+{
+  "total_llm_calls": 5,
+  "total_input_tokens": 137406,
+  "total_output_tokens": 16330,
+  "total_tokens": 153736,
+  "total_search_count": 28,
+  "total_search_results": 263,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 975,
+      "output_tokens": 2197,
+      "total_tokens": 3172,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13636,
+      "output_tokens": 133,
+      "total_tokens": 13769,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27585,
+      "output_tokens": 229,
+      "total_tokens": 27814,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41697,
+      "output_tokens": 104,
+      "total_tokens": 41801,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53513,
+      "output_tokens": 13667,
+      "total_tokens": 67180,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Julian Savulescu pro doping arguments",
+      "effective_query": "Julian Savulescu pro doping arguments",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "genetic inequality in sports doping",
+      "effective_query": "genetic inequality in sports doping",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "athlete autonomy doping legalization",
+      "effective_query": "athlete autonomy doping legalization",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "doping harm reduction supervised use",
+      "effective_query": "doping harm reduction supervised use",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WADA budget effectiveness doping prevalence",
+      "effective_query": "WADA budget effectiveness doping prevalence",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "steroid era MLB revenue impact",
+      "effective_query": "steroid era MLB revenue impact",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "doping bans violate athlete autonomy paternalism",
+      "effective_query": "doping bans violate athlete autonomy paternalism",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "performance enhancing drugs recovery injury benefits",
+      "effective_query": "performance enhancing drugs recovery injury benefits",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "anti-doping discrimination genetic advantage",
+      "effective_query": "anti-doping discrimination genetic advantage",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "doping dangerous health risks athlete deaths",
+      "effective_query": "doping dangerous health risks athlete deaths",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "spirit of sport integrity anti-doping arguments",
+      "effective_query": "spirit of sport integrity anti-doping arguments",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "doping arms race escalation athletes health risks",
+      "effective_query": "doping arms race escalation athletes health risks",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WADA policy effectiveness criticism failure",
+      "effective_query": "WADA policy effectiveness criticism failure",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "doping legalization level playing field fairness",
+      "effective_query": "doping legalization level playing field fairness",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "doping prevalence statistics elite athletes 2023 2024",
+      "effective_query": "doping prevalence statistics elite athletes 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "athlete testimonials doping coercion pressure",
+      "effective_query": "athlete testimonials doping coercion pressure",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "anti-doping education effectiveness studies",
+      "effective_query": "anti-doping education effectiveness studies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "sports technology enhancement fairness debate",
+      "effective_query": "sports technology enhancement fairness debate",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "performance enhancing drugs youth athletes influence",
+      "effective_query": "performance enhancing drugs youth athletes influence",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tour de France EPO deaths 1990s cyclists",
+      "effective_query": "Tour de France EPO deaths 1990s cyclists",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Olympic doping scandals impact on viewership trust",
+      "effective_query": "Olympic doping scandals impact on viewership trust",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "genetic testing discrimination sports policy",
+      "effective_query": "genetic testing discrimination sports policy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Olympic lifting performance enhancement technology swimsuit records",
+      "effective_query": "Olympic lifting performance enhancement technology swimsuit records",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Russian doping scandal state-sponsored McLaren report",
+      "effective_query": "Russian doping scandal state-sponsored McLaren report",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Lance Armstrong doping case impact on cycling",
+      "effective_query": "Lance Armstrong doping case impact on cycling",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "enhanced games Aron D'Souza criticism",
+      "effective_query": "enhanced games Aron D'Souza criticism",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WADA prohibited list annual updates",
+      "effective_query": "WADA prohibited list annual updates",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "sports technology enhancement carbon fiber shoes running records",
+      "effective_query": "sports technology enhancement carbon fiber shoes running records",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 239,
+  "duration_seconds": 872.7284715771675,
+  "report_length": 57367,
+  "context_length": 304103,
+  "qid": "proconyXgOxCYl7uWArBmZ",
+  "query": "Conduct a comprehensive analysis on whether performance-enhancing drugs and technologies should be allowed in sports, with a global perspective focusing on elite-level competitive sports (Olympic sports, professional leagues, and international competitions). In the report, I would like to have 6 pro arguments and 6 con arguments. Each pro or con argument should include: (1) A clear thesis statement (2) Multiple supporting points substantiated with credible evidence (including but not limited to statistics, direct quotes, case studies, expert testimony, industry or government reports, academic research, news sources, online forums, and social media), followed by in-depth reasoning and analysis."
+}

@@ -1,0 +1,344 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 279564,
+  "total_output_tokens": 12979,
+  "total_tokens": 292543,
+  "total_search_count": 20,
+  "total_search_results": 186,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 858,
+      "output_tokens": 541,
+      "total_tokens": 1399,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10358,
+      "output_tokens": 65,
+      "total_tokens": 10423,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19638,
+      "output_tokens": 828,
+      "total_tokens": 20466,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28585,
+      "output_tokens": 350,
+      "total_tokens": 28935,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19023,
+      "output_tokens": 1720,
+      "total_tokens": 20743,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38168,
+      "output_tokens": 527,
+      "total_tokens": 38695,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1035,
+      "output_tokens": 611,
+      "total_tokens": 1646,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42313,
+      "output_tokens": 1798,
+      "total_tokens": 44111,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31667,
+      "output_tokens": 98,
+      "total_tokens": 31765,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41340,
+      "output_tokens": 461,
+      "total_tokens": 41801,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46579,
+      "output_tokens": 5980,
+      "total_tokens": 52559,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "need for closure misinformation acceptance",
+      "effective_query": "need for closure misinformation acceptance",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "need for cognitive closure fake news belief",
+      "effective_query": "need for cognitive closure fake news belief",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "need for closure bullshit receptivity",
+      "effective_query": "need for closure bullshit receptivity",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "need for closure conspiracy theories",
+      "effective_query": "need for closure conspiracy theories",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "need for closure epistemic motivation misinformation",
+      "effective_query": "need for closure epistemic motivation misinformation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kruglanski need for closure seizing freezing misinformation",
+      "effective_query": "Kruglanski need for closure seizing freezing misinformation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "need for cognitive closure fake news receptivity study",
+      "effective_query": "need for cognitive closure fake news receptivity study",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "need for closure misinformation susceptibility experiment",
+      "effective_query": "need for closure misinformation susceptibility experiment",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "need for cognitive closure illusory truth effect",
+      "effective_query": "need for cognitive closure illusory truth effect",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bowes conspiracy theories meta-analysis need for closure 2023",
+      "effective_query": "Bowes conspiracy theories meta-analysis need for closure 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pennycook Rand bullshit receptivity need for closure 2015",
+      "effective_query": "Pennycook Rand bullshit receptivity need for closure 2015",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "need for closure misinformation meta-analysis 2024 susceptibility",
+      "effective_query": "need for closure misinformation meta-analysis 2024 susceptibility",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "need for cognitive closure analytical thinking misinformation",
+      "effective_query": "need for cognitive closure analytical thinking misinformation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kruglanski need for closure theory seizing freezing misinformation cognition",
+      "effective_query": "Kruglanski need for closure theory seizing freezing misinformation cognition",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "need for cognitive closure eyewitness misinformation false confessions",
+      "effective_query": "need for cognitive closure eyewitness misinformation false confessions",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Marchlewska need for closure conspiracy theories 2018",
+      "effective_query": "Marchlewska need for closure conspiracy theories 2018",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "need for closure disinformation belief 2023 2024",
+      "effective_query": "need for closure disinformation belief 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cosgrove 2026 need for closure education misinformation Personality and Individual Differences",
+      "effective_query": "Cosgrove 2026 need for closure education misinformation Personality and Individual Differences",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "need for closure misinformation susceptibility meta-analysis Bowes 2023",
+      "effective_query": "need for closure misinformation susceptibility meta-analysis Bowes 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Jedinger Masch 2025 need for closure conspiracy trust",
+      "effective_query": "Jedinger Masch 2025 need for closure conspiracy trust",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.frontiersin.org/journals/social-psychology/articles/10.3389/frsps.2024.1447313/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.017
+        }
+      ],
+      "content_length": 62612,
+      "duration_seconds": 9.018,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.475,
+      "summary_length": 5941,
+      "summary_input_tokens": 19023,
+      "summary_output_tokens": 1720
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0191886925005306",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.197
+        }
+      ],
+      "content_length": 112999,
+      "duration_seconds": 8.197,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.393,
+      "summary_length": 701,
+      "summary_input_tokens": 38168,
+      "summary_output_tokens": 527
+    },
+    {
+      "url": "https://kar.kent.ac.uk/61588",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 24.814
+        }
+      ],
+      "content_length": 3118,
+      "duration_seconds": 24.814,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.867,
+      "summary_length": 2539,
+      "summary_input_tokens": 1035,
+      "summary_output_tokens": 611
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3694217",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.19
+        }
+      ],
+      "content_length": 68778,
+      "duration_seconds": 1.19,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8740309",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.398
+        }
+      ],
+      "content_length": 132725,
+      "duration_seconds": 2.398,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.974,
+      "summary_length": 5095,
+      "summary_input_tokens": 42313,
+      "summary_output_tokens": 1798
+    },
+    {
+      "url": "https://dspace.mit.edu/bitstream/handle/1721.1/135508/SSRN-id3023545.pdf?sequence=2&isAllowed=y",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.313
+        }
+      ],
+      "content_length": 96593,
+      "duration_seconds": 3.313,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 128,
+  "duration_seconds": 810.4912440311164,
+  "report_length": 23855,
+  "context_length": 226874,
+  "id": 77,
+  "prompt": "What is the role of need for closure on misinformation acceptance?",
+  "language": "en",
+  "topic": "Health"
+}

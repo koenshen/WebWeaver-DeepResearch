@@ -1,0 +1,256 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 95241,
+  "total_output_tokens": 15871,
+  "total_tokens": 111112,
+  "total_search_count": 8,
+  "total_search_results": 76,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 834,
+      "output_tokens": 211,
+      "total_tokens": 1045,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23683,
+      "output_tokens": 213,
+      "total_tokens": 23896,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3444,
+      "output_tokens": 3212,
+      "total_tokens": 6656,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5778,
+      "output_tokens": 1816,
+      "total_tokens": 7594,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24841,
+      "output_tokens": 808,
+      "total_tokens": 25649,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2013,
+      "output_tokens": 1202,
+      "total_tokens": 3215,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 916,
+      "output_tokens": 735,
+      "total_tokens": 1651,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4741,
+      "output_tokens": 753,
+      "total_tokens": 5494,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28991,
+      "output_tokens": 6921,
+      "total_tokens": 35912,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Japan elderly population projection 2020 2050",
+      "effective_query": "Japan elderly population projection 2020 2050",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japan elderly consumption trends clothing food housing transportation",
+      "effective_query": "Japan elderly consumption trends clothing food housing transportation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Japan elderly consumer spending habits market size",
+      "effective_query": "Japan elderly consumer spending habits market size",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Japan population projections 2020 2050 Statistics Bureau",
+      "effective_query": "Japan population projections 2020 2050 Statistics Bureau",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japan elderly consumption potential report",
+      "effective_query": "Japan elderly consumption potential report",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Japan elderly market size 2025",
+      "effective_query": "Japan elderly market size 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japan aging population consumption patterns 2020 2050",
+      "effective_query": "Japan aging population consumption patterns 2020 2050",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Japan elderly household expenditure data",
+      "effective_query": "Japan elderly household expenditure data",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.nippon.com/en/in-depth/a04901",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.202
+        }
+      ],
+      "content_length": 13824,
+      "duration_seconds": 2.202,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.777,
+      "summary_length": 8885,
+      "summary_input_tokens": 3444,
+      "summary_output_tokens": 3212
+    },
+    {
+      "url": "https://www.ulpa.jp/post/mastering-japanese-consumers-marketing-to-seniors-in-japan",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.321
+        }
+      ],
+      "content_length": 27455,
+      "duration_seconds": 1.321,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.118,
+      "summary_length": 2846,
+      "summary_input_tokens": 5778,
+      "summary_output_tokens": 1816
+    },
+    {
+      "url": "https://www.weforum.org/stories/sustainable-development/japans-longevity-economy",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.47
+        }
+      ],
+      "content_length": 97521,
+      "duration_seconds": 7.471,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.001,
+      "summary_length": 2670,
+      "summary_input_tokens": 24841,
+      "summary_output_tokens": 808
+    },
+    {
+      "url": "https://carterjmrn.com/blog/japans-seniors-market-deeper-look-reveals-ample-opportunities",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.262
+        }
+      ],
+      "content_length": 8412,
+      "duration_seconds": 17.262,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.636,
+      "summary_length": 4186,
+      "summary_input_tokens": 2013,
+      "summary_output_tokens": 1202
+    },
+    {
+      "url": "https://www.ipss.go.jp/pr-ad/e/eng/04.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.301
+        }
+      ],
+      "content_length": 3122,
+      "duration_seconds": 4.301,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.571,
+      "summary_length": 2543,
+      "summary_input_tokens": 916,
+      "summary_output_tokens": 735
+    },
+    {
+      "url": "https://earth.org/understanding-japans-demographic-crisis-an-alternative-perspective-on-population-decline",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.074
+        }
+      ],
+      "content_length": 19605,
+      "duration_seconds": 4.074,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.341,
+      "summary_length": 2394,
+      "summary_input_tokens": 4741,
+      "summary_output_tokens": 753
+    }
+  ],
+  "source_urls_count": 56,
+  "duration_seconds": 213.65122172702104,
+  "report_length": 24875,
+  "context_length": 148107,
+  "id": 51,
+  "prompt": "From 2020 to 2050, how many elderly people will there be in Japan? What is their consumption potential across various aspects such as clothing, food, housing, and transportation? Based on population projections, elderly consumer willingness, and potential changes in their consumption habits, please produce a market size analysis report for the elderly demographic.",
+  "language": "en",
+  "topic": "Finance & Business"
+}

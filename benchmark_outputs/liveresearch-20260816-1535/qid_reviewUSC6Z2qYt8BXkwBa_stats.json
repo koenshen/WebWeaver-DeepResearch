@@ -1,0 +1,623 @@
+{
+  "total_llm_calls": 24,
+  "total_input_tokens": 308101,
+  "total_output_tokens": 57621,
+  "total_tokens": 365722,
+  "total_search_count": 15,
+  "total_search_results": 138,
+  "total_visit_count": 17,
+  "total_visit_success": 17,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1019,
+      "output_tokens": 194,
+      "total_tokens": 1213,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24360,
+      "output_tokens": 101,
+      "total_tokens": 24461,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11088,
+      "output_tokens": 4001,
+      "total_tokens": 15089,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11088,
+      "output_tokens": 3160,
+      "total_tokens": 14248,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1187,
+      "output_tokens": 1541,
+      "total_tokens": 2728,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28033,
+      "output_tokens": 321,
+      "total_tokens": 28354,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25627,
+      "output_tokens": 4001,
+      "total_tokens": 29628,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15333,
+      "output_tokens": 2755,
+      "total_tokens": 18088,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19118,
+      "output_tokens": 2579,
+      "total_tokens": 21697,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2958,
+      "output_tokens": 886,
+      "total_tokens": 3844,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27438,
+      "output_tokens": 2683,
+      "total_tokens": 30121,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16857,
+      "output_tokens": 2466,
+      "total_tokens": 19323,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6158,
+      "output_tokens": 3585,
+      "total_tokens": 9743,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 724,
+      "output_tokens": 716,
+      "total_tokens": 1440,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1204,
+      "output_tokens": 3643,
+      "total_tokens": 4847,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 813,
+      "output_tokens": 1931,
+      "total_tokens": 2744,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2955,
+      "output_tokens": 1795,
+      "total_tokens": 4750,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2958,
+      "output_tokens": 905,
+      "total_tokens": 3863,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2871,
+      "output_tokens": 4001,
+      "total_tokens": 6872,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2871,
+      "output_tokens": 1657,
+      "total_tokens": 4528,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1261,
+      "output_tokens": 3480,
+      "total_tokens": 4741,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 979,
+      "output_tokens": 2800,
+      "total_tokens": 3779,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44077,
+      "output_tokens": 150,
+      "total_tokens": 44227,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57124,
+      "output_tokens": 8270,
+      "total_tokens": 65394,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "DAPO Decoupled Clip Dynamic Sampling Policy Optimization LLM reasoning",
+      "effective_query": "DAPO Decoupled Clip Dynamic Sampling Policy Optimization LLM reasoning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GFPO Group Filtered Policy Optimization LLM",
+      "effective_query": "GFPO Group Filtered Policy Optimization LLM",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GMPO Geometric Mean Policy Optimization LLM",
+      "effective_query": "GMPO Geometric Mean Policy Optimization LLM",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GPPO Gradient Preserving clipping Policy Optimization LLM",
+      "effective_query": "GPPO Gradient Preserving clipping Policy Optimization LLM",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GPG Group Policy Gradient LLM",
+      "effective_query": "GPG Group Policy Gradient LLM",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CPO Comparative Policy Optimization LLM reasoning",
+      "effective_query": "CPO Comparative Policy Optimization LLM reasoning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "RPO Reparameterization Proximal Policy Optimization LLM",
+      "effective_query": "RPO Reparameterization Proximal Policy Optimization LLM",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "COPO Consistency Aware Policy Optimization LLM",
+      "effective_query": "COPO Consistency Aware Policy Optimization LLM",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GSPO Group Sequence Policy Optimization LLM",
+      "effective_query": "GSPO Group Sequence Policy Optimization LLM",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PPO Proximal Policy Optimization LLM reasoning GRPO comparison",
+      "effective_query": "PPO Proximal Policy Optimization LLM reasoning GRPO comparison",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "CPO Comparative Policy Optimization LLM reasoning chain-of-thought",
+      "effective_query": "CPO Comparative Policy Optimization LLM reasoning chain-of-thought",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GPG Group Policy Gradient GRPO comparison results benchmarks",
+      "effective_query": "GPG Group Policy Gradient GRPO comparison results benchmarks",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CE-GPPO vs GPPO comparison Klear-Reasoner",
+      "effective_query": "CE-GPPO vs GPPO comparison Klear-Reasoner",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GFPO Group Filtered Policy Optimization results Phi-4 reasoning",
+      "effective_query": "GFPO Group Filtered Policy Optimization results Phi-4 reasoning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PPO vs GRPO vs DAPO comparison LLM reasoning benchmarks",
+      "effective_query": "PPO vs GRPO vs DAPO comparison LLM reasoning benchmarks",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://arxiv.org/pdf/2503.14476",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.874
+        }
+      ],
+      "content_length": 41595,
+      "duration_seconds": 2.874,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.823,
+      "summary_length": 15171,
+      "summary_input_tokens": 11088,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://dapo-sia.github.io",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.871
+        }
+      ],
+      "content_length": 3897,
+      "duration_seconds": 0.871,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.915,
+      "summary_length": 4259,
+      "summary_input_tokens": 1187,
+      "summary_output_tokens": 1541
+    },
+    {
+      "url": "https://arxiv.org/pdf/2508.09726",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.222
+        }
+      ],
+      "content_length": 93524,
+      "duration_seconds": 2.222,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.663,
+      "summary_length": 14790,
+      "summary_input_tokens": 25627,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://arxiv.org/html/2507.20673v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.541
+        }
+      ],
+      "content_length": 50509,
+      "duration_seconds": 2.541,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.793,
+      "summary_length": 9975,
+      "summary_input_tokens": 15333,
+      "summary_output_tokens": 2755
+    },
+    {
+      "url": "https://arxiv.org/pdf/2508.07629",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.959
+        }
+      ],
+      "content_length": 70109,
+      "duration_seconds": 1.959,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.504,
+      "summary_length": 9174,
+      "summary_input_tokens": 19118,
+      "summary_output_tokens": 2579
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.02546",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.839
+        }
+      ],
+      "content_length": 9433,
+      "duration_seconds": 0.839,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.448,
+      "summary_length": 3265,
+      "summary_input_tokens": 2958,
+      "summary_output_tokens": 886
+    },
+    {
+      "url": "https://arxiv.org/html/2508.06214v3",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.545
+        }
+      ],
+      "content_length": 99762,
+      "duration_seconds": 1.545,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.062,
+      "summary_length": 9671,
+      "summary_input_tokens": 27438,
+      "summary_output_tokens": 2683
+    },
+    {
+      "url": "https://arxiv.org/pdf/2508.04138",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.157
+        }
+      ],
+      "content_length": 62447,
+      "duration_seconds": 3.158,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.918,
+      "summary_length": 10127,
+      "summary_input_tokens": 16857,
+      "summary_output_tokens": 2466
+    },
+    {
+      "url": "https://arxiv.org/pdf/2507.18071",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.653
+        }
+      ],
+      "content_length": 22928,
+      "duration_seconds": 1.653,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.882,
+      "summary_length": 13453,
+      "summary_input_tokens": 6158,
+      "summary_output_tokens": 3585
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.09726",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.772
+        }
+      ],
+      "content_length": 2168,
+      "duration_seconds": 1.772,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.20673",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.342
+        }
+      ],
+      "content_length": 3280,
+      "duration_seconds": 1.343,
+      "summary_status": "success",
+      "summary_duration_seconds": 42.335,
+      "summary_length": 3091,
+      "summary_input_tokens": 1204,
+      "summary_output_tokens": 3643
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.04138",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.757
+        }
+      ],
+      "content_length": 2572,
+      "duration_seconds": 1.758,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.43,
+      "summary_length": 2987,
+      "summary_input_tokens": 813,
+      "summary_output_tokens": 1931
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.18071",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.748
+        }
+      ],
+      "content_length": 9059,
+      "duration_seconds": 2.748,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.468,
+      "summary_length": 1689,
+      "summary_input_tokens": 2955,
+      "summary_output_tokens": 1795
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.02546",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.545
+        }
+      ],
+      "content_length": 9433,
+      "duration_seconds": 0.546,
+      "summary_status": "success",
+      "summary_duration_seconds": 2.926,
+      "summary_length": 2807,
+      "summary_input_tokens": 2958,
+      "summary_output_tokens": 905
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.06214",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.714
+        }
+      ],
+      "content_length": 8949,
+      "duration_seconds": 1.714,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.142,
+      "summary_length": 1595,
+      "summary_input_tokens": 2871,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.07629",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.926
+        }
+      ],
+      "content_length": 3548,
+      "duration_seconds": 0.926,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.20712",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.433
+        }
+      ],
+      "content_length": 2543,
+      "duration_seconds": 1.433,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.621,
+      "summary_length": 3189,
+      "summary_input_tokens": 979,
+      "summary_output_tokens": 2800
+    }
+  ],
+  "source_urls_count": 118,
+  "duration_seconds": 731.9243941381574,
+  "report_length": 29186,
+  "context_length": 287817,
+  "qid": "reviewUSC6Z2qYt8BXkwBa",
+  "query": "As a researcher focused on large language models (LLMs), I am seeking a comprehensive literature review of recent reinforcement learning (RL) algorithms proposed to improve LLM reasoning capabilities beyond the GRPO approach. Please analyze the following 10 algorithms: DAPO (Decoupled Clip and Dynamic sAmpling Policy Optimization), GFPO (Group Filtered Policy Optimization), GMPO (Geometric-Mean Policy Optimization), GPPO (Gradient-Preserving clipping Policy Optimization), GPG (Group Policy Gradient), CPO (Comparative Policy Optimization), RPO (Reparameterization Proximal Policy Optimization), PPO (Proximal Policy Optimization), COPO (Consistency-Aware Policy Optimization), GSPO (Group Sequence Policy Optimization), covering:\n- Motivation and the core idea/innovation.\n- Key takeaways and claimed contributions.\n- Differences vs. GRPO\n- Empirical setup: model(s) used, training configs, compute budget, and evaluation benchmarks/datasets with results (include metrics and headline numbers where available).\n- Limitations and reported failure modes.\n\nPlease note that if full empirical details are not available for some algorithms, a summary of available information is sufficient. The goal is to capture current trends and insights to inform further research."
+}

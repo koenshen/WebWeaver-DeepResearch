@@ -1,0 +1,349 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 182958,
+  "total_output_tokens": 38227,
+  "total_tokens": 221185,
+  "total_search_count": 19,
+  "total_search_results": 167,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 961,
+      "output_tokens": 3073,
+      "total_tokens": 4034,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17558,
+      "output_tokens": 861,
+      "total_tokens": 18419,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36169,
+      "output_tokens": 819,
+      "total_tokens": 36988,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3743,
+      "output_tokens": 3989,
+      "total_tokens": 7732,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8461,
+      "output_tokens": 3960,
+      "total_tokens": 12421,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1148,
+      "output_tokens": 3657,
+      "total_tokens": 4805,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20703,
+      "output_tokens": 1475,
+      "total_tokens": 22178,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12635,
+      "output_tokens": 4001,
+      "total_tokens": 16636,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12556,
+      "output_tokens": 1449,
+      "total_tokens": 14005,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12556,
+      "output_tokens": 940,
+      "total_tokens": 13496,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12556,
+      "output_tokens": 2510,
+      "total_tokens": 15066,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1840,
+      "output_tokens": 4001,
+      "total_tokens": 5841,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42072,
+      "output_tokens": 7492,
+      "total_tokens": 49564,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "hypothenar hammer syndrome tennis player case report",
+      "effective_query": "hypothenar hammer syndrome tennis player case report",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "trigger finger small finger tennis player",
+      "effective_query": "trigger finger small finger tennis player",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ulnar nerve compression tennis player hand weakness",
+      "effective_query": "ulnar nerve compression tennis player hand weakness",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "bilateral hand stiffness pinky finger racquet sport",
+      "effective_query": "bilateral hand stiffness pinky finger racquet sport",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "psoriatic arthritis hand stiffness tennis player",
+      "effective_query": "psoriatic arthritis hand stiffness tennis player",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "hand injuries in tennis players review 2020",
+      "effective_query": "hand injuries in tennis players review 2020",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "trigger finger treatment guidelines 2023",
+      "effective_query": "trigger finger treatment guidelines 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "hypothenar hammer syndrome treatment 2022",
+      "effective_query": "hypothenar hammer syndrome treatment 2022",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "prevent hand injuries tennis racket grip size",
+      "effective_query": "prevent hand injuries tennis racket grip size",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "bilateral trigger finger tennis player case report",
+      "effective_query": "bilateral trigger finger tennis player case report",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cubital tunnel syndrome bilateral tennis player",
+      "effective_query": "cubital tunnel syndrome bilateral tennis player",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Dupuytren contracture tennis player cause",
+      "effective_query": "Dupuytren contracture tennis player cause",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "flexor tendonitis pinky finger racquet sports",
+      "effective_query": "flexor tendonitis pinky finger racquet sports",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "hand stiffness treatment occupational therapy tennis",
+      "effective_query": "hand stiffness treatment occupational therapy tennis",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "tennis grip too tight finger stiffness treatment",
+      "effective_query": "tennis grip too tight finger stiffness treatment",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ulnar nerve gliding exercises tennis elbow",
+      "effective_query": "ulnar nerve gliding exercises tennis elbow",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "corticosteroid injection trigger finger outcome 2022",
+      "effective_query": "corticosteroid injection trigger finger outcome 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "trigger finger surgery vs injection comparison 2023",
+      "effective_query": "trigger finger surgery vs injection comparison 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "prevent hand overuse injuries tennis players exercises",
+      "effective_query": "prevent hand overuse injuries tennis players exercises",
+      "retriever": "tavily",
+      "num_results": 7
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31030388/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.465
+        }
+      ],
+      "content_length": 9919,
+      "duration_seconds": 6.465,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.372,
+      "summary_length": 3456,
+      "summary_input_tokens": 3743,
+      "summary_output_tokens": 3989
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12145072/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.77
+        }
+      ],
+      "content_length": 28151,
+      "duration_seconds": 0.77,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.301,
+      "summary_length": 17146,
+      "summary_input_tokens": 8461,
+      "summary_output_tokens": 3960
+    },
+    {
+      "url": "https://www.cochrane.org/evidence/CD005617_local-corticosteroid-injection-trigger-finger",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.4
+        }
+      ],
+      "content_length": 4382,
+      "duration_seconds": 3.4,
+      "summary_status": "success",
+      "summary_duration_seconds": 38.298,
+      "summary_length": 3117,
+      "summary_input_tokens": 1148,
+      "summary_output_tokens": 3657
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12671840/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.223
+        }
+      ],
+      "content_length": 75192,
+      "duration_seconds": 10.223,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.672,
+      "summary_length": 2946,
+      "summary_input_tokens": 20703,
+      "summary_output_tokens": 1475
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3335460/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.909
+        }
+      ],
+      "content_length": 38350,
+      "duration_seconds": 0.909,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.123,
+      "summary_length": 1549,
+      "summary_input_tokens": 12635,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.orthoinfo.org/diseases--conditions/trigger-finger/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.02
+        }
+      ],
+      "content_length": 7412,
+      "duration_seconds": 4.02,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 161,
+  "duration_seconds": 565.3529334347695,
+  "report_length": 26996,
+  "context_length": 214758,
+  "qid": "lifesp3KjIoCKZxJ10IgVh",
+  "query": "For young adult recreational tennis players who, after months of daily play, develop stiffness in both pinky fingers, can’t bend them on their own, and notice weaker grip, what are the most likely causes? Based on high-quality evidence from 2015–2026 (medical case reports/series, clinical studies, and guidelines), which treatments—at-home care, splints/therapy, injections, or surgery—tend to work best, and what simple steps help prevent it from coming back after recovery—with extra weight given to findings since 2020?"
+}

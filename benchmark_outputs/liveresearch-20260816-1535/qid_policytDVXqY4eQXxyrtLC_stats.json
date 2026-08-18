@@ -1,0 +1,439 @@
+{
+  "total_llm_calls": 18,
+  "total_input_tokens": 279470,
+  "total_output_tokens": 32592,
+  "total_tokens": 312062,
+  "total_search_count": 15,
+  "total_search_results": 141,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 915,
+      "output_tokens": 250,
+      "total_tokens": 1165,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21375,
+      "output_tokens": 105,
+      "total_tokens": 21480,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9133,
+      "output_tokens": 2770,
+      "total_tokens": 11903,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9157,
+      "output_tokens": 4001,
+      "total_tokens": 13158,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9157,
+      "output_tokens": 4001,
+      "total_tokens": 13158,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9236,
+      "output_tokens": 4001,
+      "total_tokens": 13237,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23674,
+      "output_tokens": 2410,
+      "total_tokens": 26084,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25499,
+      "output_tokens": 186,
+      "total_tokens": 25685,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2547,
+      "output_tokens": 2744,
+      "total_tokens": 5291,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47385,
+      "output_tokens": 752,
+      "total_tokens": 48137,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1832,
+      "output_tokens": 943,
+      "total_tokens": 2775,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1952,
+      "output_tokens": 1001,
+      "total_tokens": 2953,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29842,
+      "output_tokens": 174,
+      "total_tokens": 30016,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5264,
+      "output_tokens": 738,
+      "total_tokens": 6002,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5026,
+      "output_tokens": 1089,
+      "total_tokens": 6115,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 290,
+      "output_tokens": 412,
+      "total_tokens": 702,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31301,
+      "output_tokens": 122,
+      "total_tokens": 31423,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45885,
+      "output_tokens": 6893,
+      "total_tokens": 52778,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AWS compliance programs 2026",
+      "effective_query": "AWS compliance programs 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Azure compliance 2026",
+      "effective_query": "Microsoft Azure compliance 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Google Cloud compliance 2026",
+      "effective_query": "Google Cloud compliance 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cloud provider HIPAA FedRAMP SOC 2 2026",
+      "effective_query": "cloud provider HIPAA FedRAMP SOC 2 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cloud breach notification procedures 2026",
+      "effective_query": "cloud breach notification procedures 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cloud customer liability protection mechanisms",
+      "effective_query": "cloud customer liability protection mechanisms",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AWS healthcare compliance case study",
+      "effective_query": "AWS healthcare compliance case study",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Azure financial services compliance case study",
+      "effective_query": "Azure financial services compliance case study",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Google Cloud defense compliance case study",
+      "effective_query": "Google Cloud defense compliance case study",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AWS shared responsibility model liability customer protection breach",
+      "effective_query": "AWS shared responsibility model liability customer protection breach",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Azure shared responsibility liability customer indemnification",
+      "effective_query": "Microsoft Azure shared responsibility liability customer indemnification",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Google Cloud shared responsibility liability customer protection",
+      "effective_query": "Google Cloud shared responsibility liability customer protection",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIPAA compliant cloud provider BAA comparison AWS Azure GCP",
+      "effective_query": "HIPAA compliant cloud provider BAA comparison AWS Azure GCP",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FedRAMP authorized cloud providers AWS Azure Google 2026",
+      "effective_query": "FedRAMP authorized cloud providers AWS Azure Google 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cloud provider data residency comparison AWS Azure GCP 2026",
+      "effective_query": "cloud provider data residency comparison AWS Azure GCP 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://aws.amazon.com/compliance/programs",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.057
+        }
+      ],
+      "content_length": 33536,
+      "duration_seconds": 6.057,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.764,
+      "summary_length": 9306,
+      "summary_input_tokens": 9133,
+      "summary_output_tokens": 2770
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/compliance",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.467
+        }
+      ],
+      "content_length": 33186,
+      "duration_seconds": 5.467,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.628,
+      "summary_length": 12633,
+      "summary_input_tokens": 9157,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://cloud.google.com/compliance",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.969
+        }
+      ],
+      "content_length": 97691,
+      "duration_seconds": 1.969,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.237,
+      "summary_length": 6653,
+      "summary_input_tokens": 23674,
+      "summary_output_tokens": 2410
+    },
+    {
+      "url": "https://azure.microsoft.com/en-us/blog/azure-solutions-for-financial-services-regulatory-boundaries/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.022
+        }
+      ],
+      "content_length": 12075,
+      "duration_seconds": 2.023,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.104,
+      "summary_length": 12448,
+      "summary_input_tokens": 2547,
+      "summary_output_tokens": 2744
+    },
+    {
+      "url": "https://aws.amazon.com/solutions/case-studies/change-healthcare",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.983
+        }
+      ],
+      "content_length": 170993,
+      "duration_seconds": 13.984,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.774,
+      "summary_length": 2264,
+      "summary_input_tokens": 47385,
+      "summary_output_tokens": 752
+    },
+    {
+      "url": "https://futurumgroup.com/insights/google-expands-sovereign-cloud-to-address-eu-data-sovereignty-requirements",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.978
+        }
+      ],
+      "content_length": 8734,
+      "duration_seconds": 6.978,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.248,
+      "summary_length": 4210,
+      "summary_input_tokens": 1832,
+      "summary_output_tokens": 943
+    },
+    {
+      "url": "https://thinkaicorp.com/the-trust-framework-reinventing-financial-security-and-compliance-with-azure",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.574
+        }
+      ],
+      "content_length": 8901,
+      "duration_seconds": 5.574,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.992,
+      "summary_length": 4332,
+      "summary_input_tokens": 1952,
+      "summary_output_tokens": 1001
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-2-and-3-reports-are-now-available-with-188-services-in-scope/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.989
+        }
+      ],
+      "content_length": 18932,
+      "duration_seconds": 6.989,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.149,
+      "summary_length": 2330,
+      "summary_input_tokens": 5264,
+      "summary_output_tokens": 738
+    },
+    {
+      "url": "https://www.fedramp.gov/2026/scope",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.207
+        }
+      ],
+      "content_length": 23594,
+      "duration_seconds": 7.207,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.92,
+      "summary_length": 3196,
+      "summary_input_tokens": 5026,
+      "summary_output_tokens": 1089
+    },
+    {
+      "url": "https://www.aarc-360.com/2026-fedramp-rules-cr26-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.725
+        }
+      ],
+      "content_length": 346,
+      "duration_seconds": 1.725,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.175,
+      "summary_length": 1005,
+      "summary_input_tokens": 290,
+      "summary_output_tokens": 412
+    }
+  ],
+  "source_urls_count": 140,
+  "duration_seconds": 420.0700232395902,
+  "report_length": 31108,
+  "context_length": 257272,
+  "qid": "policytDVXqY4eQXxyrtLC",
+  "query": "My current work involves selecting cloud providers for regulated workloads.  Help me compare the most recent (as of 2026) compliance programs of AWS, Microsoft Azure, and Google Cloud across U.S., EU, and global requirements for data residency. Focus on industry-specific certifications (HIPAA, FedRAMP, SOC 2), breach notification procedures, and customer liability protection mechanisms. Provide:\n\n- A short description of each cloud provider’s compliance approach\n- A multi-column comparison table covering all dimensions\n- Multiple real-world enterprise case studies of compliance implementations in healthcare, financial services, and defense, drawing from both public sources and customer stories published by the providers\n- An analysis of strategic implications for enterprises choosing cloud providers for regulated industries"
+}

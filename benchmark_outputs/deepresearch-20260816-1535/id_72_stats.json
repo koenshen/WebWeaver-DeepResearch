@@ -1,0 +1,354 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 221088,
+  "total_output_tokens": 34295,
+  "total_tokens": 255383,
+  "total_search_count": 12,
+  "total_search_results": 115,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 824,
+      "output_tokens": 153,
+      "total_tokens": 977,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15560,
+      "output_tokens": 571,
+      "total_tokens": 16131,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38184,
+      "output_tokens": 2608,
+      "total_tokens": 40792,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21787,
+      "output_tokens": 4001,
+      "total_tokens": 25788,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31717,
+      "output_tokens": 1700,
+      "total_tokens": 33417,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4840,
+      "output_tokens": 4001,
+      "total_tokens": 8841,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4840,
+      "output_tokens": 4001,
+      "total_tokens": 8841,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2942,
+      "output_tokens": 4001,
+      "total_tokens": 6943,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38248,
+      "output_tokens": 853,
+      "total_tokens": 39101,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3112,
+      "output_tokens": 2178,
+      "total_tokens": 5290,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2234,
+      "output_tokens": 3916,
+      "total_tokens": 6150,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20504,
+      "output_tokens": 354,
+      "total_tokens": 20858,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36296,
+      "output_tokens": 5958,
+      "total_tokens": 42254,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AI artificial intelligence labor market restructuring impact Fourth Industrial Revolution journal article",
+      "effective_query": "AI artificial intelligence labor market restructuring impact Fourth Industrial Revolution journal article",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI job displacement employment effects academic literature review",
+      "effective_query": "AI job displacement employment effects academic literature review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "artificial intelligence automation labor market polarization skills",
+      "effective_query": "artificial intelligence automation labor market polarization skills",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI technology employment restructuring firm-level industry effects",
+      "effective_query": "AI technology employment restructuring firm-level industry effects",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "artificial intelligence labor demand substitution complementarity effects",
+      "effective_query": "artificial intelligence labor demand substitution complementarity effects",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI Fourth Industrial Revolution wage inequality labor market",
+      "effective_query": "AI Fourth Industrial Revolution wage inequality labor market",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Acemoglu Restrepo AI automation labor market American Economic Review",
+      "effective_query": "Acemoglu Restrepo AI automation labor market American Economic Review",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Autor Levy Murnane skill content technological change Quarterly Journal Economics",
+      "effective_query": "Autor Levy Murnane skill content technological change Quarterly Journal Economics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Felten Raj Seamans occupational exposure artificial intelligence Strategic Management Journal",
+      "effective_query": "Felten Raj Seamans occupational exposure artificial intelligence Strategic Management Journal",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Brynjolfsson McAfee AI productivity labor Journal of Economic Perspectives",
+      "effective_query": "Brynjolfsson McAfee AI productivity labor Journal of Economic Perspectives",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Webb AI exposure occupational tasks automation 2020",
+      "effective_query": "Webb AI exposure occupational tasks automation 2020",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Acemoglu Autor skills tasks technolological change Journal of Economic Literature",
+      "effective_query": "Acemoglu Autor skills tasks technolological change Journal of Economic Literature",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s44491-026-00003-y",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.058
+        }
+      ],
+      "content_length": 154683,
+      "duration_seconds": 4.058,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41599-024-02647-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.351
+        }
+      ],
+      "content_length": 102291,
+      "duration_seconds": 6.351,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10907740",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.073
+        }
+      ],
+      "content_length": 118989,
+      "duration_seconds": 2.073,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.brookings.edu/articles/the-effects-of-ai-on-firms-and-workers",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.667
+        }
+      ],
+      "content_length": 22045,
+      "duration_seconds": 4.667,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.531,
+      "summary_length": 215,
+      "summary_input_tokens": 4840,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0048733322000634",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.735
+        }
+      ],
+      "content_length": 13714,
+      "duration_seconds": 17.735,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2773032824000154",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.402
+        }
+      ],
+      "content_length": 112998,
+      "duration_seconds": 6.403,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.128,
+      "summary_length": 1759,
+      "summary_input_tokens": 38248,
+      "summary_output_tokens": 853
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1059056024007317",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.596
+        }
+      ],
+      "content_length": 14373,
+      "duration_seconds": 0.596,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1544612326006124",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.322
+        }
+      ],
+      "content_length": 9506,
+      "duration_seconds": 10.322,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 103,
+  "duration_seconds": 865.3552855644375,
+  "report_length": 23522,
+  "context_length": 191529,
+  "id": 72,
+  "prompt": "Please write a literature review on the restructuring impact of Artificial Intelligence (AI) on the labor market. Focus on how AI, as a key driver of the Fourth Industrial Revolution, is causing significant disruptions and affecting various industries. Ensure the review only cites high-quality, English-language journal articles.",
+  "language": "en",
+  "topic": "Education & Jobs"
+}

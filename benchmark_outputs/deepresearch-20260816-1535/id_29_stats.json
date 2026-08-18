@@ -1,0 +1,234 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 238353,
+  "total_output_tokens": 16446,
+  "total_tokens": 254799,
+  "total_search_count": 14,
+  "total_search_results": 135,
+  "total_visit_count": 3,
+  "total_visit_success": 3,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 933,
+      "output_tokens": 1352,
+      "total_tokens": 2285,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10989,
+      "output_tokens": 157,
+      "total_tokens": 11146,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34092,
+      "output_tokens": 116,
+      "total_tokens": 34208,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 56843,
+      "output_tokens": 251,
+      "total_tokens": 57094,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8794,
+      "output_tokens": 1754,
+      "total_tokens": 10548,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1991,
+      "output_tokens": 3273,
+      "total_tokens": 5264,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6676,
+      "output_tokens": 2254,
+      "total_tokens": 8930,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 58949,
+      "output_tokens": 145,
+      "total_tokens": 59094,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 59086,
+      "output_tokens": 7144,
+      "total_tokens": 66230,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "50年代 至今 中国古代文学 研究 学者 知识背景 差异",
+      "effective_query": "50年代 至今 中国古代文学 研究 学者 知识背景 差异",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国古代文学 研究 学术史 阶段 学者 教育背景",
+      "effective_query": "中国古代文学 研究 学术史 阶段 学者 教育背景",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "游国恩 王瑶 林庚 学术背景 毕业院校",
+      "effective_query": "游国恩 王瑶 林庚 学术背景 毕业院校",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "袁行霈 教育背景 北京大学 中国古代文学",
+      "effective_query": "袁行霈 教育背景 北京大学 中国古代文学",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "章培恒 复旦大学 教育背景 中国古代文学",
+      "effective_query": "章培恒 复旦大学 教育背景 中国古代文学",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "陈寅恪 王国维 学术背景 中国古代文学 早期",
+      "effective_query": "陈寅恪 王国维 学术背景 中国古代文学 早期",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "程千帆 南京大学 教育背景 中国古代文学 学者",
+      "effective_query": "程千帆 南京大学 教育背景 中国古代文学 学者",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "王运熙 复旦大学 教育背景 中国古代文学",
+      "effective_query": "王运熙 复旦大学 教育背景 中国古代文学",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "褚斌杰 陈贻焮 北京大学 古代文学 教育背景",
+      "effective_query": "褚斌杰 陈贻焮 北京大学 古代文学 教育背景",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "郭预衡 北京师范大学 古代文学 教育背景",
+      "effective_query": "郭预衡 北京师范大学 古代文学 教育背景",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "葛晓音 北京大学 古代文学 教育背景",
+      "effective_query": "葛晓音 北京大学 古代文学 教育背景",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "莫砺锋 南京大学 古代文学 教育背景",
+      "effective_query": "莫砺锋 南京大学 古代文学 教育背景",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "陈尚君 复旦大学 古代文学 教育背景",
+      "effective_query": "陈尚君 复旦大学 古代文学 教育背景",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "罗宗强 南开大学 古代文学 教育背景",
+      "effective_query": "罗宗强 南开大学 古代文学 教育背景",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://news.pku.edu.cn/wyyd/dslt/d43f28af8c7344d0b84d6f4b7ff3d749.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.372
+        }
+      ],
+      "content_length": 13729,
+      "duration_seconds": 8.372,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.766,
+      "summary_length": 2144,
+      "summary_input_tokens": 8794,
+      "summary_output_tokens": 1754
+    },
+    {
+      "url": "https://www.sinoss.net/c/2023-03-03/629138.shtml",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.166
+        }
+      ],
+      "content_length": 2907,
+      "duration_seconds": 7.166,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.aisixiang.com/data/179706.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.48
+        }
+      ],
+      "content_length": 10820,
+      "duration_seconds": 6.48,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 130,
+  "duration_seconds": 535.6338482415304,
+  "report_length": 10734,
+  "context_length": 119600,
+  "id": 29,
+  "prompt": "50年代至今，中国大陆中国古代文学研究头部学者知识背景差异调查\n具体做法：收集整理50年代至今从事中国古代文学学科研究的头部学者的毕业院校、院校学科总体偏向，及专业、学历、工作经历、导师的专业背景等，和不同时期的文艺方针、学术潮流等时代背景，加权计算，分析比较得出某个特定时期的学者学科背景同异，以及个人的知识构成。",
+  "language": "zh",
+  "topic": "Literature"
+}

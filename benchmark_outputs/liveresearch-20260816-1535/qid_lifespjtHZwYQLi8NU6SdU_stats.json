@@ -1,0 +1,366 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 138687,
+  "total_output_tokens": 26942,
+  "total_tokens": 165629,
+  "total_search_count": 9,
+  "total_search_results": 83,
+  "total_visit_count": 11,
+  "total_visit_success": 11,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 872,
+      "output_tokens": 224,
+      "total_tokens": 1096,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20608,
+      "output_tokens": 845,
+      "total_tokens": 21453,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24885,
+      "output_tokens": 3722,
+      "total_tokens": 28607,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 373,
+      "output_tokens": 1989,
+      "total_tokens": 2362,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12062,
+      "output_tokens": 4001,
+      "total_tokens": 16063,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20244,
+      "output_tokens": 1821,
+      "total_tokens": 22065,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8219,
+      "output_tokens": 1202,
+      "total_tokens": 9421,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7111,
+      "output_tokens": 4001,
+      "total_tokens": 11112,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44313,
+      "output_tokens": 9137,
+      "total_tokens": 53450,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "GI distress endurance runners chronic stomach pain causes",
+      "effective_query": "GI distress endurance runners chronic stomach pain causes",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "masters runners gastrointestinal issues sports medicine",
+      "effective_query": "masters runners gastrointestinal issues sports medicine",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "exercise induced gastrointestinal syndrome runners ischemia",
+      "effective_query": "exercise induced gastrointestinal syndrome runners ischemia",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SIBO runners stomach pain",
+      "effective_query": "SIBO runners stomach pain",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gastroparesis endurance athletes treatment",
+      "effective_query": "gastroparesis endurance athletes treatment",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "prevention GI distress long runs fueling hydration adjustments",
+      "effective_query": "prevention GI distress long runs fueling hydration adjustments",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "case report runner chronic abdominal pain ischemia",
+      "effective_query": "case report runner chronic abdominal pain ischemia",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "guidelines management GI problems athletes sports medicine",
+      "effective_query": "guidelines management GI problems athletes sports medicine",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "masters athletes 40+ gut health running performance",
+      "effective_query": "masters athletes 40+ gut health running performance",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.mdpi.com/2674-0311/2/3/21",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.954
+        }
+      ],
+      "content_length": 164618,
+      "duration_seconds": 4.955,
+      "summary_status": "failed",
+      "summary_duration_seconds": 1.478,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "BadRequestError: Error code: 400 - {'error': {'message': 'Model service provider exception: {Response code: 400, body: {\"error\":{\"message\":\"The request is invalid: {\\\\\"message\\\\\":\\\\\"model deepseek-v4-flash: target label not found for the request: \\\\\\\\u003cnil\\\\\\\\u003e trace_id: 65404529d942c02531c53962466215da\\\\\",\\\\\"type\\\\\":\\\\\"invalid_request_error\\\\\"}\\\\n. Please check the request body, required fields, and request format.\",\"reqid\":\"caafcecd-9c53-47ee-9e34-6cd472c17584\",\"type\":\"invalid_request_error\"},\"type\":\"error\"}}', 'type': 'bad_response_status_code', 'param': '', 'code': 'bad_response_status_code'}}"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7288429/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.367
+        }
+      ],
+      "content_length": 64275,
+      "duration_seconds": 1.367,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.1003445/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.29
+        }
+      ],
+      "content_length": 82438,
+      "duration_seconds": 6.29,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.239,
+      "summary_length": 18550,
+      "summary_input_tokens": 24885,
+      "summary_output_tokens": 3722
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5675973/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.916
+        }
+      ],
+      "content_length": 410,
+      "duration_seconds": 4.916,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.259,
+      "summary_length": 1941,
+      "summary_input_tokens": 373,
+      "summary_output_tokens": 1989
+    },
+    {
+      "url": "https://run.outsideonline.com/nutrition-and-health/training-nutrition/guide-to-gut-health-carb-fueling-for-masters-runners",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.618
+        }
+      ],
+      "content_length": 13151,
+      "duration_seconds": 8.618,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://never2.com/blogs/guides/masters-athletes-and-gut-issues",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 19.52
+        }
+      ],
+      "content_length": 40344,
+      "duration_seconds": 19.52,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.478,
+      "summary_length": 827,
+      "summary_input_tokens": 12062,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.gssiweb.org/sports-science-exchange/article/sse-114-nutritional-recommendations-to-avoid-gastrointestinal-distress-during-exercise",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.298
+        }
+      ],
+      "content_length": 24540,
+      "duration_seconds": 9.299,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4008808/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.04
+        }
+      ],
+      "content_length": 67849,
+      "duration_seconds": 1.04,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12325075/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.887
+        }
+      ],
+      "content_length": 70361,
+      "duration_seconds": 1.888,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.671,
+      "summary_length": 7870,
+      "summary_input_tokens": 20244,
+      "summary_output_tokens": 1821
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3155897/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.013
+        }
+      ],
+      "content_length": 25626,
+      "duration_seconds": 1.013,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.917,
+      "summary_length": 5871,
+      "summary_input_tokens": 8219,
+      "summary_output_tokens": 1202
+    },
+    {
+      "url": "https://www.ajmc.com/view/exercising-at-marathon-length-can-create-gastrointestinal-syndrome",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.029
+        }
+      ],
+      "content_length": 23351,
+      "duration_seconds": 17.029,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 71,
+  "duration_seconds": 1296.109176458791,
+  "report_length": 31142,
+  "context_length": 216632,
+  "qid": "lifespjtHZwYQLi8NU6SdU",
+  "query": "For masters (40+) endurance runners—recreational and competitive—who develop chronic stomach pain or GI distress during or after long runs (10K through ultramarathon), what are the most common causes, how have similar cases been described in the sports-medicine literature (peer-reviewed studies, case reports/series, and guidelines), which medical and behavior-based treatments work best, and which fueling, hydration, and training adjustments most reliably prevent it from coming back—reviewing all evidence but giving extra weight to  research?"
+}

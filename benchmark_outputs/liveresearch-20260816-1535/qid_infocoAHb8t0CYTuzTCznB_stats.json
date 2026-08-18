@@ -1,0 +1,229 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 210427,
+  "total_output_tokens": 10490,
+  "total_tokens": 220917,
+  "total_search_count": 17,
+  "total_search_results": 160,
+  "total_visit_count": 2,
+  "total_visit_success": 2,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 824,
+      "output_tokens": 154,
+      "total_tokens": 978,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14156,
+      "output_tokens": 276,
+      "total_tokens": 14432,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8231,
+      "output_tokens": 4000,
+      "total_tokens": 12231,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14374,
+      "output_tokens": 112,
+      "total_tokens": 14486,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27605,
+      "output_tokens": 197,
+      "total_tokens": 27802,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8225,
+      "output_tokens": 3407,
+      "total_tokens": 11632,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30970,
+      "output_tokens": 472,
+      "total_tokens": 31442,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45574,
+      "output_tokens": 735,
+      "total_tokens": 46309,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60468,
+      "output_tokens": 1137,
+      "total_tokens": 61605,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "FDA AI/ML enabled medical devices radiology cleared 2024 2025 list",
+      "effective_query": "FDA AI/ML enabled medical devices radiology cleared 2024 2025 list",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FDA 510(k) clearance AI radiology device 2024 2025",
+      "effective_query": "FDA 510(k) clearance AI radiology device 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FDA De Novo AI radiology device 2024 2025",
+      "effective_query": "FDA De Novo AI radiology device 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FDA AI/ML device list radiology first clearance 2024 2025",
+      "effective_query": "FDA AI/ML device list radiology first clearance 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FDA AI/ML enabled medical devices list CSV 2025",
+      "effective_query": "FDA AI/ML enabled medical devices list CSV 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FDA artificial intelligence enabled medical devices list excel 2026",
+      "effective_query": "FDA artificial intelligence enabled medical devices list excel 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "site:fda.gov artificial intelligence enabled medical devices list 2025 radiology",
+      "effective_query": "site:fda.gov artificial intelligence enabled medical devices list 2025 radiology",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "first FDA clearance AI radiology device 2025 2026",
+      "effective_query": "first FDA clearance AI radiology device 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FDA De Novo radiology AI device 2025 2026",
+      "effective_query": "FDA De Novo radiology AI device 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "first of its kind AI radiology FDA clearance 2024 2025",
+      "effective_query": "first of its kind AI radiology FDA clearance 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "new AI radiology device first FDA clearance 2025",
+      "effective_query": "new AI radiology device first FDA clearance 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FDA clears first AI radiology device startup 2025",
+      "effective_query": "FDA clears first AI radiology device startup 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FDA De Novo AI radiology clearance 2024 2025 DEN",
+      "effective_query": "FDA De Novo AI radiology clearance 2024 2025 DEN",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "first FDA clearance AI medical imaging company 2024 2025",
+      "effective_query": "first FDA clearance AI medical imaging company 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FDA clears first AI radiology tool for breast cancer risk prediction 2025",
+      "effective_query": "FDA clears first AI radiology tool for breast cancer risk prediction 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Clairity Allix5 FDA De Novo 2025",
+      "effective_query": "Clairity Allix5 FDA De Novo 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Delivery Date AI FDA De Novo 2026 ultrasound",
+      "effective_query": "Delivery Date AI FDA De Novo 2026 ultrasound",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.939
+        }
+      ],
+      "content_length": 28175,
+      "duration_seconds": 0.939,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.484
+        }
+      ],
+      "content_length": 28175,
+      "duration_seconds": 0.484,
+      "summary_status": "success",
+      "summary_duration_seconds": 38.154,
+      "summary_length": 9991,
+      "summary_input_tokens": 8225,
+      "summary_output_tokens": 3407
+    }
+  ],
+  "source_urls_count": 76,
+  "duration_seconds": 574.7377002984285,
+  "report_length": 322,
+  "context_length": 233169,
+  "qid": "infocoAHb8t0CYTuzTCznB",
+  "query": "List AI/ML medical devices in radiology first cleared by the FDA in the past two years (including 510(k) clearance and De Novo Grant). Provide device, manufacturer, clearance date, and links to the FDA AI/ML device list and a med‑tech news article."
+}

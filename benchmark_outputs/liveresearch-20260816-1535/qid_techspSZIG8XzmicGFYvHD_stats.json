@@ -1,0 +1,350 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 130985,
+  "total_output_tokens": 33233,
+  "total_tokens": 164218,
+  "total_search_count": 12,
+  "total_search_results": 111,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 968,
+      "output_tokens": 226,
+      "total_tokens": 1194,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13518,
+      "output_tokens": 261,
+      "total_tokens": 13779,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8446,
+      "output_tokens": 2244,
+      "total_tokens": 10690,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3941,
+      "output_tokens": 2532,
+      "total_tokens": 6473,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1805,
+      "output_tokens": 3549,
+      "total_tokens": 5354,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4130,
+      "output_tokens": 4001,
+      "total_tokens": 8131,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23870,
+      "output_tokens": 2668,
+      "total_tokens": 26538,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5219,
+      "output_tokens": 2934,
+      "total_tokens": 8153,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2440,
+      "output_tokens": 2740,
+      "total_tokens": 5180,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2361,
+      "output_tokens": 976,
+      "total_tokens": 3337,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3704,
+      "output_tokens": 1442,
+      "total_tokens": 5146,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22796,
+      "output_tokens": 149,
+      "total_tokens": 22945,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37787,
+      "output_tokens": 9511,
+      "total_tokens": 47298,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "HIPAA compliant OAuth 2.0 OpenID Connect multi-tenant SaaS authentication",
+      "effective_query": "HIPAA compliant OAuth 2.0 OpenID Connect multi-tenant SaaS authentication",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "JWT security vulnerabilities breach case study healthcare",
+      "effective_query": "JWT security vulnerabilities breach case study healthcare",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "RBAC vs ABAC healthcare compliance trade-offs",
+      "effective_query": "RBAC vs ABAC healthcare compliance trade-offs",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Attribute-Based Encryption healthcare performance overhead",
+      "effective_query": "Attribute-Based Encryption healthcare performance overhead",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OAuth 2.0 security weaknesses real world breach case study",
+      "effective_query": "OAuth 2.0 security weaknesses real world breach case study",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "GDPR authentication token encryption requirements",
+      "effective_query": "GDPR authentication token encryption requirements",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIPAA encryption requirements technical safeguards PHI",
+      "effective_query": "HIPAA encryption requirements technical safeguards PHI",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "healthcare data breach OAuth token theft case study 2024 2025",
+      "effective_query": "healthcare data breach OAuth token theft case study 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ABAC performance benchmark latency multi-tenant",
+      "effective_query": "ABAC performance benchmark latency multi-tenant",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CP-ABE decryption time milliseconds benchmark",
+      "effective_query": "CP-ABE decryption time milliseconds benchmark",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "OAuth 2.1 vs OAuth 2.0 security improvements healthcare",
+      "effective_query": "OAuth 2.1 vs OAuth 2.0 security improvements healthcare",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OpenID Connect ID token vs access token healthcare compliance",
+      "effective_query": "OpenID Connect ID token vs access token healthcare compliance",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.vaadata.com/en/blog/jwt-json-web-token-vulnerabilities-common-attacks-and-security-best-practices",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.851
+        }
+      ],
+      "content_length": 32973,
+      "duration_seconds": 1.852,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.219,
+      "summary_length": 8669,
+      "summary_input_tokens": 8446,
+      "summary_output_tokens": 2244
+    },
+    {
+      "url": "https://www.obsidiansecurity.com/blog/oauth-vulnerabilities-security-teams",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.202
+        }
+      ],
+      "content_length": 21289,
+      "duration_seconds": 4.202,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.283,
+      "summary_length": 12303,
+      "summary_input_tokens": 3941,
+      "summary_output_tokens": 2532
+    },
+    {
+      "url": "https://www.apisec.ai/blog/oauth-2-0-common-security-flaws",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.424
+        }
+      ],
+      "content_length": 7623,
+      "duration_seconds": 3.424,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.866,
+      "summary_length": 5744,
+      "summary_input_tokens": 1805,
+      "summary_output_tokens": 3549
+    },
+    {
+      "url": "https://www.loginradius.com/blog/identity/what-is-multi-tenant-authorization",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.36
+        }
+      ],
+      "content_length": 20003,
+      "duration_seconds": 7.361,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.techscience.com/csse/v49n1/64710/html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.098
+        }
+      ],
+      "content_length": 91721,
+      "duration_seconds": 6.098,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.osohq.com/learn/rbac-vs-abac",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.211
+        }
+      ],
+      "content_length": 23656,
+      "duration_seconds": 9.211,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.descope.com/blog/post/rbac-vs-abac",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.102
+        }
+      ],
+      "content_length": 10188,
+      "duration_seconds": 7.102,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/encryption/encryption-and-data-protection",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.748
+        }
+      ],
+      "content_length": 16772,
+      "duration_seconds": 2.749,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.555,
+      "summary_length": 6494,
+      "summary_input_tokens": 3704,
+      "summary_output_tokens": 1442
+    }
+  ],
+  "source_urls_count": 110,
+  "duration_seconds": 980.4834340875968,
+  "report_length": 40630,
+  "context_length": 222330,
+  "qid": "techspSZIG8XzmicGFYvHD",
+  "query": "For a healthcare-grade multi-tenant SaaS application in the healthcare sector (requiring compliance with HIPAA, GDPR), analyze the trade-offs between the authentication, authorization, and encryption models, grouped by category like\n        •        Authentication & Federation Protocols: OAuth 2.0, OpenID Connect.\n        •        Token & Session Models: JWT.\n        •        Access Control Models: RBAC (Role-Based Access Control), ABAC (Attribute-Based Access Control).\n        •        Encryption & Data Protection: Attribute-Based Encryption (ABE).\n\nFor each model, provide a detailed technical comparison covering:\n        •        Security Strengths & Weaknesses (with real-world breach case studies).\n        •        Compliance Alignment (HIPAA, GDPR).\n        •        Performance Impact (latency, scalability in multi-tenant contexts).\n        •        Operational Complexity (deployment, maintenance, auditing).\n        •        Integration Considerations\n\nInclude a comparison table summarizing pros, cons, and best-fit scenarios for each model."
+}

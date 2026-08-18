@@ -1,0 +1,157 @@
+{
+  "total_llm_calls": 3,
+  "total_input_tokens": 91264,
+  "total_output_tokens": 7869,
+  "total_tokens": 99133,
+  "total_search_count": 19,
+  "total_search_results": 175,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 904,
+      "output_tokens": 246,
+      "total_tokens": 1150,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34753,
+      "output_tokens": 167,
+      "total_tokens": 34920,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 55607,
+      "output_tokens": 7456,
+      "total_tokens": 63063,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AI chip market size 2025 2026 forecast data center GPU",
+      "effective_query": "AI chip market size 2025 2026 forecast data center GPU",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "global AI semiconductor market growth 2025 2026 report",
+      "effective_query": "global AI semiconductor market growth 2025 2026 report",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI training workloads inference edge GPU demand drivers 2025",
+      "effective_query": "AI training workloads inference edge GPU demand drivers 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "gaming GPU market AR VR AI chip demand 2025 2026",
+      "effective_query": "gaming GPU market AR VR AI chip demand 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "semiconductor manufacturing node challenges AI chips 2025 2026",
+      "effective_query": "semiconductor manufacturing node challenges AI chips 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "US China export restrictions AI chips 2025 2026 geopolitics",
+      "effective_query": "US China export restrictions AI chips 2025 2026 geopolitics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NVIDIA market share AI GPU 2025 2026 flagship chip launch",
+      "effective_query": "NVIDIA market share AI GPU 2025 2026 flagship chip launch",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AMD vs NVIDIA AI GPU performance comparison 2025 2026",
+      "effective_query": "AMD vs NVIDIA AI GPU performance comparison 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Intel Arc GPU AI inference market share 2025",
+      "effective_query": "Intel Arc GPU AI inference market share 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Qualcomm AI chip edge inference automotive 2025 2026",
+      "effective_query": "Qualcomm AI chip edge inference automotive 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "US China Europe AI chip market competitive dynamics 2025",
+      "effective_query": "US China Europe AI chip market competitive dynamics 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI chip supply chain constraints 2025 2026 TSMC capacity",
+      "effective_query": "AI chip supply chain constraints 2025 2026 TSMC capacity",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NVIDIA Blackwell B200 GPU specs launch 2025 2026",
+      "effective_query": "NVIDIA Blackwell B200 GPU specs launch 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AMD Instinct MI355X MI400 launch 2026",
+      "effective_query": "AMD Instinct MI355X MI400 launch 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Intel Gaudi 3 AI accelerator specifications 2025",
+      "effective_query": "Intel Gaudi 3 AI accelerator specifications 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Qualcomm AI200 AI250 datacenter inference chip 2026",
+      "effective_query": "Qualcomm AI200 AI250 datacenter inference chip 2026",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "government AI chip partnerships NVIDIA AMD 2025 2026",
+      "effective_query": "government AI chip partnerships NVIDIA AMD 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Europe AI chip investment Chips Act 2025 2026",
+      "effective_query": "Europe AI chip investment Chips Act 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "China AI chip domestic Huawei Ascend 910 2025 2026",
+      "effective_query": "China AI chip domestic Huawei Ascend 910 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 167,
+  "duration_seconds": 527.5158965578303,
+  "report_length": 25732,
+  "context_length": 258567,
+  "qid": "marketOZ8DcbjNbI7D7gkQ",
+  "query": "What is the size and expected growth of the AI chip market across data centers and consumer GPUs in 2025–2026? What are the major demand drivers (AI training workloads, edge inference, gaming, AR/VR) and supply-side challenges (manufacturing nodes, geopolitics, export restrictions)? How do NVIDIA, AMD, Intel Arc, and Qualcomm compare in processing performance, market share, enterprise/government partnerships, and flagship chip launches? Which geographic markets (US, China, Europe) are shaping competitive dynamics? The report should be structured with clear sections (and subsections when appropriate), include tables or charts for quantitative comparisons, and provide cited data where available."
+}

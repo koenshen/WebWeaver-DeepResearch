@@ -1,0 +1,347 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 201445,
+  "total_output_tokens": 26462,
+  "total_tokens": 227907,
+  "total_search_count": 14,
+  "total_search_results": 132,
+  "total_visit_count": 7,
+  "total_visit_success": 7,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 995,
+      "output_tokens": 5486,
+      "total_tokens": 6481,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18073,
+      "output_tokens": 257,
+      "total_tokens": 18330,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38707,
+      "output_tokens": 157,
+      "total_tokens": 38864,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8094,
+      "output_tokens": 4001,
+      "total_tokens": 12095,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8015,
+      "output_tokens": 1230,
+      "total_tokens": 9245,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11328,
+      "output_tokens": 1768,
+      "total_tokens": 13096,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1077,
+      "output_tokens": 1285,
+      "total_tokens": 2362,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40951,
+      "output_tokens": 282,
+      "total_tokens": 41233,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5936,
+      "output_tokens": 689,
+      "total_tokens": 6625,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5936,
+      "output_tokens": 905,
+      "total_tokens": 6841,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6496,
+      "output_tokens": 1015,
+      "total_tokens": 7511,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6841,
+      "output_tokens": 1332,
+      "total_tokens": 8173,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5194,
+      "output_tokens": 911,
+      "total_tokens": 6105,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43802,
+      "output_tokens": 7144,
+      "total_tokens": 50946,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "CISA CIRCIA final rule 2024 effective date reporting timeline 72 hours ransom 24 hours penalty covered entities",
+      "effective_query": "CISA CIRCIA final rule 2024 effective date reporting timeline 72 hours ransom 24 hours penalty covered entities",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SEC cybersecurity disclosure rule 8-K materiality 4 business days enforcement 2024 2025",
+      "effective_query": "SEC cybersecurity disclosure rule 8-K materiality 4 business days enforcement 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NERC CIP-008 reporting timeline 1 hour penalty 2024 compliance challenges",
+      "effective_query": "NERC CIP-008 reporting timeline 1 hour penalty 2024 compliance challenges",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NYDFS 23 NYCRR 500 amendment 2023 reporting timeline 72 hours 24 hours enforcement",
+      "effective_query": "NYDFS 23 NYCRR 500 amendment 2023 reporting timeline 72 hours 24 hours enforcement",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIPAA breach notification rule 60 days HHS enforcement 2024 2025 proposed updates",
+      "effective_query": "HIPAA breach notification rule 60 days HHS enforcement 2024 2025 proposed updates",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cross sector cybersecurity incident reporting compliance challenges US 2024 2025",
+      "effective_query": "cross sector cybersecurity incident reporting compliance challenges US 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SEC cybersecurity enforcement action Flagstar 2024 penalty $4 million",
+      "effective_query": "SEC cybersecurity enforcement action Flagstar 2024 penalty $4 million",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SolarWinds SEC enforcement cybersecurity disclosure 2024 dismissal",
+      "effective_query": "SolarWinds SEC enforcement cybersecurity disclosure 2024 dismissal",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CIRCIA covered entity definition threshold size 2024 NPRM",
+      "effective_query": "CIRCIA covered entity definition threshold size 2024 NPRM",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NERC CIP penalty 2024 2025 enforcement actions fines",
+      "effective_query": "NERC CIP penalty 2024 2025 enforcement actions fines",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIPAA penalty 2024 2025 OCR settlement amounts",
+      "effective_query": "HIPAA penalty 2024 2025 OCR settlement amounts",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cross sector cybersecurity incident reporting harmonization challenges GAO 2024",
+      "effective_query": "cross sector cybersecurity incident reporting harmonization challenges GAO 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "US Coast Guard maritime cybersecurity rule 2025 incident reporting",
+      "effective_query": "US Coast Guard maritime cybersecurity rule 2025 incident reporting",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TSA surface pipeline cybersecurity directive 2024 2025",
+      "effective_query": "TSA surface pipeline cybersecurity directive 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.gao.gov/assets/890/880583.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.533
+        }
+      ],
+      "content_length": 39070,
+      "duration_seconds": 3.533,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.everycrsreport.com/reports/R49009.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.174
+        }
+      ],
+      "content_length": 52837,
+      "duration_seconds": 2.174,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.45,
+      "summary_length": 6201,
+      "summary_input_tokens": 11328,
+      "summary_output_tokens": 1768
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2024-174",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.657
+        }
+      ],
+      "content_length": 4383,
+      "duration_seconds": 0.657,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.985,
+      "summary_length": 5223,
+      "summary_input_tokens": 1077,
+      "summary_output_tokens": 1285
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2024-186",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.248
+        }
+      ],
+      "content_length": 26894,
+      "duration_seconds": 1.248,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nerc.com/programs/enforcement/enforcement-actions/2024",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.282
+        }
+      ],
+      "content_length": 22928,
+      "duration_seconds": 2.282,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.107,
+      "summary_length": 2865,
+      "summary_input_tokens": 6496,
+      "summary_output_tokens": 1015
+    },
+    {
+      "url": "https://www.nerc.com/programs/enforcement/enforcement-actions/2025",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.174
+        }
+      ],
+      "content_length": 23979,
+      "duration_seconds": 2.175,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.606,
+      "summary_length": 3873,
+      "summary_input_tokens": 6841,
+      "summary_output_tokens": 1332
+    },
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11343-s",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.564
+        }
+      ],
+      "content_length": 19106,
+      "duration_seconds": 2.564,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.401,
+      "summary_length": 4224,
+      "summary_input_tokens": 5194,
+      "summary_output_tokens": 911
+    }
+  ],
+  "source_urls_count": 126,
+  "duration_seconds": 848.7309474078938,
+  "report_length": 29935,
+  "context_length": 232038,
+  "qid": "policy0nSp8LBMkdYR1dN4",
+  "query": "I work on information security and am responsible for incident disclosure, compare CISA’s CIRCIA regulations, the SEC’s cybersecurity disclosure rules, and sector-specific mandates under NERC CIP. Help me provide a cross-sector analysis (energy, finance, healthcare, and other critical infrastructure), focusing on the most current compliance challenges from the past 1–2 years. Analyze across reporting timelines, covered-entity definitions, enforcement mechanisms, and penalty structures. Provide:\n\n- A short description of each regulatory framework\n- A multi-column comparison table covering all dimensions\n- Multiple real-world examples of enterprise compliance challenges per framework\n- An analysis of strategic implications for U.S.-based and global enterprises operating under U.S. jurisdiction across multiple critical infrastructure sectors"
+}

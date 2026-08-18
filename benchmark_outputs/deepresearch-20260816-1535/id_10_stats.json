@@ -1,0 +1,159 @@
+{
+  "total_llm_calls": 6,
+  "total_input_tokens": 177984,
+  "total_output_tokens": 13111,
+  "total_tokens": 191095,
+  "total_search_count": 12,
+  "total_search_results": 113,
+  "total_visit_count": 1,
+  "total_visit_success": 1,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 919,
+      "output_tokens": 557,
+      "total_tokens": 1476,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24894,
+      "output_tokens": 240,
+      "total_tokens": 25134,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44167,
+      "output_tokens": 341,
+      "total_tokens": 44508,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 256,
+      "output_tokens": 231,
+      "total_tokens": 487,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44433,
+      "output_tokens": 132,
+      "total_tokens": 44565,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 63315,
+      "output_tokens": 11610,
+      "total_tokens": 74925,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "800V高压平台 碳化硅电驱 商业化进展 2025",
+      "effective_query": "800V高压平台 碳化硅电驱 商业化进展 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "固态电池 量产 进展 2025 2026",
+      "effective_query": "固态电池 量产 进展 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "分布式驱动 电动轮 商业化 临界点",
+      "effective_query": "分布式驱动 电动轮 商业化 临界点",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "纯电 增程 插混 氢燃料 成本 对比 2025",
+      "effective_query": "纯电 增程 插混 氢燃料 成本 对比 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "新能源汽车 残值 评估 体系 电池 衰减 2025",
+      "effective_query": "新能源汽车 残值 评估 体系 电池 衰减 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "氢燃料电池 商业化 成本 临界点 2025",
+      "effective_query": "氢燃料电池 商业化 成本 临界点 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "轮毂电机 量产 成本 分布式驱动 2025",
+      "effective_query": "轮毂电机 量产 成本 分布式驱动 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "动力系统 技术路线 评估 模型 商业化 临界点",
+      "effective_query": "动力系统 技术路线 评估 模型 商业化 临界点",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "纯电 增程 插混 TCO 总拥有成本 对比 2025",
+      "effective_query": "纯电 增程 插混 TCO 总拥有成本 对比 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "分布式驱动 滑板底盘 商业化 量产 2025 2026",
+      "effective_query": "分布式驱动 滑板底盘 商业化 量产 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "800V 碳化硅 电驱 系统 成本 对比 IGBT",
+      "effective_query": "800V 碳化硅 电驱 系统 成本 对比 IGBT",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "新能源汽车 动力电池 成本 下降 曲线 2025 2026",
+      "effective_query": "新能源汽车 动力电池 成本 下降 曲线 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://agentpanel.cc/question/1396",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.048
+        }
+      ],
+      "content_length": 352,
+      "duration_seconds": 7.049,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.509,
+      "summary_length": 479,
+      "summary_input_tokens": 256,
+      "summary_output_tokens": 231
+    }
+  ],
+  "source_urls_count": 110,
+  "duration_seconds": 349.96648224722594,
+  "report_length": 18703,
+  "context_length": 137170,
+  "id": 10,
+  "prompt": "在800V高压/碳化硅电驱/固态电池/分布式驱动等技术迭代加速的窗口期，如何构建覆盖研发制造-使用场景-残值管理的评估体系，量化不同动力系统技术路线（纯电/增程/插混/氢燃料+集中式驱动/分布式驱动）的商业化临界点？",
+  "language": "zh",
+  "topic": "Science & Technology"
+}

@@ -1,0 +1,400 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 340293,
+  "total_output_tokens": 27439,
+  "total_tokens": 367732,
+  "total_search_count": 26,
+  "total_search_results": 243,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 955,
+      "output_tokens": 1095,
+      "total_tokens": 2050,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20120,
+      "output_tokens": 157,
+      "total_tokens": 20277,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37497,
+      "output_tokens": 161,
+      "total_tokens": 37658,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37652,
+      "output_tokens": 134,
+      "total_tokens": 37786,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3131,
+      "output_tokens": 1128,
+      "total_tokens": 4259,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11559,
+      "output_tokens": 3868,
+      "total_tokens": 15427,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4546,
+      "output_tokens": 2978,
+      "total_tokens": 7524,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26591,
+      "output_tokens": 815,
+      "total_tokens": 27406,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25503,
+      "output_tokens": 2433,
+      "total_tokens": 27936,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1290,
+      "output_tokens": 3858,
+      "total_tokens": 5148,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1290,
+      "output_tokens": 2163,
+      "total_tokens": 3453,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41566,
+      "output_tokens": 160,
+      "total_tokens": 41726,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57791,
+      "output_tokens": 197,
+      "total_tokens": 57988,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 70802,
+      "output_tokens": 8292,
+      "total_tokens": 79094,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Salesforce small business pricing 2026 plans",
+      "effective_query": "Salesforce small business pricing 2026 plans",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HubSpot CRM pricing 2026 small business",
+      "effective_query": "HubSpot CRM pricing 2026 small business",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Microsoft Dynamics 365 pricing small business 2026",
+      "effective_query": "Microsoft Dynamics 365 pricing small business 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Oracle CX pricing 2026",
+      "effective_query": "Oracle CX pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zendesk Sell pricing 2026",
+      "effective_query": "Zendesk Sell pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zoho CRM pricing 2026",
+      "effective_query": "Zoho CRM pricing 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Freshworks CRM pricing 2026",
+      "effective_query": "Freshworks CRM pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Salesforce automation capabilities marketing sales service 2026",
+      "effective_query": "Salesforce automation capabilities marketing sales service 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HubSpot CRM automation features marketing sales service 2026",
+      "effective_query": "HubSpot CRM automation features marketing sales service 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Dynamics 365 automation sales marketing customer service 2026",
+      "effective_query": "Microsoft Dynamics 365 automation sales marketing customer service 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Oracle CX automation sales marketing service 2026",
+      "effective_query": "Oracle CX automation sales marketing service 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zendesk Sell automation features 2026",
+      "effective_query": "Zendesk Sell automation features 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zoho CRM automation marketing sales support 2026",
+      "effective_query": "Zoho CRM automation marketing sales support 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Freshworks CRM automation features sales marketing 2026",
+      "effective_query": "Freshworks CRM automation features sales marketing 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Oracle CX Sales pricing small business 2026 per user",
+      "effective_query": "Oracle CX Sales pricing small business 2026 per user",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zendesk Sell features automation capabilities sales pipeline",
+      "effective_query": "Zendesk Sell features automation capabilities sales pipeline",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zoho CRM ease of use review 2026 small business",
+      "effective_query": "Zoho CRM ease of use review 2026 small business",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Freshworks CRM Freshsales ease of use review 2026",
+      "effective_query": "Freshworks CRM Freshsales ease of use review 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "HubSpot CRM ease of use 2026 review",
+      "effective_query": "HubSpot CRM ease of use 2026 review",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Salesforce CRM ease of use small business 2026",
+      "effective_query": "Salesforce CRM ease of use small business 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Microsoft Dynamics 365 ease of use small business 2026",
+      "effective_query": "Microsoft Dynamics 365 ease of use small business 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Oracle CX Cloud pricing per user monthly 2026 small business",
+      "effective_query": "Oracle CX Cloud pricing per user monthly 2026 small business",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zendesk Sell marketing automation features",
+      "effective_query": "Zendesk Sell marketing automation features",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zoho CRM customer support automation desk features",
+      "effective_query": "Zoho CRM customer support automation desk features",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Freshworks Freshmarketer marketing automation Freshsales Suite features",
+      "effective_query": "Freshworks Freshmarketer marketing automation Freshsales Suite features",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Dynamics 365 Sales Professional pricing per user 2026",
+      "effective_query": "Microsoft Dynamics 365 Sales Professional pricing per user 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.salesforce.com/small-business/pricing",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.831
+        }
+      ],
+      "content_length": 11233,
+      "duration_seconds": 4.831,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.545,
+      "summary_length": 4211,
+      "summary_input_tokens": 3131,
+      "summary_output_tokens": 1128
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/sales",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.686
+        }
+      ],
+      "content_length": 39952,
+      "duration_seconds": 0.687,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.774,
+      "summary_length": 4228,
+      "summary_input_tokens": 11559,
+      "summary_output_tokens": 3868
+    },
+    {
+      "url": "https://www.freshworks.com/crm/pricing",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.858
+        }
+      ],
+      "content_length": 14650,
+      "duration_seconds": 11.859,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.zoho.com/crm/zohocrm-pricing.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.377
+        }
+      ],
+      "content_length": 99732,
+      "duration_seconds": 5.377,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.zendesk.com/pricing",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.741
+        }
+      ],
+      "content_length": 102501,
+      "duration_seconds": 8.741,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.016,
+      "summary_length": 4100,
+      "summary_input_tokens": 25503,
+      "summary_output_tokens": 2433
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/dynamics-365/pricing-overview",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.282
+        }
+      ],
+      "content_length": 3385,
+      "duration_seconds": 8.282,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 219,
+  "duration_seconds": 791.3870624750853,
+  "report_length": 31405,
+  "context_length": 363375,
+  "qid": "prodcpGSsSCKpQAvSZhczP",
+  "query": "Compare Salesforce, HubSpot CRM, Microsoft Dynamics 365, Oracle CX, Zendesk Sell, Zoho CRM, and Freshworks CRM on automation capabilities (including marketing, sales, and customer support automation), pricing for small businesses (defined as companies with up to 50 employees, focusing on entry-level or lowest paid plan tiers), ease of use, main features, and pricing, as of now ({{current_date}}). In the final report, you should include a detailed table for the summarized results, and provide cited data where available."
+}

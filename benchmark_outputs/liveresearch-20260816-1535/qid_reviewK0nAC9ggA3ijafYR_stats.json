@@ -1,0 +1,395 @@
+{
+  "total_llm_calls": 16,
+  "total_input_tokens": 475827,
+  "total_output_tokens": 39230,
+  "total_tokens": 515057,
+  "total_search_count": 23,
+  "total_search_results": 219,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 967,
+      "output_tokens": 257,
+      "total_tokens": 1224,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18445,
+      "output_tokens": 360,
+      "total_tokens": 18805,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35930,
+      "output_tokens": 296,
+      "total_tokens": 36226,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 54651,
+      "output_tokens": 2426,
+      "total_tokens": 57077,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25727,
+      "output_tokens": 3895,
+      "total_tokens": 29622,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25727,
+      "output_tokens": 3765,
+      "total_tokens": 29492,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28206,
+      "output_tokens": 4001,
+      "total_tokens": 32207,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28127,
+      "output_tokens": 1491,
+      "total_tokens": 29618,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28127,
+      "output_tokens": 1906,
+      "total_tokens": 30033,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 71155,
+      "output_tokens": 3038,
+      "total_tokens": 74193,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17065,
+      "output_tokens": 4001,
+      "total_tokens": 21066,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16986,
+      "output_tokens": 4001,
+      "total_tokens": 20987,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16986,
+      "output_tokens": 1816,
+      "total_tokens": 18802,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 313,
+      "output_tokens": 402,
+      "total_tokens": 715,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42692,
+      "output_tokens": 181,
+      "total_tokens": 42873,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 64723,
+      "output_tokens": 7394,
+      "total_tokens": 72117,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "quasi-experimental estimators comparison simulations instrumental variables difference-in-differences synthetic control regression discontinuity interactive fixed effects top journals 2014-2024",
+      "effective_query": "quasi-experimental estimators comparison simulations instrumental variables difference-in-differences synthetic control regression discontinuity interactive fixed effects top journals 2014-2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "weak IV robust tests advances inference econometrics 2014-2024",
+      "effective_query": "weak IV robust tests advances inference econometrics 2014-2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "heterogeneity-robust difference-in-differences staggered adoption new estimators",
+      "effective_query": "heterogeneity-robust difference-in-differences staggered adoption new estimators",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "conformal inference synthetic control Bayesian synthetic control",
+      "effective_query": "conformal inference synthetic control Bayesian synthetic control",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "bias-corrected regression discontinuity robust bandwidth selection",
+      "effective_query": "bias-corrected regression discontinuity robust bandwidth selection",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "interactive fixed effects panel methods factor models advances",
+      "effective_query": "interactive fixed effects panel methods factor models advances",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "credible design vs structural modeling top journals applied microeconomics trends",
+      "effective_query": "credible design vs structural modeling top journals applied microeconomics trends",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "quasi-experimental estimators head-to-head comparison simulations AER QJE JPE Econometrica REStud",
+      "effective_query": "quasi-experimental estimators head-to-head comparison simulations AER QJE JPE Econometrica REStud",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "instrumental variables weak instruments Anderson-Rubin test applied economics 2014-2024",
+      "effective_query": "instrumental variables weak instruments Anderson-Rubin test applied economics 2014-2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Callaway Sant'Anna difference-in-differences staggered adoption implementation",
+      "effective_query": "Callaway Sant'Anna difference-in-differences staggered adoption implementation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "synthetic control method Bayesian inference factor model interactive fixed effects",
+      "effective_query": "synthetic control method Bayesian inference factor model interactive fixed effects",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Calonico Cattaneo rdrobust regression discontinuity robust inference",
+      "effective_query": "Calonico Cattaneo rdrobust regression discontinuity robust inference",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Bai interactive fixed effects panel data Econometrica 2009 applications",
+      "effective_query": "Bai interactive fixed effects panel data Econometrica 2009 applications",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "credibility revolution quasi-experimental structural models top 5 journals trends",
+      "effective_query": "credibility revolution quasi-experimental structural models top 5 journals trends",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Andrews Stock weak identification robust inference survey 2019",
+      "effective_query": "Andrews Stock weak identification robust inference survey 2019",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Borusyak Jaravel Spiess imputation estimator difference-in-differences 2021",
+      "effective_query": "Borusyak Jaravel Spiess imputation estimator difference-in-differences 2021",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Sun Abraham interaction weighted estimator DiD 2021",
+      "effective_query": "Sun Abraham interaction weighted estimator DiD 2021",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "de Chaisemartin D'Haultfœuille DID_M estimator 2020",
+      "effective_query": "de Chaisemartin D'Haultfœuille DID_M estimator 2020",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Xu generalized synthetic control method interaction fixed effects 2017",
+      "effective_query": "Xu generalized synthetic control method interaction fixed effects 2017",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Arkhangelsky synthetic difference-in-differences 2021",
+      "effective_query": "Arkhangelsky synthetic difference-in-differences 2021",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Athey Imbens design-based DiD staggered adoption 2022",
+      "effective_query": "Athey Imbens design-based DiD staggered adoption 2022",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Abadie synthetic control method inference placebo 2010 2021",
+      "effective_query": "Abadie synthetic control method inference placebo 2010 2021",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Goodman-Bacon decomposition difference-in-differences 2021",
+      "effective_query": "Goodman-Bacon decomposition difference-in-differences 2021",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-economics-092123-111021",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.659
+        }
+      ],
+      "content_length": 180219,
+      "duration_seconds": 7.66,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nber.org/system/files/working_papers/w35051/w35051.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.716
+        }
+      ],
+      "content_length": 102633,
+      "duration_seconds": 4.716,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.aeaweb.org/content/file?id=12409",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.24
+        }
+      ],
+      "content_length": 121506,
+      "duration_seconds": 2.24,
+      "summary_status": "success",
+      "summary_duration_seconds": 58.656,
+      "summary_length": 2356,
+      "summary_input_tokens": 28206,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://arxiv.org/pdf/1712.09089",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.181
+        }
+      ],
+      "content_length": 199165,
+      "duration_seconds": 3.182,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.568,
+      "summary_length": 5727,
+      "summary_input_tokens": 71155,
+      "summary_output_tokens": 3038
+    },
+    {
+      "url": "https://rdpackages.github.io/references/Calonico-Cattaneo-Farrell_2020_ECTJ.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.593
+        }
+      ],
+      "content_length": 64151,
+      "duration_seconds": 2.593,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.204,
+      "summary_length": 633,
+      "summary_input_tokens": 17065,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://academic.oup.com/ectj/article/23/2/192/5625071",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.691
+        }
+      ],
+      "content_length": 489,
+      "duration_seconds": 8.691,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.151,
+      "summary_length": 1205,
+      "summary_input_tokens": 313,
+      "summary_output_tokens": 402
+    }
+  ],
+  "source_urls_count": 193,
+  "duration_seconds": 602.6009633112699,
+  "report_length": 31648,
+  "context_length": 300315,
+  "qid": "reviewK0nAC9ggA3ijafYR",
+  "query": "From 2014–2024, how have credibility standards and practical implementation of the five core quasi-experimental estimators—instrumental variables, difference-in-differences under staggered adoption, synthetic control, regression discontinuity, and interactive fixed-effects panel methods—been redefined in the top five journals (AER, QJE, JPE, Econometrica, REStud)? In particular, (i) what do comparative simulations and head-to-head applications show about when these estimators yield meaningfully different causal conclusions; (ii) how have advances in inference, with specific attention to: weak-IV-robust tests, heterogeneity-robust DiD estimators, conformal/Bayesian inference in SC, bias-corrected RD with robust bandwidth selection, and factor-model approaches for panels—reshaped applied practice; and (iii) what does the evolving publication record, both across journals individually and in aggregate, suggest about shifting norms of “credible design” relative to structural modeling across leading applied fields?"
+}

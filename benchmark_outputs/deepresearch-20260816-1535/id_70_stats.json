@@ -1,0 +1,295 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 206259,
+  "total_output_tokens": 27123,
+  "total_tokens": 233382,
+  "total_search_count": 11,
+  "total_search_results": 102,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 809,
+      "output_tokens": 132,
+      "total_tokens": 941,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15820,
+      "output_tokens": 215,
+      "total_tokens": 16035,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1229,
+      "output_tokens": 2077,
+      "total_tokens": 3306,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1577,
+      "output_tokens": 1916,
+      "total_tokens": 3493,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3732,
+      "output_tokens": 896,
+      "total_tokens": 4628,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42242,
+      "output_tokens": 4000,
+      "total_tokens": 46242,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42242,
+      "output_tokens": 3932,
+      "total_tokens": 46174,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9778,
+      "output_tokens": 4001,
+      "total_tokens": 13779,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9778,
+      "output_tokens": 1351,
+      "total_tokens": 11129,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18056,
+      "output_tokens": 2417,
+      "total_tokens": 20473,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25197,
+      "output_tokens": 100,
+      "total_tokens": 25297,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35799,
+      "output_tokens": 6086,
+      "total_tokens": 41885,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "history of Java Servlets evolution problems solved",
+      "effective_query": "history of Java Servlets evolution problems solved",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Java Servlet API vs Spring Framework comparison",
+      "effective_query": "Java Servlet API vs Spring Framework comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spring Framework core functionalities",
+      "effective_query": "Spring Framework core functionalities",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Spring Boot problems solved",
+      "effective_query": "Spring Boot problems solved",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "essential knowledge for Spring developers",
+      "effective_query": "essential knowledge for Spring developers",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Spring Boot design philosophy convention over configuration",
+      "effective_query": "Spring Boot design philosophy convention over configuration",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "problems with Java EE EJB solved by Spring",
+      "effective_query": "problems with Java EE EJB solved by Spring",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Spring Framework essential skills developer roadmap",
+      "effective_query": "Spring Framework essential skills developer roadmap",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Servlet vs Spring Boot performance comparison",
+      "effective_query": "Servlet vs Spring Boot performance comparison",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Spring Boot auto-configuration how it works",
+      "effective_query": "Spring Boot auto-configuration how it works",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Spring Framework essential knowledge prerequisites",
+      "effective_query": "Spring Framework essential knowledge prerequisites",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://w3htmlschool.com/history-and-evolution-of-java-servlets-beginners-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.937
+        }
+      ],
+      "content_length": 4616,
+      "duration_seconds": 7.937,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.844,
+      "summary_length": 5427,
+      "summary_input_tokens": 1229,
+      "summary_output_tokens": 2077
+    },
+    {
+      "url": "https://medium.com/@megalucario351/from-servlets-to-spring-boot-the-evolution-of-java-development-e5164009cf99",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.317
+        }
+      ],
+      "content_length": 5815,
+      "duration_seconds": 5.317,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.988,
+      "summary_length": 6627,
+      "summary_input_tokens": 1577,
+      "summary_output_tokens": 1916
+    },
+    {
+      "url": "https://spring.io/projects/spring-framework",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.994
+        }
+      ],
+      "content_length": 14390,
+      "duration_seconds": 3.994,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.577,
+      "summary_length": 2932,
+      "summary_input_tokens": 3732,
+      "summary_output_tokens": 896
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spring_Framework",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.523
+        }
+      ],
+      "content_length": 140989,
+      "duration_seconds": 2.524,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.863,
+      "summary_length": 10381,
+      "summary_input_tokens": 42242,
+      "summary_output_tokens": 4000
+    },
+    {
+      "url": "https://docs.spring.io/spring-boot/reference/web/servlet.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 14.303
+        }
+      ],
+      "content_length": 40630,
+      "duration_seconds": 14.303,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.585,
+      "summary_length": 11736,
+      "summary_input_tokens": 9778,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.marcobehler.com/guides/spring-framework",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.695
+        }
+      ],
+      "content_length": 79108,
+      "duration_seconds": 1.695,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.413,
+      "summary_length": 9387,
+      "summary_input_tokens": 18056,
+      "summary_output_tokens": 2417
+    }
+  ],
+  "source_urls_count": 96,
+  "duration_seconds": 382.0961469663307,
+  "report_length": 25954,
+  "context_length": 190772,
+  "id": 70,
+  "prompt": "Trace the evolution from Java Servlets to the Spring Boot framework. Explain the problems each iteration aimed to solve, and detail the core functionalities of the Spring framework along with essential knowledge required for developers working with it.",
+  "language": "en",
+  "topic": "Software Development"
+}

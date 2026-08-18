@@ -1,0 +1,296 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 158426,
+  "total_output_tokens": 21536,
+  "total_tokens": 179962,
+  "total_search_count": 12,
+  "total_search_results": 112,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 959,
+      "output_tokens": 335,
+      "total_tokens": 1294,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26851,
+      "output_tokens": 199,
+      "total_tokens": 27050,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46316,
+      "output_tokens": 313,
+      "total_tokens": 46629,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12573,
+      "output_tokens": 542,
+      "total_tokens": 13115,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2240,
+      "output_tokens": 4001,
+      "total_tokens": 6241,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2624,
+      "output_tokens": 2009,
+      "total_tokens": 4633,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2624,
+      "output_tokens": 884,
+      "total_tokens": 3508,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1453,
+      "output_tokens": 3821,
+      "total_tokens": 5274,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10868,
+      "output_tokens": 1396,
+      "total_tokens": 12264,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1823,
+      "output_tokens": 1627,
+      "total_tokens": 3450,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50095,
+      "output_tokens": 6409,
+      "total_tokens": 56504,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "艺术生 多元化职业发展 就业方向 突破传统 2025 2026",
+      "effective_query": "艺术生 多元化职业发展 就业方向 突破传统 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "艺术与科技 融合 就业 前景 艺术生 2025",
+      "effective_query": "艺术与科技 融合 就业 前景 艺术生 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "艺术生 社会评价 收入 影响 2025",
+      "effective_query": "艺术生 社会评价 收入 影响 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "知识产权保护 艺术人才 经济待遇 提升 中国",
+      "effective_query": "知识产权保护 艺术人才 经济待遇 提升 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "文化消费升级 艺术人才 收入 2025",
+      "effective_query": "文化消费升级 艺术人才 收入 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "艺术人才 社会地位 提升 国际 经验 模式",
+      "effective_query": "艺术人才 社会地位 提升 国际 经验 模式",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "法国 艺术家 社会地位 保障 制度",
+      "effective_query": "法国 艺术家 社会地位 保障 制度",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "韩国 艺术人才 支持 政策 收入 保障",
+      "effective_query": "韩国 艺术人才 支持 政策 收入 保障",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "英美 艺术人才 社会地位 提升 模式 经验",
+      "effective_query": "英美 艺术人才 社会地位 提升 模式 经验",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "艺术生 灵活就业 自由职业 收入 2025 中国",
+      "effective_query": "艺术生 灵活就业 自由职业 收入 2025 中国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "艺术治疗 艺术管理 艺术与科技 就业 薪资 2025",
+      "effective_query": "艺术治疗 艺术管理 艺术与科技 就业 薪资 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "国家艺术基金 艺术人才 资助 政策 2025",
+      "effective_query": "国家艺术基金 艺术人才 资助 政策 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://m.sohu.com/a/967196864_121868204",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.38
+        }
+      ],
+      "content_length": 25451,
+      "duration_seconds": 11.38,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.854,
+      "summary_length": 771,
+      "summary_input_tokens": 12573,
+      "summary_output_tokens": 542
+    },
+    {
+      "url": "https://www.gaoxiaojob.com/news/detail/4542.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 18.805
+        }
+      ],
+      "content_length": 3635,
+      "duration_seconds": 18.805,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.795,
+      "summary_length": 2052,
+      "summary_input_tokens": 2240,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfb/202606/t20260629_1964025.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 22.123
+        }
+      ],
+      "content_length": 4391,
+      "duration_seconds": 22.123,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/sjjd/202601/t20260130_1962410.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 19.166
+        }
+      ],
+      "content_length": 2227,
+      "duration_seconds": 19.167,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.583,
+      "summary_length": 1563,
+      "summary_input_tokens": 1453,
+      "summary_output_tokens": 3821
+    },
+    {
+      "url": "https://www.sfkedu.com/news/30844.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.048
+        }
+      ],
+      "content_length": 22123,
+      "duration_seconds": 10.048,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.692,
+      "summary_length": 1424,
+      "summary_input_tokens": 10868,
+      "summary_output_tokens": 1396
+    },
+    {
+      "url": "https://m-news.artron.net/20150505/n740112.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.855
+        }
+      ],
+      "content_length": 3011,
+      "duration_seconds": 2.855,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 112,
+  "duration_seconds": 559.3143373215571,
+  "report_length": 12643,
+  "context_length": 114982,
+  "id": 22,
+  "prompt": "中国的艺术生就业领域长期以来较为单一，主要集中在传统艺术机构、教育部门或文创企业。随着社会的发展，艺术与科技、商业、教育等领域的边界正在模糊，为艺术生提供了更广阔的职业发展空间。然请为我调研：艺术生如何突破传统就业领域的限制，实现多元化职业发展？当前社会评价体系如何影响艺术人才的发展空间与收入水平？知识产权保护与文化消费升级能否有效提升艺术人才经济待遇？不同国家在艺术人才社会地位提升方面有哪些可借鉴的经验与模式？",
+  "language": "zh",
+  "topic": "Education & Jobs"
+}

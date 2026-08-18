@@ -1,0 +1,190 @@
+{
+  "total_llm_calls": 6,
+  "total_input_tokens": 160481,
+  "total_output_tokens": 10118,
+  "total_tokens": 170599,
+  "total_search_count": 21,
+  "total_search_results": 190,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 978,
+      "output_tokens": 2417,
+      "total_tokens": 3395,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5697,
+      "output_tokens": 109,
+      "total_tokens": 5806,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19639,
+      "output_tokens": 129,
+      "total_tokens": 19768,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32863,
+      "output_tokens": 120,
+      "total_tokens": 32983,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44203,
+      "output_tokens": 120,
+      "total_tokens": 44323,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57101,
+      "output_tokens": 7223,
+      "total_tokens": 64324,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Palantir revenue 2025 customer count government contracts",
+      "effective_query": "Palantir revenue 2025 customer count government contracts",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Palantir AIP Foundry platform products",
+      "effective_query": "Palantir AIP Foundry platform products",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Snowflake revenue 2025 customer count ARPU enterprise analytics",
+      "effective_query": "Snowflake revenue 2025 customer count ARPU enterprise analytics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Databricks revenue 2025 customer count ARPU valuation",
+      "effective_query": "Databricks revenue 2025 customer count ARPU valuation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SAS revenue 2025 customer count market share analytics",
+      "effective_query": "SAS revenue 2025 customer count market share analytics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "global enterprise data analytics market size 2026 growth forecast",
+      "effective_query": "global enterprise data analytics market size 2026 growth forecast",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "enterprise data analytics industry verticals finance healthcare retail defense adoption 2026",
+      "effective_query": "enterprise data analytics industry verticals finance healthcare retail defense adoption 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Palantir Snowflake Databricks SAS cloud partnerships AWS Azure Google cloud 2026",
+      "effective_query": "Palantir Snowflake Databricks SAS cloud partnerships AWS Azure Google cloud 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "regulatory concerns data analytics GDPR CCPA finance healthcare defense 2026",
+      "effective_query": "regulatory concerns data analytics GDPR CCPA finance healthcare defense 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Palantir government contracts revenue 2026",
+      "effective_query": "Palantir government contracts revenue 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Snowflake Databricks AI analytics platform features comparison 2026",
+      "effective_query": "Snowflake Databricks AI analytics platform features comparison 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SAS Viya cloud platform 2026 revenue",
+      "effective_query": "SAS Viya cloud platform 2026 revenue",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SAS annual revenue 2025 2026 private company",
+      "effective_query": "SAS annual revenue 2025 2026 private company",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Palantir revenue Q4 2025 full year 2025 results",
+      "effective_query": "Palantir revenue Q4 2025 full year 2025 results",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Databricks Snowflake comparison customer count 2026",
+      "effective_query": "Databricks Snowflake comparison customer count 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "enterprise data analytics market size by vertical finance healthcare 2026",
+      "effective_query": "enterprise data analytics market size by vertical finance healthcare 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Palantir customer count 2026",
+      "effective_query": "Palantir customer count 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SAS Viya sales growth 2025 2026",
+      "effective_query": "SAS Viya sales growth 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Databricks revenue run rate Q2 2026 $7 billion",
+      "effective_query": "Databricks revenue run rate Q2 2026 $7 billion",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Snowflake Q2 FY2026 results product revenue",
+      "effective_query": "Snowflake Q2 FY2026 results product revenue",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Palantir Q2 2026 earnings results revenue",
+      "effective_query": "Palantir Q2 2026 earnings results revenue",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 165,
+  "duration_seconds": 147.26485437713563,
+  "report_length": 26188,
+  "context_length": 270149,
+  "qid": "marketONPr2EPqd6edkLv7",
+  "query": "What is the overall size, structure, and growth potential of the global enterprise data analytics market in 2026? Which industry verticals (finance, defense, healthcare, retail) are leading adoption, and what regulatory concerns shape demand? How do Palantir, Snowflake, Databricks, and SAS position themselves in client acquisition, revenue per customer, and government contracts? What flagship products/platforms define each company’s strategy, and how are cloud partnerships and AI-driven analytics changing the competitive landscape? The report should be structured with clear sections (and subsections when appropriate), include tables or charts for quantitative comparisons, and provide cited data where available."
+}

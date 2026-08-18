@@ -1,0 +1,417 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 433815,
+  "total_output_tokens": 28572,
+  "total_tokens": 462387,
+  "total_search_count": 16,
+  "total_search_results": 152,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1027,
+      "output_tokens": 316,
+      "total_tokens": 1343,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18389,
+      "output_tokens": 241,
+      "total_tokens": 18630,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37784,
+      "output_tokens": 284,
+      "total_tokens": 38068,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 89481,
+      "output_tokens": 1363,
+      "total_tokens": 90844,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26404,
+      "output_tokens": 1069,
+      "total_tokens": 27473,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 49323,
+      "output_tokens": 1534,
+      "total_tokens": 50857,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28534,
+      "output_tokens": 2807,
+      "total_tokens": 31341,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30783,
+      "output_tokens": 1589,
+      "total_tokens": 32372,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20567,
+      "output_tokens": 773,
+      "total_tokens": 21340,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19321,
+      "output_tokens": 1336,
+      "total_tokens": 20657,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 288,
+      "output_tokens": 388,
+      "total_tokens": 676,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25147,
+      "output_tokens": 2168,
+      "total_tokens": 27315,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40322,
+      "output_tokens": 2712,
+      "total_tokens": 43034,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46445,
+      "output_tokens": 11992,
+      "total_tokens": 58437,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "HIIT vs MICT meta-analysis VO2max adults 2020 2021 2022 2023 2024 2025 2026",
+      "effective_query": "HIIT vs MICT meta-analysis VO2max adults 2020 2021 2022 2023 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "high-intensity interval training moderate-intensity continuous training cardiorespiratory fitness systematic review meta-analysis",
+      "effective_query": "high-intensity interval training moderate-intensity continuous training cardiorespiratory fitness systematic review meta-analysis",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIIT MICT hybrid protocol cardiometabolic outcomes randomized controlled trial",
+      "effective_query": "HIIT MICT hybrid protocol cardiometabolic outcomes randomized controlled trial",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "low-volume HIIT sprint interval training time-efficient exercise adults",
+      "effective_query": "low-volume HIIT sprint interval training time-efficient exercise adults",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HIIT adherence enjoyment adverse events meta-analysis",
+      "effective_query": "HIIT adherence enjoyment adverse events meta-analysis",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ACSM WHO physical activity guidelines HIIT 2020 2025",
+      "effective_query": "ACSM WHO physical activity guidelines HIIT 2020 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIIT home-based vs supervised training long-term maintenance",
+      "effective_query": "HIIT home-based vs supervised training long-term maintenance",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HIIT progression maintenance plan minimal effective dose",
+      "effective_query": "HIIT progression maintenance plan minimal effective dose",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIIT HbA1c fasting glucose HOMA-IR meta-analysis 2021 2022 2023 2024",
+      "effective_query": "HIIT HbA1c fasting glucose HOMA-IR meta-analysis 2021 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HIIT blood pressure lipids meta-analysis randomized controlled trial",
+      "effective_query": "HIIT blood pressure lipids meta-analysis randomized controlled trial",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIIT liver fat NAFLD nonalcoholic fatty liver disease exercise",
+      "effective_query": "HIIT liver fat NAFLD nonalcoholic fatty liver disease exercise",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIIT MICT adherence enjoyment adherence comparison meta-analysis",
+      "effective_query": "HIIT MICT adherence enjoyment adherence comparison meta-analysis",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HIIT moderate intensity continuous training <60 minutes per week time-efficient",
+      "effective_query": "HIIT moderate intensity continuous training <60 minutes per week time-efficient",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIIT long-term maintenance 12 months 6 months follow-up gains",
+      "effective_query": "HIIT long-term maintenance 12 months 6 months follow-up gains",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HIIT sex differences women men response to interval training",
+      "effective_query": "HIIT sex differences women men response to interval training",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HIIT exercise prescription guidelines ACSM HIIT position stand 2022 2023",
+      "effective_query": "HIIT exercise prescription guidelines ACSM HIIT position stand 2022 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10664287/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.662
+        }
+      ],
+      "content_length": 285437,
+      "duration_seconds": 2.662,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.366,
+      "summary_length": 4189,
+      "summary_input_tokens": 89481,
+      "summary_output_tokens": 1363
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1487789/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.229
+        }
+      ],
+      "content_length": 87205,
+      "duration_seconds": 9.229,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.03,
+      "summary_length": 2677,
+      "summary_input_tokens": 26404,
+      "summary_output_tokens": 1069
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10048683/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.238
+        }
+      ],
+      "content_length": 146865,
+      "duration_seconds": 2.239,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.27,
+      "summary_length": 4821,
+      "summary_input_tokens": 49323,
+      "summary_output_tokens": 1534
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s13102-026-01686-w",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.846
+        }
+      ],
+      "content_length": 100601,
+      "duration_seconds": 0.847,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.843,
+      "summary_length": 7158,
+      "summary_input_tokens": 28534,
+      "summary_output_tokens": 2807
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12795074/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.251
+        }
+      ],
+      "content_length": 102955,
+      "duration_seconds": 1.251,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.555,
+      "summary_length": 4119,
+      "summary_input_tokens": 30783,
+      "summary_output_tokens": 1589
+    },
+    {
+      "url": "https://www.acsm.org/education-resources/trending-topics-resources/physical-activity-guidelines",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.418
+        }
+      ],
+      "content_length": 78601,
+      "duration_seconds": 4.418,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.572,
+      "summary_length": 2135,
+      "summary_input_tokens": 20567,
+      "summary_output_tokens": 773
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.68
+        }
+      ],
+      "content_length": 90352,
+      "duration_seconds": 1.68,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.578,
+      "summary_length": 3591,
+      "summary_input_tokens": 19321,
+      "summary_output_tokens": 1336
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10464775/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.446
+        }
+      ],
+      "content_length": 411,
+      "duration_seconds": 6.446,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.263,
+      "summary_length": 1017,
+      "summary_input_tokens": 288,
+      "summary_output_tokens": 388
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9771301/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.01
+        }
+      ],
+      "content_length": 78702,
+      "duration_seconds": 2.01,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.444,
+      "summary_length": 3712,
+      "summary_input_tokens": 25147,
+      "summary_output_tokens": 2168
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-024-51470-4",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.864
+        }
+      ],
+      "content_length": 124567,
+      "duration_seconds": 4.864,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.17,
+      "summary_length": 4620,
+      "summary_input_tokens": 40322,
+      "summary_output_tokens": 2712
+    }
+  ],
+  "source_urls_count": 138,
+  "duration_seconds": 374.70179205201566,
+  "report_length": 40267,
+  "context_length": 243852,
+  "qid": "lifespwgR2QorAuHgkzask",
+  "query": "In adults aged 30–70 with limited weekly training time (<150 min/week; with a <60 min/week subgroup), what is the comparative effectiveness of high-intensity interval training (HIIT; including low-volume/sprint-interval variants), moderate-intensity continuous training (MICT), and hybrid HIIT+MICT protocols on (a) cardiorespiratory fitness (VO₂max/VO₂peak, mL·kg⁻¹·min⁻¹), (b) cardiometabolic outcomes (HbA1c/fasting glucose, HOMA-IR, blood pressure, lipids, adiposity/liver fat), and (c) patient-centered outcomes (adherence, enjoyment, adverse events)? How are these protocols defined and evaluated across international randomized trials and meta-analyses (2018–2026), with supportive context from observational studies and major guidelines (e.g., ACSM/WHO), and which progression/maintenance plans (session frequency, intensity prescription, minimal effective dose; supervised vs. home-based delivery) sustain gains over ≥6–12 months? Consider moderators including sex, age band (30–49 vs. 50–70), baseline fitness, and cardiometabolic risk (overweight/obesity, prediabetes/metabolic syndrome, hypertension), as well as medication status."
+}

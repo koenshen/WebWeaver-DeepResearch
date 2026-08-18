@@ -1,0 +1,74 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 16310,
+  "total_output_tokens": 4924,
+  "total_tokens": 21234,
+  "total_search_count": 6,
+  "total_search_results": 58,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 824,
+      "output_tokens": 228,
+      "total_tokens": 1052,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15486,
+      "output_tokens": 4696,
+      "total_tokens": 20182,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "precision piezoelectric vibration isolation system accuracy enhancement hardware design",
+      "effective_query": "precision piezoelectric vibration isolation system accuracy enhancement hardware design",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "piezoelectric vibration isolation structural design optimization",
+      "effective_query": "piezoelectric vibration isolation structural design optimization",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "piezoelectric vibration isolation manufacturing process precision",
+      "effective_query": "piezoelectric vibration isolation manufacturing process precision",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "piezoelectric vibration isolation control algorithms feedback feedforward",
+      "effective_query": "piezoelectric vibration isolation control algorithms feedback feedforward",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "piezoelectric vibration isolator production consistency repeatability",
+      "effective_query": "piezoelectric vibration isolator production consistency repeatability",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "piezoelectric vibration isolation system design management quality assurance",
+      "effective_query": "piezoelectric vibration isolation system design management quality assurance",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 40,
+  "duration_seconds": 212.84690065588802,
+  "report_length": 22419,
+  "context_length": 101354,
+  "id": 85,
+  "prompt": "The primary components of a precision piezoelectric vibration isolation system include sensors, actuators, and controllers. How can system accuracy be enhanced through hardware design, structural design, manufacturing processes, and control algorithms? Additionally, how should the design and production phases be managed to ensure consistent performance across identical products?",
+  "language": "en",
+  "topic": "Industrial"
+}

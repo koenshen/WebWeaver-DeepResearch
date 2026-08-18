@@ -1,0 +1,244 @@
+{
+  "total_llm_calls": 6,
+  "total_input_tokens": 172156,
+  "total_output_tokens": 12372,
+  "total_tokens": 184528,
+  "total_search_count": 30,
+  "total_search_results": 274,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 964,
+      "output_tokens": 2319,
+      "total_tokens": 3283,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12083,
+      "output_tokens": 121,
+      "total_tokens": 12204,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23154,
+      "output_tokens": 131,
+      "total_tokens": 23285,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35130,
+      "output_tokens": 106,
+      "total_tokens": 35236,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44087,
+      "output_tokens": 116,
+      "total_tokens": 44203,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 56738,
+      "output_tokens": 9579,
+      "total_tokens": 66317,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AZA species survival plan conservation success stories 2024",
+      "effective_query": "AZA species survival plan conservation success stories 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "California condor recovery program zoo role",
+      "effective_query": "California condor recovery program zoo role",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zoo education impact on conservation behavior research 2023",
+      "effective_query": "zoo education impact on conservation behavior research 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "do zoos change visitor attitudes towards wildlife study",
+      "effective_query": "do zoos change visitor attitudes towards wildlife study",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Journal of Zoo and Wildlife Medicine research contributions",
+      "effective_query": "Journal of Zoo and Wildlife Medicine research contributions",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "zoo animal behavior research benefits",
+      "effective_query": "zoo animal behavior research benefits",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "zoo animal welfare problems stereotypic behavior studies 2023",
+      "effective_query": "zoo animal welfare problems stereotypic behavior studies 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "captive elephant lifespan vs wild comparison",
+      "effective_query": "captive elephant lifespan vs wild comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zoos breed animals for entertainment not conservation critique",
+      "effective_query": "zoos breed animals for entertainment not conservation critique",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Born Free Foundation zoo report 2023",
+      "effective_query": "Born Free Foundation zoo report 2023",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Captive Animals Protection Society zoo criticism",
+      "effective_query": "Captive Animals Protection Society zoo criticism",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zoo animal mortality rates vs wild",
+      "effective_query": "zoo animal mortality rates vs wild",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "percentage of zoo animals that are endangered vs not endangered",
+      "effective_query": "percentage of zoo animals that are endangered vs not endangered",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "how many zoo animals are released into wild",
+      "effective_query": "how many zoo animals are released into wild",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "reintroduction success rate captive bred animals study",
+      "effective_query": "reintroduction success rate captive bred animals study",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "zoo cost vs in situ conservation efficiency",
+      "effective_query": "zoo cost vs in situ conservation efficiency",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "zoo funding conservation vs operations",
+      "effective_query": "zoo funding conservation vs operations",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "World Association of Zoos and Aquariums conservation funding 2023",
+      "effective_query": "World Association of Zoos and Aquariums conservation funding 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zoo breeding programs species survival plan success rate",
+      "effective_query": "zoo breeding programs species survival plan success rate",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Loro Parque orca welfare captivity",
+      "effective_query": "Loro Parque orca welfare captivity",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Miami Seaquarium orca Lolita welfare",
+      "effective_query": "Miami Seaquarium orca Lolita welfare",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zoo alternative strong arguments against zoos",
+      "effective_query": "zoo alternative strong arguments against zoos",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "animal cognition research zoos benefit",
+      "effective_query": "animal cognition research zoos benefit",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zoo veterinary medicine advancement wildlife health",
+      "effective_query": "zoo veterinary medicine advancement wildlife health",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "zoo enrichment programs reducing stereotypic behavior",
+      "effective_query": "zoo enrichment programs reducing stereotypic behavior",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AZA zoos spending on conservation vs operations budget 2023",
+      "effective_query": "AZA zoos spending on conservation vs operations budget 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "reintroduction success stories zoo animals",
+      "effective_query": "reintroduction success stories zoo animals",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "zoo animals psychological stress cortisol studies",
+      "effective_query": "zoo animals psychological stress cortisol studies",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "modern zoos vs traditional zoos welfare improvements",
+      "effective_query": "modern zoos vs traditional zoos welfare improvements",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zoo animals in captivity suffering from confinement",
+      "effective_query": "zoo animals in captivity suffering from confinement",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 228,
+  "duration_seconds": 465.98583256825805,
+  "report_length": 44529,
+  "context_length": 308462,
+  "qid": "procon2EqeEXA31JZn71e7",
+  "query": "Conduct a comprehensive analysis on whether zoos and aquariums should exist. In the report, I would like to have 3 pro arguments and 3 con arguments. Each pro or con argument should include: (1) A clear thesis statement (2) Multiple supporting points substantiated with credible evidence (including but not limited to statistics, direct quotes, case studies, expert testimony, industry or government reports, academic research, news sources, online forums, and social media), followed by in-depth reasoning and analysis. Prioritize data and research from the past 5 years where available ."
+}

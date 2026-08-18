@@ -1,0 +1,170 @@
+{
+  "total_llm_calls": 7,
+  "total_input_tokens": 72425,
+  "total_output_tokens": 9744,
+  "total_tokens": 82169,
+  "total_search_count": 6,
+  "total_search_results": 59,
+  "total_visit_count": 3,
+  "total_visit_success": 3,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 804,
+      "output_tokens": 310,
+      "total_tokens": 1114,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14449,
+      "output_tokens": 463,
+      "total_tokens": 14912,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 580,
+      "output_tokens": 742,
+      "total_tokens": 1322,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1277,
+      "output_tokens": 1367,
+      "total_tokens": 2644,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 847,
+      "output_tokens": 783,
+      "total_tokens": 1630,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16817,
+      "output_tokens": 185,
+      "total_tokens": 17002,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37651,
+      "output_tokens": 5894,
+      "total_tokens": 43545,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "中国居民膳食指南 2022 中老年人营养建议",
+      "effective_query": "中国居民膳食指南 2022 中老年人营养建议",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "53岁 160斤 健康食谱 两周 中国人",
+      "effective_query": "53岁 160斤 健康食谱 两周 中国人",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中老年人减脂食谱 简单易做 中国菜",
+      "effective_query": "中老年人减脂食谱 简单易做 中国菜",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "53岁 男性 女性 80公斤 每日热量需求 中国",
+      "effective_query": "53岁 男性 女性 80公斤 每日热量需求 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中餐减脂食谱 简单易做 两周 家常菜",
+      "effective_query": "中餐减脂食谱 简单易做 两周 家常菜",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国居民膳食指南 2022 一般成年人 每日食物推荐量",
+      "effective_query": "中国居民膳食指南 2022 一般成年人 每日食物推荐量",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "http://dg.cnsoc.org/article/04/op9MZtpBQHehHCo0SSqsmw.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.051
+        }
+      ],
+      "content_length": 787,
+      "duration_seconds": 2.051,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.369,
+      "summary_length": 1875,
+      "summary_input_tokens": 580,
+      "summary_output_tokens": 742
+    },
+    {
+      "url": "https://www.cqcdc.org/index.php?a=shows&catid=252&id=2651",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 18.943
+        }
+      ],
+      "content_length": 1926,
+      "duration_seconds": 18.944,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.408,
+      "summary_length": 2216,
+      "summary_input_tokens": 1277,
+      "summary_output_tokens": 1367
+    },
+    {
+      "url": "http://dg.cnsoc.org/article/04/VQocp-iITrutzK4FILTdTw.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.438
+        }
+      ],
+      "content_length": 1171,
+      "duration_seconds": 5.438,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.745,
+      "summary_length": 1048,
+      "summary_input_tokens": 847,
+      "summary_output_tokens": 783
+    }
+  ],
+  "source_urls_count": 55,
+  "duration_seconds": 144.54782748781145,
+  "report_length": 9002,
+  "context_length": 79313,
+  "id": 48,
+  "prompt": "我今年五十三岁，体重一百六十斤，为我提供一份两周的食谱，包含更科学、健康、简单易做的营养搭配（我是中国人）",
+  "language": "zh",
+  "topic": "Food & Dining"
+}

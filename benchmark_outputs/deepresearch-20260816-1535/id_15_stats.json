@@ -1,0 +1,378 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 147812,
+  "total_output_tokens": 19349,
+  "total_tokens": 167161,
+  "total_search_count": 18,
+  "total_search_results": 177,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 844,
+      "output_tokens": 378,
+      "total_tokens": 1222,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27905,
+      "output_tokens": 194,
+      "total_tokens": 28099,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6171,
+      "output_tokens": 3723,
+      "total_tokens": 9894,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4194,
+      "output_tokens": 878,
+      "total_tokens": 5072,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8511,
+      "output_tokens": 1061,
+      "total_tokens": 9572,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2253,
+      "output_tokens": 1210,
+      "total_tokens": 3463,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 458,
+      "output_tokens": 720,
+      "total_tokens": 1178,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3076,
+      "output_tokens": 1412,
+      "total_tokens": 4488,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1513,
+      "output_tokens": 930,
+      "total_tokens": 2443,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3131,
+      "output_tokens": 843,
+      "total_tokens": 3974,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35152,
+      "output_tokens": 132,
+      "total_tokens": 35284,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 54604,
+      "output_tokens": 7868,
+      "total_tokens": 62472,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "leading quantum network research groups 2026",
+      "effective_query": "leading quantum network research groups 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "quantum network labs worldwide comparison",
+      "effective_query": "quantum network labs worldwide comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "quantum internet research groups top universities",
+      "effective_query": "quantum internet research groups top universities",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "潘建伟 量子网络 课题组 2026",
+      "effective_query": "潘建伟 量子网络 课题组 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Lukin quantum network group Harvard",
+      "effective_query": "Lukin quantum network group Harvard",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Monroe quantum network lab",
+      "effective_query": "Monroe quantum network lab",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Anton Zeilinger quantum network",
+      "effective_query": "Anton Zeilinger quantum network",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Stephanie Wehner quantum network Delft",
+      "effective_query": "Stephanie Wehner quantum network Delft",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Akira Furusawa quantum network",
+      "effective_query": "Akira Furusawa quantum network",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "quantum network funding sources research groups",
+      "effective_query": "quantum network funding sources research groups",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Takahashi quantum network RIKEN",
+      "effective_query": "Takahashi quantum network RIKEN",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Hanson lab Delft quantum network",
+      "effective_query": "Hanson lab Delft quantum network",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ronald Hanson quantum network publication",
+      "effective_query": "Ronald Hanson quantum network publication",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "David Awschalom quantum network Chicago",
+      "effective_query": "David Awschalom quantum network Chicago",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Saikat Guha quantum network Arizona",
+      "effective_query": "Saikat Guha quantum network Arizona",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Hiroki Takesue NTT quantum network",
+      "effective_query": "Hiroki Takesue NTT quantum network",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "quantum network research group comparison 2025 2026",
+      "effective_query": "quantum network research group comparison 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "top quantum network groups Nature Science 2025 2026",
+      "effective_query": "top quantum network groups Nature Science 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://cqn-erc.arizona.edu/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.02
+        }
+      ],
+      "content_length": 18962,
+      "duration_seconds": 2.021,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.792,
+      "summary_length": 10654,
+      "summary_input_tokens": 6171,
+      "summary_output_tokens": 3723
+    },
+    {
+      "url": "https://qutech.nl/en/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.22
+        }
+      ],
+      "content_length": 13100,
+      "duration_seconds": 8.22,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.05,
+      "summary_length": 2334,
+      "summary_input_tokens": 4194,
+      "summary_output_tokens": 878
+    },
+    {
+      "url": "https://www.quera.com/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.443
+        }
+      ],
+      "content_length": 22458,
+      "duration_seconds": 4.443,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://quantum.ustc.edu.cn/web/en/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.092
+        }
+      ],
+      "content_length": 6792,
+      "duration_seconds": 6.093,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.291,
+      "summary_length": 3856,
+      "summary_input_tokens": 2253,
+      "summary_output_tokens": 1210
+    },
+    {
+      "url": "https://lukin.physics.harvard.edu/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.311
+        }
+      ],
+      "content_length": 1339,
+      "duration_seconds": 2.311,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.86,
+      "summary_length": 2786,
+      "summary_input_tokens": 458,
+      "summary_output_tokens": 720
+    },
+    {
+      "url": "https://www.nsf.gov/science-matters/quantum-networks-new-era-interconnectedness",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.199
+        }
+      ],
+      "content_length": 14627,
+      "duration_seconds": 4.199,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.439,
+      "summary_length": 4303,
+      "summary_input_tokens": 3076,
+      "summary_output_tokens": 1412
+    },
+    {
+      "url": "https://www.aliroquantum.com/blog/quantum-network-research-centers-in-the-us",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.298
+        }
+      ],
+      "content_length": 6062,
+      "duration_seconds": 3.298,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.561,
+      "summary_length": 3442,
+      "summary_input_tokens": 1513,
+      "summary_output_tokens": 930
+    },
+    {
+      "url": "https://quantuminternetalliance.org/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.816
+        }
+      ],
+      "content_length": 11153,
+      "duration_seconds": 2.816,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.214,
+      "summary_length": 2417,
+      "summary_input_tokens": 3131,
+      "summary_output_tokens": 843
+    }
+  ],
+  "source_urls_count": 171,
+  "duration_seconds": 523.1010365812108,
+  "report_length": 17116,
+  "context_length": 255837,
+  "id": 15,
+  "prompt": "收集整理目前世界上关于量子网络的研究，横向比较各课题组的相关工作，从以下几个维度，也可以不局限于这些维度：文章发表期刊或会议的等级，课题组成员和领导者的技术背景或学术头衔，课题组经费来源，课题组横向或纵向项目等维度，并为我评估出最有潜力的可以引领未来量子网络发展的十个课题组",
+  "language": "zh",
+  "topic": "Science & Technology"
+}

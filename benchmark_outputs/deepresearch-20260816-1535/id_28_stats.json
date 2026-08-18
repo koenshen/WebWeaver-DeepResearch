@@ -1,0 +1,555 @@
+{
+  "total_llm_calls": 24,
+  "total_input_tokens": 603672,
+  "total_output_tokens": 49657,
+  "total_tokens": 653329,
+  "total_search_count": 10,
+  "total_search_results": 93,
+  "total_visit_count": 15,
+  "total_visit_success": 15,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 907,
+      "output_tokens": 568,
+      "total_tokens": 1475,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9975,
+      "output_tokens": 313,
+      "total_tokens": 10288,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38266,
+      "output_tokens": 2051,
+      "total_tokens": 40317,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 93781,
+      "output_tokens": 4001,
+      "total_tokens": 97782,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 93781,
+      "output_tokens": 3864,
+      "total_tokens": 97645,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60630,
+      "output_tokens": 2036,
+      "total_tokens": 62666,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4876,
+      "output_tokens": 586,
+      "total_tokens": 5462,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23933,
+      "output_tokens": 4001,
+      "total_tokens": 27934,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23854,
+      "output_tokens": 2412,
+      "total_tokens": 26266,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1518,
+      "output_tokens": 605,
+      "total_tokens": 2123,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38256,
+      "output_tokens": 855,
+      "total_tokens": 39111,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4963,
+      "output_tokens": 942,
+      "total_tokens": 5905,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13597,
+      "output_tokens": 1545,
+      "total_tokens": 15142,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 420,
+      "output_tokens": 2704,
+      "total_tokens": 3124,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16072,
+      "output_tokens": 94,
+      "total_tokens": 16166,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26275,
+      "output_tokens": 280,
+      "total_tokens": 26555,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 354,
+      "output_tokens": 852,
+      "total_tokens": 1206,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20122,
+      "output_tokens": 4001,
+      "total_tokens": 24123,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20122,
+      "output_tokens": 3277,
+      "total_tokens": 23399,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20043,
+      "output_tokens": 1592,
+      "total_tokens": 21635,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20122,
+      "output_tokens": 3693,
+      "total_tokens": 23815,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38270,
+      "output_tokens": 981,
+      "total_tokens": 39251,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5667,
+      "output_tokens": 2852,
+      "total_tokens": 8519,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27868,
+      "output_tokens": 5552,
+      "total_tokens": 33420,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "large language model drug simulation systematic evaluation",
+      "effective_query": "large language model drug simulation systematic evaluation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI drug discovery foundation model 2024 2025",
+      "effective_query": "AI drug discovery foundation model 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LLM drug response prediction personalized medicine",
+      "effective_query": "LLM drug response prediction personalized medicine",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "foundation model for drug development multi-omics",
+      "effective_query": "foundation model for drug development multi-omics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GPT drug effect simulation system pharmacology",
+      "effective_query": "GPT drug effect simulation system pharmacology",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "digital twin drug simulation personalized therapy",
+      "effective_query": "digital twin drug simulation personalized therapy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "LLM pharmacokinetics pharmacodynamics prediction",
+      "effective_query": "LLM pharmacokinetics pharmacodynamics prediction",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Generative AI drug toxicity prediction 2025",
+      "effective_query": "Generative AI drug toxicity prediction 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "single cell foundation model perturbation response prediction",
+      "effective_query": "single cell foundation model perturbation response prediction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI drug effect inter-individual variability",
+      "effective_query": "AI drug effect inter-individual variability",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666389925001941",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.787
+        }
+      ],
+      "content_length": 113048,
+      "duration_seconds": 6.787,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.807,
+      "summary_length": 1333,
+      "summary_input_tokens": 38266,
+      "summary_output_tokens": 2051
+    },
+    {
+      "url": "https://www.nature.com/articles/s41392-026-02631-6",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.574
+        }
+      ],
+      "content_length": 466084,
+      "duration_seconds": 8.576,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.164,
+      "summary_length": 4779,
+      "summary_input_tokens": 93781,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12722026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.523
+        }
+      ],
+      "content_length": 211956,
+      "duration_seconds": 1.524,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.78,
+      "summary_length": 3614,
+      "summary_input_tokens": 60630,
+      "summary_output_tokens": 2036
+    },
+    {
+      "url": "https://mayoclinic.elsevierpure.com/en/publications/drpllm-a-large-language-model-based-framework-for-predicting-drug",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.513
+        }
+      ],
+      "content_length": 17797,
+      "duration_seconds": 4.514,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.071,
+      "summary_length": 2832,
+      "summary_input_tokens": 4876,
+      "summary_output_tokens": 586
+    },
+    {
+      "url": "https://www.nature.com/articles/s41746-024-01024-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.626
+        }
+      ],
+      "content_length": 87662,
+      "duration_seconds": 7.627,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.23,
+      "summary_length": 5408,
+      "summary_input_tokens": 23933,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41167387",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.219
+        }
+      ],
+      "content_length": 4522,
+      "duration_seconds": 6.219,
+      "summary_status": "success",
+      "summary_duration_seconds": 2.422,
+      "summary_length": 2931,
+      "summary_input_tokens": 1518,
+      "summary_output_tokens": 605
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S1359644625002314",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.988
+        }
+      ],
+      "content_length": 112998,
+      "duration_seconds": 10.988,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.406,
+      "summary_length": 1406,
+      "summary_input_tokens": 38256,
+      "summary_output_tokens": 855
+    },
+    {
+      "url": "https://www.biopharmatrend.com/artificial-intelligence/foundation-models-in-biology-198",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.131
+        }
+      ],
+      "content_length": 25788,
+      "duration_seconds": 3.131,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.11,
+      "summary_length": 5361,
+      "summary_input_tokens": 4963,
+      "summary_output_tokens": 942
+    },
+    {
+      "url": "https://codeocean.com/blog/map-of-foundational-models-for-use-in-biotech-and-pharma-rd",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.28
+        }
+      ],
+      "content_length": 57021,
+      "duration_seconds": 6.28,
+      "summary_status": "success",
+      "summary_duration_seconds": 137.163,
+      "summary_length": 8269,
+      "summary_input_tokens": 13597,
+      "summary_output_tokens": 1545
+    },
+    {
+      "url": "https://febs.onlinelibrary.wiley.com/doi/10.1002/2211-5463.70003",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.391
+        }
+      ],
+      "content_length": 535,
+      "duration_seconds": 5.391,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.694,
+      "summary_length": 1922,
+      "summary_input_tokens": 420,
+      "summary_output_tokens": 2704
+    },
+    {
+      "url": "https://arxiv.org/html/2412.13478v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.2
+        }
+      ],
+      "content_length": 245,
+      "duration_seconds": 3.2,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41592-025-02772-6",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.428
+        }
+      ],
+      "content_length": 72086,
+      "duration_seconds": 17.428,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.079,
+      "summary_length": 3532,
+      "summary_input_tokens": 20122,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.nature.com/articles/s41746-026-02626-1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.926
+        }
+      ],
+      "content_length": 142770,
+      "duration_seconds": 4.927,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352304226003740",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.756
+        }
+      ],
+      "content_length": 113048,
+      "duration_seconds": 8.756,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.514,
+      "summary_length": 1231,
+      "summary_input_tokens": 38270,
+      "summary_output_tokens": 981
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17460441.2025.2507376",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.04
+        }
+      ],
+      "content_length": 26268,
+      "duration_seconds": 10.04,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.39,
+      "summary_length": 5161,
+      "summary_input_tokens": 5667,
+      "summary_output_tokens": 2852
+    }
+  ],
+  "source_urls_count": 92,
+  "duration_seconds": 1538.436544565484,
+  "report_length": 12470,
+  "context_length": 155979,
+  "id": 28,
+  "prompt": "传统的药物研究，即便是从多组学角度出发也难以系统地，宏观地解析药物对机体产生的影响。而且个人异质性会造成其他的影响，因之，请为我调研现阶段大模型是否能模拟药物产生影响来系统性评估药物，这个方向未来会如何发展呢",
+  "language": "zh",
+  "topic": "Health"
+}

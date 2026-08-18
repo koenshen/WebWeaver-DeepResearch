@@ -1,0 +1,594 @@
+{
+  "total_llm_calls": 25,
+  "total_input_tokens": 624267,
+  "total_output_tokens": 52674,
+  "total_tokens": 676941,
+  "total_search_count": 19,
+  "total_search_results": 174,
+  "total_visit_count": 14,
+  "total_visit_success": 14,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 851,
+      "output_tokens": 293,
+      "total_tokens": 1144,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12695,
+      "output_tokens": 234,
+      "total_tokens": 12929,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19023,
+      "output_tokens": 3321,
+      "total_tokens": 22344,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11871,
+      "output_tokens": 472,
+      "total_tokens": 12343,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30842,
+      "output_tokens": 4001,
+      "total_tokens": 34843,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30842,
+      "output_tokens": 1222,
+      "total_tokens": 32064,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30842,
+      "output_tokens": 2263,
+      "total_tokens": 33105,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15612,
+      "output_tokens": 125,
+      "total_tokens": 15737,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36224,
+      "output_tokens": 2348,
+      "total_tokens": 38572,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4960,
+      "output_tokens": 2578,
+      "total_tokens": 7538,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 68750,
+      "output_tokens": 2654,
+      "total_tokens": 71404,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16927,
+      "output_tokens": 164,
+      "total_tokens": 17091,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33305,
+      "output_tokens": 908,
+      "total_tokens": 34213,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46932,
+      "output_tokens": 1633,
+      "total_tokens": 48565,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 55966,
+      "output_tokens": 1635,
+      "total_tokens": 57601,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18008,
+      "output_tokens": 809,
+      "total_tokens": 18817,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22977,
+      "output_tokens": 2300,
+      "total_tokens": 25277,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8188,
+      "output_tokens": 599,
+      "total_tokens": 8787,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57086,
+      "output_tokens": 7799,
+      "total_tokens": 64885,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6161,
+      "output_tokens": 3201,
+      "total_tokens": 9362,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5531,
+      "output_tokens": 909,
+      "total_tokens": 6440,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6516,
+      "output_tokens": 520,
+      "total_tokens": 7036,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11953,
+      "output_tokens": 1928,
+      "total_tokens": 13881,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12618,
+      "output_tokens": 2088,
+      "total_tokens": 14706,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 59587,
+      "output_tokens": 8670,
+      "total_tokens": 68257,
+      "message_count": 18
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "best protein powders 2026 ranked",
+      "effective_query": "best protein powders 2026 ranked",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "top protein powders 2026 third party certified",
+      "effective_query": "top protein powders 2026 third party certified",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "protein powder cost per serving 2026",
+      "effective_query": "protein powder cost per serving 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "whey protein powder third party testing NSF Informed Choice USP 2026",
+      "effective_query": "whey protein powder third party testing NSF Informed Choice USP 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Transparent Labs 100% Grass-Fed Whey Protein Isolate cost per serving protein grams 2026",
+      "effective_query": "Transparent Labs 100% Grass-Fed Whey Protein Isolate cost per serving protein grams 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Momentous Whey Protein Isolate NSF Certified for Sport protein grams cost per serving 2026",
+      "effective_query": "Momentous Whey Protein Isolate NSF Certified for Sport protein grams cost per serving 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Optimum Nutrition Gold Standard Whey protein per serving cost Informed Choice 2026",
+      "effective_query": "Optimum Nutrition Gold Standard Whey protein per serving cost Informed Choice 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "NOW Sports Whey Protein Isolate Informed Sport protein grams cost per serving 2026",
+      "effective_query": "NOW Sports Whey Protein Isolate Informed Sport protein grams cost per serving 2026",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Klean Athlete Klean Isolate NSF Certified for Sport protein grams cost per serving 2026",
+      "effective_query": "Klean Athlete Klean Isolate NSF Certified for Sport protein grams cost per serving 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Nutricost Grass-Fed Whey Protein Concentrate protein grams cost per serving Informed Choice",
+      "effective_query": "Nutricost Grass-Fed Whey Protein Concentrate protein grams cost per serving Informed Choice",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Dymatize ISO100 protein grams per serving cost Informed Choice 2026",
+      "effective_query": "Dymatize ISO100 protein grams per serving cost Informed Choice 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ritual Essential Protein Daily Shake Informed Sport protein grams cost 2026",
+      "effective_query": "Ritual Essential Protein Daily Shake Informed Sport protein grams cost 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "MyProtein Impact Whey Isolate Informed Choice protein grams cost per serving 2026",
+      "effective_query": "MyProtein Impact Whey Isolate Informed Choice protein grams cost per serving 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Premier Protein powder protein per serving cost third party testing 2026",
+      "effective_query": "Premier Protein powder protein per serving cost third party testing 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Legion Whey+ protein grams per serving cost third party testing 2026",
+      "effective_query": "Legion Whey+ protein grams per serving cost third party testing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Garden of Life SPORT protein powder NSF Certified for Sport grams protein cost per serving 2026",
+      "effective_query": "Garden of Life SPORT protein powder NSF Certified for Sport grams protein cost per serving 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Huel Black Edition third party testing certification NSF Informed Choice 2026",
+      "effective_query": "Huel Black Edition third party testing certification NSF Informed Choice 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Mindbodygreen Grass-Fed Whey Protein Isolate third party testing certification 2026",
+      "effective_query": "Mindbodygreen Grass-Fed Whey Protein Isolate third party testing certification 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Orgain Organic Protein third party testing NSF Informed Choice 2026",
+      "effective_query": "Orgain Organic Protein third party testing NSF Informed Choice 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://fortune.com/article/best-protein-powders",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.661
+        }
+      ],
+      "content_length": 72301,
+      "duration_seconds": 7.661,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.129,
+      "summary_length": 5274,
+      "summary_input_tokens": 19023,
+      "summary_output_tokens": 3321
+    },
+    {
+      "url": "https://www.garagegymreviews.com/best-protein-powder",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.876
+        }
+      ],
+      "content_length": 38217,
+      "duration_seconds": 0.877,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.608,
+      "summary_length": 1465,
+      "summary_input_tokens": 11871,
+      "summary_output_tokens": 472
+    },
+    {
+      "url": "https://www.healthline.com/health/best-protein-powder",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.861
+        }
+      ],
+      "content_length": 96334,
+      "duration_seconds": 9.862,
+      "summary_status": "success",
+      "summary_duration_seconds": 38.13,
+      "summary_length": 4370,
+      "summary_input_tokens": 30842,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.forbes.com/health/supplements/best-protein-powders",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.228
+        }
+      ],
+      "content_length": 86220,
+      "duration_seconds": 5.228,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.887,
+      "summary_length": 4431,
+      "summary_input_tokens": 36224,
+      "summary_output_tokens": 2348
+    },
+    {
+      "url": "https://www.livemomentous.com/blogs/health-and-science/best-nsf-certified-protein-powder",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.754
+        }
+      ],
+      "content_length": 21947,
+      "duration_seconds": 10.754,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.wired.com/gallery/best-protein-powders",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.752
+        }
+      ],
+      "content_length": 148467,
+      "duration_seconds": 12.752,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.livemomentous.com/products/essential-whey-protein",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 14.847
+        }
+      ],
+      "content_length": 62136,
+      "duration_seconds": 14.848,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.125,
+      "summary_length": 1513,
+      "summary_input_tokens": 18008,
+      "summary_output_tokens": 809
+    },
+    {
+      "url": "https://www.transparentlabs.com/products/whey-protein-isolate",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.516
+        }
+      ],
+      "content_length": 75347,
+      "duration_seconds": 12.517,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.084,
+      "summary_length": 2189,
+      "summary_input_tokens": 22977,
+      "summary_output_tokens": 2300
+    },
+    {
+      "url": "https://www.optimumnutrition.com/en-us/products/gold-standard-100-whey",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.94
+        }
+      ],
+      "content_length": 27355,
+      "duration_seconds": 5.941,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.053,
+      "summary_length": 1059,
+      "summary_input_tokens": 8188,
+      "summary_output_tokens": 599
+    },
+    {
+      "url": "https://barbend.com/now-sports-whey-protein-isolate-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.176
+        }
+      ],
+      "content_length": 25693,
+      "duration_seconds": 4.176,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.186,
+      "summary_length": 3691,
+      "summary_input_tokens": 6161,
+      "summary_output_tokens": 3201
+    },
+    {
+      "url": "https://barbend.com/dymatize-iso-100-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.256
+        }
+      ],
+      "content_length": 22227,
+      "duration_seconds": 8.256,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.391,
+      "summary_length": 2298,
+      "summary_input_tokens": 5531,
+      "summary_output_tokens": 909
+    },
+    {
+      "url": "https://barbend.com/transparent-labs-grass-fed-whey-isolate-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.749
+        }
+      ],
+      "content_length": 26398,
+      "duration_seconds": 3.749,
+      "summary_status": "success",
+      "summary_duration_seconds": 2.596,
+      "summary_length": 2351,
+      "summary_input_tokens": 6516,
+      "summary_output_tokens": 520
+    },
+    {
+      "url": "https://www.garagegymreviews.com/best-whey-protein",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.843
+        }
+      ],
+      "content_length": 38211,
+      "duration_seconds": 0.843,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.515,
+      "summary_length": 1935,
+      "summary_input_tokens": 11953,
+      "summary_output_tokens": 1928
+    },
+    {
+      "url": "https://www.garagegymreviews.com/nutricost-whey-protein-concentrate-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.004
+        }
+      ],
+      "content_length": 39499,
+      "duration_seconds": 3.005,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.191,
+      "summary_length": 1702,
+      "summary_input_tokens": 12618,
+      "summary_output_tokens": 2088
+    }
+  ],
+  "source_urls_count": 150,
+  "duration_seconds": 1674.2806653697044,
+  "report_length": 20204,
+  "context_length": 258504,
+  "qid": "rankliDwyJ6ePJgm8znsQh",
+  "query": "What are the top 12 protein powders for 2026, ranked based on protein content per serving (grams), third-party testing certifications (limited to recognized organizations such as NSF, Informed Choice, or USP), and cost per serving, with all three criteria given equal importance? In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking."
+}

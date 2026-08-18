@@ -1,0 +1,586 @@
+{
+  "total_llm_calls": 24,
+  "total_input_tokens": 244668,
+  "total_output_tokens": 61337,
+  "total_tokens": 306005,
+  "total_search_count": 14,
+  "total_search_results": 131,
+  "total_visit_count": 15,
+  "total_visit_success": 15,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 796,
+      "output_tokens": 205,
+      "total_tokens": 1001,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14382,
+      "output_tokens": 269,
+      "total_tokens": 14651,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11654,
+      "output_tokens": 4001,
+      "total_tokens": 15655,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11654,
+      "output_tokens": 4001,
+      "total_tokens": 15655,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8118,
+      "output_tokens": 3835,
+      "total_tokens": 11953,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3387,
+      "output_tokens": 3735,
+      "total_tokens": 7122,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1705,
+      "output_tokens": 1724,
+      "total_tokens": 3429,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1672,
+      "output_tokens": 4001,
+      "total_tokens": 5673,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10974,
+      "output_tokens": 1223,
+      "total_tokens": 12197,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10974,
+      "output_tokens": 1680,
+      "total_tokens": 12654,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8288,
+      "output_tokens": 3548,
+      "total_tokens": 11836,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17009,
+      "output_tokens": 175,
+      "total_tokens": 17184,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2350,
+      "output_tokens": 3158,
+      "total_tokens": 5508,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38242,
+      "output_tokens": 655,
+      "total_tokens": 38897,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1341,
+      "output_tokens": 3385,
+      "total_tokens": 4726,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1341,
+      "output_tokens": 4001,
+      "total_tokens": 5342,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3260,
+      "output_tokens": 4001,
+      "total_tokens": 7261,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3260,
+      "output_tokens": 4001,
+      "total_tokens": 7261,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2475,
+      "output_tokens": 4001,
+      "total_tokens": 6476,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18213,
+      "output_tokens": 109,
+      "total_tokens": 18322,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34637,
+      "output_tokens": 184,
+      "total_tokens": 34821,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1427,
+      "output_tokens": 1073,
+      "total_tokens": 2500,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2437,
+      "output_tokens": 1257,
+      "total_tokens": 3694,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35072,
+      "output_tokens": 7115,
+      "total_tokens": 42187,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "cloud-based train control systems urban rail transit recent developments",
+      "effective_query": "cloud-based train control systems urban rail transit recent developments",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "cloud signaling CBTC urban rail transit 2024 2025",
+      "effective_query": "cloud signaling CBTC urban rail transit 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cloud-based train control system key technologies",
+      "effective_query": "cloud-based train control system key technologies",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cloud train control urban rail transit architecture",
+      "effective_query": "cloud train control urban rail transit architecture",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cloud-based railway signaling systems recent advances",
+      "effective_query": "cloud-based railway signaling systems recent advances",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cloud-based train control system China Europe",
+      "effective_query": "cloud-based train control system China Europe",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "future of cloud-based train control urban rail transit",
+      "effective_query": "future of cloud-based train control urban rail transit",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "software-defined train control SDTC cloud architecture railway",
+      "effective_query": "software-defined train control SDTC cloud architecture railway",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cloud-based interlocking signaling system railway",
+      "effective_query": "cloud-based interlocking signaling system railway",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FRMCS 5G train control cloud",
+      "effective_query": "FRMCS 5G train control cloud",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "digital twin train control cloud AI predictive maintenance",
+      "effective_query": "digital twin train control cloud AI predictive maintenance",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CBTC cloud computing edge computing 2025",
+      "effective_query": "CBTC cloud computing edge computing 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Alstom cloud-based train control system",
+      "effective_query": "Alstom cloud-based train control system",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Thales cloud train control urban rail",
+      "effective_query": "Thales cloud train control urban rail",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s40864-022-00165-y",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.54
+        }
+      ],
+      "content_length": 44407,
+      "duration_seconds": 6.54,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.116,
+      "summary_length": 1238,
+      "summary_input_tokens": 11654,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.railway-technology.com/news/hitachi-rail-urban-rail-signalling-canada",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.599
+        }
+      ],
+      "content_length": 30135,
+      "duration_seconds": 5.6,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.586,
+      "summary_length": 3231,
+      "summary_input_tokens": 8118,
+      "summary_output_tokens": 3835
+    },
+    {
+      "url": "https://www.mobility.siemens.com/global/en/portfolio/digital-solutions-software/infrastructure/signaling-x/train2cloud.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.083
+        }
+      ],
+      "content_length": 11293,
+      "duration_seconds": 9.083,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.windriver.com/resource/rail-transportation-use-case",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.249
+        }
+      ],
+      "content_length": 8402,
+      "duration_seconds": 7.249,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.hatch.com/About-Us/Publications/Blogs/2025/07/Next-generation-in-advanced-train-control-A-smart-response-to-urban-growth",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 25.635
+        }
+      ],
+      "content_length": 7188,
+      "duration_seconds": 25.635,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://globalrailwayreview.com/all-intelligence-first-rail-is-shaping-the-future-of-the-industry/383031.article",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.852
+        }
+      ],
+      "content_length": 40971,
+      "duration_seconds": 5.852,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.railwaypro.com/wp/europe-the-largest-market-for-digital-train-control-and-signalling",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.297
+        }
+      ],
+      "content_length": 28566,
+      "duration_seconds": 11.297,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.709,
+      "summary_length": 4372,
+      "summary_input_tokens": 8288,
+      "summary_output_tokens": 3548
+    },
+    {
+      "url": "https://umt1998.tongji.edu.cn/en/article/doi/10.16037/j.1007-869x.20241491",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.252
+        }
+      ],
+      "content_length": 6575,
+      "duration_seconds": 12.252,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.758,
+      "summary_length": 3414,
+      "summary_input_tokens": 2350,
+      "summary_output_tokens": 3158
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2590198225000880",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.583
+        }
+      ],
+      "content_length": 113000,
+      "duration_seconds": 6.583,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.418,
+      "summary_length": 978,
+      "summary_input_tokens": 38242,
+      "summary_output_tokens": 655
+    },
+    {
+      "url": "https://www.ecloudedge.com/en/railway-management",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.712
+        }
+      ],
+      "content_length": 5462,
+      "duration_seconds": 5.712,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.pacificblueengineering.com/cbtc-systems-transit-control-complete-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.348
+        }
+      ],
+      "content_length": 16410,
+      "duration_seconds": 8.348,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.psa.inc/company/news/train-control-system-combining-conventional-and-digital-technologies",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.719
+        }
+      ],
+      "content_length": 11227,
+      "duration_seconds": 4.719,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.718,
+      "summary_length": 2977,
+      "summary_input_tokens": 2475,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.mobility.siemens.com/global/en/portfolio/digital-solutions-software/infrastructure/signaling-x/ds3.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.139
+        }
+      ],
+      "content_length": 10982,
+      "duration_seconds": 1.139,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://press.siemens.com/global/en/pressrelease/first-signalling-cloud-operation",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.456
+        }
+      ],
+      "content_length": 6044,
+      "duration_seconds": 0.457,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nokia.com/industries/railways/frmcs",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.218
+        }
+      ],
+      "content_length": 10902,
+      "duration_seconds": 7.219,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 112,
+  "duration_seconds": 1651.0912906117737,
+  "report_length": 28869,
+  "context_length": 205411,
+  "id": 94,
+  "prompt": "Could you provide information on recent developments in cloud-based train control systems for urban rail transit? I'm also interested in understanding the key technologies involved.",
+  "language": "en",
+  "topic": "Transportation"
+}

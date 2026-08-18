@@ -1,0 +1,558 @@
+{
+  "total_llm_calls": 23,
+  "total_input_tokens": 806990,
+  "total_output_tokens": 50348,
+  "total_tokens": 857338,
+  "total_search_count": 15,
+  "total_search_results": 142,
+  "total_visit_count": 14,
+  "total_visit_success": 14,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 860,
+      "output_tokens": 324,
+      "total_tokens": 1184,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12963,
+      "output_tokens": 191,
+      "total_tokens": 13154,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29745,
+      "output_tokens": 2374,
+      "total_tokens": 32119,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 89870,
+      "output_tokens": 4001,
+      "total_tokens": 93871,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 89870,
+      "output_tokens": 4001,
+      "total_tokens": 93871,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 89791,
+      "output_tokens": 1343,
+      "total_tokens": 91134,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37132,
+      "output_tokens": 3503,
+      "total_tokens": 40635,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 94086,
+      "output_tokens": 4001,
+      "total_tokens": 98087,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16409,
+      "output_tokens": 1982,
+      "total_tokens": 18391,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18600,
+      "output_tokens": 97,
+      "total_tokens": 18697,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29824,
+      "output_tokens": 145,
+      "total_tokens": 29969,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45916,
+      "output_tokens": 3501,
+      "total_tokens": 49417,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22812,
+      "output_tokens": 1449,
+      "total_tokens": 24261,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12533,
+      "output_tokens": 1905,
+      "total_tokens": 14438,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5815,
+      "output_tokens": 916,
+      "total_tokens": 6731,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35319,
+      "output_tokens": 114,
+      "total_tokens": 35433,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44881,
+      "output_tokens": 264,
+      "total_tokens": 45145,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39042,
+      "output_tokens": 1770,
+      "total_tokens": 40812,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15810,
+      "output_tokens": 4001,
+      "total_tokens": 19811,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26707,
+      "output_tokens": 3471,
+      "total_tokens": 30178,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 327,
+      "output_tokens": 265,
+      "total_tokens": 592,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 777,
+      "output_tokens": 2353,
+      "total_tokens": 3130,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47901,
+      "output_tokens": 8377,
+      "total_tokens": 56278,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "machine learning materials composition optimization high entropy alloys 2024 2025",
+      "effective_query": "machine learning materials composition optimization high entropy alloys 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "deep learning alloy design element ratio optimization research groups",
+      "effective_query": "deep learning alloy design element ratio optimization research groups",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "materials database for machine learning alloy composition prediction",
+      "effective_query": "materials database for machine learning alloy composition prediction",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "machine learning model accuracy prediction alloy properties",
+      "effective_query": "machine learning model accuracy prediction alloy properties",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "challenges machine learning materials composition optimization industrial application",
+      "effective_query": "challenges machine learning materials composition optimization industrial application",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "machine learning alloy design research group 2024 2025 University",
+      "effective_query": "machine learning alloy design research group 2024 2025 University",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "high entropy alloy database machine learning open source",
+      "effective_query": "high entropy alloy database machine learning open source",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "deep learning composition optimization active learning Bayesian optimization",
+      "effective_query": "deep learning composition optimization active learning Bayesian optimization",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "machine learning materials informatics industrial application scale up",
+      "effective_query": "machine learning materials informatics industrial application scale up",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "alloy design machine learning transfer learning small data",
+      "effective_query": "alloy design machine learning transfer learning small data",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "machine learning alloy design City University Hong Kong Yang Tao",
+      "effective_query": "machine learning alloy design City University Hong Kong Yang Tao",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "materials informatics alloy optimization group MIT Stanford",
+      "effective_query": "materials informatics alloy optimization group MIT Stanford",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "strong and ductile high entropy alloy machine learning 2024 2025",
+      "effective_query": "strong and ductile high entropy alloy machine learning 2024 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "physics-informed machine learning alloy design CALPHAD",
+      "effective_query": "physics-informed machine learning alloy design CALPHAD",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "generative design alloy composition variational autoencoder",
+      "effective_query": "generative design alloy composition variational autoencoder",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.nature.com/articles/s41529-025-00709-0",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.079
+        }
+      ],
+      "content_length": 107483,
+      "duration_seconds": 7.08,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.494,
+      "summary_length": 9939,
+      "summary_input_tokens": 29745,
+      "summary_output_tokens": 2374
+    },
+    {
+      "url": "https://www.mdpi.com/2075-4701/15/12/1349",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.02
+        }
+      ],
+      "content_length": 319023,
+      "duration_seconds": 9.021,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.309,
+      "summary_length": 14826,
+      "summary_input_tokens": 89870,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.mdpi.com/2674-063X/5/1/7",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.532
+        }
+      ],
+      "content_length": 135022,
+      "duration_seconds": 4.533,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.64,
+      "summary_length": 10615,
+      "summary_input_tokens": 37132,
+      "summary_output_tokens": 3503
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s44210-025-00055-5",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.559
+        }
+      ],
+      "content_length": 711683,
+      "duration_seconds": 10.56,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-026-48887-4",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.796
+        }
+      ],
+      "content_length": 73642,
+      "duration_seconds": 17.797,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.294,
+      "summary_length": 6587,
+      "summary_input_tokens": 16409,
+      "summary_output_tokens": 1982
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11675871/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.231
+        }
+      ],
+      "content_length": 146673,
+      "duration_seconds": 1.232,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-024-59100-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.706
+        }
+      ],
+      "content_length": 79948,
+      "duration_seconds": 17.706,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.593,
+      "summary_length": 3954,
+      "summary_input_tokens": 22812,
+      "summary_output_tokens": 1449
+    },
+    {
+      "url": "https://www.nature.com/articles/s41524-023-00979-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.927
+        }
+      ],
+      "content_length": 48056,
+      "duration_seconds": 8.928,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.111,
+      "summary_length": 7158,
+      "summary_input_tokens": 12533,
+      "summary_output_tokens": 1905
+    },
+    {
+      "url": "https://iric.imet-db.ru/PDF/174.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.186
+        }
+      ],
+      "content_length": 25082,
+      "duration_seconds": 8.187,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.933,
+      "summary_length": 4057,
+      "summary_input_tokens": 5815,
+      "summary_output_tokens": 916
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-09160-2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.425
+        }
+      ],
+      "content_length": 124666,
+      "duration_seconds": 4.426,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.617,
+      "summary_length": 7069,
+      "summary_input_tokens": 39042,
+      "summary_output_tokens": 1770
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s44210-024-00049-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.15
+        }
+      ],
+      "content_length": 62560,
+      "duration_seconds": 6.15,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.399,
+      "summary_length": 13099,
+      "summary_input_tokens": 15810,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.nature.com/articles/s41524-025-01578-6",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.634
+        }
+      ],
+      "content_length": 90728,
+      "duration_seconds": 8.634,
+      "summary_status": "success",
+      "summary_duration_seconds": 42.354,
+      "summary_length": 3814,
+      "summary_input_tokens": 26707,
+      "summary_output_tokens": 3471
+    },
+    {
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202520478",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.034
+        }
+      ],
+      "content_length": 550,
+      "duration_seconds": 6.034,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.74,
+      "summary_length": 771,
+      "summary_input_tokens": 327,
+      "summary_output_tokens": 265
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.02281",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.99
+        }
+      ],
+      "content_length": 2370,
+      "duration_seconds": 1.99,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.656,
+      "summary_length": 3563,
+      "summary_input_tokens": 777,
+      "summary_output_tokens": 2353
+    }
+  ],
+  "source_urls_count": 119,
+  "duration_seconds": 1031.1670427778736,
+  "report_length": 20691,
+  "context_length": 248114,
+  "id": 8,
+  "prompt": "能否给我提供一份详尽的报告，分析机器学习或者深度学习在优化材料元素组合配比以实现最佳的材料性能方面的研究进展和模型应用现状。请包括活跃的研究课题组，该课题组具体研究方向，已发表的相关论文，使用的数据库分析，模型准确度评估，面临的挑战以及对应的模型可行性分析。最后，请详细分析基于现有的研究现状，评估此领域距离实现理想模型的大规模应用和产业化还有多远",
+  "language": "zh",
+  "topic": "Science & Technology"
+}

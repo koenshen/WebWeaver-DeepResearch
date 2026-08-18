@@ -1,0 +1,283 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 101280,
+  "total_output_tokens": 29013,
+  "total_tokens": 130293,
+  "total_search_count": 14,
+  "total_search_results": 132,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 873,
+      "output_tokens": 6480,
+      "total_tokens": 7353,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7722,
+      "output_tokens": 224,
+      "total_tokens": 7946,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3223,
+      "output_tokens": 3861,
+      "total_tokens": 7084,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3223,
+      "output_tokens": 4001,
+      "total_tokens": 7224,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16356,
+      "output_tokens": 4001,
+      "total_tokens": 20357,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 337,
+      "output_tokens": 2130,
+      "total_tokens": 2467,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5746,
+      "output_tokens": 1809,
+      "total_tokens": 7555,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8551,
+      "output_tokens": 116,
+      "total_tokens": 8667,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21354,
+      "output_tokens": 152,
+      "total_tokens": 21506,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33895,
+      "output_tokens": 6239,
+      "total_tokens": 40134,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AI fashion homogenization trend 2025 2026",
+      "effective_query": "AI fashion homogenization trend 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "copyright independent designers AI algorithms fashion 2025 lawsuit",
+      "effective_query": "copyright independent designers AI algorithms fashion 2025 lawsuit",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "solutions AI copyright fashion licensing opt out provenance",
+      "effective_query": "solutions AI copyright fashion licensing opt out provenance",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI fashion homogeneous designs algorithmic bias trend forecast",
+      "effective_query": "AI fashion homogeneous designs algorithmic bias trend forecast",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shein algorithm copyright independent designers lawsuit 2025 2026",
+      "effective_query": "Shein algorithm copyright independent designers lawsuit 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "US Copyright Office AI fashion copyrightability 2025",
+      "effective_query": "US Copyright Office AI fashion copyrightability 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "provenance watermarking AI fashion design opt-in licensing",
+      "effective_query": "provenance watermarking AI fashion design opt-in licensing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Generative AI Copyright Disclosure Act fashion",
+      "effective_query": "Generative AI Copyright Disclosure Act fashion",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "EU AI Act Article 53 fashion training data opt-out",
+      "effective_query": "EU AI Act Article 53 fashion training data opt-out",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "McKinsey AI fashion creativity homogenization 2025",
+      "effective_query": "McKinsey AI fashion creativity homogenization 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "fashion design AI copyright Thaler Perlmutter 2025",
+      "effective_query": "fashion design AI copyright Thaler Perlmutter 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Content Authenticity Initiative C2PA fashion design provenance",
+      "effective_query": "Content Authenticity Initiative C2PA fashion design provenance",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UK AI copyright consultation opt-out 2025",
+      "effective_query": "UK AI copyright consultation opt-out 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "fashion AI training data licensing collective rights management",
+      "effective_query": "fashion AI training data licensing collective rights management",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://fashioninsta.ai/blog/ai-fashion-homogenization-why-designs-look-identical-break-free",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.065
+        }
+      ],
+      "content_length": 15304,
+      "duration_seconds": 1.065,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.thefashionverdict.com/post/whose-design-is-it-anyway-ai-fashion-and-the-great-creative-heist",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.74
+        }
+      ],
+      "content_length": 11647,
+      "duration_seconds": 8.741,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.americanbar.org/groups/intellectual_property_law/resources/landslide/2026-winter/how-will-ai-impact-fashion-industrys-public-domain",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.106
+        }
+      ],
+      "content_length": 61391,
+      "duration_seconds": 11.106,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://fashionista.com/2026/03/anti-ai-fashion-trend-human-craft",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.185
+        }
+      ],
+      "content_length": 310,
+      "duration_seconds": 6.185,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.251,
+      "summary_length": 1278,
+      "summary_input_tokens": 337,
+      "summary_output_tokens": 2130
+    },
+    {
+      "url": "https://researchonline.gcu.ac.uk/ws/portalfiles/portal/101518055/101356042.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.502
+        }
+      ],
+      "content_length": 29170,
+      "duration_seconds": 3.502,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 123,
+  "duration_seconds": 782.8250113241374,
+  "report_length": 25340,
+  "context_length": 184891,
+  "id": 87,
+  "prompt": "Are AI fashion design tools leading to creative homogenization in the industry? How can the copyright disputes between independent designers and algorithms be resolved?",
+  "language": "en",
+  "topic": "Art & Design"
+}

@@ -1,0 +1,664 @@
+{
+  "total_llm_calls": 29,
+  "total_input_tokens": 303598,
+  "total_output_tokens": 47980,
+  "total_tokens": 351578,
+  "total_search_count": 15,
+  "total_search_results": 137,
+  "total_visit_count": 17,
+  "total_visit_success": 17,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 808,
+      "output_tokens": 252,
+      "total_tokens": 1060,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16049,
+      "output_tokens": 1273,
+      "total_tokens": 17322,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 841,
+      "output_tokens": 855,
+      "total_tokens": 1696,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 802,
+      "output_tokens": 662,
+      "total_tokens": 1464,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 652,
+      "output_tokens": 872,
+      "total_tokens": 1524,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3646,
+      "output_tokens": 1095,
+      "total_tokens": 4741,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 239,
+      "output_tokens": 288,
+      "total_tokens": 527,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2378,
+      "output_tokens": 994,
+      "total_tokens": 3372,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2378,
+      "output_tokens": 612,
+      "total_tokens": 2990,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2457,
+      "output_tokens": 4001,
+      "total_tokens": 6458,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18465,
+      "output_tokens": 208,
+      "total_tokens": 18673,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32659,
+      "output_tokens": 500,
+      "total_tokens": 33159,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2198,
+      "output_tokens": 2791,
+      "total_tokens": 4989,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7208,
+      "output_tokens": 780,
+      "total_tokens": 7988,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2764,
+      "output_tokens": 1872,
+      "total_tokens": 4636,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7304,
+      "output_tokens": 1219,
+      "total_tokens": 8523,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1332,
+      "output_tokens": 637,
+      "total_tokens": 1969,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1332,
+      "output_tokens": 622,
+      "total_tokens": 1954,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34913,
+      "output_tokens": 179,
+      "total_tokens": 35092,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 776,
+      "output_tokens": 1234,
+      "total_tokens": 2010,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 317,
+      "output_tokens": 3455,
+      "total_tokens": 3772,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5663,
+      "output_tokens": 2555,
+      "total_tokens": 8218,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16624,
+      "output_tokens": 4001,
+      "total_tokens": 20625,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16624,
+      "output_tokens": 4001,
+      "total_tokens": 20625,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16545,
+      "output_tokens": 991,
+      "total_tokens": 17536,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16624,
+      "output_tokens": 4001,
+      "total_tokens": 20625,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2009,
+      "output_tokens": 1495,
+      "total_tokens": 3504,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39820,
+      "output_tokens": 108,
+      "total_tokens": 39928,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50171,
+      "output_tokens": 6427,
+      "total_tokens": 56598,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Obsidian plugins multi-view database Notion alternative",
+      "effective_query": "Obsidian plugins multi-view database Notion alternative",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Obsidian kanban calendar table list view database plugin",
+      "effective_query": "Obsidian kanban calendar table list view database plugin",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Obsidian Projects plugin vs Dataview vs Kanban",
+      "effective_query": "Obsidian Projects plugin vs Dataview vs Kanban",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Obsidian DB Folder plugin review",
+      "effective_query": "Obsidian DB Folder plugin review",
+      "retriever": "tavily",
+      "num_results": 5
+    },
+    {
+      "query": "Obsidian Make.md database features",
+      "effective_query": "Obsidian Make.md database features",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Obsidian Full Calendar plugin",
+      "effective_query": "Obsidian Full Calendar plugin",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Power Bases Obsidian plugin features views",
+      "effective_query": "Power Bases Obsidian plugin features views",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DataLoom Obsidian plugin Notion database",
+      "effective_query": "DataLoom Obsidian plugin Notion database",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Obsidian Kanban plugin features views",
+      "effective_query": "Obsidian Kanban plugin features views",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Dataview Obsidian plugin database views comparison",
+      "effective_query": "Dataview Obsidian plugin database views comparison",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Obsidian Bases vs Dataview vs Make.md comparison 2026",
+      "effective_query": "Obsidian Bases vs Dataview vs Make.md comparison 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Obsidian Project Manager plugin Gantt Kanban Table views",
+      "effective_query": "Obsidian Project Manager plugin Gantt Kanban Table views",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Power Bases Obsidian plugin views calendar kanban",
+      "effective_query": "Power Bases Obsidian plugin views calendar kanban",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Kanban Action Planner Obsidian Bases view",
+      "effective_query": "Kanban Action Planner Obsidian Bases view",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Obsidian Dataview vs Make.md vs Bases reddit comparison 2026",
+      "effective_query": "Obsidian Dataview vs Make.md vs Bases reddit comparison 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://obsidian.md/help/bases",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.552
+        }
+      ],
+      "content_length": 2479,
+      "duration_seconds": 0.552,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.566,
+      "summary_length": 2594,
+      "summary_input_tokens": 841,
+      "summary_output_tokens": 855
+    },
+    {
+      "url": "https://rafaelgb.github.io/obsidian-db-folder",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.898
+        }
+      ],
+      "content_length": 2275,
+      "duration_seconds": 0.898,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.866,
+      "summary_length": 1904,
+      "summary_input_tokens": 802,
+      "summary_output_tokens": 662
+    },
+    {
+      "url": "https://www.make.md/docs/Getting%20Started",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.872
+        }
+      ],
+      "content_length": 1894,
+      "duration_seconds": 0.872,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.725,
+      "summary_length": 2662,
+      "summary_input_tokens": 652,
+      "summary_output_tokens": 872
+    },
+    {
+      "url": "https://github.com/marcusolsson/obsidian-projects",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.135
+        }
+      ],
+      "content_length": 10961,
+      "duration_seconds": 5.135,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.064,
+      "summary_length": 2797,
+      "summary_input_tokens": 3646,
+      "summary_output_tokens": 1095
+    },
+    {
+      "url": "https://obsidianstats.com/plugins/power-bases",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.153
+        }
+      ],
+      "content_length": 171,
+      "duration_seconds": 4.153,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.943,
+      "summary_length": 727,
+      "summary_input_tokens": 239,
+      "summary_output_tokens": 288
+    },
+    {
+      "url": "https://forum.obsidian.md/t/full-calendar-remastered-the-local-first-foss-calendar-hub-caldav-google-calendar-sync-tasks-backlog-activity-tracking/114322",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 15.96
+        }
+      ],
+      "content_length": 8511,
+      "duration_seconds": 15.96,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://github.com/decaf-dev/obsidian-dataloom",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.128
+        }
+      ],
+      "content_length": 6127,
+      "duration_seconds": 4.129,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.621,
+      "summary_length": 3174,
+      "summary_input_tokens": 2198,
+      "summary_output_tokens": 2791
+    },
+    {
+      "url": "https://github.com/mgmeyers/obsidian-kanban",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.815
+        }
+      ],
+      "content_length": 23396,
+      "duration_seconds": 5.815,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://github.com/blacksmithgu/obsidian-dataview",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.226
+        }
+      ],
+      "content_length": 9524,
+      "duration_seconds": 6.226,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://github.com/ewerx/obsidian-bases-kanban",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.008
+        }
+      ],
+      "content_length": 24925,
+      "duration_seconds": 5.008,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.447,
+      "summary_length": 4994,
+      "summary_input_tokens": 7304,
+      "summary_output_tokens": 1219
+    },
+    {
+      "url": "https://dsebastien.net/how-i-turned-my-obsidian-notes-into-kanban-boards",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.52
+        }
+      ],
+      "content_length": 22072,
+      "duration_seconds": 3.52,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://forum.obsidian.md/t/what-are-the-differences-between-various-database-plugins/39406",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 15.9
+        }
+      ],
+      "content_length": 3980,
+      "duration_seconds": 15.9,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://publish.obsidian.md/kanban/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.703
+        }
+      ],
+      "content_length": 1458,
+      "duration_seconds": 4.703,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.make.md/docs/Lists%20and%20Databases",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.77
+        }
+      ],
+      "content_length": 208,
+      "duration_seconds": 1.77,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.562,
+      "summary_length": 1439,
+      "summary_input_tokens": 317,
+      "summary_output_tokens": 3455
+    },
+    {
+      "url": "https://community.obsidian.md/plugins/task-manager-bases-view",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.069
+        }
+      ],
+      "content_length": 20713,
+      "duration_seconds": 1.069,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.69,
+      "summary_length": 10400,
+      "summary_input_tokens": 5663,
+      "summary_output_tokens": 2555
+    },
+    {
+      "url": "https://www.xda-developers.com/bases-plugins-you-should-be-using",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.264
+        }
+      ],
+      "content_length": 49338,
+      "duration_seconds": 7.265,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.574,
+      "summary_length": 793,
+      "summary_input_tokens": 16624,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://obsidian.rocks/dataview-vs-datacore-vs-obsidian-bases",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.231
+        }
+      ],
+      "content_length": 7424,
+      "duration_seconds": 3.232,
+      "summary_status": "success",
+      "summary_duration_seconds": 54.74,
+      "summary_length": 6235,
+      "summary_input_tokens": 2009,
+      "summary_output_tokens": 1495
+    }
+  ],
+  "source_urls_count": 119,
+  "duration_seconds": 1127.0106540201232,
+  "report_length": 23766,
+  "context_length": 241145,
+  "id": 66,
+  "prompt": "Which Obsidian plugins can effectively replicate Notion's multi-view database functionality (including Table, Kanban, Calendar, and List views)? Please provide a detailed comparison of the strengths and weaknesses of these plugins.",
+  "language": "en",
+  "topic": "Software Development"
+}

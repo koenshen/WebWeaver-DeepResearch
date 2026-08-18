@@ -1,0 +1,306 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 91108,
+  "total_output_tokens": 17364,
+  "total_tokens": 108472,
+  "total_search_count": 7,
+  "total_search_results": 65,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 801,
+      "output_tokens": 192,
+      "total_tokens": 993,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17194,
+      "output_tokens": 485,
+      "total_tokens": 17679,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1222,
+      "output_tokens": 1033,
+      "total_tokens": 2255,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11359,
+      "output_tokens": 1814,
+      "total_tokens": 13173,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1150,
+      "output_tokens": 1046,
+      "total_tokens": 2196,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12299,
+      "output_tokens": 2954,
+      "total_tokens": 15253,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 622,
+      "output_tokens": 814,
+      "total_tokens": 1436,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8767,
+      "output_tokens": 755,
+      "total_tokens": 9522,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12887,
+      "output_tokens": 1416,
+      "total_tokens": 14303,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 315,
+      "output_tokens": 299,
+      "total_tokens": 614,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24492,
+      "output_tokens": 6556,
+      "total_tokens": 31048,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "cislunar space situational awareness tracking monitoring",
+      "effective_query": "cislunar space situational awareness tracking monitoring",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cislunar space domain awareness SSA architectures",
+      "effective_query": "cislunar space domain awareness SSA architectures",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cislunar space target tracking radar optical sensors",
+      "effective_query": "cislunar space target tracking radar optical sensors",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "space situational awareness cislunar NASA ESA",
+      "effective_query": "space situational awareness cislunar NASA ESA",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cislunar space object detection orbit determination",
+      "effective_query": "cislunar space object detection orbit determination",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "military cislunar space awareness DARPA",
+      "effective_query": "military cislunar space awareness DARPA",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cislunar space traffic management short-term tracking",
+      "effective_query": "cislunar space traffic management short-term tracking",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.ssc.spaceforce.mil/Newsroom/Article/4176371/oracle-m-hot-fire-test-a-major-milestone-in-cislunar-space-situational-awarenes",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.028
+        }
+      ],
+      "content_length": 5180,
+      "duration_seconds": 4.028,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://engineering.purdue.edu/people/kathleen.howell.1/Publications/Conferences/2021_AAS_FruHowDeMBha.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.677
+        }
+      ],
+      "content_length": 50962,
+      "duration_seconds": 6.677,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.856,
+      "summary_length": 6152,
+      "summary_input_tokens": 11359,
+      "summary_output_tokens": 1814
+    },
+    {
+      "url": "https://afresearchlab.com/afrls-oracle-family-of-systems-developing-nations-1st-cislunar-space-situational-awareness-capabilities-2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.728
+        }
+      ],
+      "content_length": 4514,
+      "duration_seconds": 2.728,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.afrl.af.mil/Portals/90/Documents/RV/A%20Primer%20on%20Cislunar%20Space_Dist%20A_PA2021-1271.pdf?ver=vs6e0sE4PuJ51QC-15DEfg%3D%3D",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.608
+        }
+      ],
+      "content_length": 55826,
+      "duration_seconds": 2.608,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.674,
+      "summary_length": 12910,
+      "summary_input_tokens": 12299,
+      "summary_output_tokens": 2954
+    },
+    {
+      "url": "https://tamz.umd.edu/project/rapid_disco",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.176
+        }
+      ],
+      "content_length": 1916,
+      "duration_seconds": 4.176,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.57,
+      "summary_length": 3103,
+      "summary_input_tokens": 622,
+      "summary_output_tokens": 814
+    },
+    {
+      "url": "https://www.mitchellaerospacepower.org/securing-cislunar-space-and-the-first-island-off-the-coast-of-earth",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.899
+        }
+      ],
+      "content_length": 32421,
+      "duration_seconds": 8.899,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.761,
+      "summary_length": 2183,
+      "summary_input_tokens": 8767,
+      "summary_output_tokens": 755
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/us-military-wants-to-track-potential-threats-coming-from-the-moon",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.645
+        }
+      ],
+      "content_length": 45691,
+      "duration_seconds": 7.645,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.938,
+      "summary_length": 3894,
+      "summary_input_tokens": 12887,
+      "summary_output_tokens": 1416
+    },
+    {
+      "url": "https://commons.erau.edu/cgi/viewcontent.cgi?article=2225&context=discovery-day",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.641
+        }
+      ],
+      "content_length": 506,
+      "duration_seconds": 1.641,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.968,
+      "summary_length": 958,
+      "summary_input_tokens": 315,
+      "summary_output_tokens": 299
+    }
+  ],
+  "source_urls_count": 53,
+  "duration_seconds": 386.9989552302286,
+  "report_length": 28936,
+  "context_length": 147375,
+  "id": 60,
+  "prompt": "How to conduct comprehensive and accurate situational awareness of space targets in the cislunar space, and support the effectiveness of short-term cislunar space tracking and monitoring tasks?",
+  "language": "en",
+  "topic": "Science & Technology"
+}

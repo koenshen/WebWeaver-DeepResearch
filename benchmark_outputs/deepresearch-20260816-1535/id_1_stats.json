@@ -1,0 +1,199 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 150489,
+  "total_output_tokens": 13000,
+  "total_tokens": 163489,
+  "total_search_count": 5,
+  "total_search_results": 49,
+  "total_visit_count": 4,
+  "total_visit_success": 4,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 798,
+      "output_tokens": 535,
+      "total_tokens": 1333,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31304,
+      "output_tokens": 113,
+      "total_tokens": 31417,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2519,
+      "output_tokens": 552,
+      "total_tokens": 3071,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31854,
+      "output_tokens": 139,
+      "total_tokens": 31993,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15090,
+      "output_tokens": 995,
+      "total_tokens": 16085,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8256,
+      "output_tokens": 1124,
+      "total_tokens": 9380,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8256,
+      "output_tokens": 1037,
+      "total_tokens": 9293,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18401,
+      "output_tokens": 2648,
+      "total_tokens": 21049,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34011,
+      "output_tokens": 5857,
+      "total_tokens": 39868,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "中国九层社会结构 阶层划分 收入 标准",
+      "effective_query": "中国九层社会结构 阶层划分 收入 标准",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国中产阶级 定义 收入 标准 2024",
+      "effective_query": "中国中产阶级 定义 收入 标准 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国中产阶级人数 2024 2025",
+      "effective_query": "中国中产阶级人数 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国中产阶级 财务状况 资产 年收入",
+      "effective_query": "中国中产阶级 财务状况 资产 年收入",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国中产阶层 特点 负债 焦虑 消费",
+      "effective_query": "中国中产阶层 特点 负债 焦虑 消费",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.ndrc.gov.cn/fggz/jyysr/jysrsbxf/202109/t20210924_1297381_ext.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.531
+        }
+      ],
+      "content_length": 4283,
+      "duration_seconds": 0.532,
+      "summary_status": "success",
+      "summary_duration_seconds": 2.293,
+      "summary_length": 947,
+      "summary_input_tokens": 2519,
+      "summary_output_tokens": 552
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/1917145237886857790",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.558
+        }
+      ],
+      "content_length": 25262,
+      "duration_seconds": 0.558,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.716,
+      "summary_length": 1561,
+      "summary_input_tokens": 15090,
+      "summary_output_tokens": 995
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/23244967569",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.433
+        }
+      ],
+      "content_length": 13798,
+      "duration_seconds": 7.433,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.163.com/dy/article/J35DFB4H0535PKJN.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 42.325
+        }
+      ],
+      "content_length": 39602,
+      "duration_seconds": 42.325,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.363,
+      "summary_length": 1959,
+      "summary_input_tokens": 18401,
+      "summary_output_tokens": 2648
+    }
+  ],
+  "source_urls_count": 49,
+  "duration_seconds": 477.006511176005,
+  "report_length": 10009,
+  "context_length": 76416,
+  "id": 1,
+  "prompt": "收集整理目前中国9阶层实际收入和财务状况，特别研究得出中国的中产有哪些特点，实际中产人数，财力等等",
+  "language": "zh",
+  "topic": "Finance & Business"
+}

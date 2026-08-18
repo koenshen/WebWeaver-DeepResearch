@@ -1,0 +1,351 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 459440,
+  "total_output_tokens": 22438,
+  "total_tokens": 481878,
+  "total_search_count": 14,
+  "total_search_results": 133,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 894,
+      "output_tokens": 280,
+      "total_tokens": 1174,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21943,
+      "output_tokens": 304,
+      "total_tokens": 22247,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17730,
+      "output_tokens": 1421,
+      "total_tokens": 19151,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57025,
+      "output_tokens": 842,
+      "total_tokens": 57867,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3495,
+      "output_tokens": 389,
+      "total_tokens": 3884,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 65828,
+      "output_tokens": 3039,
+      "total_tokens": 68867,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 74953,
+      "output_tokens": 1335,
+      "total_tokens": 76288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31809,
+      "output_tokens": 2953,
+      "total_tokens": 34762,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29979,
+      "output_tokens": 1499,
+      "total_tokens": 31478,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 80443,
+      "output_tokens": 2654,
+      "total_tokens": 83097,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30086,
+      "output_tokens": 188,
+      "total_tokens": 30274,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45255,
+      "output_tokens": 7534,
+      "total_tokens": 52789,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "protein intake resistance training body composition adults 18-35 systematic review 2015-2026",
+      "effective_query": "protein intake resistance training body composition adults 18-35 systematic review 2015-2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HIIT vs MICT body composition lean mass adiposity meta-analysis 2015-2026",
+      "effective_query": "HIIT vs MICT body composition lean mass adiposity meta-analysis 2015-2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "caloric deficit magnitude lean mass preservation resistance training systematic review",
+      "effective_query": "caloric deficit magnitude lean mass preservation resistance training systematic review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "meal timing protein timing body composition evidence review 2015-2026",
+      "effective_query": "meal timing protein timing body composition evidence review 2015-2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "resistance training periodization hypertrophy body composition systematic review 2015-2026",
+      "effective_query": "resistance training periodization hypertrophy body composition systematic review 2015-2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "weight loss maintenance strategies evidence-based long-term obesity 2015-2026",
+      "effective_query": "weight loss maintenance strategies evidence-based long-term obesity 2015-2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "consensus guidelines protein intake athletes body composition 2015-2026",
+      "effective_query": "consensus guidelines protein intake athletes body composition 2015-2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "recreationally active adults body composition intervention guidelines 2020",
+      "effective_query": "recreationally active adults body composition intervention guidelines 2020",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Murphy Koehler 2022 energy deficiency resistance training lean mass meta-analysis 500 kcal",
+      "effective_query": "Murphy Koehler 2022 energy deficiency resistance training lean mass meta-analysis 500 kcal",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HIIT vs MICT body composition meta-analysis 2020 2021 2022 2023 2024 2025 2026",
+      "effective_query": "HIIT vs MICT body composition meta-analysis 2020 2021 2022 2023 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ACSM position stand resistance training 2026 periodization hypertrophy",
+      "effective_query": "ACSM position stand resistance training 2026 periodization hypertrophy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ISSN protein position stand 2017 energy deficit lean mass",
+      "effective_query": "ISSN protein position stand 2017 energy deficit lean mass",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "weight loss maintenance high protein resistance training long-term strategies",
+      "effective_query": "weight loss maintenance high protein resistance training long-term strategies",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "meal frequency protein distribution muscle protein synthesis systematic review 2023",
+      "effective_query": "meal frequency protein distribution muscle protein synthesis systematic review 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://bjsm.bmj.com/content/52/6/376",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 14.526
+        }
+      ],
+      "content_length": 62611,
+      "duration_seconds": 14.526,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.908,
+      "summary_length": 3666,
+      "summary_input_tokens": 17730,
+      "summary_output_tokens": 1421
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8978023",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.989
+        }
+      ],
+      "content_length": 185550,
+      "duration_seconds": 1.99,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.001,
+      "summary_length": 2401,
+      "summary_input_tokens": 57025,
+      "summary_output_tokens": 842
+    },
+    {
+      "url": "https://www.mdpi.com/1660-2601/20/6/4741",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.43
+        }
+      ],
+      "content_length": 11416,
+      "duration_seconds": 2.43,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.366,
+      "summary_length": 1082,
+      "summary_input_tokens": 3495,
+      "summary_output_tokens": 389
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012799",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.252
+        }
+      ],
+      "content_length": 204166,
+      "duration_seconds": 2.253,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.64,
+      "summary_length": 7728,
+      "summary_input_tokens": 65828,
+      "summary_output_tokens": 3039
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.842
+        }
+      ],
+      "content_length": 238969,
+      "duration_seconds": 1.842,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.857,
+      "summary_length": 2688,
+      "summary_input_tokens": 74953,
+      "summary_output_tokens": 1335
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5764193",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.444
+        }
+      ],
+      "content_length": 102771,
+      "duration_seconds": 1.444,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.469,
+      "summary_length": 9143,
+      "summary_input_tokens": 31809,
+      "summary_output_tokens": 2953
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12513969",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.233
+        }
+      ],
+      "content_length": 131123,
+      "duration_seconds": 1.233,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.017,
+      "summary_length": 4619,
+      "summary_input_tokens": 29979,
+      "summary_output_tokens": 1499
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.827
+        }
+      ],
+      "content_length": 274828,
+      "duration_seconds": 1.828,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.732,
+      "summary_length": 8090,
+      "summary_input_tokens": 80443,
+      "summary_output_tokens": 2654
+    }
+  ],
+  "source_urls_count": 124,
+  "duration_seconds": 422.15687317959964,
+  "report_length": 31841,
+  "context_length": 235230,
+  "qid": "lifesp2DJmlulFMDdLb7hA",
+  "query": "In recreationally active adults aged 18–35 aiming to reduce adiposity while preserving or increasing lean body mass, what is the comparative efficacy of specific training and nutrition interventions—such as prescribed protein intake targets, structured resistance-training periodization, high-intensity interval training (HIIT) versus moderate-intensity continuous training (MICT), caloric deficit magnitude, and meal-timing protocols—and how are these interventions characterized in the international peer-reviewed literature and consensus guidelines published between 2015 and 2026? Additionally, which evidence-based maintenance strategies most effectively sustain these outcomes, based on a comprehensive synthesis of studies and guidelines from this period?"
+}

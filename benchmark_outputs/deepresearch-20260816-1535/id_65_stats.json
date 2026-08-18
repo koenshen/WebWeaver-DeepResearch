@@ -1,0 +1,86 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 24814,
+  "total_output_tokens": 4437,
+  "total_tokens": 29251,
+  "total_search_count": 8,
+  "total_search_results": 78,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 819,
+      "output_tokens": 219,
+      "total_tokens": 1038,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23995,
+      "output_tokens": 4218,
+      "total_tokens": 28213,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "modern control theory applications in agricultural engineering 3D reconstruction",
+      "effective_query": "modern control theory applications in agricultural engineering 3D reconstruction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "state-space modeling crop grain phenotypic analysis",
+      "effective_query": "state-space modeling crop grain phenotypic analysis",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Kalman filter 3D reconstruction grain phenotyping",
+      "effective_query": "Kalman filter 3D reconstruction grain phenotyping",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "optimal control for imaging systems agriculture",
+      "effective_query": "optimal control for imaging systems agriculture",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "3D reconstruction grains structure from motion control theory",
+      "effective_query": "3D reconstruction grains structure from motion control theory",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "phenotypic analysis crop grains control theory",
+      "effective_query": "phenotypic analysis crop grains control theory",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Markov decision process crop phenotyping",
+      "effective_query": "Markov decision process crop phenotyping",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "linear quadratic regulator grain imaging",
+      "effective_query": "linear quadratic regulator grain imaging",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 76,
+  "duration_seconds": 64.42627220600843,
+  "report_length": 15777,
+  "context_length": 122336,
+  "id": 65,
+  "prompt": "As an agricultural engineering researcher focusing on 3D reconstruction and phenotypic analysis of crop grains, please develop a design report utilizing modern control theory, alongside other relevant theoretical methods and models, for the tasks of modeling, analysis, and design pertinent to my research area.",
+  "language": "en",
+  "topic": "Science & Technology"
+}

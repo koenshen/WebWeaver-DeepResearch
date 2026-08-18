@@ -1,0 +1,558 @@
+{
+  "total_llm_calls": 24,
+  "total_input_tokens": 690317,
+  "total_output_tokens": 48385,
+  "total_tokens": 738702,
+  "total_search_count": 17,
+  "total_search_results": 161,
+  "total_visit_count": 13,
+  "total_visit_success": 13,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 896,
+      "output_tokens": 236,
+      "total_tokens": 1132,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11205,
+      "output_tokens": 245,
+      "total_tokens": 11450,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34761,
+      "output_tokens": 123,
+      "total_tokens": 34884,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47924,
+      "output_tokens": 228,
+      "total_tokens": 48152,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4851,
+      "output_tokens": 1638,
+      "total_tokens": 6489,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4851,
+      "output_tokens": 1120,
+      "total_tokens": 5971,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1963,
+      "output_tokens": 1416,
+      "total_tokens": 3379,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1963,
+      "output_tokens": 3065,
+      "total_tokens": 5028,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2925,
+      "output_tokens": 784,
+      "total_tokens": 3709,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 530,
+      "output_tokens": 515,
+      "total_tokens": 1045,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3789,
+      "output_tokens": 1122,
+      "total_tokens": 4911,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43878,
+      "output_tokens": 3736,
+      "total_tokens": 47614,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53197,
+      "output_tokens": 113,
+      "total_tokens": 53310,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1911,
+      "output_tokens": 2717,
+      "total_tokens": 4628,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39207,
+      "output_tokens": 4001,
+      "total_tokens": 43208,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39128,
+      "output_tokens": 1633,
+      "total_tokens": 40761,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39207,
+      "output_tokens": 4001,
+      "total_tokens": 43208,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 49267,
+      "output_tokens": 3343,
+      "total_tokens": 52610,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 56198,
+      "output_tokens": 112,
+      "total_tokens": 56310,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39201,
+      "output_tokens": 3309,
+      "total_tokens": 42510,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53094,
+      "output_tokens": 1813,
+      "total_tokens": 54907,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53094,
+      "output_tokens": 1760,
+      "total_tokens": 54854,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47853,
+      "output_tokens": 2253,
+      "total_tokens": 50106,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 59424,
+      "output_tokens": 9102,
+      "total_tokens": 68526,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "commercial space launch market size 2020 2026 growth",
+      "effective_query": "commercial space launch market size 2020 2026 growth",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "commercial space launch market segmentation 2020 2026",
+      "effective_query": "commercial space launch market segmentation 2020 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "global space launch market revenue 2020 2026",
+      "effective_query": "global space launch market revenue 2020 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "space launch market report 2023 2026 forecast",
+      "effective_query": "space launch market report 2023 2026 forecast",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SpaceX launch frequency 2020 2021 2022 2023 2024 2025 2026 cost per kg Falcon 9 Falcon Heavy Starship",
+      "effective_query": "SpaceX launch frequency 2020 2021 2022 2023 2024 2025 2026 cost per kg Falcon 9 Falcon Heavy Starship",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Blue Origin New Glenn launch frequency 2025 2026 cost per kg",
+      "effective_query": "Blue Origin New Glenn launch frequency 2025 2026 cost per kg",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "United Launch Alliance Atlas V Vulcan Centaur launch frequency 2020 2026 cost per kg success rate",
+      "effective_query": "United Launch Alliance Atlas V Vulcan Centaur launch frequency 2020 2026 cost per kg success rate",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Rocket Lab Electron Neutron launch frequency 2020 2026 cost per kg success rate",
+      "effective_query": "Rocket Lab Electron Neutron launch frequency 2020 2026 cost per kg success rate",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "commercial space launch growth drivers satellite internet defense payloads 2020 2026",
+      "effective_query": "commercial space launch growth drivers satellite internet defense payloads 2020 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "barriers to commercial space launch cost regulation technology risk 2020 2026",
+      "effective_query": "barriers to commercial space launch cost regulation technology risk 2020 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "space launch partnerships government NASA DoD commercial satellite operators 2020 2026",
+      "effective_query": "space launch partnerships government NASA DoD commercial satellite operators 2020 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "geographic trends space launch market North America Asia Pacific Europe 2020 2026",
+      "effective_query": "geographic trends space launch market North America Asia Pacific Europe 2020 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SpaceX market share 2020 2024 2025 commercial launch percentage",
+      "effective_query": "SpaceX market share 2020 2024 2025 commercial launch percentage",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BryceTech space launch report 2024 2025",
+      "effective_query": "BryceTech space launch report 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "space launch cost per kilogram comparison 2024 2025 2026",
+      "effective_query": "space launch cost per kilogram comparison 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FAA commercial space transportation report 2024 2025",
+      "effective_query": "FAA commercial space transportation report 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SpaceX Starlink launch frequency 2020 2024 2025",
+      "effective_query": "SpaceX Starlink launch frequency 2020 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://spacenexus.us/guide/space-launch-cost-comparison",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.036
+        }
+      ],
+      "content_length": 21512,
+      "duration_seconds": 5.036,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://orbitalradar.com/space-economy/launch-cost-trends",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.497
+        }
+      ],
+      "content_length": 6437,
+      "duration_seconds": 2.497,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://spacenexus.us/space-stats",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.914
+        }
+      ],
+      "content_length": 11700,
+      "duration_seconds": 5.915,
+      "summary_status": "success",
+      "summary_duration_seconds": 2.923,
+      "summary_length": 3479,
+      "summary_input_tokens": 2925,
+      "summary_output_tokens": 784
+    },
+    {
+      "url": "https://brycetech.com/reports/report-documents/global-orbital-activity-2025",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.829
+        }
+      ],
+      "content_length": 1615,
+      "duration_seconds": 1.829,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.fool.com/research/space-launch-statistics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.106
+        }
+      ],
+      "content_length": 13420,
+      "duration_seconds": 4.106,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.668,
+      "summary_length": 2321,
+      "summary_input_tokens": 3789,
+      "summary_output_tokens": 1122
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Space_launch_market_competition",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.311
+        }
+      ],
+      "content_length": 156665,
+      "duration_seconds": 2.311,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.62,
+      "summary_length": 8988,
+      "summary_input_tokens": 43878,
+      "summary_output_tokens": 3736
+    },
+    {
+      "url": "https://spacexnow.com/stats",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.273
+        }
+      ],
+      "content_length": 4595,
+      "duration_seconds": 1.273,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.402,
+      "summary_length": 5840,
+      "summary_input_tokens": 1911,
+      "summary_output_tokens": 2717
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/New_Glenn",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.849
+        }
+      ],
+      "content_length": 130310,
+      "duration_seconds": 2.85,
+      "summary_status": "success",
+      "summary_duration_seconds": 39.665,
+      "summary_length": 833,
+      "summary_input_tokens": 39207,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.918
+        }
+      ],
+      "content_length": 177290,
+      "duration_seconds": 11.918,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Atlas_V",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.242
+        }
+      ],
+      "content_length": 161132,
+      "duration_seconds": 2.242,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.161,
+      "summary_length": 2802,
+      "summary_input_tokens": 49267,
+      "summary_output_tokens": 3343
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/New_Glenn",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.814
+        }
+      ],
+      "content_length": 130310,
+      "duration_seconds": 0.815,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.082,
+      "summary_length": 4343,
+      "summary_input_tokens": 39201,
+      "summary_output_tokens": 3309
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.197
+        }
+      ],
+      "content_length": 179850,
+      "duration_seconds": 1.198,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Blue_Origin",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.603
+        }
+      ],
+      "content_length": 162588,
+      "duration_seconds": 4.603,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.109,
+      "summary_length": 5533,
+      "summary_input_tokens": 47853,
+      "summary_output_tokens": 2253
+    }
+  ],
+  "source_urls_count": 127,
+  "duration_seconds": 829.5023369910195,
+  "report_length": 26955,
+  "context_length": 266172,
+  "qid": "marketDEJL1uDRvx5UqKKm",
+  "query": "What is the size, growth, and segmentation of the commercial space launch market from 2020 through 2026? What are the key growth drivers (satellite internet, defense, commercial payloads) and barriers (cost, regulation, technological risk)? How do SpaceX, Blue Origin, ULA, and Rocket Lab compare in launch frequency, cost per kilogram, mission success rates, and flagship launch systems? What partnerships (government, private satellite operators) and geographic trends are shaping market competition? The report should be structured with clear sections (and subsections when appropriate), include tables or charts for quantitative comparisons, and provide cited data where available."
+}

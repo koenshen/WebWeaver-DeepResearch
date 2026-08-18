@@ -1,0 +1,266 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 95537,
+  "total_output_tokens": 22356,
+  "total_tokens": 117893,
+  "total_search_count": 5,
+  "total_search_results": 50,
+  "total_visit_count": 7,
+  "total_visit_success": 7,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 933,
+      "output_tokens": 170,
+      "total_tokens": 1103,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12377,
+      "output_tokens": 230,
+      "total_tokens": 12607,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2789,
+      "output_tokens": 2271,
+      "total_tokens": 5060,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10348,
+      "output_tokens": 2874,
+      "total_tokens": 13222,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14159,
+      "output_tokens": 3222,
+      "total_tokens": 17381,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5584,
+      "output_tokens": 3768,
+      "total_tokens": 9352,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22777,
+      "output_tokens": 2140,
+      "total_tokens": 24917,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 332,
+      "output_tokens": 413,
+      "total_tokens": 745,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4974,
+      "output_tokens": 1261,
+      "total_tokens": 6235,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21264,
+      "output_tokens": 6007,
+      "total_tokens": 27271,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Mean-Variance vs Black-Litterman vs deep learning asset allocation comparison",
+      "effective_query": "Mean-Variance vs Black-Litterman vs deep learning asset allocation comparison",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "hybrid model combining Black-Litterman and deep learning portfolio",
+      "effective_query": "hybrid model combining Black-Litterman and deep learning portfolio",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "limitations mean-variance black-litterman deep learning portfolio",
+      "effective_query": "limitations mean-variance black-litterman deep learning portfolio",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FinTech machine learning asset allocation risk measurement return prediction",
+      "effective_query": "FinTech machine learning asset allocation risk measurement return prediction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Deep learning portfolio optimization interpretability issues",
+      "effective_query": "Deep learning portfolio optimization interpretability issues",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417425024856",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.138
+        }
+      ],
+      "content_length": 12379,
+      "duration_seconds": 17.138,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.712,
+      "summary_length": 5126,
+      "summary_input_tokens": 2789,
+      "summary_output_tokens": 2271
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00521-024-09805-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.502
+        }
+      ],
+      "content_length": 30987,
+      "duration_seconds": 1.502,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.052,
+      "summary_length": 6608,
+      "summary_input_tokens": 10348,
+      "summary_output_tokens": 2874
+    },
+    {
+      "url": "https://arxiv.org/html/2504.14345v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.14
+        }
+      ],
+      "content_length": 58468,
+      "duration_seconds": 1.14,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://marketxls.com/blog/advanced-portfolio-optimization-black-litterman-ai",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.103
+        }
+      ],
+      "content_length": 28219,
+      "duration_seconds": 4.103,
+      "summary_status": "success",
+      "summary_duration_seconds": 37.385,
+      "summary_length": 14679,
+      "summary_input_tokens": 5584,
+      "summary_output_tokens": 3768
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-025-26337-x",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.315
+        }
+      ],
+      "content_length": 98069,
+      "duration_seconds": 4.315,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.643,
+      "summary_length": 8229,
+      "summary_input_tokens": 22777,
+      "summary_output_tokens": 2140
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395585",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.011
+        }
+      ],
+      "content_length": 491,
+      "duration_seconds": 5.012,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.961,
+      "summary_length": 1207,
+      "summary_input_tokens": 332,
+      "summary_output_tokens": 413
+    },
+    {
+      "url": "https://ryanoconnellfinance.com/black-litterman-model",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.699
+        }
+      ],
+      "content_length": 21590,
+      "duration_seconds": 3.699,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.317,
+      "summary_length": 4789,
+      "summary_input_tokens": 4974,
+      "summary_output_tokens": 1261
+    }
+  ],
+  "source_urls_count": 42,
+  "duration_seconds": 346.5401993263513,
+  "report_length": 26554,
+  "context_length": 134577,
+  "id": 54,
+  "prompt": "In the field of FinTech, machine learning algorithms are now widely applied to asset allocation and investment decisions. Examples include classic models like Mean-Variance and Black-Litterman, as well as emerging deep learning models. While these models have shown certain advantages under different market conditions, each also has its limitations. For instance, the Mean-Variance model assumes asset returns follow a normal distribution, which often doesn't align with actual market conditions. The Black-Litterman model relies on subjective view inputs, introducing a degree of subjectivity. Although deep learning models can handle complex non-linear relationships, they suffer from poor interpretability. So, what are the core differences between these various models in terms of risk measurement, return prediction, and asset allocation? And is it possible to combine their strengths to build a more general-purpose and effective modeling framework?",
+  "language": "en",
+  "topic": "Finance & Business"
+}

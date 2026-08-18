@@ -1,0 +1,221 @@
+{
+  "total_llm_calls": 5,
+  "total_input_tokens": 141315,
+  "total_output_tokens": 15989,
+  "total_tokens": 157304,
+  "total_search_count": 27,
+  "total_search_results": 249,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 834,
+      "output_tokens": 315,
+      "total_tokens": 1149,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8141,
+      "output_tokens": 219,
+      "total_tokens": 8360,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26336,
+      "output_tokens": 111,
+      "total_tokens": 26447,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44293,
+      "output_tokens": 190,
+      "total_tokens": 44483,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 61711,
+      "output_tokens": 15154,
+      "total_tokens": 76865,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "quantum computing mathematics research groups top universities",
+      "effective_query": "quantum computing mathematics research groups top universities",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "leading quantum computing theory teams 2024",
+      "effective_query": "leading quantum computing theory teams 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "quantum computing research groups with strong mathematical foundations",
+      "effective_query": "quantum computing research groups with strong mathematical foundations",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Centre for Quantum Mathematics SDU Denmark topological quantum computing",
+      "effective_query": "Centre for Quantum Mathematics SDU Denmark topological quantum computing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MIT Center for Quantum Engineering research groups quantum mathematics",
+      "effective_query": "MIT Center for Quantum Engineering research groups quantum mathematics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "University of Oxford quantum group research mathematics",
+      "effective_query": "University of Oxford quantum group research mathematics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Caltech Institute for Quantum Information and Matter research",
+      "effective_query": "Caltech Institute for Quantum Information and Matter research",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Waterloo Institute for Quantum Computing research groups mathematics",
+      "effective_query": "Waterloo Institute for Quantum Computing research groups mathematics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Max Planck Institute for Quantum Optics theory group",
+      "effective_query": "Max Planck Institute for Quantum Optics theory group",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "RIKEN Center for Quantum Computing mathematics",
+      "effective_query": "RIKEN Center for Quantum Computing mathematics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "QuEra Harvard MIT quantum computing mathematics",
+      "effective_query": "QuEra Harvard MIT quantum computing mathematics",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "quantum error correction mathematics research groups",
+      "effective_query": "quantum error correction mathematics research groups",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "quantum algorithms mathematics research groups",
+      "effective_query": "quantum algorithms mathematics research groups",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "topological quantum computing mathematics research",
+      "effective_query": "topological quantum computing mathematics research",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "quantum information theory group Cambridge",
+      "effective_query": "quantum information theory group Cambridge",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Perimeter Institute quantum computing mathematics",
+      "effective_query": "Perimeter Institute quantum computing mathematics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Stanford quantum computing theory group",
+      "effective_query": "Stanford quantum computing theory group",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "UCSB quantum computing mathematics",
+      "effective_query": "UCSB quantum computing mathematics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "John Preskill Caltech quantum information",
+      "effective_query": "John Preskill Caltech quantum information",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "IQIM Caltech quantum mathematics research impact",
+      "effective_query": "IQIM Caltech quantum mathematics research impact",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "QuICS University of Maryland quantum computing mathematics",
+      "effective_query": "QuICS University of Maryland quantum computing mathematics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ETH Zurich quantum computing theory group",
+      "effective_query": "ETH Zurich quantum computing theory group",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Inria quantum computing mathematics group",
+      "effective_query": "Inria quantum computing mathematics group",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CNRS quantum information theory group",
+      "effective_query": "CNRS quantum information theory group",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "University of Tokyo quantum computing mathematics",
+      "effective_query": "University of Tokyo quantum computing mathematics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tsinghua University quantum computing research",
+      "effective_query": "Tsinghua University quantum computing research",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "quantum mathematics research China",
+      "effective_query": "quantum mathematics research China",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 235,
+  "duration_seconds": 227.75608903728426,
+  "report_length": 35434,
+  "context_length": 333939,
+  "id": 14,
+  "prompt": "收集整理全球数学与量子计算交叉领域的主要研究团队及其成果，横向比较其研究方向、论文产出、国际合作、资金支持、工业界合作等维度，评估哪些团队最有可能在未来5-10年内推动量子计算技术的重大突破，并预测可能产生的关键性数学理论或应用技术",
+  "language": "zh",
+  "topic": "Science & Technology"
+}

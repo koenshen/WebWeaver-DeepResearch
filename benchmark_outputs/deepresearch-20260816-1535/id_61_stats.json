@@ -1,0 +1,268 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 216213,
+  "total_output_tokens": 17825,
+  "total_tokens": 234038,
+  "total_search_count": 13,
+  "total_search_results": 120,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 829,
+      "output_tokens": 230,
+      "total_tokens": 1059,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21191,
+      "output_tokens": 212,
+      "total_tokens": 21403,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29748,
+      "output_tokens": 1935,
+      "total_tokens": 31683,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25282,
+      "output_tokens": 4001,
+      "total_tokens": 29283,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25203,
+      "output_tokens": 1421,
+      "total_tokens": 26624,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10406,
+      "output_tokens": 1103,
+      "total_tokens": 11509,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34255,
+      "output_tokens": 1562,
+      "total_tokens": 35817,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25300,
+      "output_tokens": 125,
+      "total_tokens": 25425,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43999,
+      "output_tokens": 7236,
+      "total_tokens": 51235,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "chub mackerel price dynamics Pacific Rim markets",
+      "effective_query": "chub mackerel price dynamics Pacific Rim markets",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Scomber japonicus interannual weight length variation",
+      "effective_query": "Scomber japonicus interannual weight length variation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "chub mackerel oceanographic factors SST ENSO",
+      "effective_query": "chub mackerel oceanographic factors SST ENSO",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "chub mackerel fishery Japan market price",
+      "effective_query": "chub mackerel fishery Japan market price",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "chub mackerel China market price",
+      "effective_query": "chub mackerel China market price",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "chub mackerel Peru Chile market",
+      "effective_query": "chub mackerel Peru Chile market",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "chub mackerel weight length Pacific Ocean",
+      "effective_query": "chub mackerel weight length Pacific Ocean",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "chub mackerel wholesale price Japan Toyosu market",
+      "effective_query": "chub mackerel wholesale price Japan Toyosu market",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Pacific mackerel ex-vessel price California",
+      "effective_query": "Pacific mackerel ex-vessel price California",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "chub mackerel Korea Busan fish market price",
+      "effective_query": "chub mackerel Korea Busan fish market price",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Scomber japonicus Peru landing price",
+      "effective_query": "Scomber japonicus Peru landing price",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "mackerel global market report 2024 2025",
+      "effective_query": "mackerel global market report 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "chub mackerel stock assessment Pacific biomass 2024",
+      "effective_query": "chub mackerel stock assessment Pacific biomass 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2022.996626/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.861
+        }
+      ],
+      "content_length": 97747,
+      "duration_seconds": 5.861,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.028,
+      "summary_length": 5768,
+      "summary_input_tokens": 29748,
+      "summary_output_tokens": 1935
+    },
+    {
+      "url": "https://www.mdpi.com/2077-1312/10/2/301",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.873
+        }
+      ],
+      "content_length": 81330,
+      "duration_seconds": 12.874,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.127,
+      "summary_length": 4658,
+      "summary_input_tokens": 25282,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12024016",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.905
+        }
+      ],
+      "content_length": 93757,
+      "duration_seconds": 1.905,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0079661121001567",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.499
+        }
+      ],
+      "content_length": 42327,
+      "duration_seconds": 7.5,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.519,
+      "summary_length": 4909,
+      "summary_input_tokens": 10406,
+      "summary_output_tokens": 1103
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1814806/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.376
+        }
+      ],
+      "content_length": 111185,
+      "duration_seconds": 6.376,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 105,
+  "duration_seconds": 486.6882851719856,
+  "report_length": 23896,
+  "context_length": 188520,
+  "id": 61,
+  "prompt": "Research on the price dynamics of chub mackerel in major aquatic markets of Pacific Rim countries, and its interannual variations in weight/length. Combined with oceanographic theory, these research findings can further establish direct correlations between high-quality marine biological resources, aquatic markets, fishery economics, and the marine environment.",
+  "language": "en",
+  "topic": "Science & Technology"
+}

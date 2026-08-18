@@ -1,0 +1,84 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 21660,
+  "total_output_tokens": 11961,
+  "total_tokens": 33621,
+  "total_search_count": 8,
+  "total_search_results": 76,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1108,
+      "output_tokens": 1829,
+      "total_tokens": 2937,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20552,
+      "output_tokens": 10132,
+      "total_tokens": 30684,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "social media mental health teenagers UK EU study 2022 2023 2024",
+      "effective_query": "social media mental health teenagers UK EU study 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cyberbullying statistics Europe teenagers 2023",
+      "effective_query": "cyberbullying statistics Europe teenagers 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UK teenagers social media addiction screen time sleep",
+      "effective_query": "UK teenagers social media addiction screen time sleep",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "social media misinformation radicalization teenagers Europe",
+      "effective_query": "social media misinformation radicalization teenagers Europe",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "digital literacy social media education teenagers Europe OECD",
+      "effective_query": "digital literacy social media education teenagers Europe OECD",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LGBTQ+ teenagers social media support community Europe",
+      "effective_query": "LGBTQ+ teenagers social media support community Europe",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EU children online safety data privacy GDPR TikTok fine",
+      "effective_query": "EU children online safety data privacy GDPR TikTok fine",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "teenage girls Instagram body image anxiety study",
+      "effective_query": "teenage girls Instagram body image anxiety study",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 75,
+  "duration_seconds": 644.7219391344115,
+  "report_length": 43516,
+  "context_length": 133949,
+  "qid": "proconhy0bVrN2JhZ2Y4GE",
+  "query": "Conduct a comprehensive analysis on whether social media is good for society, with a primary focus on Europe (including the UK, EU member states, and Nordic countries). The analysis should focus specifically on teenagers (ages 13-18) and their relationship with social media. For this report, define \"good for society\" across four dimensions: 1) mental health and well-being  (e.g., anxiety, depression, self-esteem, and loneliness), 2) educational and developmental impacts (e.g., learning, attention span, and digital literacy), 3) social and civil outcomes (e.g., friendships, community engagement, political awareness, and misinformation exposure), and 4) safety and risk factors (e.g., cyberbullying, privacy, exploitation,  and screen-time effects). In the report, I would like to have 6 pro arguments and 6 con arguments. Each pro or con argument should include: (1) A clear thesis statement (2) Multiple supporting points substantiated with credible evidence (including but not limited to statistics, direct quotes, case studies, expert testimony, industry or government reports, academic research, news sources, online forums, and social media), followed by in-depth reasoning and analysis. Prioritize data and research from the past 5 years where available ."
+}

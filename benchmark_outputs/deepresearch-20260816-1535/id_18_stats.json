@@ -1,0 +1,422 @@
+{
+  "total_llm_calls": 16,
+  "total_input_tokens": 225855,
+  "total_output_tokens": 24007,
+  "total_tokens": 249862,
+  "total_search_count": 17,
+  "total_search_results": 160,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 982,
+      "output_tokens": 283,
+      "total_tokens": 1265,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11802,
+      "output_tokens": 179,
+      "total_tokens": 11981,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 278,
+      "output_tokens": 297,
+      "total_tokens": 575,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 799,
+      "output_tokens": 701,
+      "total_tokens": 1500,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1214,
+      "output_tokens": 1076,
+      "total_tokens": 2290,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13656,
+      "output_tokens": 135,
+      "total_tokens": 13791,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24830,
+      "output_tokens": 234,
+      "total_tokens": 25064,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21154,
+      "output_tokens": 3498,
+      "total_tokens": 24652,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1803,
+      "output_tokens": 1506,
+      "total_tokens": 3309,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6609,
+      "output_tokens": 4001,
+      "total_tokens": 10610,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6530,
+      "output_tokens": 683,
+      "total_tokens": 7213,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 354,
+      "output_tokens": 1621,
+      "total_tokens": 1975,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14230,
+      "output_tokens": 2699,
+      "total_tokens": 16929,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30803,
+      "output_tokens": 135,
+      "total_tokens": 30938,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40479,
+      "output_tokens": 112,
+      "total_tokens": 40591,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50332,
+      "output_tokens": 6847,
+      "total_tokens": 57179,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "GCS algorithm Graph of Convex Sets trajectory optimization",
+      "effective_query": "GCS algorithm Graph of Convex Sets trajectory optimization",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tobia Marcucci GCS convex motion planning",
+      "effective_query": "Tobia Marcucci GCS convex motion planning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Graph of Convex Sets path planning principle",
+      "effective_query": "Graph of Convex Sets path planning principle",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GCS convex decomposition safe corridor",
+      "effective_query": "GCS convex decomposition safe corridor",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "IRIS algorithm convex decomposition motion planning",
+      "effective_query": "IRIS algorithm convex decomposition motion planning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PRM probabilistic roadmap GCS graph of convex sets",
+      "effective_query": "PRM probabilistic roadmap GCS graph of convex sets",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "automated convex decomposition free space motion planning",
+      "effective_query": "automated convex decomposition free space motion planning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GCS convex region generation automatic",
+      "effective_query": "GCS convex region generation automatic",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PRM seed convex decomposition path planning",
+      "effective_query": "PRM seed convex decomposition path planning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "visibility-based PRM automated region inflation GCS",
+      "effective_query": "visibility-based PRM automated region inflation GCS",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GCS convex decomposition clique cover visibility graph",
+      "effective_query": "GCS convex decomposition clique cover visibility graph",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GCS TrajOpt automatic convex decomposition",
+      "effective_query": "GCS TrajOpt automatic convex decomposition",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "GCS PRM* comparative analysis motion planning",
+      "effective_query": "GCS PRM* comparative analysis motion planning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GCS visibility PRM automated region inflation",
+      "effective_query": "GCS visibility PRM automated region inflation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "clique cover visibility graph convex decomposition Werner",
+      "effective_query": "clique cover visibility graph convex decomposition Werner",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "IRIS GCS automatic convex cover PRM seed",
+      "effective_query": "IRIS GCS automatic convex cover PRM seed",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GCS optimization convex set generation online",
+      "effective_query": "GCS optimization convex set generation online",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.science.org/doi/10.1126/scirobotics.adf7843",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.502
+        }
+      ],
+      "content_length": 291,
+      "duration_seconds": 0.502,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.887,
+      "summary_length": 743,
+      "summary_input_tokens": 278,
+      "summary_output_tokens": 297
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.04422",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.189
+        }
+      ],
+      "content_length": 2576,
+      "duration_seconds": 1.189,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.234,
+      "summary_length": 2568,
+      "summary_input_tokens": 799,
+      "summary_output_tokens": 701
+    },
+    {
+      "url": "https://groups.csail.mit.edu/robotics-center/public_papers/Marcucci24a.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.187
+        }
+      ],
+      "content_length": 354453,
+      "duration_seconds": 5.188,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://blog.tommycohn.com/2023/03/differing-formulations-of-gcs-for.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.477
+        }
+      ],
+      "content_length": 4803,
+      "duration_seconds": 2.477,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.622,
+      "summary_length": 3428,
+      "summary_input_tokens": 1214,
+      "summary_output_tokens": 1076
+    },
+    {
+      "url": "http://manipulation.csail.mit.edu/trajectories.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.337
+        }
+      ],
+      "content_length": 87950,
+      "duration_seconds": 9.34,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.835,
+      "summary_length": 12909,
+      "summary_input_tokens": 21154,
+      "summary_output_tokens": 3498
+    },
+    {
+      "url": "https://blog.tommycohn.com/2022/09/reimplementing-iris-computing-large.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.867
+        }
+      ],
+      "content_length": 7046,
+      "duration_seconds": 2.867,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.782,
+      "summary_length": 4124,
+      "summary_input_tokens": 1803,
+      "summary_output_tokens": 1506
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4zvVnUv3ZYw",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.882
+        }
+      ],
+      "content_length": 16270,
+      "duration_seconds": 9.883,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.115,
+      "summary_length": 473,
+      "summary_input_tokens": 6609,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://arxiv.org/html/2310.02875v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.161
+        }
+      ],
+      "content_length": 258,
+      "duration_seconds": 3.162,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/html/2410.12649v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.228
+        }
+      ],
+      "content_length": 57077,
+      "duration_seconds": 1.228,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 91,
+  "duration_seconds": 894.1647003423423,
+  "report_length": 15858,
+  "context_length": 239159,
+  "id": 18,
+  "prompt": "请你学习一下GCS算法的原理。目前的GCS算法主要是用于安全凸集内的路径自动求解。目前，针对凸集的生成，采用的是人工手动播种结合自动化工具的方式，在离线时生成安全区域凸集。现在我想探寻一种自动化生成安全区域的方式，来进一步优化这个GCS算法。例如，能否结合PRM算法（或改进的PRM算法），生成一个静态联通图，再结合凸算法，自动构造一个凸集，把凸集直接供给GCS算法求解。能不能帮我详细分析这个优化思路是否可行？要如何展开？或者能否提供其他的基于GSC算法的优化思路？",
+  "language": "zh",
+  "topic": "Software Development"
+}

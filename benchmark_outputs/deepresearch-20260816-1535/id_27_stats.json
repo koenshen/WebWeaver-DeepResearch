@@ -1,0 +1,271 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 132045,
+  "total_output_tokens": 16618,
+  "total_tokens": 148663,
+  "total_search_count": 9,
+  "total_search_results": 85,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 787,
+      "output_tokens": 179,
+      "total_tokens": 966,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15744,
+      "output_tokens": 214,
+      "total_tokens": 15958,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3111,
+      "output_tokens": 3052,
+      "total_tokens": 6163,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19402,
+      "output_tokens": 2087,
+      "total_tokens": 21489,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18927,
+      "output_tokens": 1099,
+      "total_tokens": 20026,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 234,
+      "output_tokens": 1156,
+      "total_tokens": 1390,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9816,
+      "output_tokens": 1333,
+      "total_tokens": 11149,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7029,
+      "output_tokens": 662,
+      "total_tokens": 7691,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22520,
+      "output_tokens": 109,
+      "total_tokens": 22629,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34475,
+      "output_tokens": 6727,
+      "total_tokens": 41202,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AI心理咨询 人类心理咨询 结合 模式 心理健康 福利",
+      "effective_query": "AI心理咨询 人类心理咨询 结合 模式 心理健康 福利",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI therapy human therapy integration model mental health",
+      "effective_query": "AI therapy human therapy integration model mental health",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI counseling human counselor collaboration benefits",
+      "effective_query": "AI counseling human counselor collaboration benefits",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "chatbot therapy combined with human therapist effectiveness",
+      "effective_query": "chatbot therapy combined with human therapist effectiveness",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI辅助心理咨询 混合模式 研究 综述",
+      "effective_query": "AI辅助心理咨询 混合模式 研究 综述",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Wysa AI therapy human therapist hybrid model research",
+      "effective_query": "Wysa AI therapy human therapist hybrid model research",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Woebot effectiveness clinical trial combined therapy",
+      "effective_query": "Woebot effectiveness clinical trial combined therapy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Stepped care model AI mental health stepped hybrid",
+      "effective_query": "Stepped care model AI mental health stepped hybrid",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI心理治疗 人机协同 模式 伦理 中国 2024 2025",
+      "effective_query": "AI心理治疗 人机协同 模式 伦理 中国 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.psychiatrictimes.com/view/the-hybrid-model-humans-chatbots-working-together",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 15.355
+        }
+      ],
+      "content_length": 14267,
+      "duration_seconds": 15.355,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.315,
+      "summary_length": 11459,
+      "summary_input_tokens": 3111,
+      "summary_output_tokens": 3052
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11560757",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.141
+        }
+      ],
+      "content_length": 67805,
+      "duration_seconds": 1.142,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.935,
+      "summary_length": 8552,
+      "summary_input_tokens": 19402,
+      "summary_output_tokens": 2087
+    },
+    {
+      "url": "https://counseling.northwestern.edu/blog/can-ai-replace-therapists",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.352
+        }
+      ],
+      "content_length": 70574,
+      "duration_seconds": 7.352,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.apa.org/practice/artificial-intelligence-mental-health-care",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.06
+        }
+      ],
+      "content_length": 213,
+      "duration_seconds": 13.06,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.306,
+      "summary_length": 4274,
+      "summary_input_tokens": 234,
+      "summary_output_tokens": 1156
+    },
+    {
+      "url": "https://1q43.blog/post/5721",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.972
+        }
+      ],
+      "content_length": 19873,
+      "duration_seconds": 6.973,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/21651590223",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.581
+        }
+      ],
+      "content_length": 11900,
+      "duration_seconds": 8.581,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.915,
+      "summary_length": 816,
+      "summary_input_tokens": 7029,
+      "summary_output_tokens": 662
+    }
+  ],
+  "source_urls_count": 78,
+  "duration_seconds": 425.96588717680424,
+  "report_length": 13323,
+  "context_length": 140782,
+  "id": 27,
+  "prompt": "如何将AI心理咨询和人类心理咨询有机结合，以便为人类心理健康谋求福利？",
+  "language": "zh",
+  "topic": "Health"
+}

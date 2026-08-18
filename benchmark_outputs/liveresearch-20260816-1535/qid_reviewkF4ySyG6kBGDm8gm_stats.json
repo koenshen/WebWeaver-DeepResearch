@@ -1,0 +1,398 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 354606,
+  "total_output_tokens": 19922,
+  "total_tokens": 374528,
+  "total_search_count": 33,
+  "total_search_results": 311,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 969,
+      "output_tokens": 680,
+      "total_tokens": 1649,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26375,
+      "output_tokens": 205,
+      "total_tokens": 26580,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 54287,
+      "output_tokens": 251,
+      "total_tokens": 54538,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 623,
+      "output_tokens": 1079,
+      "total_tokens": 1702,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 290,
+      "output_tokens": 383,
+      "total_tokens": 673,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11908,
+      "output_tokens": 3196,
+      "total_tokens": 15104,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12594,
+      "output_tokens": 2110,
+      "total_tokens": 14704,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18491,
+      "output_tokens": 2838,
+      "total_tokens": 21329,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 59677,
+      "output_tokens": 267,
+      "total_tokens": 59944,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 78928,
+      "output_tokens": 1050,
+      "total_tokens": 79978,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 90464,
+      "output_tokens": 7863,
+      "total_tokens": 98327,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "expert routing Mixture of Experts NeurIPS 2022",
+      "effective_query": "expert routing Mixture of Experts NeurIPS 2022",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "expert routing Mixture of Experts ICLR 2023",
+      "effective_query": "expert routing Mixture of Experts ICLR 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Soft MoE ICLR 2022",
+      "effective_query": "Soft MoE ICLR 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Expert Choice Routing NeurIPS 2022",
+      "effective_query": "Expert Choice Routing NeurIPS 2022",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MoE routing large language models conference 2023",
+      "effective_query": "MoE routing large language models conference 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "routing LLM queries model selection EMNLP 2023",
+      "effective_query": "routing LLM queries model selection EMNLP 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FrugalGPT NeurIPS 2023",
+      "effective_query": "FrugalGPT NeurIPS 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LLM-Blender ACL 2023",
+      "effective_query": "LLM-Blender ACL 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "RouteLLM model selection conference 2024",
+      "effective_query": "RouteLLM model selection conference 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "RouterBench model routing EMNLP 2024",
+      "effective_query": "RouterBench model routing EMNLP 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Hybrid LLM ICLR 2024 query routing",
+      "effective_query": "Hybrid LLM ICLR 2024 query routing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AutoMix EMNLP 2024 LLM routing",
+      "effective_query": "AutoMix EMNLP 2024 LLM routing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FrugalGPT ACL 2023 EMNLP",
+      "effective_query": "FrugalGPT ACL 2023 EMNLP",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "LLM cascade routing NeurIPS 2023",
+      "effective_query": "LLM cascade routing NeurIPS 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "retrieval augmented generation routing ACMMM 2023",
+      "effective_query": "retrieval augmented generation routing ACMMM 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "multi-agent routing modular LLM NeurIPS 2024",
+      "effective_query": "multi-agent routing modular LLM NeurIPS 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Soft MoE ICLR 2024 routing",
+      "effective_query": "Soft MoE ICLR 2024 routing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "DeepSeekMoE AAAI 2024",
+      "effective_query": "DeepSeekMoE AAAI 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "QwenMoE ACL 2024 fine-grained routing",
+      "effective_query": "QwenMoE ACL 2024 fine-grained routing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "routing dynamic expert number ICLR 2024",
+      "effective_query": "routing dynamic expert number ICLR 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DeepSeek-V2 MoE fine-grained expert routing ACL 2024",
+      "effective_query": "DeepSeek-V2 MoE fine-grained expert routing ACL 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mixtral 8x7B NeurIPS 2024 MoE",
+      "effective_query": "Mixtral 8x7B NeurIPS 2024 MoE",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mixture-of-Depths NeurIPS 2024",
+      "effective_query": "Mixture-of-Depths NeurIPS 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Branch-Train-MiX ICML 2024",
+      "effective_query": "Branch-Train-MiX ICML 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ReMoE ReLU routing ICLR 2025",
+      "effective_query": "ReMoE ReLU routing ICLR 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Dynamic Mixture of Experts ICLR 2025",
+      "effective_query": "Dynamic Mixture of Experts ICLR 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "unified routing cascading LLMs ICML 2025",
+      "effective_query": "unified routing cascading LLMs ICML 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Self-REF ICML 2025 confidence routing",
+      "effective_query": "Self-REF ICML 2025 confidence routing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FrugalGPT TMLR 2024",
+      "effective_query": "FrugalGPT TMLR 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ST-MoE conference venue 2022",
+      "effective_query": "ST-MoE conference venue 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Clark unified scaling laws routed language models ICML 2022",
+      "effective_query": "Clark unified scaling laws routed language models ICML 2022",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Mixture-of-Depths conference venue 2024",
+      "effective_query": "Mixture-of-Depths conference venue 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MoEUT NeurIPS 2024",
+      "effective_query": "MoEUT NeurIPS 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/2f00ecd787b432c1d36f3de9800728eb-Abstract-Conference.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.818
+        }
+      ],
+      "content_length": 2037,
+      "duration_seconds": 3.818,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.526,
+      "summary_length": 3139,
+      "summary_input_tokens": 623,
+      "summary_output_tokens": 1079
+    },
+    {
+      "url": "https://openreview.net/forum?id=jdJo1HIVinI",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.165
+        }
+      ],
+      "content_length": 442,
+      "duration_seconds": 4.165,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.055,
+      "summary_length": 1114,
+      "summary_input_tokens": 290,
+      "summary_output_tokens": 383
+    },
+    {
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/79fea214543ba263952ac3f4e5452b14-Paper-Conference.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.803
+        }
+      ],
+      "content_length": 41624,
+      "duration_seconds": 2.803,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.39,
+      "summary_length": 8197,
+      "summary_input_tokens": 11908,
+      "summary_output_tokens": 3196
+    },
+    {
+      "url": "https://aclanthology.org/2024.acl-long.696.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.168
+        }
+      ],
+      "content_length": 51271,
+      "duration_seconds": 3.168,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.181,
+      "summary_length": 5766,
+      "summary_input_tokens": 12594,
+      "summary_output_tokens": 2110
+    },
+    {
+      "url": "https://aclanthology.org/2024.acl-long.70.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.671
+        }
+      ],
+      "content_length": 64360,
+      "duration_seconds": 3.671,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.134,
+      "summary_length": 4270,
+      "summary_input_tokens": 18491,
+      "summary_output_tokens": 2838
+    }
+  ],
+  "source_urls_count": 268,
+  "duration_seconds": 615.5476234769449,
+  "report_length": 29636,
+  "context_length": 406412,
+  "qid": "reviewkF4ySyG6kBGDm8gm",
+  "query": "From 2022–2025, how has routing for large language models evolved across (i) expert routing in Mixture-of-Experts and (ii) broader routing paradigms that allocate queries across models, strategies, and configurations (model size/family, adaptation method—ICL, PEFT, fine-tuning, RLHF—retrieval depth, decoding/prompting, and multi-agent/modular controllers)? Please help me draft a literature review section in the style of NeurIPS/ICML/ICLR papers. The section should contain multiple paragraphs, where each paragraph illustrates the progression of a coherent line of research .\nRequirements: (1) Only include papers published in top AI conferences and journals (ICML, NeurIPS, ICLR, EMNLP, ACL, AAAI, TPAMI, COLING, TMLR, IJCV, etc.). Do not include preprints from arXiv. (2) Focus specifically on the development of the field from 2022–2025."
+}

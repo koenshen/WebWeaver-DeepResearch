@@ -1,0 +1,422 @@
+{
+  "total_llm_calls": 16,
+  "total_input_tokens": 199813,
+  "total_output_tokens": 32709,
+  "total_tokens": 232522,
+  "total_search_count": 17,
+  "total_search_results": 164,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 915,
+      "output_tokens": 3632,
+      "total_tokens": 4547,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15178,
+      "output_tokens": 221,
+      "total_tokens": 15399,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28757,
+      "output_tokens": 228,
+      "total_tokens": 28985,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 681,
+      "output_tokens": 607,
+      "total_tokens": 1288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11302,
+      "output_tokens": 3021,
+      "total_tokens": 14323,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19584,
+      "output_tokens": 906,
+      "total_tokens": 20490,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 919,
+      "output_tokens": 4001,
+      "total_tokens": 4920,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 919,
+      "output_tokens": 1659,
+      "total_tokens": 2578,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31217,
+      "output_tokens": 133,
+      "total_tokens": 31350,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1625,
+      "output_tokens": 3601,
+      "total_tokens": 5226,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2271,
+      "output_tokens": 4001,
+      "total_tokens": 6272,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2192,
+      "output_tokens": 1140,
+      "total_tokens": 3332,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2572,
+      "output_tokens": 992,
+      "total_tokens": 3564,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3232,
+      "output_tokens": 2678,
+      "total_tokens": 5910,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33442,
+      "output_tokens": 115,
+      "total_tokens": 33557,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45007,
+      "output_tokens": 5774,
+      "total_tokens": 50781,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "friction welding hollow shaft electric vehicle manufacturing",
+      "effective_query": "friction welding hollow shaft electric vehicle manufacturing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "flow forming manufacturing electric vehicle motor shaft hollow",
+      "effective_query": "flow forming manufacturing electric vehicle motor shaft hollow",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "hollow shaft manufacturing techniques comparison automotive",
+      "effective_query": "hollow shaft manufacturing techniques comparison automotive",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "rotary swaging hollow shaft automotive",
+      "effective_query": "rotary swaging hollow shaft automotive",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gun drilling deep hole drilling hollow shaft comparison",
+      "effective_query": "gun drilling deep hole drilling hollow shaft comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "hollow motor shaft manufacturing technology NEV",
+      "effective_query": "hollow motor shaft manufacturing technology NEV",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "flow forming vs rotary swaging hollow shaft cost comparison",
+      "effective_query": "flow forming vs rotary swaging hollow shaft cost comparison",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "friction welding hollow shaft electric vehicle motor shaft cycle time",
+      "effective_query": "friction welding hollow shaft electric vehicle motor shaft cycle time",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cold forging hollow shaft cost vs machining",
+      "effective_query": "cold forging hollow shaft cost vs machining",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "hollow rotor shaft manufacturing process comparison NEV",
+      "effective_query": "hollow rotor shaft manufacturing process comparison NEV",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "spin extrusion hollow shaft manufacturing",
+      "effective_query": "spin extrusion hollow shaft manufacturing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cross rolling hollow shaft manufacturing",
+      "effective_query": "cross rolling hollow shaft manufacturing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "gun drilling hollow shaft cost comparison trepanning",
+      "effective_query": "gun drilling hollow shaft cost comparison trepanning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "deep hole drilling hollow shaft motor automotive cost",
+      "effective_query": "deep hole drilling hollow shaft motor automotive cost",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "hollow shaft manufacturing cost comparison forming vs machining",
+      "effective_query": "hollow shaft manufacturing cost comparison forming vs machining",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "electric motor rotor shaft manufacturing process flow forming vs friction welding",
+      "effective_query": "electric motor rotor shaft manufacturing process flow forming vs friction welding",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "warm forming hollow shaft cross rolling spin extrusion comparison",
+      "effective_query": "warm forming hollow shaft cross rolling spin extrusion comparison",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://netform.com/netforms-two-piece-hollow-rotor-shaft",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.894
+        }
+      ],
+      "content_length": 2422,
+      "duration_seconds": 3.894,
+      "summary_status": "success",
+      "summary_duration_seconds": 2.037,
+      "summary_length": 3252,
+      "summary_input_tokens": 681,
+      "summary_output_tokens": 607
+    },
+    {
+      "url": "https://wf-machinery.com/end-products-overview/components-for-e-drive-systems/rotor-shafts",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.1
+        }
+      ],
+      "content_length": 38148,
+      "duration_seconds": 6.1,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.006,
+      "summary_length": 2718,
+      "summary_input_tokens": 11302,
+      "summary_output_tokens": 3021
+    },
+    {
+      "url": "https://www.emag.com/industries-solutions/workpieces/electric-and-combustion-engines/assembled-rotor-shaft-electric-motor",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.02
+        }
+      ],
+      "content_length": 72218,
+      "duration_seconds": 4.02,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.104,
+      "summary_length": 4362,
+      "summary_input_tokens": 19584,
+      "summary_output_tokens": 906
+    },
+    {
+      "url": "https://www.thyssenkrupp.com/en/stories/automotive-and-new-mobility/the-perfect-rotor-shaft",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.178
+        }
+      ],
+      "content_length": 8410,
+      "duration_seconds": 7.178,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.kanetakogyo.co.jp/en/latest_technology/hollow_shaft",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.995
+        }
+      ],
+      "content_length": 2646,
+      "duration_seconds": 1.995,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.587,
+      "summary_length": 1178,
+      "summary_input_tokens": 919,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://felss.com/en/technologies/rotary-swaging",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.672
+        }
+      ],
+      "content_length": 6485,
+      "duration_seconds": 13.672,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959652625003610",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.859
+        }
+      ],
+      "content_length": 10418,
+      "duration_seconds": 0.859,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.mtiwelding.com/blog/friction-welding-for-electric-vehicles",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.595
+        }
+      ],
+      "content_length": 11970,
+      "duration_seconds": 6.596,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.281,
+      "summary_length": 5386,
+      "summary_input_tokens": 2572,
+      "summary_output_tokens": 992
+    },
+    {
+      "url": "https://crimsonpublishers.com/amms/fulltext/AMMS.000793.php",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.487
+        }
+      ],
+      "content_length": 12553,
+      "duration_seconds": 0.487,
+      "summary_status": "success",
+      "summary_duration_seconds": 39.832,
+      "summary_length": 2672,
+      "summary_input_tokens": 3232,
+      "summary_output_tokens": 2678
+    }
+  ],
+  "source_urls_count": 128,
+  "duration_seconds": 1296.4455902650952,
+  "report_length": 21773,
+  "context_length": 239045,
+  "id": 86,
+  "prompt": "Conduct a research report on the manufacturing technology options for hollow motor shafts used in New Energy Vehicle (NEV) electric drive units. List all current forming techniques, compare them based on criteria such as suitable materials, cost-effectiveness, required subsequent processing steps, and other relevant factors. Finally, identify the most suitable manufacturing routes for this specific application.",
+  "language": "en",
+  "topic": "Industrial"
+}

@@ -1,0 +1,272 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 112739,
+  "total_output_tokens": 16009,
+  "total_tokens": 128748,
+  "total_search_count": 5,
+  "total_search_results": 46,
+  "total_visit_count": 7,
+  "total_visit_success": 7,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 791,
+      "output_tokens": 132,
+      "total_tokens": 923,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14310,
+      "output_tokens": 271,
+      "total_tokens": 14581,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12324,
+      "output_tokens": 1054,
+      "total_tokens": 13378,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7685,
+      "output_tokens": 1671,
+      "total_tokens": 9356,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3152,
+      "output_tokens": 2107,
+      "total_tokens": 5259,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1556,
+      "output_tokens": 1889,
+      "total_tokens": 3445,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2426,
+      "output_tokens": 1177,
+      "total_tokens": 3603,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15015,
+      "output_tokens": 1526,
+      "total_tokens": 16541,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20534,
+      "output_tokens": 92,
+      "total_tokens": 20626,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13615,
+      "output_tokens": 881,
+      "total_tokens": 14496,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21331,
+      "output_tokens": 5209,
+      "total_tokens": 26540,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Netflix One Hundred Years of Solitude adaptation",
+      "effective_query": "Netflix One Hundred Years of Solitude adaptation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "One Hundred Years of Solitude TV series Netflix production",
+      "effective_query": "One Hundred Years of Solitude TV series Netflix production",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "How Netflix adapted One Hundred Years of Solitude",
+      "effective_query": "How Netflix adapted One Hundred Years of Solitude",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "One Hundred Years of Solitude Netflix review",
+      "effective_query": "One Hundred Years of Solitude Netflix review",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Gabriel García Márquez Netflix adaptation",
+      "effective_query": "Gabriel García Márquez Netflix adaptation",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.theguardian.com/books/2024/dec/20/one-hundred-years-of-solitude-netflix-series",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.974
+        }
+      ],
+      "content_length": 38570,
+      "duration_seconds": 0.974,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.529,
+      "summary_length": 3847,
+      "summary_input_tokens": 12324,
+      "summary_output_tokens": 1054
+    },
+    {
+      "url": "https://www.netflix.com/tudum/features/on-adapting-one-hundred-years-of-solitude",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.216
+        }
+      ],
+      "content_length": 17929,
+      "duration_seconds": 6.217,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.491,
+      "summary_length": 5996,
+      "summary_input_tokens": 7685,
+      "summary_output_tokens": 1671
+    },
+    {
+      "url": "https://www.hollywoodreporter.com/tv/tv-reviews/one-hundred-years-of-solitude-review-netflix-gabriel-garcia-marquez-1236081912",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.237
+        }
+      ],
+      "content_length": 12754,
+      "duration_seconds": 8.237,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.249,
+      "summary_length": 6433,
+      "summary_input_tokens": 3152,
+      "summary_output_tokens": 2107
+    },
+    {
+      "url": "https://www.rogerebert.com/streaming/one-hundred-years-of-solitude-netflix-tv-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.694
+        }
+      ],
+      "content_length": 5467,
+      "duration_seconds": 0.694,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.631,
+      "summary_length": 3479,
+      "summary_input_tokens": 1556,
+      "summary_output_tokens": 1889
+    },
+    {
+      "url": "https://theconversation.com/one-hundred-years-of-solitude-netflix-adaptation-is-faithful-ambitious-and-beautifully-realised-244972",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.876
+        }
+      ],
+      "content_length": 9079,
+      "duration_seconds": 3.876,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.725,
+      "summary_length": 4235,
+      "summary_input_tokens": 2426,
+      "summary_output_tokens": 1177
+    },
+    {
+      "url": "https://www.vogue.com/article/one-hundred-years-of-solitude-netflix-site-visit",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.566
+        }
+      ],
+      "content_length": 49851,
+      "duration_seconds": 13.566,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.124,
+      "summary_length": 5873,
+      "summary_input_tokens": 15015,
+      "summary_output_tokens": 1526
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude_(TV_series)",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.386
+        }
+      ],
+      "content_length": 44782,
+      "duration_seconds": 5.386,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.258,
+      "summary_length": 2792,
+      "summary_input_tokens": 13615,
+      "summary_output_tokens": 881
+    }
+  ],
+  "source_urls_count": 28,
+  "duration_seconds": 437.3802126888186,
+  "report_length": 20912,
+  "context_length": 114441,
+  "id": 88,
+  "prompt": "How did Netflix manage to successfully adapt One Hundred Years of Solitude, a notoriously difficult book to bring to the screen?",
+  "language": "en",
+  "topic": "Art & Design"
+}

@@ -1,0 +1,336 @@
+{
+  "total_llm_calls": 8,
+  "total_input_tokens": 471842,
+  "total_output_tokens": 9423,
+  "total_tokens": 481265,
+  "total_search_count": 43,
+  "total_search_results": 418,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 942,
+      "output_tokens": 2350,
+      "total_tokens": 3292,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17283,
+      "output_tokens": 327,
+      "total_tokens": 17610,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33814,
+      "output_tokens": 362,
+      "total_tokens": 34176,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51895,
+      "output_tokens": 538,
+      "total_tokens": 52433,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 67760,
+      "output_tokens": 823,
+      "total_tokens": 68583,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 87279,
+      "output_tokens": 454,
+      "total_tokens": 87733,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 106378,
+      "output_tokens": 545,
+      "total_tokens": 106923,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 106491,
+      "output_tokens": 4024,
+      "total_tokens": 110515,
+      "message_count": 16
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "U.S. banks \"Needs to Improve\" CRA rating 2020 2021 2022 2023 2024 list",
+      "effective_query": "U.S. banks \"Needs to Improve\" CRA rating 2020 2021 2022 2023 2024 list",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "FFIEC CRA performance evaluations \"Needs to Improve\" 2023 2024",
+      "effective_query": "FFIEC CRA performance evaluations \"Needs to Improve\" 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Federal Reserve CRA \"Needs to Improve\" large bank 2020 2021 2022",
+      "effective_query": "Federal Reserve CRA \"Needs to Improve\" large bank 2020 2021 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OCC CRA ratings \"Needs to Improve\" 2023 2024",
+      "effective_query": "OCC CRA ratings \"Needs to Improve\" 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Substantial Noncompliance Community Reinvestment Act bank 2020 2021 2022 2023",
+      "effective_query": "Substantial Noncompliance Community Reinvestment Act bank 2020 2021 2022 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "NCRC \"Needs to Improve\" CRA ratings list 2024",
+      "effective_query": "NCRC \"Needs to Improve\" CRA ratings list 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "City National Bank CRA \"Needs to Improve\" 2023 OCC performance evaluation",
+      "effective_query": "City National Bank CRA \"Needs to Improve\" 2023 OCC performance evaluation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "large bank community reinvestment act \"Needs to Improve\" rating 2022 2023 2024",
+      "effective_query": "large bank community reinvestment act \"Needs to Improve\" rating 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Federal Reserve CRA database large bank \"Needs to Improve\" 2020",
+      "effective_query": "Federal Reserve CRA database large bank \"Needs to Improve\" 2020",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OCC CRA performance evaluation large bank \"needs to improve\" 2024",
+      "effective_query": "OCC CRA performance evaluation large bank \"needs to improve\" 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "bank with assets over 50 billion CRA rating \"substantial noncompliance\"",
+      "effective_query": "bank with assets over 50 billion CRA rating \"substantial noncompliance\"",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CRA rating less than satisfactory large bank 2021 2022 2023",
+      "effective_query": "CRA rating less than satisfactory large bank 2021 2022 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "City National Bank assets 2023 2024 over 50 billion",
+      "effective_query": "City National Bank assets 2023 2024 over 50 billion",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Bank of America CRA rating 2020 2021 2022",
+      "effective_query": "Bank of America CRA rating 2020 2021 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Wells Fargo CRA rating 2020 2021 2022",
+      "effective_query": "Wells Fargo CRA rating 2020 2021 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "JPMorgan Chase CRA rating 2020 2021 2022",
+      "effective_query": "JPMorgan Chase CRA rating 2020 2021 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CRA rating \"Needs to Improve\" \"Substantial Noncompliance\" list of banks 2020 2021 2022 2023 2024 FDIC OCC Federal Reserve",
+      "effective_query": "CRA rating \"Needs to Improve\" \"Substantial Noncompliance\" list of banks 2020 2021 2022 2023 2024 FDIC OCC Federal Reserve",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "large bank over 50 billion assets CRA rating less than satisfactory 2024",
+      "effective_query": "large bank over 50 billion assets CRA rating less than satisfactory 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "\"assets\" \"over $50 billion\" \"Needs to Improve\" CRA",
+      "effective_query": "\"assets\" \"over $50 billion\" \"Needs to Improve\" CRA",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "City National Bank assets $98 billion CRA rating 2023",
+      "effective_query": "City National Bank assets $98 billion CRA rating 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Federal Reserve CRA search \"Needs to Improve\" large bank assets",
+      "effective_query": "Federal Reserve CRA search \"Needs to Improve\" large bank assets",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "OCC CRA evaluations \"Needs to Improve\" \"Large Bank\" 2023 2024",
+      "effective_query": "OCC CRA evaluations \"Needs to Improve\" \"Large Bank\" 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "list of large banks CRA rating less than satisfactory 2020 2021 2022 2023 2024",
+      "effective_query": "list of large banks CRA rating less than satisfactory 2020 2021 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "NCRC large banks CRA rating \"Needs to Improve\" list",
+      "effective_query": "NCRC large banks CRA rating \"Needs to Improve\" list",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "\"Substantial Noncompliance\" CRA rating bank 2020 2021 2022 2023 2024",
+      "effective_query": "\"Substantial Noncompliance\" CRA rating bank 2020 2021 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "U.S. Bank CRA rating 2022 performance evaluation",
+      "effective_query": "U.S. Bank CRA rating 2022 performance evaluation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Santander Bank CRA rating 2023 2024",
+      "effective_query": "Santander Bank CRA rating 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PNC Bank CRA rating 2023 2024",
+      "effective_query": "PNC Bank CRA rating 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Truist Bank CRA rating 2023 2024",
+      "effective_query": "Truist Bank CRA rating 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Fifth Third Bank CRA rating 2023 2024",
+      "effective_query": "Fifth Third Bank CRA rating 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "KeyBank CRA rating 2023 2024",
+      "effective_query": "KeyBank CRA rating 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "\"Needs to Improve\" CRA \"large bank\" 2020 2021 2022",
+      "effective_query": "\"Needs to Improve\" CRA \"large bank\" 2020 2021 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Bank of the West CRA rating 2022 2023",
+      "effective_query": "Bank of the West CRA rating 2022 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "MUFG Union Bank CRA rating 2022 2023",
+      "effective_query": "MUFG Union Bank CRA rating 2022 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "HSBC Bank USA CRA rating 2020 2021 2022",
+      "effective_query": "HSBC Bank USA CRA rating 2020 2021 2022",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Citizens Bank CRA rating 2022 2023 2024",
+      "effective_query": "Citizens Bank CRA rating 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Regions Bank CRA rating 2022 2023 2024",
+      "effective_query": "Regions Bank CRA rating 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Huntington Bank CRA rating 2022 2023 2024",
+      "effective_query": "Huntington Bank CRA rating 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "City National Bank CRA \"Needs to Improve\" assets 98 billion",
+      "effective_query": "City National Bank CRA \"Needs to Improve\" assets 98 billion",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OCC CRA \"Needs to Improve\" \"Large Bank\" 2022 2023 2024 2025",
+      "effective_query": "OCC CRA \"Needs to Improve\" \"Large Bank\" 2022 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Federal Reserve CRA \"Needs to Improve\" \"large bank\" assets 2022",
+      "effective_query": "Federal Reserve CRA \"Needs to Improve\" \"large bank\" assets 2022",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "bank over $50 billion \"Needs to Improve\" CRA rating",
+      "effective_query": "bank over $50 billion \"Needs to Improve\" CRA rating",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CRA \"substantial noncompliance\" large bank 2020 2021 2022 2023 2024",
+      "effective_query": "CRA \"substantial noncompliance\" large bank 2020 2021 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 260,
+  "duration_seconds": 214.77609235607088,
+  "report_length": 11724,
+  "context_length": 454434,
+  "qid": "infocoXlRepzUFvAfGkcSn",
+  "query": "List U.S. banks (>$50 B assets) that received a ‘less‑than‑satisfactory’ Community Reinvestment Act (CRA) rating in their most recent evaluation (2019‑2024). Provide bank name, rating, exam date, and links to the Federal Reserve or OCC CRA disclosure plus a reputable news source. Note that less-than-satisfactory ratings include \"Needs to Improve\" and \"Substantial Noncompliance\"."
+}

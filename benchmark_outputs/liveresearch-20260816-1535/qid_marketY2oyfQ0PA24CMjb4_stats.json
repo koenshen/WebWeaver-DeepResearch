@@ -1,0 +1,464 @@
+{
+  "total_llm_calls": 17,
+  "total_input_tokens": 210126,
+  "total_output_tokens": 33999,
+  "total_tokens": 244125,
+  "total_search_count": 20,
+  "total_search_results": 189,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 909,
+      "output_tokens": 559,
+      "total_tokens": 1468,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35632,
+      "output_tokens": 292,
+      "total_tokens": 35924,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3021,
+      "output_tokens": 687,
+      "total_tokens": 3708,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1819,
+      "output_tokens": 2069,
+      "total_tokens": 3888,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3031,
+      "output_tokens": 1054,
+      "total_tokens": 4085,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3423,
+      "output_tokens": 1463,
+      "total_tokens": 4886,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12754,
+      "output_tokens": 830,
+      "total_tokens": 13584,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2431,
+      "output_tokens": 1567,
+      "total_tokens": 3998,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13425,
+      "output_tokens": 4001,
+      "total_tokens": 17426,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13425,
+      "output_tokens": 3035,
+      "total_tokens": 16460,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 398,
+      "output_tokens": 850,
+      "total_tokens": 1248,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5002,
+      "output_tokens": 4001,
+      "total_tokens": 9003,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4923,
+      "output_tokens": 824,
+      "total_tokens": 5747,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4923,
+      "output_tokens": 2755,
+      "total_tokens": 7678,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2809,
+      "output_tokens": 793,
+      "total_tokens": 3602,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41454,
+      "output_tokens": 165,
+      "total_tokens": 41619,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60747,
+      "output_tokens": 9054,
+      "total_tokens": 69801,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "food delivery market size North America Europe 2025 2026 growth rate",
+      "effective_query": "food delivery market size North America Europe 2025 2026 growth rate",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DoorDash market share order volume 2025 2026",
+      "effective_query": "DoorDash market share order volume 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Uber Eats market share order volume 2025 2026",
+      "effective_query": "Uber Eats market share order volume 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Grubhub market share order volume 2025",
+      "effective_query": "Grubhub market share order volume 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Deliveroo market share order volume 2025",
+      "effective_query": "Deliveroo market share order volume 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "food delivery commission structure DoorDash Uber Eats Grubhub 2025",
+      "effective_query": "food delivery commission structure DoorDash Uber Eats Grubhub 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "food delivery delivery time performance comparison 2025",
+      "effective_query": "food delivery delivery time performance comparison 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "food delivery demand drivers urbanization convenience inflation 2025",
+      "effective_query": "food delivery demand drivers urbanization convenience inflation 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "food delivery challenges profitability labor regulation competition 2025",
+      "effective_query": "food delivery challenges profitability labor regulation competition 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DoorDash grocery partnerships 2025 2026",
+      "effective_query": "DoorDash grocery partnerships 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Uber Eats grocery partnerships retail 2025",
+      "effective_query": "Uber Eats grocery partnerships retail 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Grubhub partnerships 2025",
+      "effective_query": "Grubhub partnerships 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Deliveroo partnerships grocery retail 2025",
+      "effective_query": "Deliveroo partnerships grocery retail 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "DoorDash Uber Eats Grubhub delivery time comparison minutes 2025",
+      "effective_query": "DoorDash Uber Eats Grubhub delivery time comparison minutes 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "European food delivery market size 2025 2026 billion",
+      "effective_query": "European food delivery market size 2025 2026 billion",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Just Eat market share Europe 2025",
+      "effective_query": "Just Eat market share Europe 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "food delivery platform commission rates 2025 2026 comparison",
+      "effective_query": "food delivery platform commission rates 2025 2026 comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "DoorDash Uber Eats Grubhub restaurant commission fee comparison 2025",
+      "effective_query": "DoorDash Uber Eats Grubhub restaurant commission fee comparison 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Deliveroo market share UK Europe 2025",
+      "effective_query": "Deliveroo market share UK Europe 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "food delivery market segmentation platform type business model 2025",
+      "effective_query": "food delivery market segmentation platform type business model 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://oysterlink.com/spotlight/food-delivery-market-share-statistics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.996
+        }
+      ],
+      "content_length": 10466,
+      "duration_seconds": 5.996,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.008,
+      "summary_length": 2338,
+      "summary_input_tokens": 3021,
+      "summary_output_tokens": 687
+    },
+    {
+      "url": "https://dev.family/research/delivery-market",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.148
+        }
+      ],
+      "content_length": 6744,
+      "duration_seconds": 9.148,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.intouchinsight.com/blog/third-party-delivery-trends",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.947
+        }
+      ],
+      "content_length": 10922,
+      "duration_seconds": 5.947,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://appsrhino.com/blogs/food-delivery-app-revenue-and-usage-statistics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.71
+        }
+      ],
+      "content_length": 14788,
+      "duration_seconds": 7.71,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.017,
+      "summary_length": 3271,
+      "summary_input_tokens": 3423,
+      "summary_output_tokens": 1463
+    },
+    {
+      "url": "https://www.businessofapps.com/data/food-delivery-app-market",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.848
+        }
+      ],
+      "content_length": 45478,
+      "duration_seconds": 13.849,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.481,
+      "summary_length": 2172,
+      "summary_input_tokens": 12754,
+      "summary_output_tokens": 830
+    },
+    {
+      "url": "https://www.businessofapps.com/data/doordash-statistics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.631
+        }
+      ],
+      "content_length": 7928,
+      "duration_seconds": 7.631,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.836,
+      "summary_length": 3836,
+      "summary_input_tokens": 2431,
+      "summary_output_tokens": 1567
+    },
+    {
+      "url": "https://www.businessofapps.com/data/deliveroo-statistics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.902
+        }
+      ],
+      "content_length": 46057,
+      "duration_seconds": 9.902,
+      "summary_status": "success",
+      "summary_duration_seconds": 45.445,
+      "summary_length": 1786,
+      "summary_input_tokens": 13425,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.grandviewresearch.com/industry-analysis/online-food-delivery-services-market",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.875
+        }
+      ],
+      "content_length": 550,
+      "duration_seconds": 5.875,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.373,
+      "summary_length": 1300,
+      "summary_input_tokens": 398,
+      "summary_output_tokens": 850
+    },
+    {
+      "url": "https://www.marketdataforecast.com/market-reports/europe-online-food-delivery-market",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.828
+        }
+      ],
+      "content_length": 25134,
+      "duration_seconds": 0.828,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.785,
+      "summary_length": 161,
+      "summary_input_tokens": 5002,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.imarcgroup.com/north-america-online-food-delivery-market",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.398
+        }
+      ],
+      "content_length": 13702,
+      "duration_seconds": 1.398,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.546,
+      "summary_length": 2433,
+      "summary_input_tokens": 2809,
+      "summary_output_tokens": 793
+    }
+  ],
+  "source_urls_count": 133,
+  "duration_seconds": 805.6362421000376,
+  "report_length": 30528,
+  "context_length": 292647,
+  "qid": "marketY2oyfQ0PA24CMjb4",
+  "query": "What is the size, growth rate, and segmentation of the food delivery market in North America and Europe from 2025 through 2026? What demand drivers (urbanization, consumer convenience, inflation pressures) and challenges (profitability, labor regulation, competition) shape the industry? How do DoorDash, Uber Eats, Grubhub, and Deliveroo compare in market share (by order volume), delivery time performance, and commission structures? What flagship partnerships (restaurants, grocery chains, retail tie-ins) and geographic differentiators define competitive positioning? The report should be structured with clear sections (and subsections when appropriate), include tables or charts for quantitative comparisons, and provide cited data where available."
+}

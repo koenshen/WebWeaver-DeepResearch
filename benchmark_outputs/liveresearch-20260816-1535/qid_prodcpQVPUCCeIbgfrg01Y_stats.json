@@ -1,0 +1,196 @@
+{
+  "total_llm_calls": 6,
+  "total_input_tokens": 192030,
+  "total_output_tokens": 11312,
+  "total_tokens": 203342,
+  "total_search_count": 22,
+  "total_search_results": 208,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 873,
+      "output_tokens": 135,
+      "total_tokens": 1008,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16259,
+      "output_tokens": 125,
+      "total_tokens": 16384,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26767,
+      "output_tokens": 101,
+      "total_tokens": 26868,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36549,
+      "output_tokens": 103,
+      "total_tokens": 36652,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51143,
+      "output_tokens": 83,
+      "total_tokens": 51226,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60439,
+      "output_tokens": 10765,
+      "total_tokens": 71204,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AWS vs Azure vs Google Cloud vs Oracle Cloud pricing 2026 compute storage comparison",
+      "effective_query": "AWS vs Azure vs Google Cloud vs Oracle Cloud pricing 2026 compute storage comparison",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AWS pricing 2026 US East EC2 S3 per hour per GB",
+      "effective_query": "AWS pricing 2026 US East EC2 S3 per hour per GB",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Cloud Platform pricing 2026 US compute storage",
+      "effective_query": "Google Cloud Platform pricing 2026 US compute storage",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Microsoft Azure pricing 2026 US East compute storage",
+      "effective_query": "Microsoft Azure pricing 2026 US East compute storage",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Oracle Cloud Infrastructure pricing 2026 compute storage",
+      "effective_query": "Oracle Cloud Infrastructure pricing 2026 compute storage",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AWS machine learning AI services 2026 SageMaker Bedrock capabilities",
+      "effective_query": "AWS machine learning AI services 2026 SageMaker Bedrock capabilities",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Cloud AI ML services 2026 Vertex AI Gemini",
+      "effective_query": "Google Cloud AI ML services 2026 Vertex AI Gemini",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Azure AI ML services 2026 OpenAI Azure Machine Learning",
+      "effective_query": "Microsoft Azure AI ML services 2026 OpenAI Azure Machine Learning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Oracle Cloud AI ML services 2026 OCI AI",
+      "effective_query": "Oracle Cloud AI ML services 2026 OCI AI",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AWS enterprise support plans SLA 2026",
+      "effective_query": "AWS enterprise support plans SLA 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Cloud enterprise support plans SLA 2026",
+      "effective_query": "Google Cloud enterprise support plans SLA 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Azure enterprise support plans SLA 2026",
+      "effective_query": "Microsoft Azure enterprise support plans SLA 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Oracle Cloud enterprise support plans SLA 2026",
+      "effective_query": "Oracle Cloud enterprise support plans SLA 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Oracle Cloud Infrastructure support plans pricing 2026",
+      "effective_query": "Oracle Cloud Infrastructure support plans pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AWS data center regions availability zones 2026",
+      "effective_query": "AWS data center regions availability zones 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Cloud data center regions availability zones 2026",
+      "effective_query": "Google Cloud data center regions availability zones 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Azure regions availability zones 2026",
+      "effective_query": "Azure regions availability zones 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Oracle Cloud regions availability zones 2026",
+      "effective_query": "Oracle Cloud regions availability zones 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AWS security compliance certifications 2026",
+      "effective_query": "AWS security compliance certifications 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Cloud security compliance certifications 2026",
+      "effective_query": "Google Cloud security compliance certifications 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Azure security compliance certifications 2026",
+      "effective_query": "Azure security compliance certifications 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Oracle Cloud security compliance certifications 2026",
+      "effective_query": "Oracle Cloud security compliance certifications 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 201,
+  "duration_seconds": 299.5794475786388,
+  "report_length": 39979,
+  "context_length": 306697,
+  "qid": "prodcpQVPUCCeIbgfrg01Y",
+  "query": "Compare AWS, Google Cloud Platform, Microsoft Azure, and Oracle Cloud Infrastructure on pricing in the US (focusing on major services such as compute and storage), machine learning and AI services capabilities, enterprise support (examining support plans, SLAs, and overall support experience), infrastructure and availability (data center regions, availability zones, edge locations, and geographic coverage), and security and compliance features as of 2026. In the final report, you should include a detailed table for the summarized results, and provide cited data where available."
+}

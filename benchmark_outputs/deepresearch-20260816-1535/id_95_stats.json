@@ -1,0 +1,334 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 94491,
+  "total_output_tokens": 36848,
+  "total_tokens": 131339,
+  "total_search_count": 10,
+  "total_search_results": 96,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 845,
+      "output_tokens": 344,
+      "total_tokens": 1189,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26700,
+      "output_tokens": 315,
+      "total_tokens": 27015,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2995,
+      "output_tokens": 4001,
+      "total_tokens": 6996,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2995,
+      "output_tokens": 4001,
+      "total_tokens": 6996,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2995,
+      "output_tokens": 3297,
+      "total_tokens": 6292,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3974,
+      "output_tokens": 3662,
+      "total_tokens": 7636,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3944,
+      "output_tokens": 4001,
+      "total_tokens": 7945,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4686,
+      "output_tokens": 4001,
+      "total_tokens": 8687,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2781,
+      "output_tokens": 923,
+      "total_tokens": 3704,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2781,
+      "output_tokens": 2438,
+      "total_tokens": 5219,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11405,
+      "output_tokens": 4001,
+      "total_tokens": 15406,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28390,
+      "output_tokens": 5864,
+      "total_tokens": 34254,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Diamond Sutra full text translation English",
+      "effective_query": "Diamond Sutra full text translation English",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Diamond Sutra summary core teachings",
+      "effective_query": "Diamond Sutra summary core teachings",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Diamond Sutra commentaries Thich Nhat Hanh",
+      "effective_query": "Diamond Sutra commentaries Thich Nhat Hanh",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Diamond Sutra emptiness prajnaparamita",
+      "effective_query": "Diamond Sutra emptiness prajnaparamita",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Diamond Sutra practical applications daily life",
+      "effective_query": "Diamond Sutra practical applications daily life",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Diamond Sutra business leadership",
+      "effective_query": "Diamond Sutra business leadership",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Diamond Sutra parenting relationships",
+      "effective_query": "Diamond Sutra parenting relationships",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Diamond Sutra emotional well-being",
+      "effective_query": "Diamond Sutra emotional well-being",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Diamond Sutra interpersonal dynamics",
+      "effective_query": "Diamond Sutra interpersonal dynamics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Diamond Sutra workplace ethics",
+      "effective_query": "Diamond Sutra workplace ethics",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Diamond_Sutra",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.183
+        }
+      ],
+      "content_length": 52258,
+      "duration_seconds": 1.183,
+      "summary_status": "failed",
+      "summary_duration_seconds": 1.123,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "BadRequestError: Error code: 400 - {'error': {'message': 'Model service provider exception: {Response code: 400, body: {\"error\":{\"message\":\"The request is invalid: {\\\\\"message\\\\\":\\\\\"model deepseek-v4-flash: target label not found for the request: \\\\\\\\u003cnil\\\\\\\\u003e trace_id: b708466ba901092f61dc6c5f230946a8\\\\\",\\\\\"type\\\\\":\\\\\"invalid_request_error\\\\\"}\\\\n. Please check the request body, required fields, and request format.\",\"reqid\":\"c11ed49a-6d20-4e48-ae5a-c365d4c3db76\",\"type\":\"invalid_request_error\"},\"type\":\"error\"}}', 'type': 'bad_response_status_code', 'param': '', 'code': 'bad_response_status_code'}}"
+    },
+    {
+      "url": "https://diamond-sutra.com/read-the-diamond-sutra-here",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.914
+        }
+      ],
+      "content_length": 8630,
+      "duration_seconds": 3.914,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.073,
+      "summary_length": 2337,
+      "summary_input_tokens": 2995,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://plumvillage.org/library/sutras/the-diamond-that-cuts-through-illusion",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.161
+        }
+      ],
+      "content_length": 45189,
+      "duration_seconds": 1.161,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://buddhism-thewayofemptiness.blog.nomagic.uk/the-diamond-sutra",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.678
+        }
+      ],
+      "content_length": 16076,
+      "duration_seconds": 5.678,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.e3s-conferences.org/articles/e3sconf/pdf/2021/29/e3sconf_eem2021_02061.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.08
+        }
+      ],
+      "content_length": 17310,
+      "duration_seconds": 4.08,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.734,
+      "summary_length": 719,
+      "summary_input_tokens": 3944,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://gassho.info/blog-page/what-is-the-diamond-sutra",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.08
+        }
+      ],
+      "content_length": 18543,
+      "duration_seconds": 4.08,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://blog.mindvalley.com/diamond-sutra",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.757
+        }
+      ],
+      "content_length": 11534,
+      "duration_seconds": 4.757,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.mdpi.com/2077-1444/13/5/403",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.699
+        }
+      ],
+      "content_length": 47063,
+      "duration_seconds": 4.699,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.216,
+      "summary_length": 8624,
+      "summary_input_tokens": 11405,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 71,
+  "duration_seconds": 1228.085576388985,
+  "report_length": 23539,
+  "context_length": 140211,
+  "id": 95,
+  "prompt": "Create comprehensive, in-depth study notes for the Diamond Sutra (Vajracchedikā Prajñāpāramitā Sūtra). These notes should offer deep analysis and interpretation from various perspectives, exploring its teachings and relevance in contexts such as daily life, the workplace/career, business practices, marriage, parenting, emotional well-being, and interpersonal dynamics.",
+  "language": "en",
+  "topic": "Religion"
+}

@@ -1,0 +1,430 @@
+{
+  "total_llm_calls": 19,
+  "total_input_tokens": 360859,
+  "total_output_tokens": 40884,
+  "total_tokens": 401743,
+  "total_search_count": 5,
+  "total_search_results": 41,
+  "total_visit_count": 12,
+  "total_visit_success": 12,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 790,
+      "output_tokens": 160,
+      "total_tokens": 950,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10359,
+      "output_tokens": 348,
+      "total_tokens": 10707,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2987,
+      "output_tokens": 2093,
+      "total_tokens": 5080,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7667,
+      "output_tokens": 2031,
+      "total_tokens": 9698,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20695,
+      "output_tokens": 4001,
+      "total_tokens": 24696,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20695,
+      "output_tokens": 3437,
+      "total_tokens": 24132,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20695,
+      "output_tokens": 2818,
+      "total_tokens": 23513,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20695,
+      "output_tokens": 3201,
+      "total_tokens": 23896,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14970,
+      "output_tokens": 2878,
+      "total_tokens": 17848,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51124,
+      "output_tokens": 2563,
+      "total_tokens": 53687,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34243,
+      "output_tokens": 1834,
+      "total_tokens": 36077,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26886,
+      "output_tokens": 2311,
+      "total_tokens": 29197,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2661,
+      "output_tokens": 1370,
+      "total_tokens": 4031,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2120,
+      "output_tokens": 384,
+      "total_tokens": 2504,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26962,
+      "output_tokens": 651,
+      "total_tokens": 27613,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2130,
+      "output_tokens": 836,
+      "total_tokens": 2966,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35530,
+      "output_tokens": 2365,
+      "total_tokens": 37895,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35530,
+      "output_tokens": 1919,
+      "total_tokens": 37449,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24120,
+      "output_tokens": 5684,
+      "total_tokens": 29804,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "bird migration navigation mechanisms magnetic field sun stars landmarks",
+      "effective_query": "bird migration navigation mechanisms magnetic field sun stars landmarks",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cues used by birds for navigation during migration",
+      "effective_query": "cues used by birds for navigation during migration",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "disturbances affecting bird migration navigation light pollution climate change",
+      "effective_query": "disturbances affecting bird migration navigation light pollution climate change",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "bird magnetoreception cryptochrome compass",
+      "effective_query": "bird magnetoreception cryptochrome compass",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "how do birds know where to go migration orientation",
+      "effective_query": "how do birds know where to go migration orientation",
+      "retriever": "tavily",
+      "num_results": 7
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.allaboutbirds.org/news/the-basics-migration-navigation",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.562
+        }
+      ],
+      "content_length": 10708,
+      "duration_seconds": 12.562,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.998,
+      "summary_length": 8278,
+      "summary_input_tokens": 2987,
+      "summary_output_tokens": 2093
+    },
+    {
+      "url": "https://www.encyclopedie-environnement.org/en/life/orientation-migratory-birds",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 15.422
+        }
+      ],
+      "content_length": 31932,
+      "duration_seconds": 15.422,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://avesbiology.com/nav_orient.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 15.967
+        }
+      ],
+      "content_length": 90254,
+      "duration_seconds": 15.968,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.045,
+      "summary_length": 15978,
+      "summary_input_tokens": 20695,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11900352",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.524
+        }
+      ],
+      "content_length": 64682,
+      "duration_seconds": 1.524,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.498,
+      "summary_length": 11870,
+      "summary_input_tokens": 14970,
+      "summary_output_tokens": 2878
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bird_migration",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.636
+        }
+      ],
+      "content_length": 173910,
+      "duration_seconds": 2.637,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.62,
+      "summary_length": 7578,
+      "summary_input_tokens": 51124,
+      "summary_output_tokens": 2563
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Magnetoreception",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.347
+        }
+      ],
+      "content_length": 113815,
+      "duration_seconds": 2.348,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.75,
+      "summary_length": 9322,
+      "summary_input_tokens": 34243,
+      "summary_output_tokens": 1834
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.667000/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.992
+        }
+      ],
+      "content_length": 81772,
+      "duration_seconds": 7.992,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.936,
+      "summary_length": 7703,
+      "summary_input_tokens": 26886,
+      "summary_output_tokens": 2311
+    },
+    {
+      "url": "https://darksky.org/news/light-pollution-poses-threat-to-migrating-birds",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.559
+        }
+      ],
+      "content_length": 10147,
+      "duration_seconds": 2.559,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.696,
+      "summary_length": 4894,
+      "summary_input_tokens": 2661,
+      "summary_output_tokens": 1370
+    },
+    {
+      "url": "https://source.colostate.edu/artificial-light-birds-danger",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.087
+        }
+      ],
+      "content_length": 8239,
+      "duration_seconds": 10.087,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.119,
+      "summary_length": 1302,
+      "summary_input_tokens": 2120,
+      "summary_output_tokens": 384
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10696060",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.645
+        }
+      ],
+      "content_length": 96669,
+      "duration_seconds": 1.645,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.498,
+      "summary_length": 1793,
+      "summary_input_tokens": 26962,
+      "summary_output_tokens": 651
+    },
+    {
+      "url": "https://designlights.org/news-events/news/light-pollution-and-migrating-birds-a-conservation-scientist-weighs-in",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.467
+        }
+      ],
+      "content_length": 7993,
+      "duration_seconds": 7.467,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.181,
+      "summary_length": 4416,
+      "summary_input_tokens": 2130,
+      "summary_output_tokens": 836
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12037376",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.896
+        }
+      ],
+      "content_length": 119884,
+      "duration_seconds": 1.896,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 34,
+  "duration_seconds": 655.0940268039703,
+  "report_length": 25100,
+  "context_length": 146025,
+  "id": 59,
+  "prompt": "In ecology, how do birds achieve precise location and direction navigation during migration? What cues and disturbances influence this process?",
+  "language": "en",
+  "topic": "Science & Technology"
+}

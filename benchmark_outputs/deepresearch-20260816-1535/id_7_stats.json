@@ -1,0 +1,203 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 147114,
+  "total_output_tokens": 15598,
+  "total_tokens": 162712,
+  "total_search_count": 9,
+  "total_search_results": 85,
+  "total_visit_count": 3,
+  "total_visit_success": 3,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 789,
+      "output_tokens": 117,
+      "total_tokens": 906,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26777,
+      "output_tokens": 117,
+      "total_tokens": 26894,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48179,
+      "output_tokens": 223,
+      "total_tokens": 48402,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2125,
+      "output_tokens": 4001,
+      "total_tokens": 6126,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2046,
+      "output_tokens": 496,
+      "total_tokens": 2542,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2668,
+      "output_tokens": 4001,
+      "total_tokens": 6669,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2589,
+      "output_tokens": 701,
+      "total_tokens": 3290,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12303,
+      "output_tokens": 890,
+      "total_tokens": 13193,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 49638,
+      "output_tokens": 5052,
+      "total_tokens": 54690,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "中国房地产低迷 地方政府财政收入 影响 2025 2026",
+      "effective_query": "中国房地产低迷 地方政府财政收入 影响 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国土地出让金收入下降 地方政府财政 2025",
+      "effective_query": "中国土地出让金收入下降 地方政府财政 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国房地产市场下行 地方税收减少 财政压力",
+      "effective_query": "中国房地产市场下行 地方税收减少 财政压力",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "China local government fiscal revenue property downturn 2025",
+      "effective_query": "China local government fiscal revenue property downturn 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国房地产税收 地方政府 契税 土地增值税 收入下降",
+      "effective_query": "中国房地产税收 地方政府 契税 土地增值税 收入下降",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2025年地方一般公共预算收入 税收收入 房地产相关税收 数据",
+      "effective_query": "2025年地方一般公共预算收入 税收收入 房地产相关税收 数据",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "地方财政收入 土地出让金占比 2025 2026 下降",
+      "effective_query": "地方财政收入 土地出让金占比 2025 2026 下降",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国地方政府债务 偿债压力 土地收入下降 2025",
+      "effective_query": "中国地方政府债务 偿债压力 土地收入下降 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "China local government revenue decline property tax land sale 2025 2026 data",
+      "effective_query": "China local government revenue decline property tax land sale 2025 2026 data",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.stcn.com/article/detail/3624762.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.415
+        }
+      ],
+      "content_length": 3466,
+      "duration_seconds": 16.416,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.bbc.com/zhongwen/articles/c74v2n2zk49o/simp",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.57
+        }
+      ],
+      "content_length": 4335,
+      "duration_seconds": 4.571,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.32,
+      "summary_length": 779,
+      "summary_input_tokens": 2668,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.qstheory.cn/20260315/977ec383dcef4a92a0f275f360c1c251/c.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.527
+        }
+      ],
+      "content_length": 22409,
+      "duration_seconds": 4.527,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.152,
+      "summary_length": 1441,
+      "summary_input_tokens": 12303,
+      "summary_output_tokens": 890
+    }
+  ],
+  "source_urls_count": 76,
+  "duration_seconds": 321.90903432294726,
+  "report_length": 8829,
+  "context_length": 121665,
+  "id": 7,
+  "prompt": "在当前中国房地产市场低迷的情况下，政府税收减少，这会多大程度上影响地方政府的财政收入",
+  "language": "zh",
+  "topic": "Finance & Business"
+}

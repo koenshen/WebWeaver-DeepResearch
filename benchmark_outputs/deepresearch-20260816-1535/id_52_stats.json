@@ -1,0 +1,68 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 16258,
+  "total_output_tokens": 4704,
+  "total_tokens": 20962,
+  "total_search_count": 5,
+  "total_search_results": 47,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 787,
+      "output_tokens": 125,
+      "total_tokens": 912,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15471,
+      "output_tokens": 4579,
+      "total_tokens": 20050,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Duan Yongping investment philosophy",
+      "effective_query": "Duan Yongping investment philosophy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Warren Buffett investment philosophy value investing",
+      "effective_query": "Warren Buffett investment philosophy value investing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Charlie Munger investment philosophy mental models",
+      "effective_query": "Charlie Munger investment philosophy mental models",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Duan Yongping value investing approach",
+      "effective_query": "Duan Yongping value investing approach",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Buffett Munger principles of investing",
+      "effective_query": "Buffett Munger principles of investing",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 41,
+  "duration_seconds": 175.16324368864298,
+  "report_length": 18332,
+  "context_length": 88608,
+  "id": 52,
+  "prompt": "What are the investment philosophies of Duan Yongping, Warren Buffett, and Charlie Munger? ",
+  "language": "en",
+  "topic": "Finance & Business"
+}

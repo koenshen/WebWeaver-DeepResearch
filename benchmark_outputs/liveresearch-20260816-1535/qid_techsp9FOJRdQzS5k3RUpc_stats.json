@@ -1,0 +1,293 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 131130,
+  "total_output_tokens": 44521,
+  "total_tokens": 175651,
+  "total_search_count": 12,
+  "total_search_results": 115,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1032,
+      "output_tokens": 4473,
+      "total_tokens": 5505,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17984,
+      "output_tokens": 228,
+      "total_tokens": 18212,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5892,
+      "output_tokens": 4001,
+      "total_tokens": 9893,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5892,
+      "output_tokens": 4001,
+      "total_tokens": 9893,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5813,
+      "output_tokens": 2131,
+      "total_tokens": 7944,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2757,
+      "output_tokens": 693,
+      "total_tokens": 3450,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2950,
+      "output_tokens": 1644,
+      "total_tokens": 4594,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4240,
+      "output_tokens": 1841,
+      "total_tokens": 6081,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7018,
+      "output_tokens": 4001,
+      "total_tokens": 11019,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7018,
+      "output_tokens": 2940,
+      "total_tokens": 9958,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7018,
+      "output_tokens": 4001,
+      "total_tokens": 11019,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7018,
+      "output_tokens": 3627,
+      "total_tokens": 10645,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22223,
+      "output_tokens": 1411,
+      "total_tokens": 23634,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34275,
+      "output_tokens": 9529,
+      "total_tokens": 43804,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "enterprise cloud migration strategies finance AWS Azure GCP comparison 2026",
+      "effective_query": "enterprise cloud migration strategies finance AWS Azure GCP comparison 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AWS MGN vs Azure Migrate vs GCP Migrate for Compute Engine lift and shift 2026",
+      "effective_query": "AWS MGN vs Azure Migrate vs GCP Migrate for Compute Engine lift and shift 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AWS DMS vs Azure DMS vs GCP database migration service replatforming",
+      "effective_query": "AWS DMS vs Azure DMS vs GCP database migration service replatforming",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AWS EKS vs GKE vs AKS enterprise finance microservices",
+      "effective_query": "AWS EKS vs GKE vs AKS enterprise finance microservices",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PCI DSS compliant cloud providers AWS Azure GCP 2026",
+      "effective_query": "PCI DSS compliant cloud providers AWS Azure GCP 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cloud data residency compliance finance regulations",
+      "effective_query": "cloud data residency compliance finance regulations",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cloud TCO calculator migration costs AWS Azure GCP",
+      "effective_query": "cloud TCO calculator migration costs AWS Azure GCP",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AWS mainframe migration GCP Azure financial services 2026",
+      "effective_query": "AWS mainframe migration GCP Azure financial services 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SAP migration to cloud AWS Azure GCP finance",
+      "effective_query": "SAP migration to cloud AWS Azure GCP finance",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cloud migration finance case study enterprise 2025",
+      "effective_query": "cloud migration finance case study enterprise 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cloud TCO comparison AWS Azure GCP 2026 enterprise",
+      "effective_query": "Cloud TCO comparison AWS Azure GCP 2026 enterprise",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AWS MGN vs Azure Migrate vs GCP Migrate for Compute Engine pricing 2026",
+      "effective_query": "AWS MGN vs Azure Migrate vs GCP Migrate for Compute Engine pricing 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://technologymatch.com/blog/aws-migration-hub-azure-migrate-google-cloud-which-tool-to-use-in-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.43
+        }
+      ],
+      "content_length": 31561,
+      "duration_seconds": 8.43,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.707,
+      "summary_length": 5157,
+      "summary_input_tokens": 5892,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://ardura.consulting/blog/cloud-migration-cost-calculator-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.275
+        }
+      ],
+      "content_length": 11321,
+      "duration_seconds": 2.275,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.363,
+      "summary_length": 2317,
+      "summary_input_tokens": 2757,
+      "summary_output_tokens": 693
+    },
+    {
+      "url": "https://lorikeetsecurity.com/blog/pci-dss-cloud-compliance",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.935
+        }
+      ],
+      "content_length": 13349,
+      "duration_seconds": 12.935,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.678,
+      "summary_length": 5806,
+      "summary_input_tokens": 2950,
+      "summary_output_tokens": 1644
+    },
+    {
+      "url": "https://www.cloudoptimo.com/blog/eks-vs-gke-vs-aks-best-managed-kubernetes-service-in-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.36
+        }
+      ],
+      "content_length": 19807,
+      "duration_seconds": 4.36,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.964,
+      "summary_length": 5168,
+      "summary_input_tokens": 4240,
+      "summary_output_tokens": 1841
+    },
+    {
+      "url": "https://usage.ai/blogs/top-cloud-service-providers-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.81
+        }
+      ],
+      "content_length": 32329,
+      "duration_seconds": 4.81,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.363,
+      "summary_length": 15925,
+      "summary_input_tokens": 7018,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 100,
+  "duration_seconds": 453.54189889971167,
+  "report_length": 33923,
+  "context_length": 194257,
+  "qid": "techsp9FOJRdQzS5k3RUpc",
+  "query": "Evaluate the major cloud migration strategies from on-premises to AWS, GCP, and Azure, focusing on enterprise application migrations in industries such as finance. Compare lift-and-shift, re-platforming, and full re-architecture approaches across the following dimensions:\n        •        Tooling & Services (native migration tools, partner solutions, automation frameworks).\n        •        Cost Modeling (TCO, migration costs, ongoing operational expenses).\n        •        Downtime & Business Continuity Risks (impact on SLAs, failover options, cutover complexity).\n        •        Performance & Scalability Post-Migration.\n        •        Security & Compliance (regulatory requirements such as PCI-DSS, data residency).\n\nThe migration is focusing on large-scale enterprise projects. Present the evaluation in a comparison table for clarity to compare AWS, GCP, and Azure for each migration approach, along with pros and cons tailored to regulated enterprise environments like finance."
+}

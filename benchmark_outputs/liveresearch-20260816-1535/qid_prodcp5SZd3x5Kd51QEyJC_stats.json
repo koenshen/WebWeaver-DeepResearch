@@ -1,0 +1,333 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 191007,
+  "total_output_tokens": 25799,
+  "total_tokens": 216806,
+  "total_search_count": 21,
+  "total_search_results": 164,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 863,
+      "output_tokens": 278,
+      "total_tokens": 1141,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25391,
+      "output_tokens": 230,
+      "total_tokens": 25621,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10074,
+      "output_tokens": 1319,
+      "total_tokens": 11393,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11301,
+      "output_tokens": 1253,
+      "total_tokens": 12554,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10324,
+      "output_tokens": 1486,
+      "total_tokens": 11810,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12961,
+      "output_tokens": 1327,
+      "total_tokens": 14288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9765,
+      "output_tokens": 4001,
+      "total_tokens": 13766,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9765,
+      "output_tokens": 4001,
+      "total_tokens": 13766,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9686,
+      "output_tokens": 917,
+      "total_tokens": 10603,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9765,
+      "output_tokens": 4001,
+      "total_tokens": 13766,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28456,
+      "output_tokens": 239,
+      "total_tokens": 28695,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 52656,
+      "output_tokens": 6747,
+      "total_tokens": 59403,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Bose QuietComfort 45 ANC performance sound quality battery life",
+      "effective_query": "Bose QuietComfort 45 ANC performance sound quality battery life",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Bose QuietComfort Ultra ANC review sound quality",
+      "effective_query": "Bose QuietComfort Ultra ANC review sound quality",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Sony WH-1000XM5 ANC performance sound quality review",
+      "effective_query": "Sony WH-1000XM5 ANC performance sound quality review",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Apple AirPods Max ANC sound quality review",
+      "effective_query": "Apple AirPods Max ANC sound quality review",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Sennheiser Momentum 4 Wireless ANC sound quality review",
+      "effective_query": "Sennheiser Momentum 4 Wireless ANC sound quality review",
+      "retriever": "tavily",
+      "num_results": 4
+    },
+    {
+      "query": "Bose QC45 vs QC Ultra vs Sony XM5 vs AirPods Max vs Momentum 4 comparison 2025",
+      "effective_query": "Bose QC45 vs QC Ultra vs Sony XM5 vs AirPods Max vs Momentum 4 comparison 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Bose QuietComfort 45 price US 2026",
+      "effective_query": "Bose QuietComfort 45 price US 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Bose QuietComfort Ultra price US 2026",
+      "effective_query": "Bose QuietComfort Ultra price US 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Sony WH-1000XM5 price US 2026",
+      "effective_query": "Sony WH-1000XM5 price US 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Apple AirPods Max price US 2026",
+      "effective_query": "Apple AirPods Max price US 2026",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Sennheiser Momentum 4 Wireless price US 2026",
+      "effective_query": "Sennheiser Momentum 4 Wireless price US 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Bose QuietComfort Ultra ANC rating decibel reduction",
+      "effective_query": "Bose QuietComfort Ultra ANC rating decibel reduction",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Sony WH-1000XM5 ANC rating decibel reduction",
+      "effective_query": "Sony WH-1000XM5 ANC rating decibel reduction",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Sennheiser Momentum 4 ANC rating decibel reduction",
+      "effective_query": "Sennheiser Momentum 4 ANC rating decibel reduction",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Apple AirPods Max ANC rating decibel reduction",
+      "effective_query": "Apple AirPods Max ANC rating decibel reduction",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Bose QC45 ANC rating decibel reduction",
+      "effective_query": "Bose QC45 ANC rating decibel reduction",
+      "retriever": "tavily",
+      "num_results": 5
+    },
+    {
+      "query": "Sennheiser Momentum 4 sound quality review audiophile",
+      "effective_query": "Sennheiser Momentum 4 sound quality review audiophile",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Apple AirPods Max battery life hours",
+      "effective_query": "Apple AirPods Max battery life hours",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Bose QuietComfort Ultra battery life test",
+      "effective_query": "Bose QuietComfort Ultra battery life test",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Bose QuietComfort 45 vs Ultra vs Sony XM5 vs AirPods Max vs Momentum 4 ANC comparison",
+      "effective_query": "Bose QuietComfort 45 vs Ultra vs Sony XM5 vs AirPods Max vs Momentum 4 ANC comparison",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "best over ear headphones 2026 comparison ANC sound quality",
+      "effective_query": "best over ear headphones 2026 comparison ANC sound quality",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.rtings.com/headphones/reviews/bose/quietcomfort-45-qc45-wireless",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.013
+        }
+      ],
+      "content_length": 34974,
+      "duration_seconds": 8.014,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.661,
+      "summary_length": 2823,
+      "summary_input_tokens": 10074,
+      "summary_output_tokens": 1319
+    },
+    {
+      "url": "https://www.rtings.com/headphones/reviews/sony/wh-1000xm5-wireless",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.402
+        }
+      ],
+      "content_length": 38278,
+      "duration_seconds": 8.403,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.23,
+      "summary_length": 3112,
+      "summary_input_tokens": 11301,
+      "summary_output_tokens": 1253
+    },
+    {
+      "url": "https://www.rtings.com/headphones/reviews/sennheiser/momentum-4-wireless",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.257
+        }
+      ],
+      "content_length": 36009,
+      "duration_seconds": 8.257,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.174,
+      "summary_length": 4171,
+      "summary_input_tokens": 10324,
+      "summary_output_tokens": 1486
+    },
+    {
+      "url": "https://www.rtings.com/headphones/reviews/apple/airpods-max",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.174
+        }
+      ],
+      "content_length": 41893,
+      "duration_seconds": 7.174,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.754,
+      "summary_length": 4357,
+      "summary_input_tokens": 12961,
+      "summary_output_tokens": 1327
+    },
+    {
+      "url": "https://www.rtings.com/headphones/reviews/bose/quietcomfort-ultra-headphones",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.259
+        }
+      ],
+      "content_length": 34779,
+      "duration_seconds": 8.259,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.337,
+      "summary_length": 1378,
+      "summary_input_tokens": 9765,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 141,
+  "duration_seconds": 341.17096132971346,
+  "report_length": 19495,
+  "context_length": 228709,
+  "qid": "prodcp5SZd3x5Kd51QEyJC",
+  "query": "Compare Bose QuietComfort 45, Bose QuietComfort Ultra, Sony WH-1000XM5, Apple AirPods Max, and Sennheiser Momentum 4 Wireless in terms of active noise cancellation performance, sound quality and audio accuracy, comfort and build materials, battery life, and pricing in the US as of now ({{current_date}}). In the final report, you should include a detailed table for the summarized results, and provide cited data where available."
+}

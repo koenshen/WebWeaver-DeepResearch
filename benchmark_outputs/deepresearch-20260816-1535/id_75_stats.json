@@ -1,0 +1,501 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 363148,
+  "total_output_tokens": 27483,
+  "total_tokens": 390631,
+  "total_search_count": 30,
+  "total_search_results": 278,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 893,
+      "output_tokens": 1815,
+      "total_tokens": 2708,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20528,
+      "output_tokens": 387,
+      "total_tokens": 20915,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 65314,
+      "output_tokens": 1799,
+      "total_tokens": 67113,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21744,
+      "output_tokens": 1283,
+      "total_tokens": 23027,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16398,
+      "output_tokens": 4001,
+      "total_tokens": 20399,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48502,
+      "output_tokens": 1291,
+      "total_tokens": 49793,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35261,
+      "output_tokens": 2468,
+      "total_tokens": 37729,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5014,
+      "output_tokens": 3288,
+      "total_tokens": 8302,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18595,
+      "output_tokens": 1098,
+      "total_tokens": 19693,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 347,
+      "output_tokens": 3253,
+      "total_tokens": 3600,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26071,
+      "output_tokens": 149,
+      "total_tokens": 26220,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43228,
+      "output_tokens": 181,
+      "total_tokens": 43409,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 61253,
+      "output_tokens": 6470,
+      "total_tokens": 67723,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "modulating plasma metal ion concentrations cardiovascular disease therapeutic strategy",
+      "effective_query": "modulating plasma metal ion concentrations cardiovascular disease therapeutic strategy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "supplementation essential trace elements cardiovascular disease prevention efficacy",
+      "effective_query": "supplementation essential trace elements cardiovascular disease prevention efficacy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "magnesium supplementation cardiovascular outcomes meta-analysis",
+      "effective_query": "magnesium supplementation cardiovascular outcomes meta-analysis",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "calcium supplementation cardiovascular risk meta-analysis 2023",
+      "effective_query": "calcium supplementation cardiovascular risk meta-analysis 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TACT trial EDTA chelation therapy cardiovascular disease results",
+      "effective_query": "TACT trial EDTA chelation therapy cardiovascular disease results",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "iron overload hemochromatosis cardiovascular disease treatment phlebotomy",
+      "effective_query": "iron overload hemochromatosis cardiovascular disease treatment phlebotomy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zinc supplementation heart failure clinical trial",
+      "effective_query": "zinc supplementation heart failure clinical trial",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "copper selenium cardiovascular disease U-shaped risk",
+      "effective_query": "copper selenium cardiovascular disease U-shaped risk",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "potassium supplementation blood pressure stroke prevention",
+      "effective_query": "potassium supplementation blood pressure stroke prevention",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "heavy metals lead cadmium arsenic atherosclerosis chelation therapy",
+      "effective_query": "heavy metals lead cadmium arsenic atherosclerosis chelation therapy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LIMIT-2 trial magnesium myocardial infarction intravenous results",
+      "effective_query": "LIMIT-2 trial magnesium myocardial infarction intravenous results",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "selenium supplementation cardiovascular disease meta-analysis 2024",
+      "effective_query": "selenium supplementation cardiovascular disease meta-analysis 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "potassium salt substitute stroke study SSaSS results",
+      "effective_query": "potassium salt substitute stroke study SSaSS results",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "zinc supplementation heart failure randomized controlled trial",
+      "effective_query": "zinc supplementation heart failure randomized controlled trial",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "copper chelation therapy cardiovascular disease clinical trial",
+      "effective_query": "copper chelation therapy cardiovascular disease clinical trial",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "EDTA chelation therapy mechanism atherosclerosis lead cadmium",
+      "effective_query": "EDTA chelation therapy mechanism atherosclerosis lead cadmium",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "iron chelation deferoxamine cardiovascular outcomes thalassemia",
+      "effective_query": "iron chelation deferoxamine cardiovascular outcomes thalassemia",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "chromium vanadium supplementation cardiovascular disease",
+      "effective_query": "chromium vanadium supplementation cardiovascular disease",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "manganese superoxide dismutase cardiovascular disease",
+      "effective_query": "manganese superoxide dismutase cardiovascular disease",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "U-shaped relationship selenium cardiovascular mortality NHANES",
+      "effective_query": "U-shaped relationship selenium cardiovascular mortality NHANES",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "magnesium supplementation blood pressure meta-analysis RCT 2023",
+      "effective_query": "magnesium supplementation blood pressure meta-analysis RCT 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "zinc supplementation oxidative stress elderly clinical trial",
+      "effective_query": "zinc supplementation oxidative stress elderly clinical trial",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "salt substitute potassium cardiovascular mortality WHO",
+      "effective_query": "salt substitute potassium cardiovascular mortality WHO",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "deferiprone cardiac iron thalassemia survival",
+      "effective_query": "deferiprone cardiac iron thalassemia survival",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "chromium picolinate cardiovascular disease meta-analysis",
+      "effective_query": "chromium picolinate cardiovascular disease meta-analysis",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "copper supplementation cardiovascular disease risk",
+      "effective_query": "copper supplementation cardiovascular disease risk",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "manganese supplementation cardiovascular",
+      "effective_query": "manganese supplementation cardiovascular",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "strontium vascular calcification cardiovascular",
+      "effective_query": "strontium vascular calcification cardiovascular",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "metal ions angiogenesis cardiovascular cobalt",
+      "effective_query": "metal ions angiogenesis cardiovascular cobalt",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TACT2 trial 2024 results EDTA diabetes",
+      "effective_query": "TACT2 trial 2024 results EDTA diabetes",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10761210",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.582
+        }
+      ],
+      "content_length": 205599,
+      "duration_seconds": 4.582,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.708,
+      "summary_length": 3483,
+      "summary_input_tokens": 65314,
+      "summary_output_tokens": 1799
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12073607",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.127
+        }
+      ],
+      "content_length": 65902,
+      "duration_seconds": 1.127,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10111600",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.533
+        }
+      ],
+      "content_length": 70662,
+      "duration_seconds": 6.533,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.715,
+      "summary_length": 5469,
+      "summary_input_tokens": 21744,
+      "summary_output_tokens": 1283
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4152775",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.413
+        }
+      ],
+      "content_length": 54703,
+      "duration_seconds": 1.413,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4446741",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.252
+        }
+      ],
+      "content_length": 152246,
+      "duration_seconds": 1.253,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5949916",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.305
+        }
+      ],
+      "content_length": 108698,
+      "duration_seconds": 2.305,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.51,
+      "summary_length": 8778,
+      "summary_input_tokens": 35261,
+      "summary_output_tokens": 2468
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7328074",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.688
+        }
+      ],
+      "content_length": 17333,
+      "duration_seconds": 2.688,
+      "summary_status": "success",
+      "summary_duration_seconds": 24.607,
+      "summary_length": 6145,
+      "summary_input_tokens": 5014,
+      "summary_output_tokens": 3288
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8360873",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.658
+        }
+      ],
+      "content_length": 55728,
+      "duration_seconds": 1.658,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2025.1699492/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.621
+        }
+      ],
+      "content_length": 93512,
+      "duration_seconds": 6.621,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0.859,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "BadRequestError: Error code: 400 - {'error': {'message': 'Model service provider exception: {Response code: 400, body: {\"error\":{\"message\":\"The request is invalid: {\\\\\"message\\\\\":\\\\\"model deepseek-v4-flash: target label not found for the request: \\\\\\\\u003cnil\\\\\\\\u003e trace_id: a37ae0d981c555b5ed7a8ddc44cbf1ed\\\\\",\\\\\"type\\\\\":\\\\\"invalid_request_error\\\\\"}\\\\n. Please check the request body, required fields, and request format.\",\"reqid\":\"9a064526-5e6a-4a98-ad3c-40df1cfeecd9\",\"type\":\"invalid_request_error\"},\"type\":\"error\"}}', 'type': 'bad_response_status_code', 'param': '', 'code': 'bad_response_status_code'}}"
+    },
+    {
+      "url": "https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.123.323617",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.069
+        }
+      ],
+      "content_length": 297,
+      "duration_seconds": 1.069,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.6,
+      "summary_length": 1677,
+      "summary_input_tokens": 347,
+      "summary_output_tokens": 3253
+    }
+  ],
+  "source_urls_count": 252,
+  "duration_seconds": 1544.2424710383639,
+  "report_length": 28603,
+  "context_length": 310252,
+  "id": 75,
+  "prompt": "Could the rapeutic interventions aimed at modulating plasma metal ion concentrations represent effective preventive or therapeutic strategies against cardiovascular diseases? What types of interventions—such as supplementation—have been proposed, and is there clinical evidence supporting their feasibility and efficacy?",
+  "language": "en",
+  "topic": "Health"
+}

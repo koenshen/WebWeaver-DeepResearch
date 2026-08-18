@@ -1,0 +1,462 @@
+{
+  "total_llm_calls": 15,
+  "total_input_tokens": 236843,
+  "total_output_tokens": 37079,
+  "total_tokens": 273922,
+  "total_search_count": 18,
+  "total_search_results": 165,
+  "total_visit_count": 11,
+  "total_visit_success": 11,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 955,
+      "output_tokens": 2608,
+      "total_tokens": 3563,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20916,
+      "output_tokens": 220,
+      "total_tokens": 21136,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28505,
+      "output_tokens": 2471,
+      "total_tokens": 30976,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2649,
+      "output_tokens": 1963,
+      "total_tokens": 4612,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50791,
+      "output_tokens": 3635,
+      "total_tokens": 54426,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7169,
+      "output_tokens": 3560,
+      "total_tokens": 10729,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7090,
+      "output_tokens": 792,
+      "total_tokens": 7882,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2590,
+      "output_tokens": 1352,
+      "total_tokens": 3942,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26777,
+      "output_tokens": 235,
+      "total_tokens": 27012,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15931,
+      "output_tokens": 2169,
+      "total_tokens": 18100,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 991,
+      "output_tokens": 4001,
+      "total_tokens": 4992,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 912,
+      "output_tokens": 900,
+      "total_tokens": 1812,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 991,
+      "output_tokens": 4001,
+      "total_tokens": 4992,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27479,
+      "output_tokens": 714,
+      "total_tokens": 28193,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43097,
+      "output_tokens": 8458,
+      "total_tokens": 51555,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Amethyst Initiative John McCardell forbidden fruit drinking age",
+      "effective_query": "Amethyst Initiative John McCardell forbidden fruit drinking age",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "European drinking age lower binge drinking rates study",
+      "effective_query": "European drinking age lower binge drinking rates study",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "military age 18 drinking age 21 inconsistency debate",
+      "effective_query": "military age 18 drinking age 21 inconsistency debate",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MADD original founder drinking age 21 statement",
+      "effective_query": "MADD original founder drinking age 21 statement",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "underage drinking rates 2024 government data",
+      "effective_query": "underage drinking rates 2024 government data",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NHTSA drinking age 21 lives saved 30000",
+      "effective_query": "NHTSA drinking age 21 lives saved 30000",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CDC report minimum legal drinking age 21 traffic fatalities",
+      "effective_query": "CDC report minimum legal drinking age 21 traffic fatalities",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NIH adolescent brain development drinking age 21",
+      "effective_query": "NIH adolescent brain development drinking age 21",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NIAAA college drinking statistics alcohol poisoning deaths",
+      "effective_query": "NIAAA college drinking statistics alcohol poisoning deaths",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "drinking age 21 effectiveness public health safety",
+      "effective_query": "drinking age 21 effectiveness public health safety",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Amethyst Initiative statement 21 not working college presidents",
+      "effective_query": "Amethyst Initiative statement 21 not working college presidents",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "New Zealand drinking age lowered 18 consequences study",
+      "effective_query": "New Zealand drinking age lowered 18 consequences study",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "drinking age 21 past month 18-20 59% 1985 39% 2016",
+      "effective_query": "drinking age 21 past month 18-20 59% 1985 39% 2016",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "underage drinking unsupervised settings binge drinking college",
+      "effective_query": "underage drinking unsupervised settings binge drinking college",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Choose Responsibility gradual drinking license",
+      "effective_query": "Choose Responsibility gradual drinking license",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "drinking age 21 traffic fatalities 16% reduction CDC",
+      "effective_query": "drinking age 21 traffic fatalities 16% reduction CDC",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "alcohol poisoning deaths under 21 college students annual",
+      "effective_query": "alcohol poisoning deaths under 21 college students annual",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "alcohol use disorder risk early onset drinking before 15 study",
+      "effective_query": "alcohol use disorder risk early onset drinking before 15 study",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.britannica.com/procon/drinking-age-debate",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.475
+        }
+      ],
+      "content_length": 116718,
+      "duration_seconds": 10.475,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.215,
+      "summary_length": 11579,
+      "summary_input_tokens": 28505,
+      "summary_output_tokens": 2471
+    },
+    {
+      "url": "https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-topics/alcohol-facts-and-statistics/underage-drinking-united-states-ages-12-20",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.675
+        }
+      ],
+      "content_length": 8036,
+      "duration_seconds": 5.675,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.839,
+      "summary_length": 6643,
+      "summary_input_tokens": 2649,
+      "summary_output_tokens": 1963
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4669962",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.37
+        }
+      ],
+      "content_length": 157483,
+      "duration_seconds": 1.37,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.2,
+      "summary_length": 6814,
+      "summary_input_tokens": 50791,
+      "summary_output_tokens": 3635
+    },
+    {
+      "url": "https://www.cdc.gov/alcohol/underage-drinking/minimum-legal-drinking-age.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 15.588
+        }
+      ],
+      "content_length": 24759,
+      "duration_seconds": 15.588,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nhtsa.gov/book/countermeasures-that-work/alcohol-impaired-driving/countermeasures/legislation-and-licensing-5",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.849
+        }
+      ],
+      "content_length": 11031,
+      "duration_seconds": 5.849,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.hoover.org/research/underage-drinking-and-drinking-age",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.108
+        }
+      ],
+      "content_length": 41589,
+      "duration_seconds": 6.108,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4226518",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.522
+        }
+      ],
+      "content_length": 51660,
+      "duration_seconds": 1.522,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.171,
+      "summary_length": 10361,
+      "summary_input_tokens": 15931,
+      "summary_output_tokens": 2169
+    },
+    {
+      "url": "https://madd.org/why-21",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.164
+        }
+      ],
+      "content_length": 14850,
+      "duration_seconds": 9.164,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3400235",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.944
+        }
+      ],
+      "content_length": 46656,
+      "duration_seconds": 2.944,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.collegedrinkingprevention.gov/statistics/consequences",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.889
+        }
+      ],
+      "content_length": 2528,
+      "duration_seconds": 7.889,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.475,
+      "summary_length": 2988,
+      "summary_input_tokens": 991,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.youthrights.org/issues/drinking-age",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.724
+        }
+      ],
+      "content_length": 65741,
+      "duration_seconds": 7.725,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 142,
+  "duration_seconds": 1314.3954823287204,
+  "report_length": 37472,
+  "context_length": 226716,
+  "qid": "procony5ewSmxa6EiwByts",
+  "query": "Conduct a comprehensive analysis on whether the drinking age should be lowered from 21 in the United States. In the report, I would like to have 3 pro arguments and 3 con arguments. Each pro or con argument should include: (1) A clear thesis statement (2) Multiple supporting points substantiated with credible evidence (including but not limited to statistics, direct quotes, case studies, expert testimony, industry or government reports, academic research, news sources, online forums, and social media), followed by in-depth reasoning and analysis."
+}

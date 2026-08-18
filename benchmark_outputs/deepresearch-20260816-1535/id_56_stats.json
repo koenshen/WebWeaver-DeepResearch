@@ -1,0 +1,257 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 205482,
+  "total_output_tokens": 27319,
+  "total_tokens": 232801,
+  "total_search_count": 8,
+  "total_search_results": 75,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 807,
+      "output_tokens": 174,
+      "total_tokens": 981,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11399,
+      "output_tokens": 341,
+      "total_tokens": 11740,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20742,
+      "output_tokens": 2164,
+      "total_tokens": 22906,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20134,
+      "output_tokens": 1896,
+      "total_tokens": 22030,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19345,
+      "output_tokens": 2871,
+      "total_tokens": 22216,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19345,
+      "output_tokens": 2623,
+      "total_tokens": 21968,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19345,
+      "output_tokens": 2672,
+      "total_tokens": 22017,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19345,
+      "output_tokens": 4001,
+      "total_tokens": 23346,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12622,
+      "output_tokens": 2031,
+      "total_tokens": 14653,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15247,
+      "output_tokens": 2509,
+      "total_tokens": 17756,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18239,
+      "output_tokens": 132,
+      "total_tokens": 18371,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28912,
+      "output_tokens": 5905,
+      "total_tokens": 34817,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "first-price sealed-bid auction asymmetric bidders independent private values general solution",
+      "effective_query": "first-price sealed-bid auction asymmetric bidders independent private values general solution",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Maskin Riley asymmetric first-price auction 2000",
+      "effective_query": "Maskin Riley asymmetric first-price auction 2000",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "asymmetric first-price auction existence uniqueness differential equation",
+      "effective_query": "asymmetric first-price auction existence uniqueness differential equation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "numerical methods asymmetric first-price auction two bidders",
+      "effective_query": "numerical methods asymmetric first-price auction two bidders",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kaplan Zamir asymmetric first-price auctions uniform distributions analytical solution 2012",
+      "effective_query": "Kaplan Zamir asymmetric first-price auctions uniform distributions analytical solution 2012",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "uniqueness equilibrium asymmetric first-price auction 2025 2026 common support",
+      "effective_query": "uniqueness equilibrium asymmetric first-price auction 2025 2026 common support",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Marshall Meurer Richard Stromquist 1994 numerical asymmetric first price auction",
+      "effective_query": "Marshall Meurer Richard Stromquist 1994 numerical asymmetric first price auction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Maskin Riley equilibrium sealed high bid auctions 2000",
+      "effective_query": "Maskin Riley equilibrium sealed high bid auctions 2000",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "http://www.econ.ucla.edu/riley/research/asyRES.PDF",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.287
+        }
+      ],
+      "content_length": 65298,
+      "duration_seconds": 2.287,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.686,
+      "summary_length": 7286,
+      "summary_input_tokens": 20742,
+      "summary_output_tokens": 2164
+    },
+    {
+      "url": "https://capcp.la.psu.edu/wp-content/uploads/sites/11/2020/07/NumericalSolutions.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.118
+        }
+      ],
+      "content_length": 72614,
+      "duration_seconds": 3.119,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.561,
+      "summary_length": 3817,
+      "summary_input_tokens": 20134,
+      "summary_output_tokens": 1896
+    },
+    {
+      "url": "https://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/documents/March20.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.824
+        }
+      ],
+      "content_length": 51415,
+      "duration_seconds": 2.824,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.865,
+      "summary_length": 7035,
+      "summary_input_tokens": 19345,
+      "summary_output_tokens": 2871
+    },
+    {
+      "url": "https://brocku.ca/repec/pdf/0504.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.626
+        }
+      ],
+      "content_length": 47067,
+      "duration_seconds": 4.626,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.626,
+      "summary_length": 7015,
+      "summary_input_tokens": 12622,
+      "summary_output_tokens": 2031
+    },
+    {
+      "url": "https://capcp.la.psu.edu/wp-content/uploads/sites/11/numericalanalysis.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.394
+        }
+      ],
+      "content_length": 54898,
+      "duration_seconds": 2.394,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.409,
+      "summary_length": 7159,
+      "summary_input_tokens": 15247,
+      "summary_output_tokens": 2509
+    }
+  ],
+  "source_urls_count": 50,
+  "duration_seconds": 866.2185914246365,
+  "report_length": 19478,
+  "context_length": 132073,
+  "id": 56,
+  "prompt": "Is there a general method for solving a first-price sealed-bid auction with two bidders who have independent private values drawn from different distributions (i.e., ex-ante asymmetric bidders)?",
+  "language": "en",
+  "topic": "Finance & Business"
+}

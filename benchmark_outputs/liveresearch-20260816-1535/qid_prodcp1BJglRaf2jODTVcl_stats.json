@@ -1,0 +1,323 @@
+{
+  "total_llm_calls": 7,
+  "total_input_tokens": 318287,
+  "total_output_tokens": 11841,
+  "total_tokens": 330128,
+  "total_search_count": 42,
+  "total_search_results": 374,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 976,
+      "output_tokens": 3582,
+      "total_tokens": 4558,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19202,
+      "output_tokens": 134,
+      "total_tokens": 19336,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32162,
+      "output_tokens": 103,
+      "total_tokens": 32265,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45820,
+      "output_tokens": 134,
+      "total_tokens": 45954,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60001,
+      "output_tokens": 103,
+      "total_tokens": 60104,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 74832,
+      "output_tokens": 213,
+      "total_tokens": 75045,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 85294,
+      "output_tokens": 7572,
+      "total_tokens": 92866,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Zoom pricing 2026 business pro",
+      "effective_query": "Zoom pricing 2026 business pro",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Microsoft Teams business pricing 2026",
+      "effective_query": "Microsoft Teams business pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Meet business pricing 2026",
+      "effective_query": "Google Meet business pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cisco Webex business pricing 2026",
+      "effective_query": "Cisco Webex business pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Slack business pricing 2026",
+      "effective_query": "Slack business pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Discord Nitro pricing 2026",
+      "effective_query": "Discord Nitro pricing 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Adobe Connect pricing 2026",
+      "effective_query": "Adobe Connect pricing 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zoom video quality maximum resolution 4K 1080p specifications",
+      "effective_query": "Zoom video quality maximum resolution 4K 1080p specifications",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Teams video resolution maximum 4K 1080p",
+      "effective_query": "Microsoft Teams video resolution maximum 4K 1080p",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Meet video resolution maximum quality",
+      "effective_query": "Google Meet video resolution maximum quality",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Cisco Webex video resolution maximum supported",
+      "effective_query": "Cisco Webex video resolution maximum supported",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Slack Huddles video quality resolution",
+      "effective_query": "Slack Huddles video quality resolution",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Discord video resolution maximum quality streaming",
+      "effective_query": "Discord video resolution maximum quality streaming",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Adobe Connect video quality resolution maximum",
+      "effective_query": "Adobe Connect video quality resolution maximum",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Zoom security encryption end-to-end AES 256",
+      "effective_query": "Zoom security encryption end-to-end AES 256",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Microsoft Teams security encryption standards",
+      "effective_query": "Microsoft Teams security encryption standards",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Meet security encryption in transit",
+      "effective_query": "Google Meet security encryption in transit",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Cisco Webex security encryption features",
+      "effective_query": "Cisco Webex security encryption features",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Slack Huddles security encryption",
+      "effective_query": "Slack Huddles security encryption",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Discord security encryption",
+      "effective_query": "Discord security encryption",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Adobe Connect security encryption",
+      "effective_query": "Adobe Connect security encryption",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zoom meeting capacity 300 participants business plan",
+      "effective_query": "Zoom meeting capacity 300 participants business plan",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Microsoft Teams meeting capacity 300 participants business standard",
+      "effective_query": "Microsoft Teams meeting capacity 300 participants business standard",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Meet meeting capacity 500 participants business plus",
+      "effective_query": "Google Meet meeting capacity 500 participants business plus",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cisco Webex meeting capacity 200 participants business",
+      "effective_query": "Cisco Webex meeting capacity 200 participants business",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Slack Huddles participant limit",
+      "effective_query": "Slack Huddles participant limit",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Discord voice channel participant limit",
+      "effective_query": "Discord voice channel participant limit",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Adobe Connect meeting capacity 100 participants",
+      "effective_query": "Adobe Connect meeting capacity 100 participants",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zoom integrations productivity tools",
+      "effective_query": "Zoom integrations productivity tools",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Microsoft Teams integrations productivity tools",
+      "effective_query": "Microsoft Teams integrations productivity tools",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Meet integrations productivity tools",
+      "effective_query": "Google Meet integrations productivity tools",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Cisco Webex integrations productivity tools",
+      "effective_query": "Cisco Webex integrations productivity tools",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Slack integrations productivity tools",
+      "effective_query": "Slack integrations productivity tools",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Discord integrations productivity tools",
+      "effective_query": "Discord integrations productivity tools",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Adobe Connect integrations productivity tools",
+      "effective_query": "Adobe Connect integrations productivity tools",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Zoom whiteboard breakout rooms collaboration features",
+      "effective_query": "Zoom whiteboard breakout rooms collaboration features",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Microsoft Teams breakout rooms whiteboard collaboration",
+      "effective_query": "Microsoft Teams breakout rooms whiteboard collaboration",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Google Meet breakout rooms whiteboard collaboration features",
+      "effective_query": "Google Meet breakout rooms whiteboard collaboration features",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Cisco Webex breakout rooms whiteboard collaboration",
+      "effective_query": "Cisco Webex breakout rooms whiteboard collaboration",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Slack Huddles screen sharing whiteboard collaboration",
+      "effective_query": "Slack Huddles screen sharing whiteboard collaboration",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Discord screen sharing whiteboard collaboration features",
+      "effective_query": "Discord screen sharing whiteboard collaboration features",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Adobe Connect breakout rooms whiteboard collaboration",
+      "effective_query": "Adobe Connect breakout rooms whiteboard collaboration",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 357,
+  "duration_seconds": 346.3892290312797,
+  "report_length": 22395,
+  "context_length": 412550,
+  "qid": "prodcp1BJglRaf2jODTVcl",
+  "query": "Compare Zoom, Microsoft Teams, Google Meet, Cisco Webex, Slack Huddles, Discord, and Adobe Connect on video quality specifications (maximum supported resolution and performance optimization features), meeting capacity limits for standard paid subscription tiers, core security features (encryption standards, authentication methods, and access controls), ease of setup and user interface design, integration capabilities with productivity tools, collaboration features (screen sharing, whiteboarding, breakout rooms), mobile app functionality, pricing for standard business plans in the US as of now ({{current_date}}). In the final report, you should include a detailed table for the summarized results, and provide cited data where available."
+}

@@ -1,0 +1,68 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 30864,
+  "total_output_tokens": 7611,
+  "total_tokens": 38475,
+  "total_search_count": 5,
+  "total_search_results": 47,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 887,
+      "output_tokens": 580,
+      "total_tokens": 1467,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29977,
+      "output_tokens": 7031,
+      "total_tokens": 37008,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "全球南方 合作 文明交流 互鉴 理论",
+      "effective_query": "全球南方 合作 文明交流 互鉴 理论",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "非西方现代化 理论 全球南方",
+      "effective_query": "非西方现代化 理论 全球南方",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "后殖民主义 文明交流 全球南方",
+      "effective_query": "后殖民主义 文明交流 全球南方",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "东方学 全球南方 合作",
+      "effective_query": "东方学 全球南方 合作",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "全球史 全球南方 文明互鉴",
+      "effective_query": "全球史 全球南方 文明互鉴",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 39,
+  "duration_seconds": 100.1733617670834,
+  "report_length": 10481,
+  "context_length": 69587,
+  "id": 30,
+  "prompt": "全球南方合作如何推动文明交流互鉴？从理论角度给出深入的学术分析，必须考虑以下维度：非西方现代化、后殖民主义、东方学、全球史。",
+  "language": "zh",
+  "topic": "Literature"
+}

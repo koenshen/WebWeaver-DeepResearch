@@ -1,0 +1,397 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 250943,
+  "total_output_tokens": 20149,
+  "total_tokens": 271092,
+  "total_search_count": 19,
+  "total_search_results": 173,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 897,
+      "output_tokens": 861,
+      "total_tokens": 1758,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9964,
+      "output_tokens": 209,
+      "total_tokens": 10173,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30884,
+      "output_tokens": 138,
+      "total_tokens": 31022,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48100,
+      "output_tokens": 229,
+      "total_tokens": 48329,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4743,
+      "output_tokens": 1673,
+      "total_tokens": 6416,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6555,
+      "output_tokens": 846,
+      "total_tokens": 7401,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6464,
+      "output_tokens": 908,
+      "total_tokens": 7372,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6464,
+      "output_tokens": 953,
+      "total_tokens": 7417,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 340,
+      "output_tokens": 2623,
+      "total_tokens": 2963,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51100,
+      "output_tokens": 154,
+      "total_tokens": 51254,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32123,
+      "output_tokens": 1245,
+      "total_tokens": 33368,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 262,
+      "output_tokens": 442,
+      "total_tokens": 704,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 260,
+      "output_tokens": 248,
+      "total_tokens": 508,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 52787,
+      "output_tokens": 9620,
+      "total_tokens": 62407,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "US electric vehicle market size 2026 growth rate segmentation",
+      "effective_query": "US electric vehicle market size 2026 growth rate segmentation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "US EV sales 2026 market share forecast",
+      "effective_query": "US EV sales 2026 market share forecast",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EV market size United States 2026 billion units",
+      "effective_query": "EV market size United States 2026 billion units",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tesla market share US 2026 production capacity",
+      "effective_query": "Tesla market share US 2026 production capacity",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BYD US market share 2026 global expansion",
+      "effective_query": "BYD US market share 2026 global expansion",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Volkswagen ID series sales 2026 market share",
+      "effective_query": "Volkswagen ID series sales 2026 market share",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ford Mustang Mach-E sales 2026 market share",
+      "effective_query": "Ford Mustang Mach-E sales 2026 market share",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "US EV policy incentives 2026 IRA tax credit changes",
+      "effective_query": "US EV policy incentives 2026 IRA tax credit changes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "EV charging infrastructure US 2026 deployment",
+      "effective_query": "EV charging infrastructure US 2026 deployment",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EV supply chain challenges 2026 battery costs",
+      "effective_query": "EV supply chain challenges 2026 battery costs",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "EV consumer adoption trends US 2026",
+      "effective_query": "EV consumer adoption trends US 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Tesla Model Y 2026 global sales flagship",
+      "effective_query": "Tesla Model Y 2026 global sales flagship",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BYD Seagull 2026 global sales flagship pricing",
+      "effective_query": "BYD Seagull 2026 global sales flagship pricing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Volkswagen ID.4 2026 sales flagship",
+      "effective_query": "Volkswagen ID.4 2026 sales flagship",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ford Mustang Mach-E 2026 pricing strategy",
+      "effective_query": "Ford Mustang Mach-E 2026 pricing strategy",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Tesla pricing strategy 2026 global regions",
+      "effective_query": "Tesla pricing strategy 2026 global regions",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "BYD expansion factories 2026 capacity",
+      "effective_query": "BYD expansion factories 2026 capacity",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Volkswagen ID Buzz ID7 2026",
+      "effective_query": "Volkswagen ID Buzz ID7 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Tesla Cybertruck 2026 sales",
+      "effective_query": "Tesla Cybertruck 2026 sales",
+      "retriever": "tavily",
+      "num_results": 8
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://caredge.com/guides/electric-vehicle-market-share-and-sales",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.609
+        }
+      ],
+      "content_length": 9400,
+      "duration_seconds": 7.609,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.9,
+      "summary_length": 3936,
+      "summary_input_tokens": 4743,
+      "summary_output_tokens": 1673
+    },
+    {
+      "url": "https://www.coxautoinc.com/insights/q1-2026-ev-sales-report-commentary",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.743
+        }
+      ],
+      "content_length": 22058,
+      "duration_seconds": 5.743,
+      "summary_status": "success",
+      "summary_duration_seconds": 36.184,
+      "summary_length": 2470,
+      "summary_input_tokens": 6555,
+      "summary_output_tokens": 846
+    },
+    {
+      "url": "https://www.coxautoinc.com/insights/q2-2026-ev-sales-report-commentary",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.16
+        }
+      ],
+      "content_length": 21724,
+      "duration_seconds": 6.16,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.688
+        }
+      ],
+      "content_length": 124794,
+      "duration_seconds": 0.688,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/executive-summary",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.631
+        }
+      ],
+      "content_length": 304,
+      "duration_seconds": 0.631,
+      "summary_status": "success",
+      "summary_duration_seconds": 36.467,
+      "summary_length": 1752,
+      "summary_input_tokens": 340,
+      "summary_output_tokens": 2623
+    },
+    {
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.656
+        }
+      ],
+      "content_length": 124794,
+      "duration_seconds": 0.657,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.319,
+      "summary_length": 5521,
+      "summary_input_tokens": 32123,
+      "summary_output_tokens": 1245
+    },
+    {
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.57
+        }
+      ],
+      "content_length": 313,
+      "duration_seconds": 0.57,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.691,
+      "summary_length": 1045,
+      "summary_input_tokens": 262,
+      "summary_output_tokens": 442
+    },
+    {
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/executive-summary",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.606
+        }
+      ],
+      "content_length": 304,
+      "duration_seconds": 0.606,
+      "summary_status": "success",
+      "summary_duration_seconds": 1.278,
+      "summary_length": 1161,
+      "summary_input_tokens": 260,
+      "summary_output_tokens": 248
+    }
+  ],
+  "source_urls_count": 160,
+  "duration_seconds": 596.7445783736184,
+  "report_length": 33484,
+  "context_length": 246772,
+  "qid": "market6VWmPyxptfK47civ",
+  "query": "What is the size, growth rate, and segmentation of the U.S. electric vehicle market in 2026? What are the key drivers (policy incentives, charging infrastructure, consumer adoption) and challenges (supply chain, cost pressures)? How do Tesla, BYD, Volkswagen’s ID series, and Ford Mustang Mach-E compare in market share, production capacity, and pricing philosophies across major regions? What flagship models define their positioning, and how are they adapting to competitive and regulatory pressures? The report should be structured with clear sections (and subsections when appropriate), include tables or charts for quantitative comparisons, and provide cited data where available."
+}

@@ -1,0 +1,158 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 96380,
+  "total_output_tokens": 7062,
+  "total_tokens": 103442,
+  "total_search_count": 18,
+  "total_search_results": 168,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1014,
+      "output_tokens": 202,
+      "total_tokens": 1216,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16804,
+      "output_tokens": 124,
+      "total_tokens": 16928,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32007,
+      "output_tokens": 125,
+      "total_tokens": 32132,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46555,
+      "output_tokens": 6611,
+      "total_tokens": 53166,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "LLM single-agent benchmark evaluation 2023 2024 survey",
+      "effective_query": "LLM single-agent benchmark evaluation 2023 2024 survey",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "multi-agent LLM benchmark evaluation 2023 2024 survey",
+      "effective_query": "multi-agent LLM benchmark evaluation 2023 2024 survey",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "LLM-as-judge evaluation metric single-agent multi-agent",
+      "effective_query": "LLM-as-judge evaluation metric single-agent multi-agent",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AgentBench SWE-bench WebArena single agent evaluation",
+      "effective_query": "AgentBench SWE-bench WebArena single agent evaluation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "multi-agent sandbox environment benchmark 2024 2025",
+      "effective_query": "multi-agent sandbox environment benchmark 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "evaluation metrics for LLM agents 2023 2024 literature review",
+      "effective_query": "evaluation metrics for LLM agents 2023 2024 literature review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GAIA benchmark general AI assistants evaluation 2023",
+      "effective_query": "GAIA benchmark general AI assistants evaluation 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SWE-bench implementation human annotation 2024",
+      "effective_query": "SWE-bench implementation human annotation 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CRAB multi-agent cross-environment benchmark 2024",
+      "effective_query": "CRAB multi-agent cross-environment benchmark 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AgentSims sandbox multi-agent evaluation 2023",
+      "effective_query": "AgentSims sandbox multi-agent evaluation 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "tau-bench tool-agent-user benchmark 2024",
+      "effective_query": "tau-bench tool-agent-user benchmark 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "RE-Bench evaluating AI R&D capabilities 2024",
+      "effective_query": "RE-Bench evaluating AI R&D capabilities 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AvalonBench multi-agent game evaluation 2023",
+      "effective_query": "AvalonBench multi-agent game evaluation 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LLM-Deliberation multi-agent negotiation 2023",
+      "effective_query": "LLM-Deliberation multi-agent negotiation 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TheAgentCompany benchmark 2024",
+      "effective_query": "TheAgentCompany benchmark 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "MINT benchmark LLM agent 2023",
+      "effective_query": "MINT benchmark LLM agent 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WebArena implementation details 2023",
+      "effective_query": "WebArena implementation details 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AgentQuest benchmark framework 2024",
+      "effective_query": "AgentQuest benchmark framework 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 153,
+  "duration_seconds": 102.69036191143095,
+  "report_length": 28157,
+  "context_length": 230102,
+  "qid": "reviewvl0BjYy6KRNoqDNQ",
+  "query": "Help me produce a detailed academic report (literature review) on the evolution of evaluation practices for single-agent and multi-agent systems (based on large language models). Focus on the works published from 2023-2025 (including high-quality published papers, technical reports, and preprints). The report should include the following dimensions:\n\n(1) Benchmarks and sandbox environments: How do benchmarks for single-agent systems differ from those for multi-agent research in terms of task diversity, scalability, and realism? What are the trade-offs made to create the benchmark, their strengths and limitations?\n\n(2) Metrics: What families of evaluation metrics are most frequently applied in single-agent systems versus multi-agent systems, and what trade-offs do they entail? Does the metric rely on LLM-as-judge, agent-as-judge, human, or string matching (extact match)?\n\n(3) Implementation and cost: How is the benchmark/sandbox implemented? Is human annotation involved in creating the benchmark or sandbox and how is human annotation involved (if applicable)? Is the benchmark/sandbox scalable and reliable? \n\n(4) Future Directions: What concrete research directions and design principles can advance the development of unified, generalizable evaluation pipelines?"
+}

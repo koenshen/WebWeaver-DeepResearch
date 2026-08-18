@@ -1,0 +1,80 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 18420,
+  "total_output_tokens": 5312,
+  "total_tokens": 23732,
+  "total_search_count": 7,
+  "total_search_results": 60,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 780,
+      "output_tokens": 159,
+      "total_tokens": 939,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17640,
+      "output_tokens": 5153,
+      "total_tokens": 22793,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "software industry future trends 2025 2026 AI impact",
+      "effective_query": "software industry future trends 2025 2026 AI impact",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI replacing software developers jobs 2025",
+      "effective_query": "AI replacing software developers jobs 2025",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "software engineering AI automation future",
+      "effective_query": "software engineering AI automation future",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "software industry trends 2026 Gartner Forrester",
+      "effective_query": "software industry trends 2026 Gartner Forrester",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI取代软件工程师 未来趋势",
+      "effective_query": "AI取代软件工程师 未来趋势",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "will AI replace programmers 2025 2026",
+      "effective_query": "will AI replace programmers 2025 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "software development AI tools impact 2026",
+      "effective_query": "software development AI tools impact 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 56,
+  "duration_seconds": 66.68766886834055,
+  "report_length": 11393,
+  "context_length": 81736,
+  "id": 43,
+  "prompt": "软件行业未来趋势和被AI替代的可能性",
+  "language": "zh",
+  "topic": "Software"
+}

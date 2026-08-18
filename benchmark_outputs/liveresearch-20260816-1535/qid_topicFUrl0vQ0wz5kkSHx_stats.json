@@ -1,0 +1,483 @@
+{
+  "total_llm_calls": 20,
+  "total_input_tokens": 182210,
+  "total_output_tokens": 33900,
+  "total_tokens": 216110,
+  "total_search_count": 10,
+  "total_search_results": 93,
+  "total_visit_count": 13,
+  "total_visit_success": 13,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 925,
+      "output_tokens": 2888,
+      "total_tokens": 3813,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12432,
+      "output_tokens": 349,
+      "total_tokens": 12781,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1465,
+      "output_tokens": 866,
+      "total_tokens": 2331,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19080,
+      "output_tokens": 2590,
+      "total_tokens": 21670,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3757,
+      "output_tokens": 1166,
+      "total_tokens": 4923,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3757,
+      "output_tokens": 1131,
+      "total_tokens": 4888,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5080,
+      "output_tokens": 1660,
+      "total_tokens": 6740,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10763,
+      "output_tokens": 4001,
+      "total_tokens": 14764,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10763,
+      "output_tokens": 1431,
+      "total_tokens": 12194,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6512,
+      "output_tokens": 1004,
+      "total_tokens": 7516,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1583,
+      "output_tokens": 1088,
+      "total_tokens": 2671,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4626,
+      "output_tokens": 728,
+      "total_tokens": 5354,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19026,
+      "output_tokens": 142,
+      "total_tokens": 19168,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31342,
+      "output_tokens": 245,
+      "total_tokens": 31587,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2027,
+      "output_tokens": 1417,
+      "total_tokens": 3444,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2320,
+      "output_tokens": 899,
+      "total_tokens": 3219,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3862,
+      "output_tokens": 1306,
+      "total_tokens": 5168,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5635,
+      "output_tokens": 717,
+      "total_tokens": 6352,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2011,
+      "output_tokens": 1703,
+      "total_tokens": 3714,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35244,
+      "output_tokens": 8569,
+      "total_tokens": 43813,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "most popular AI tools for students 2024 2025 impact learning writing research",
+      "effective_query": "most popular AI tools for students 2024 2025 impact learning writing research",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "AI tutoring personalized learning effectiveness research 2023 2024 vs human instruction",
+      "effective_query": "AI tutoring personalized learning effectiveness research 2023 2024 vs human instruction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI education inequality digital divide access 2025",
+      "effective_query": "AI education inequality digital divide access 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "global education policy integrating AI tools into curriculum 2024 2025",
+      "effective_query": "global education policy integrating AI tools into curriculum 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "UNESCO AI in education guidance report 2023",
+      "effective_query": "UNESCO AI in education guidance report 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI tools for problem solving mathematics students 2024 2025",
+      "effective_query": "AI tools for problem solving mathematics students 2024 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "honor code academic integrity AI policy university 2024 2025",
+      "effective_query": "honor code academic integrity AI policy university 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI assessment transformation education 2024 2025",
+      "effective_query": "AI assessment transformation education 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "China AI education curriculum primary secondary 2025",
+      "effective_query": "China AI education curriculum primary secondary 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Khan Academy Khanmigo AI tutoring effectiveness 2024 2025",
+      "effective_query": "Khan Academy Khanmigo AI tutoring effectiveness 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.heinz.cmu.edu/media/2025/September/in-study-of-human-ai-tutoring-with-us-seventh-graders-human-tutors-enhanced-the-benefits-of-ai-tutors",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.018
+        }
+      ],
+      "content_length": 6281,
+      "duration_seconds": 13.018,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.515,
+      "summary_length": 3131,
+      "summary_input_tokens": 1465,
+      "summary_output_tokens": 866
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-025-97652-6",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.925
+        }
+      ],
+      "content_length": 71180,
+      "duration_seconds": 8.925,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.917,
+      "summary_length": 7947,
+      "summary_input_tokens": 19080,
+      "summary_output_tokens": 2590
+    },
+    {
+      "url": "https://www.brookings.edu/articles/ai-and-the-next-digital-divide-in-education",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.68
+        }
+      ],
+      "content_length": 15001,
+      "duration_seconds": 3.681,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.749,
+      "summary_length": 4041,
+      "summary_input_tokens": 3757,
+      "summary_output_tokens": 1166
+    },
+    {
+      "url": "https://sites.campbell.edu/academictechnology/2025/03/06/ai-in-higher-education-a-summary-of-recent-surveys-of-students-and-faculty",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.425
+        }
+      ],
+      "content_length": 22329,
+      "duration_seconds": 3.426,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.624,
+      "summary_length": 3916,
+      "summary_input_tokens": 5080,
+      "summary_output_tokens": 1660
+    },
+    {
+      "url": "https://fifthrow.com/blog/ai-in-k-12-education-global-policies-outcomes-and-actionable-best-practices",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.972
+        }
+      ],
+      "content_length": 42453,
+      "duration_seconds": 7.972,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.076,
+      "summary_length": 12020,
+      "summary_input_tokens": 10763,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.77
+        }
+      ],
+      "content_length": 21633,
+      "duration_seconds": 2.77,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.416,
+      "summary_length": 2594,
+      "summary_input_tokens": 6512,
+      "summary_output_tokens": 1004
+    },
+    {
+      "url": "https://patimes.org/the-new-digital-divide-in-higher-education-ai-as-public-capability-or-private-advantage",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.815
+        }
+      ],
+      "content_length": 7301,
+      "duration_seconds": 5.815,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.006,
+      "summary_length": 5249,
+      "summary_input_tokens": 1583,
+      "summary_output_tokens": 1088
+    },
+    {
+      "url": "https://www.thesify.ai/blog/10-best-ai-tools-for-academic-writing-2025-100-ethical-academia-approved",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.018
+        }
+      ],
+      "content_length": 19995,
+      "duration_seconds": 6.018,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.39,
+      "summary_length": 2521,
+      "summary_input_tokens": 4626,
+      "summary_output_tokens": 728
+    },
+    {
+      "url": "https://luminaliterati.com/ai-and-academic-integrity-universities-transform-assessment-methods-in-2025",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.131
+        }
+      ],
+      "content_length": 10267,
+      "duration_seconds": 5.132,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.343,
+      "summary_length": 6310,
+      "summary_input_tokens": 2027,
+      "summary_output_tokens": 1417
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/whats-worth-measuring-future-assessment-ai-age",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.465
+        }
+      ],
+      "content_length": 12654,
+      "duration_seconds": 2.466,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.199,
+      "summary_length": 3011,
+      "summary_input_tokens": 2320,
+      "summary_output_tokens": 899
+    },
+    {
+      "url": "https://www.brookings.edu/articles/what-the-research-shows-about-generative-ai-in-tutoring",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.324
+        }
+      ],
+      "content_length": 18904,
+      "duration_seconds": 5.324,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.821,
+      "summary_length": 5142,
+      "summary_input_tokens": 3862,
+      "summary_output_tokens": 1306
+    },
+    {
+      "url": "https://www.digitaleducationcouncil.com/post/the-next-era-of-assessment-a-global-review-of-ai-in-assessment-design",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.084
+        }
+      ],
+      "content_length": 22228,
+      "duration_seconds": 7.084,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.771,
+      "summary_length": 1664,
+      "summary_input_tokens": 5635,
+      "summary_output_tokens": 717
+    },
+    {
+      "url": "https://www.hepi.ac.uk/2025/07/14/transforming-higher-education-learning-assessment-and-engagement-in-the-ai-revolution-the-how",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.699
+        }
+      ],
+      "content_length": 9647,
+      "duration_seconds": 3.7,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.717,
+      "summary_length": 6212,
+      "summary_input_tokens": 2011,
+      "summary_output_tokens": 1703
+    }
+  ],
+  "source_urls_count": 91,
+  "duration_seconds": 456.3523326013237,
+  "report_length": 35686,
+  "context_length": 212023,
+  "qid": "topicFUrl0vQ0wz5kkSHx",
+  "query": "As someone working in education, help me understand whether artificial intelligence will fundamentally transform how we teach and assess student learning, or if it's just another educational technology trend that will fade. I want to analyze (1) what the most popular AI tools are and how they're changing student research, writing, and problem-solving processes, (2) whether research shows that personalized AI tutoring and adaptive learning systems can actually improve educational outcomes better than human instruction, or if they're creating new forms of educational inequality, and (3) how different educational institutions globally are adapting their curricula, honor codes, and teaching methods to integrate rather than ban AI tools. There is no need to restrict to a specific country or region. In your report, you should focus on evidence and data from 2022 onwards."
+}

@@ -1,0 +1,329 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 280885,
+  "total_output_tokens": 13193,
+  "total_tokens": 294078,
+  "total_search_count": 26,
+  "total_search_results": 239,
+  "total_visit_count": 4,
+  "total_visit_success": 4,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 900,
+      "output_tokens": 329,
+      "total_tokens": 1229,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18978,
+      "output_tokens": 1191,
+      "total_tokens": 20169,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32241,
+      "output_tokens": 130,
+      "total_tokens": 32371,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47858,
+      "output_tokens": 159,
+      "total_tokens": 48017,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 264,
+      "output_tokens": 339,
+      "total_tokens": 603,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4297,
+      "output_tokens": 1682,
+      "total_tokens": 5979,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12173,
+      "output_tokens": 1295,
+      "total_tokens": 13468,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46592,
+      "output_tokens": 1367,
+      "total_tokens": 47959,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51080,
+      "output_tokens": 197,
+      "total_tokens": 51277,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 66502,
+      "output_tokens": 6504,
+      "total_tokens": 73006,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "electric truck market size 2025 2026 forecast",
+      "effective_query": "electric truck market size 2025 2026 forecast",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "electric truck demand trajectory 2025 2026",
+      "effective_query": "electric truck demand trajectory 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "electric truck market segmentation 2025 2026 commercial fleet consumer government",
+      "effective_query": "electric truck market segmentation 2025 2026 commercial fleet consumer government",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "electric truck adoption infrastructure regulatory factors 2025 2026",
+      "effective_query": "electric truck adoption infrastructure regulatory factors 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Rivian R1T production volumes 2025 2026 pre-orders fleet contracts",
+      "effective_query": "Rivian R1T production volumes 2025 2026 pre-orders fleet contracts",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ford F-150 Lightning production 2025 2026 pre-orders fleet sales",
+      "effective_query": "Ford F-150 Lightning production 2025 2026 pre-orders fleet sales",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GM Ultium electric truck production 2025 2026 Silverado EV Sierra EV",
+      "effective_query": "GM Ultium electric truck production 2025 2026 Silverado EV Sierra EV",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Ram 1500 REV production 2025 2026 pre-orders",
+      "effective_query": "Ram 1500 REV production 2025 2026 pre-orders",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Rivian commercial fleet contracts Amazon EDV 2025 2026",
+      "effective_query": "Rivian commercial fleet contracts Amazon EDV 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ford F-150 Lightning fleet sales 2025 2026",
+      "effective_query": "Ford F-150 Lightning fleet sales 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GM Ultium platform fleet contracts Silverado EV",
+      "effective_query": "GM Ultium platform fleet contracts Silverado EV",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ram 1500 REV fleet orders pre-orders",
+      "effective_query": "Ram 1500 REV fleet orders pre-orders",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "electric truck charging infrastructure North America 2025 2026",
+      "effective_query": "electric truck charging infrastructure North America 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "electric truck partnerships technology differentiation 2025",
+      "effective_query": "electric truck partnerships technology differentiation 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Rivian R1T production 2025 total 42,284",
+      "effective_query": "Rivian R1T production 2025 total 42,284",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Rivian R2 pre-orders 2026",
+      "effective_query": "Rivian R2 pre-orders 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Tesla Cybertruck production 2025 2026",
+      "effective_query": "Tesla Cybertruck production 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GM Silverado EV production volumes 2025 2026",
+      "effective_query": "GM Silverado EV production volumes 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "GM Hummer EV production 2025",
+      "effective_query": "GM Hummer EV production 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ram 1500 REV Ramcharger pre-orders 2025",
+      "effective_query": "Ram 1500 REV Ramcharger pre-orders 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GM Ultium platform technology differentiation competitive advantage",
+      "effective_query": "GM Ultium platform technology differentiation competitive advantage",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "electric truck megawatt charging system 2025 2026",
+      "effective_query": "electric truck megawatt charging system 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Rivian R1T features technology differentiation",
+      "effective_query": "Rivian R1T features technology differentiation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ford F-150 Lightning fleet sales 2025 total",
+      "effective_query": "Ford F-150 Lightning fleet sales 2025 total",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ram 1500 REV features specs battery range",
+      "effective_query": "Ram 1500 REV features specs battery range",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "electric truck market share by region 2025 2026 Asia Pacific",
+      "effective_query": "electric truck market share by region 2025 2026 Asia Pacific",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-other-ev-modes",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.059
+        }
+      ],
+      "content_length": 311,
+      "duration_seconds": 1.059,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.411,
+      "summary_length": 1093,
+      "summary_input_tokens": 264,
+      "summary_output_tokens": 339
+    },
+    {
+      "url": "https://rivian.com/newsroom/article/rivian-releases-fourth-quarter-full-year-2025-financial-results",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.358
+        }
+      ],
+      "content_length": 19691,
+      "duration_seconds": 8.359,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.914,
+      "summary_length": 5782,
+      "summary_input_tokens": 4297,
+      "summary_output_tokens": 1682
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ford_F-150_Lightning",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.71
+        }
+      ],
+      "content_length": 38924,
+      "duration_seconds": 1.71,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.183,
+      "summary_length": 2785,
+      "summary_input_tokens": 12173,
+      "summary_output_tokens": 1295
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rivian",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.515
+        }
+      ],
+      "content_length": 155278,
+      "duration_seconds": 2.515,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.893,
+      "summary_length": 3438,
+      "summary_input_tokens": 46592,
+      "summary_output_tokens": 1367
+    }
+  ],
+  "source_urls_count": 204,
+  "duration_seconds": 244.49536106642336,
+  "report_length": 22874,
+  "context_length": 285384,
+  "qid": "marketCb3JeqbQuoNtoO6e",
+  "query": "What is the size, demand trajectory, and segmentation of the electric truck market in 2025–2026? What customer segments (commercial fleets, consumers, government) are driving growth, and what infrastructure/regulatory factors influence adoption? How do Rivian, Ford F-150 Lightning, GM Ultium-based trucks, and the Ram 1500 REV compare in production volumes, pre-order numbers, fleet contracts, and flagship model positioning? What partnerships or technology differentiators are shaping competitive advantage? The report should be structured with clear sections (and subsections when appropriate), include tables or charts for quantitative comparisons, and provide cited data where available."
+}

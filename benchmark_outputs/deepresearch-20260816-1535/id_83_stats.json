@@ -1,0 +1,232 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 127343,
+  "total_output_tokens": 11897,
+  "total_tokens": 139240,
+  "total_search_count": 30,
+  "total_search_results": 265,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 876,
+      "output_tokens": 339,
+      "total_tokens": 1215,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20123,
+      "output_tokens": 143,
+      "total_tokens": 20266,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39122,
+      "output_tokens": 237,
+      "total_tokens": 39359,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 67222,
+      "output_tokens": 11178,
+      "total_tokens": 78400,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "tablet POS devices manufacturers models",
+      "effective_query": "tablet POS devices manufacturers models",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "mPOS tablet market 2024 2025",
+      "effective_query": "mPOS tablet market 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "tablet payment terminal installed base regions",
+      "effective_query": "tablet payment terminal installed base regions",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Sunmi tablet POS models",
+      "effective_query": "Sunmi tablet POS models",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PAX tablet POS terminal",
+      "effective_query": "PAX tablet POS terminal",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Clover tablet POS hardware",
+      "effective_query": "Clover tablet POS hardware",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Toast tablet POS",
+      "effective_query": "Toast tablet POS",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Square tablet POS terminal",
+      "effective_query": "Square tablet POS terminal",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Elo POS tablet models specifications",
+      "effective_query": "Elo POS tablet models specifications",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Zebra TC5X TC7X tablet POS",
+      "effective_query": "Zebra TC5X TC7X tablet POS",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Honeywell tablet POS",
+      "effective_query": "Honeywell tablet POS",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Ingenico tablet POS terminal models",
+      "effective_query": "Ingenico tablet POS terminal models",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Verifone tablet POS",
+      "effective_query": "Verifone tablet POS",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Castles Technology tablet POS",
+      "effective_query": "Castles Technology tablet POS",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Newland tablet POS",
+      "effective_query": "Newland tablet POS",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "tablet POS price range 2025",
+      "effective_query": "tablet POS price range 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "tablet POS installed base North America Japan Korea Southeast Asia South America",
+      "effective_query": "tablet POS installed base North America Japan Korea Southeast Asia South America",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Japan POS tablet market 2024 2025",
+      "effective_query": "Japan POS tablet market 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "South Korea tablet POS payment terminal adoption",
+      "effective_query": "South Korea tablet POS payment terminal adoption",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Latin America tablet POS terminal market",
+      "effective_query": "Latin America tablet POS terminal market",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Southeast Asia mPOS tablet adoption 2024",
+      "effective_query": "Southeast Asia mPOS tablet adoption 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Elo Pay M100 image",
+      "effective_query": "Elo Pay M100 image",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Sunmi V3 MIX image",
+      "effective_query": "Sunmi V3 MIX image",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PAX Aries 8 image",
+      "effective_query": "PAX Aries 8 image",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Clover Flex image",
+      "effective_query": "Clover Flex image",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Verifone Victa Mobile image",
+      "effective_query": "Verifone Victa Mobile image",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ingenico AXIUM DX8000 image",
+      "effective_query": "Ingenico AXIUM DX8000 image",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Newland N950S image",
+      "effective_query": "Newland N950S image",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Square Stand image",
+      "effective_query": "Square Stand image",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Toast Go 2 image",
+      "effective_query": "Toast Go 2 image",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 245,
+  "duration_seconds": 167.88271901197731,
+  "report_length": 37620,
+  "context_length": 321510,
+  "id": 83,
+  "prompt": "Acting as a senior hardware product manager, conduct in-depth research on tablet-style devices used for payments or SaaS applications. Your report should: 1) List major manufacturers, specific device models, and their configurations. 2) Include images of these devices. 3) Analyze the primary use cases and scenarios where these devices are deployed. 4) Investigate the market penetration, common usage scenarios, typical price ranges, and estimated installed base for such devices across different regions (North America, Japan/Korea, Southeast Asia, South America).",
+  "language": "en",
+  "topic": "Hardware"
+}

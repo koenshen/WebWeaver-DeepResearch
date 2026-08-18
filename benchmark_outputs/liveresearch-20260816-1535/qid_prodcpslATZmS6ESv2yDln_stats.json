@@ -1,0 +1,242 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 171569,
+  "total_output_tokens": 9340,
+  "total_tokens": 180909,
+  "total_search_count": 32,
+  "total_search_results": 300,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 967,
+      "output_tokens": 1297,
+      "total_tokens": 2264,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31672,
+      "output_tokens": 166,
+      "total_tokens": 31838,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 56410,
+      "output_tokens": 154,
+      "total_tokens": 56564,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 82520,
+      "output_tokens": 7723,
+      "total_tokens": 90243,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Notion vs ClickUp vs Trello vs Jira vs monday.com vs Asana 2026 comparison",
+      "effective_query": "Notion vs ClickUp vs Trello vs Jira vs monday.com vs Asana 2026 comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "project management software comparison 2026 features pricing",
+      "effective_query": "project management software comparison 2026 features pricing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Project pricing 2026 US",
+      "effective_query": "Microsoft Project pricing 2026 US",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Smartsheet pricing 2026 US",
+      "effective_query": "Smartsheet pricing 2026 US",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Airtable pricing 2026 US",
+      "effective_query": "Airtable pricing 2026 US",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Notion pricing 2026 plans",
+      "effective_query": "Notion pricing 2026 plans",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "ClickUp pricing 2026 paid plans",
+      "effective_query": "ClickUp pricing 2026 paid plans",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Trello pricing 2026 plans",
+      "effective_query": "Trello pricing 2026 plans",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Jira pricing 2026 plans",
+      "effective_query": "Jira pricing 2026 plans",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "monday.com pricing 2026 plans",
+      "effective_query": "monday.com pricing 2026 plans",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Asana pricing 2026 plans",
+      "effective_query": "Asana pricing 2026 plans",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Notion customization templates flexibility 2026",
+      "effective_query": "Notion customization templates flexibility 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ClickUp customization templates 2026",
+      "effective_query": "ClickUp customization templates 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Trello customization templates 2026",
+      "effective_query": "Trello customization templates 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Jira customization templates 2026",
+      "effective_query": "Jira customization templates 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "monday.com customization templates 2026",
+      "effective_query": "monday.com customization templates 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Asana customization templates 2026",
+      "effective_query": "Asana customization templates 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Microsoft Project customization templates 2026",
+      "effective_query": "Microsoft Project customization templates 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Smartsheet customization templates 2026",
+      "effective_query": "Smartsheet customization templates 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Airtable customization templates 2026",
+      "effective_query": "Airtable customization templates 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "project management software collaboration features real-time editing commenting 2026",
+      "effective_query": "project management software collaboration features real-time editing commenting 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "project management software integration ecosystem 2026 comparison",
+      "effective_query": "project management software integration ecosystem 2026 comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Notion integrations number 2026",
+      "effective_query": "Notion integrations number 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ClickUp integrations number 2026",
+      "effective_query": "ClickUp integrations number 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Trello Power-Ups number 2026",
+      "effective_query": "Trello Power-Ups number 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Jira marketplace apps number 2026",
+      "effective_query": "Jira marketplace apps number 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "monday.com integrations number 2026",
+      "effective_query": "monday.com integrations number 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Asana integrations number 2026",
+      "effective_query": "Asana integrations number 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Microsoft Project integrations 2026",
+      "effective_query": "Microsoft Project integrations 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Smartsheet integrations number 2026",
+      "effective_query": "Smartsheet integrations number 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Airtable integrations number 2026",
+      "effective_query": "Airtable integrations number 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "project management software learning curve ease of use 2026 comparison",
+      "effective_query": "project management software learning curve ease of use 2026 comparison",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 287,
+  "duration_seconds": 209.80234838277102,
+  "report_length": 21893,
+  "context_length": 396888,
+  "qid": "prodcpslATZmS6ESv2yDln",
+  "query": "Compare Notion, ClickUp, Trello, Jira, monday.com, Asana, Microsoft Project, Smartsheet, Airtable for project management in terms of customization capabilities and template flexibility, collaboration features (real-time editing, commenting, file sharing, team communication), learning curve and ease of setup for new users, user interface design, integration ecosystem with third-party tools, pricing structures in the U.S. for both free and paid plans, as of 2026. In the final report, you should include a detailed table for the summarized results, and provide cited data where available."
+}

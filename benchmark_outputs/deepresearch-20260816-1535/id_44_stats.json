@@ -1,0 +1,241 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 220794,
+  "total_output_tokens": 8565,
+  "total_tokens": 229359,
+  "total_search_count": 11,
+  "total_search_results": 100,
+  "total_visit_count": 4,
+  "total_visit_success": 4,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 795,
+      "output_tokens": 102,
+      "total_tokens": 897,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25304,
+      "output_tokens": 126,
+      "total_tokens": 25430,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 339,
+      "output_tokens": 620,
+      "total_tokens": 959,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25461,
+      "output_tokens": 162,
+      "total_tokens": 25623,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1095,
+      "output_tokens": 444,
+      "total_tokens": 1539,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15078,
+      "output_tokens": 635,
+      "total_tokens": 15713,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16033,
+      "output_tokens": 775,
+      "total_tokens": 16808,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26522,
+      "output_tokens": 557,
+      "total_tokens": 27079,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46650,
+      "output_tokens": 99,
+      "total_tokens": 46749,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 63517,
+      "output_tokens": 5045,
+      "total_tokens": 68562,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "中国地铁碳滑板 市场规模 年需求量",
+      "effective_query": "中国地铁碳滑板 市场规模 年需求量",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "碳滑板 城市轨道交通 市场规模 供应商 份额",
+      "effective_query": "碳滑板 城市轨道交通 市场规模 供应商 份额",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国轨道交通碳滑板 行业现状 市场规模",
+      "effective_query": "中国轨道交通碳滑板 行业现状 市场规模",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "地铁受电弓碳滑板 消耗量 每年",
+      "effective_query": "地铁受电弓碳滑板 消耗量 每年",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "万高众业 碳滑板 市场份额 2024 2025",
+      "effective_query": "万高众业 碳滑板 市场份额 2024 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "苏州东南佳新材料 碳滑板 市场份额",
+      "effective_query": "苏州东南佳新材料 碳滑板 市场份额",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "锦美碳材 碳滑板 市场",
+      "effective_query": "锦美碳材 碳滑板 市场",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "受电弓碳滑板 国产化 替代 趋势 2025",
+      "effective_query": "受电弓碳滑板 国产化 替代 趋势 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "地铁碳滑板 更换周期 消耗量 年消耗",
+      "effective_query": "地铁碳滑板 更换周期 消耗量 年消耗",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国城市轨道交通 运营里程 2025 地铁 车辆数",
+      "effective_query": "中国城市轨道交通 运营里程 2025 地铁 车辆数",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "北京万高众业 碳滑板 营收 2024 2025 年报",
+      "effective_query": "北京万高众业 碳滑板 营收 2024 2025 年报",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.agentpanel.net/question/1430",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.861
+        }
+      ],
+      "content_length": 357,
+      "duration_seconds": 9.862,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.846,
+      "summary_length": 980,
+      "summary_input_tokens": 339,
+      "summary_output_tokens": 620
+    },
+    {
+      "url": "http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/search/rptid/3859522/index.phtml",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.785
+        }
+      ],
+      "content_length": 1557,
+      "duration_seconds": 1.786,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.291,
+      "summary_length": 477,
+      "summary_input_tokens": 1095,
+      "summary_output_tokens": 444
+    },
+    {
+      "url": "https://www.globalinforesearch.com.cn/reports/3124341/rail-transit-pantograph-carbon-skateboard",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 18.856
+        }
+      ],
+      "content_length": 26170,
+      "duration_seconds": 18.857,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.981,
+      "summary_length": 620,
+      "summary_input_tokens": 15078,
+      "summary_output_tokens": 635
+    },
+    {
+      "url": "https://www.lpinformation.com.cn/reports/1368081/rail-transit-pantograph-carbon-skateboard",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 19.24
+        }
+      ],
+      "content_length": 33169,
+      "duration_seconds": 19.24,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.5,
+      "summary_length": 734,
+      "summary_input_tokens": 16033,
+      "summary_output_tokens": 775
+    }
+  ],
+  "source_urls_count": 91,
+  "duration_seconds": 173.3412270611152,
+  "report_length": 8876,
+  "context_length": 129578,
+  "id": 44,
+  "prompt": "国内城市轨道交通行业（主要指地铁）每年的碳滑板用量是多少？主要供应商的份额以及行业趋势分析",
+  "language": "zh",
+  "topic": "Transportation"
+}

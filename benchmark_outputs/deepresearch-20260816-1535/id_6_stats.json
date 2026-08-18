@@ -1,0 +1,461 @@
+{
+  "total_llm_calls": 18,
+  "total_input_tokens": 256574,
+  "total_output_tokens": 35292,
+  "total_tokens": 291866,
+  "total_search_count": 18,
+  "total_search_results": 168,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 889,
+      "output_tokens": 451,
+      "total_tokens": 1340,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36616,
+      "output_tokens": 501,
+      "total_tokens": 37117,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9706,
+      "output_tokens": 856,
+      "total_tokens": 10562,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8342,
+      "output_tokens": 4001,
+      "total_tokens": 12343,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8342,
+      "output_tokens": 4001,
+      "total_tokens": 12343,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8342,
+      "output_tokens": 2447,
+      "total_tokens": 10789,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3524,
+      "output_tokens": 4001,
+      "total_tokens": 7525,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3445,
+      "output_tokens": 419,
+      "total_tokens": 3864,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37271,
+      "output_tokens": 218,
+      "total_tokens": 37489,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 267,
+      "output_tokens": 319,
+      "total_tokens": 586,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 575,
+      "output_tokens": 762,
+      "total_tokens": 1337,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 935,
+      "output_tokens": 1145,
+      "total_tokens": 2080,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1322,
+      "output_tokens": 553,
+      "total_tokens": 1875,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8107,
+      "output_tokens": 1500,
+      "total_tokens": 9607,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9616,
+      "output_tokens": 1076,
+      "total_tokens": 10692,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1484,
+      "output_tokens": 1587,
+      "total_tokens": 3071,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42192,
+      "output_tokens": 295,
+      "total_tokens": 42487,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 75599,
+      "output_tokens": 11160,
+      "total_tokens": 86759,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "具身智能 技术路线 代表性公司 2025",
+      "effective_query": "具身智能 技术路线 代表性公司 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "embodied intelligence companies 2025",
+      "effective_query": "embodied intelligence companies 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "embodied AI startups funding 2025",
+      "effective_query": "embodied AI startups funding 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "figure ai funding 2025",
+      "effective_query": "figure ai funding 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "1x technologies funding 2025",
+      "effective_query": "1x technologies funding 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "agility robotics funding 2025",
+      "effective_query": "agility robotics funding 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "特斯拉 Optimus 技术路线 2025",
+      "effective_query": "特斯拉 Optimus 技术路线 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "波士顿动力 具身智能 2025",
+      "effective_query": "波士顿动力 具身智能 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "优必选 具身智能 2025",
+      "effective_query": "优必选 具身智能 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "智元机器人 融资 2025",
+      "effective_query": "智元机器人 融资 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Physical Intelligence funding 2025",
+      "effective_query": "Physical Intelligence funding 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Skild AI funding 2025",
+      "effective_query": "Skild AI funding 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Nvidia Isaac Groot 2025",
+      "effective_query": "Nvidia Isaac Groot 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Apptronik funding 2025",
+      "effective_query": "Apptronik funding 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "宇树科技 融资 2025 技术路线",
+      "effective_query": "宇树科技 融资 2025 技术路线",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "银河通用 融资 2025",
+      "effective_query": "银河通用 融资 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "具身智能 技术路线 分类 软硬件一体化 模型先行",
+      "effective_query": "具身智能 技术路线 分类 软硬件一体化 模型先行",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "physical intelligence pi0 model 2025",
+      "effective_query": "physical intelligence pi0 model 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.youtube.com/watch?v=qs0ovkaacls",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.121
+        }
+      ],
+      "content_length": 21724,
+      "duration_seconds": 10.121,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.77,
+      "summary_length": 967,
+      "summary_input_tokens": 9706,
+      "summary_output_tokens": 856
+    },
+    {
+      "url": "https://opencurious.com/explore-physical-ai",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.328
+        }
+      ],
+      "content_length": 34467,
+      "duration_seconds": 2.328,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://newmarketpitch.com/blogs/news/embodied-ai-funding-analysis",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.851
+        }
+      ],
+      "content_length": 10185,
+      "duration_seconds": 5.851,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.366,
+      "summary_length": 830,
+      "summary_input_tokens": 3524,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://tsginvest.com/figure-ai",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.238
+        }
+      ],
+      "content_length": 324,
+      "duration_seconds": 1.238,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.105,
+      "summary_length": 1030,
+      "summary_input_tokens": 267,
+      "summary_output_tokens": 319
+    },
+    {
+      "url": "https://www.figure.ai/news/series-c",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.852
+        }
+      ],
+      "content_length": 2036,
+      "duration_seconds": 2.852,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.854,
+      "summary_length": 3060,
+      "summary_input_tokens": 575,
+      "summary_output_tokens": 762
+    },
+    {
+      "url": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.011
+        }
+      ],
+      "content_length": 2942,
+      "duration_seconds": 7.011,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.agilityrobotics.com",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.544
+        }
+      ],
+      "content_length": 3438,
+      "duration_seconds": 3.544,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.084,
+      "summary_length": 2257,
+      "summary_input_tokens": 1322,
+      "summary_output_tokens": 553
+    },
+    {
+      "url": "https://bostondynamics.com/products/atlas",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.492
+        }
+      ],
+      "content_length": 32420,
+      "duration_seconds": 4.492,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.445,
+      "summary_length": 4831,
+      "summary_input_tokens": 8107,
+      "summary_output_tokens": 1500
+    },
+    {
+      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.023
+        }
+      ],
+      "content_length": 20332,
+      "duration_seconds": 7.023,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.266,
+      "summary_length": 1613,
+      "summary_input_tokens": 9616,
+      "summary_output_tokens": 1076
+    },
+    {
+      "url": "https://pitchhub.36kr.com/project/2228936046528520",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.972
+        }
+      ],
+      "content_length": 2629,
+      "duration_seconds": 2.972,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.916,
+      "summary_length": 2411,
+      "summary_input_tokens": 1484,
+      "summary_output_tokens": 1587
+    }
+  ],
+  "source_urls_count": 162,
+  "duration_seconds": 797.4616800360382,
+  "report_length": 18558,
+  "context_length": 239060,
+  "id": 6,
+  "prompt": "请帮我整理下目前全球具身智能发展的技术路线，以及各个路线的代表性公司，需要包括这些公司的技术路径，产品进度，商业化进度，融资情况，团队情况",
+  "language": "zh",
+  "topic": "Finance & Business"
+}

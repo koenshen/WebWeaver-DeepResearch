@@ -1,0 +1,154 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 108993,
+  "total_output_tokens": 7823,
+  "total_tokens": 116816,
+  "total_search_count": 17,
+  "total_search_results": 160,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1182,
+      "output_tokens": 959,
+      "total_tokens": 2141,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21129,
+      "output_tokens": 178,
+      "total_tokens": 21307,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36643,
+      "output_tokens": 149,
+      "total_tokens": 36792,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50039,
+      "output_tokens": 6537,
+      "total_tokens": 56576,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "爵士钢琴 风格演变 历史 现代 创新",
+      "effective_query": "爵士钢琴 风格演变 历史 现代 创新",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "jazz piano evolution modern innovation",
+      "effective_query": "jazz piano evolution modern innovation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "现代爵士钢琴 跨流派 融合 电子音乐",
+      "effective_query": "现代爵士钢琴 跨流派 融合 电子音乐",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "contemporary jazz piano improvisation techniques innovation",
+      "effective_query": "contemporary jazz piano improvisation techniques innovation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "爵士钢琴 和声 节奏 发展 20世纪",
+      "effective_query": "爵士钢琴 和声 节奏 发展 20世纪",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "modern jazz pianists innovation 2020s electronic fusion",
+      "effective_query": "modern jazz pianists innovation 2020s electronic fusion",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "jazz piano electronic music effects processing innovation",
+      "effective_query": "jazz piano electronic music effects processing innovation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "爵士钢琴 即兴 创作 技法 创新 现代",
+      "effective_query": "爵士钢琴 即兴 创作 技法 创新 现代",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "jazz piano harmony evolution reharmonization techniques",
+      "effective_query": "jazz piano harmony evolution reharmonization techniques",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bill Evans Miles Davis modal jazz piano influence",
+      "effective_query": "Bill Evans Miles Davis modal jazz piano influence",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Keith Jarrett Brad Mehldau modern jazz piano style",
+      "effective_query": "Keith Jarrett Brad Mehldau modern jazz piano style",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国爵士钢琴 现代 融合 发展",
+      "effective_query": "中国爵士钢琴 现代 融合 发展",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "jazz piano contemporary classical fusion third stream",
+      "effective_query": "jazz piano contemporary classical fusion third stream",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Hiromi Uehara Tigran Hamasyan jazz piano innovation",
+      "effective_query": "Hiromi Uehara Tigran Hamasyan jazz piano innovation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "爵士钢琴 电子音乐 效果器 合成器 融合",
+      "effective_query": "爵士钢琴 电子音乐 效果器 合成器 融合",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "post-bop jazz piano innovation 1960s 1970s",
+      "effective_query": "post-bop jazz piano innovation 1960s 1970s",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "jazz piano education modern curriculum Berklee",
+      "effective_query": "jazz piano education modern curriculum Berklee",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 153,
+  "duration_seconds": 221.38485076837242,
+  "report_length": 13587,
+  "context_length": 159037,
+  "id": 37,
+  "prompt": "调研问题：爵士钢琴在现代音乐创作中的创新与风格演变研究 \n背景与问题意识： 爵士钢琴，作为爵士乐的核心组成部分之一，具有独特的演奏技法与即兴创作特性。自20世纪初以来，爵士钢琴从黑色音律的诞生到今各个流派的发展，经历了多次艺术风格的革命与变迁。特别是在现代音乐创作大潮中（尤其是1950年之后），爵士钢琴不仅深受传统爵士乐风格的影响，还不断受到其他音乐流派、比如古典音乐、摇滚乐、电音等风格的冲击和融合。然而，目前对于爵士钢琴在多元化音乐背景下的创新路径与风格演变的系统性研究仍显不足。 随着全球化和音乐的跨界发展，爵士钢琴的演奏和创作不断面临着新的挑战与机会。不同文化背景下的钢琴家在演奏技法、节奏变奏、和声结构等方面的探索，使得爵士钢琴的创作呈现多样性，而这一变化趋势值得深入剖析。\n 本调研旨在探讨爵士钢琴在现代音乐创作中的创新与风格演变。通过对比分析各种创新实践及其对爵士钢琴艺术演变的推动作用，本篇调研将着重分析以下几个方面：一是爵士钢琴从经典爵士到现代爵士的风格演变；二是当代跨流派合作对爵士钢琴的艺术影响；三是技术创新（如音效处理、电子音乐的结合等）和即兴创作手法的革新对爵士钢琴艺术发展的推动。 此项调研将结合数以百计的现代演出视频、音乐创作数据以及关键演奏家访谈，构建一个多层次的分析框架，帮助阐明爵士钢琴在全球音乐创作背景下的持续创新与风格演变，更为理论和创作实践提供深入的分析视角。",
+  "language": "zh",
+  "topic": "Art & Design"
+}

@@ -1,0 +1,400 @@
+{
+  "total_llm_calls": 15,
+  "total_input_tokens": 169482,
+  "total_output_tokens": 33004,
+  "total_tokens": 202486,
+  "total_search_count": 14,
+  "total_search_results": 128,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 868,
+      "output_tokens": 201,
+      "total_tokens": 1069,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10921,
+      "output_tokens": 140,
+      "total_tokens": 11061,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23863,
+      "output_tokens": 256,
+      "total_tokens": 24119,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14194,
+      "output_tokens": 1660,
+      "total_tokens": 15854,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 384,
+      "output_tokens": 1788,
+      "total_tokens": 2172,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6008,
+      "output_tokens": 3822,
+      "total_tokens": 9830,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5266,
+      "output_tokens": 670,
+      "total_tokens": 5936,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5345,
+      "output_tokens": 4001,
+      "total_tokens": 9346,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5710,
+      "output_tokens": 1057,
+      "total_tokens": 6767,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5789,
+      "output_tokens": 3406,
+      "total_tokens": 9195,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7117,
+      "output_tokens": 874,
+      "total_tokens": 7991,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8669,
+      "output_tokens": 4001,
+      "total_tokens": 12670,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8669,
+      "output_tokens": 1978,
+      "total_tokens": 10647,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26985,
+      "output_tokens": 117,
+      "total_tokens": 27102,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39694,
+      "output_tokens": 9033,
+      "total_tokens": 48727,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Saint Seiya cloths scales surplices god robes armor classes types",
+      "effective_query": "Saint Seiya cloths scales surplices god robes armor classes types",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Saint Seiya bronze saints gold saints silver saints list",
+      "effective_query": "Saint Seiya bronze saints gold saints silver saints list",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Saint Seiya marina generals specters god warriors",
+      "effective_query": "Saint Seiya marina generals specters god warriors",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Saint Seiya characters power levels techniques fates",
+      "effective_query": "Saint Seiya characters power levels techniques fates",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Saint Seiya God Warriors Odin Asgard characters techniques",
+      "effective_query": "Saint Seiya God Warriors Odin Asgard characters techniques",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Saint Seiya Specters Hades surplices characters list",
+      "effective_query": "Saint Seiya Specters Hades surplices characters list",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Saint Seiya God Cloth kamui explained",
+      "effective_query": "Saint Seiya God Cloth kamui explained",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Saint Seiya Mariners Poseidon scales generals techniques",
+      "effective_query": "Saint Seiya Mariners Poseidon scales generals techniques",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Saint Seiya bronze saints Seiya Shiryu Hyoga Shun Ikki techniques fate",
+      "effective_query": "Saint Seiya bronze saints Seiya Shiryu Hyoga Shun Ikki techniques fate",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Saint Seiya gold saints characters techniques fates list",
+      "effective_query": "Saint Seiya gold saints characters techniques fates list",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Saint Seiya silver saints characters techniques",
+      "effective_query": "Saint Seiya silver saints characters techniques",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Saint Seiya specters three judges Wyvern Garuda Griffon",
+      "effective_query": "Saint Seiya specters three judges Wyvern Garuda Griffon",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Saint Seiya God Warriors Siegfried Mime Hagen techniques",
+      "effective_query": "Saint Seiya God Warriors Siegfried Mime Hagen techniques",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Saint Seiya Poseidon arc Kanon Sea Dragon techniques fate",
+      "effective_query": "Saint Seiya Poseidon arc Kanon Sea Dragon techniques fate",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://saintseiya.fandom.com/wiki/Cloths",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.752
+        }
+      ],
+      "content_length": 42971,
+      "duration_seconds": 13.752,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0.788,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "BadRequestError: Error code: 400 - {'error': {'message': 'Model service provider exception: {Response code: 400, body: {\"error\":{\"message\":\"The request is invalid: {\\\\\"message\\\\\":\\\\\"model deepseek-v4-flash: target label not found for the request: \\\\\\\\u003cnil\\\\\\\\u003e trace_id: 145f9144bf43775171f0076eb86f53fd\\\\\",\\\\\"type\\\\\":\\\\\"invalid_request_error\\\\\"}\\\\n. Please check the request body, required fields, and request format.\",\"reqid\":\"3d14acd0-d850-43e6-9d34-c5b451e7c143\",\"type\":\"invalid_request_error\"},\"type\":\"error\"}}', 'type': 'bad_response_status_code', 'param': '', 'code': 'bad_response_status_code'}}"
+    },
+    {
+      "url": "https://saintseiya.fandom.com/wiki/Bronze_Saints",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.41
+        }
+      ],
+      "content_length": 45973,
+      "duration_seconds": 10.41,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://saintseiya.fandom.com/wiki/Silver_Saints",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.917
+        }
+      ],
+      "content_length": 59390,
+      "duration_seconds": 17.917,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://saintseiya.fandom.com/wiki/God_Warriors",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.078
+        }
+      ],
+      "content_length": 497,
+      "duration_seconds": 11.078,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.323,
+      "summary_length": 1699,
+      "summary_input_tokens": 384,
+      "summary_output_tokens": 1788
+    },
+    {
+      "url": "https://saintseiya.fandom.com/wiki/Surplices",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.829
+        }
+      ],
+      "content_length": 23620,
+      "duration_seconds": 5.829,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.606,
+      "summary_length": 2948,
+      "summary_input_tokens": 6008,
+      "summary_output_tokens": 3822
+    },
+    {
+      "url": "https://saintseiya.fandom.com/wiki/God_Cloths",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.545
+        }
+      ],
+      "content_length": 16168,
+      "duration_seconds": 12.545,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://saintseiya.fandom.com/wiki/Kamui",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.581
+        }
+      ],
+      "content_length": 17729,
+      "duration_seconds": 0.582,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://saintseiya.fandom.com/wiki/Scales",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.907
+        }
+      ],
+      "content_length": 21509,
+      "duration_seconds": 13.908,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://saintseiya.fandom.com/wiki/Mariners",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.533
+        }
+      ],
+      "content_length": 26919,
+      "duration_seconds": 11.533,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.149,
+      "summary_length": 1112,
+      "summary_input_tokens": 8669,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 115,
+  "duration_seconds": 1158.8592765843496,
+  "report_length": 31162,
+  "context_length": 190344,
+  "id": 91,
+  "prompt": "I would like a detailed analysis of the Saint Seiya franchise (anime/manga). The analysis should be structured around the different classes of armor (Cloths, Scales, Surplices, God Robes, etc.), such as Bronze Saints, Silver Saints, Gold Saints, Marina Generals, Specters, God Warriors, etc. For each significant character within these categories, provide details on their power level, signature techniques, key appearances/story arcs, and final outcome/fate within the series.",
+  "language": "en",
+  "topic": "Entertainment"
+}

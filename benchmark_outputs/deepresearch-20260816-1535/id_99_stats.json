@@ -1,0 +1,385 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 450733,
+  "total_output_tokens": 26463,
+  "total_tokens": 477196,
+  "total_search_count": 9,
+  "total_search_results": 87,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 901,
+      "output_tokens": 881,
+      "total_tokens": 1782,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10328,
+      "output_tokens": 99,
+      "total_tokens": 10427,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22766,
+      "output_tokens": 254,
+      "total_tokens": 23020,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 89653,
+      "output_tokens": 4000,
+      "total_tokens": 93653,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23379,
+      "output_tokens": 4001,
+      "total_tokens": 27380,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46667,
+      "output_tokens": 1598,
+      "total_tokens": 48265,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46667,
+      "output_tokens": 1670,
+      "total_tokens": 48337,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13755,
+      "output_tokens": 694,
+      "total_tokens": 14449,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 94465,
+      "output_tokens": 1693,
+      "total_tokens": 96158,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23441,
+      "output_tokens": 259,
+      "total_tokens": 23700,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6822,
+      "output_tokens": 1171,
+      "total_tokens": 7993,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45036,
+      "output_tokens": 1527,
+      "total_tokens": 46563,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2209,
+      "output_tokens": 3609,
+      "total_tokens": 5818,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24644,
+      "output_tokens": 5007,
+      "total_tokens": 29651,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "laser IPL LED photoaging hyperpigmentation review 2025",
+      "effective_query": "laser IPL LED photoaging hyperpigmentation review 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "picosecond laser melasma treatment 2025",
+      "effective_query": "picosecond laser melasma treatment 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "fractional laser photoaging recent advances",
+      "effective_query": "fractional laser photoaging recent advances",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "LED photobiomodulation skin rejuvenation mechanisms",
+      "effective_query": "LED photobiomodulation skin rejuvenation mechanisms",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "laser skin whitening brightening treatment 2025",
+      "effective_query": "laser skin whitening brightening treatment 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "melasma treatment guidelines 2025 laser",
+      "effective_query": "melasma treatment guidelines 2025 laser",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "IPL vs laser hyperpigmentation comparative study",
+      "effective_query": "IPL vs laser hyperpigmentation comparative study",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "low-level laser therapy skin rejuvenation clinical trial 2025",
+      "effective_query": "low-level laser therapy skin rejuvenation clinical trial 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "photobiomodulation skin whitening mechanisms",
+      "effective_query": "photobiomodulation skin whitening mechanisms",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.mdpi.com/1422-0067/25/8/4483",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.812
+        }
+      ],
+      "content_length": 280605,
+      "duration_seconds": 12.813,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12696807/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.859
+        }
+      ],
+      "content_length": 75727,
+      "duration_seconds": 1.859,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.589,
+      "summary_length": 975,
+      "summary_input_tokens": 23379,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12783984/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.792
+        }
+      ],
+      "content_length": 153145,
+      "duration_seconds": 1.792,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.kraussdermatology.com/blog/ipl-vs-laser-for-hyperpigmentation-whats-the-difference",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.147
+        }
+      ],
+      "content_length": 46357,
+      "duration_seconds": 8.147,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11049838/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.523
+        }
+      ],
+      "content_length": 295925,
+      "duration_seconds": 3.524,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK580525/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.507
+        }
+      ],
+      "content_length": 28315,
+      "duration_seconds": 0.507,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/photonics/articles/10.3389/fphot.2024.1460722/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.549
+        }
+      ],
+      "content_length": 134467,
+      "duration_seconds": 10.549,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38817003/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.705
+        }
+      ],
+      "content_length": 6602,
+      "duration_seconds": 5.705,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.65,
+      "summary_length": 3609,
+      "summary_input_tokens": 2209,
+      "summary_output_tokens": 3609
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10311288/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.551
+        }
+      ],
+      "content_length": 40257,
+      "duration_seconds": 0.551,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.jkslms.or.kr/view.html?uid=372&vmd=Full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.316
+        }
+      ],
+      "content_length": 31046,
+      "duration_seconds": 8.316,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 88,
+  "duration_seconds": 1281.0071564465761,
+  "report_length": 20122,
+  "context_length": 132084,
+  "id": 99,
+  "prompt": "Research the current applications and recent scientific advancements of various light-based therapies (e.g., laser, IPL, LED) in aesthetic medicine for treating conditions such as photoaging, promoting skin whitening/brightening, and reducing hyperpigmentation (like age spots or melasma).",
+  "language": "en",
+  "topic": "Fashion & Beauty"
+}

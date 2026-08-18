@@ -1,0 +1,540 @@
+{
+  "total_llm_calls": 19,
+  "total_input_tokens": 499781,
+  "total_output_tokens": 35524,
+  "total_tokens": 535305,
+  "total_search_count": 47,
+  "total_search_results": 438,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 853,
+      "output_tokens": 249,
+      "total_tokens": 1102,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19998,
+      "output_tokens": 164,
+      "total_tokens": 20162,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 44352,
+      "output_tokens": 683,
+      "total_tokens": 45035,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 77103,
+      "output_tokens": 1303,
+      "total_tokens": 78406,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 90795,
+      "output_tokens": 807,
+      "total_tokens": 91602,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 105978,
+      "output_tokens": 920,
+      "total_tokens": 106898,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9642,
+      "output_tokens": 4001,
+      "total_tokens": 13643,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9642,
+      "output_tokens": 3482,
+      "total_tokens": 13124,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9563,
+      "output_tokens": 916,
+      "total_tokens": 10479,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9563,
+      "output_tokens": 860,
+      "total_tokens": 10423,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3715,
+      "output_tokens": 849,
+      "total_tokens": 4564,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1301,
+      "output_tokens": 3213,
+      "total_tokens": 4514,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1301,
+      "output_tokens": 4001,
+      "total_tokens": 5302,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1301,
+      "output_tokens": 3271,
+      "total_tokens": 4572,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1783,
+      "output_tokens": 589,
+      "total_tokens": 2372,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1783,
+      "output_tokens": 455,
+      "total_tokens": 2238,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1783,
+      "output_tokens": 1854,
+      "total_tokens": 3637,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1633,
+      "output_tokens": 761,
+      "total_tokens": 2394,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 107692,
+      "output_tokens": 7146,
+      "total_tokens": 114838,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "S&P 500 company rebrand new logo 2023 2024 2025 2026",
+      "effective_query": "S&P 500 company rebrand new logo 2023 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "corporate rebranding S&P 500 consumer facing 2023 2024 2025",
+      "effective_query": "corporate rebranding S&P 500 consumer facing 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "list of S&P 500 companies that changed logo 2023 2024",
+      "effective_query": "list of S&P 500 companies that changed logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "new brand tagline S&P 500 company 2023 2024 2025",
+      "effective_query": "new brand tagline S&P 500 company 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "major rebrand S&P 500 2023 2024 2025 2026",
+      "effective_query": "major rebrand S&P 500 2023 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Johnson & Johnson new logo 2023 launch date",
+      "effective_query": "Johnson & Johnson new logo 2023 launch date",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Meta rebrand 2023 2024 logo",
+      "effective_query": "Meta rebrand 2023 2024 logo",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Dunkin Brands rebrand 2023 2024",
+      "effective_query": "Dunkin Brands rebrand 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Uber new brand logo 2023",
+      "effective_query": "Uber new brand logo 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Coca-Cola new brand tagline 2023 2024",
+      "effective_query": "Coca-Cola new brand tagline 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PepsiCo rebrand 2023 2024 logo",
+      "effective_query": "PepsiCo rebrand 2023 2024 logo",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Nike new logo 2023 2024",
+      "effective_query": "Nike new logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Starbucks rebrand 2023 2024 logo",
+      "effective_query": "Starbucks rebrand 2023 2024 logo",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Walmart rebrand logo 2025",
+      "effective_query": "Walmart rebrand logo 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Verizon new logo 2025",
+      "effective_query": "Verizon new logo 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Amazon new logo 2024",
+      "effective_query": "Amazon new logo 2024",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Goldman Sachs new logo 2024",
+      "effective_query": "Goldman Sachs new logo 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "S&P 500 consumer staples company rebrand new logo 2023 2024 2025",
+      "effective_query": "S&P 500 consumer staples company rebrand new logo 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "S&P 500 consumer discretionary rebrand 2023 2024 2025 2026",
+      "effective_query": "S&P 500 consumer discretionary rebrand 2023 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "company new tagline 2023 2024 S&P 500 consumer",
+      "effective_query": "company new tagline 2023 2024 S&P 500 consumer",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Procter & Gamble new logo 2023 2024",
+      "effective_query": "Procter & Gamble new logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "McDonald's new logo 2023 2024",
+      "effective_query": "McDonald's new logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Target new logo 2023 2024",
+      "effective_query": "Target new logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Home Depot new logo 2023 2024",
+      "effective_query": "Home Depot new logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Lowe's new logo 2023 2024",
+      "effective_query": "Lowe's new logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kroger new logo 2023 2024",
+      "effective_query": "Kroger new logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Best Buy new logo 2023 2024",
+      "effective_query": "Best Buy new logo 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ford new logo 2023",
+      "effective_query": "Ford new logo 2023",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "General Motors new logo 2023",
+      "effective_query": "General Motors new logo 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Hershey new logo 2023",
+      "effective_query": "Hershey new logo 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Kellogg rebrand 2023 2024",
+      "effective_query": "Kellogg rebrand 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kenvue rebrand 2023 2024",
+      "effective_query": "Kenvue rebrand 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GE Healthcare new logo 2023",
+      "effective_query": "GE Healthcare new logo 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Johnson & Johnson brand guidelines PDF 2023",
+      "effective_query": "Johnson & Johnson brand guidelines PDF 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Pepsi brand guidelines 2023 PDF",
+      "effective_query": "Pepsi brand guidelines 2023 PDF",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Walmart brand guidelines 2025 PDF",
+      "effective_query": "Walmart brand guidelines 2025 PDF",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Amazon brand guidelines 2024 PDF",
+      "effective_query": "Amazon brand guidelines 2024 PDF",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Verizon brand guidelines 2024 PDF",
+      "effective_query": "Verizon brand guidelines 2024 PDF",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kellanova brand guidelines 2023 PDF",
+      "effective_query": "Kellanova brand guidelines 2023 PDF",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "GE HealthCare brand guidelines 2023 PDF",
+      "effective_query": "GE HealthCare brand guidelines 2023 PDF",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ford brand guidelines 2023 PDF",
+      "effective_query": "Ford brand guidelines 2023 PDF",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PepsiCo corporate rebrand 2025 new logo",
+      "effective_query": "PepsiCo corporate rebrand 2025 new logo",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Kellanova new logo launch date October 2023",
+      "effective_query": "Kellanova new logo launch date October 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Kenvue IPO date May 2023 S&P 500",
+      "effective_query": "Kenvue IPO date May 2023 S&P 500",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ford new logo F-150 2024 launch date September 2023",
+      "effective_query": "Ford new logo F-150 2024 launch date September 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Best Buy new tagline 2024",
+      "effective_query": "Best Buy new tagline 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cracker Barrel rebrand 2023 2024",
+      "effective_query": "Cracker Barrel rebrand 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-marks-new-era-as-global-healthcare-company-with-updated-visual-identity",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.97
+        }
+      ],
+      "content_length": 33613,
+      "duration_seconds": 7.97,
+      "summary_status": "success",
+      "summary_duration_seconds": 37.416,
+      "summary_length": 3131,
+      "summary_input_tokens": 9642,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/pepsi-unveils-a-new-logo-and-visual-identity-marking-the-iconic-brands-next-era-301783451.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.758
+        }
+      ],
+      "content_length": 12560,
+      "duration_seconds": 6.758,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.146,
+      "summary_length": 3173,
+      "summary_input_tokens": 3715,
+      "summary_output_tokens": 849
+    },
+    {
+      "url": "https://corporate.walmart.com/news/2025/01/13/walmart-introduces-updated-look-and-feel-a-testament-to-heritage-and-innovation",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.795
+        }
+      ],
+      "content_length": 4931,
+      "duration_seconds": 10.795,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://corporate.bestbuy.com/2024/best-buy-reimagines-its-role-in-bringing-tech-to-life-for-customers",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.424
+        }
+      ],
+      "content_length": 6886,
+      "duration_seconds": 7.425,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.pepsico.com/en/newsroom/stories/2025/pepsico-introduces-a-bold-new-corporate-brand-identity",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.757
+        }
+      ],
+      "content_length": 5650,
+      "duration_seconds": 6.757,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.852,
+      "summary_length": 2724,
+      "summary_input_tokens": 1633,
+      "summary_output_tokens": 761
+    }
+  ],
+  "source_urls_count": 417,
+  "duration_seconds": 1219.5390453469008,
+  "report_length": 20028,
+  "context_length": 452553,
+  "qid": "infocoTspDptS95JzUHtfS",
+  "query": "Identify S&P 500 consumer‑facing companies that executed a full corporate re‑brand (new logo or new brand tagline) between 1 Jan 2023 – August 17, 2026. For each company provide: old logo file name, new logo file name, launch date, and links to both the company’s official brand‑guidelines PDF and an independent design‑industry article confirming the change."
+}

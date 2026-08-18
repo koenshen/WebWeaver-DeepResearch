@@ -1,0 +1,239 @@
+{
+  "total_llm_calls": 5,
+  "total_input_tokens": 193344,
+  "total_output_tokens": 9895,
+  "total_tokens": 203239,
+  "total_search_count": 30,
+  "total_search_results": 281,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 900,
+      "output_tokens": 485,
+      "total_tokens": 1385,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20797,
+      "output_tokens": 115,
+      "total_tokens": 20912,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39694,
+      "output_tokens": 146,
+      "total_tokens": 39840,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 58884,
+      "output_tokens": 130,
+      "total_tokens": 59014,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 73069,
+      "output_tokens": 9019,
+      "total_tokens": 82088,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "global video editing software market size 2024 2025 growth forecast",
+      "effective_query": "global video editing software market size 2024 2025 growth forecast",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "video editing software market share Adobe CapCut DaVinci Resolve 2024",
+      "effective_query": "video editing software market share Adobe CapCut DaVinci Resolve 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CapCut market share growth 2024 2025",
+      "effective_query": "CapCut market share growth 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DaVinci Resolve users statistics 2024",
+      "effective_query": "DaVinci Resolve users statistics 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Adobe Premiere Pro market share competition",
+      "effective_query": "Adobe Premiere Pro market share competition",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "video editing software industry trends 2025 AI",
+      "effective_query": "video editing software industry trends 2025 AI",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Final Cut Pro market share Mac video editing",
+      "effective_query": "Final Cut Pro market share Mac video editing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "video editing market report Grand View Research Mordor Intelligence",
+      "effective_query": "video editing market report Grand View Research Mordor Intelligence",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Adobe Premiere Pro subscribers statistics 2024 2025",
+      "effective_query": "Adobe Premiere Pro subscribers statistics 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Adobe video editing revenue Creative Cloud 2024 annual report",
+      "effective_query": "Adobe video editing revenue Creative Cloud 2024 annual report",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "CapCut revenue 2024 2025 statistics",
+      "effective_query": "CapCut revenue 2024 2025 statistics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CapCut monthly active users 2025",
+      "effective_query": "CapCut monthly active users 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "DaVinci Resolve free users 2 million downloads",
+      "effective_query": "DaVinci Resolve free users 2 million downloads",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Final Cut Pro users 2 million statistics",
+      "effective_query": "Final Cut Pro users 2 million statistics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Avid Media Composer market share professional",
+      "effective_query": "Avid Media Composer market share professional",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "video editing software mobile vs desktop market share",
+      "effective_query": "video editing software mobile vs desktop market share",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Wondershare Filmora market share 2024",
+      "effective_query": "Wondershare Filmora market share 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Canva video editing features 2024 2025",
+      "effective_query": "Canva video editing features 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Clipchamp Microsoft video editor growth 2024",
+      "effective_query": "Clipchamp Microsoft video editor growth 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Vegas Pro market share 2024",
+      "effective_query": "Vegas Pro market share 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "video editing software market consumer vs professional breakdown",
+      "effective_query": "video editing software market consumer vs professional breakdown",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI video editing market size 2024 2030 forecast",
+      "effective_query": "AI video editing market size 2024 2030 forecast",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cloud video editing software market growth 2024",
+      "effective_query": "cloud video editing software market growth 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Blackmagic Design DaVinci Resolve revenue 2024",
+      "effective_query": "Blackmagic Design DaVinci Resolve revenue 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Adobe After Effects market share motion graphics",
+      "effective_query": "Adobe After Effects market share motion graphics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Avid Media Composer professional film editing market share 2024",
+      "effective_query": "Avid Media Composer professional film editing market share 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "open source video editing software market share 2024",
+      "effective_query": "open source video editing software market share 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Runway ML AI video editing users 2024",
+      "effective_query": "Runway ML AI video editing users 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Descript video editing users 2024",
+      "effective_query": "Descript video editing users 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Canva video editing market share 2024",
+      "effective_query": "Canva video editing market share 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 222,
+  "duration_seconds": 230.1805261913687,
+  "report_length": 30158,
+  "context_length": 342132,
+  "id": 93,
+  "prompt": "Please prepare a market research analysis of the global video editing and creation software/tool market. Include major products like those from Adobe (Premiere Pro, After Effects), CapCut, DaVinci Resolve, Final Cut Pro, and others relevant in the current landscape.",
+  "language": "en",
+  "topic": "Software"
+}

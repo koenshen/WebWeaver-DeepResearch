@@ -1,0 +1,352 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 156904,
+  "total_output_tokens": 28252,
+  "total_tokens": 185156,
+  "total_search_count": 8,
+  "total_search_results": 75,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 831,
+      "output_tokens": 296,
+      "total_tokens": 1127,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39219,
+      "output_tokens": 706,
+      "total_tokens": 39925,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3899,
+      "output_tokens": 3907,
+      "total_tokens": 7806,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6998,
+      "output_tokens": 4001,
+      "total_tokens": 10999,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6919,
+      "output_tokens": 1754,
+      "total_tokens": 8673,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1987,
+      "output_tokens": 4001,
+      "total_tokens": 5988,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1910,
+      "output_tokens": 1047,
+      "total_tokens": 2957,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1989,
+      "output_tokens": 2254,
+      "total_tokens": 4243,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1353,
+      "output_tokens": 1251,
+      "total_tokens": 2604,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41016,
+      "output_tokens": 177,
+      "total_tokens": 41193,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2100,
+      "output_tokens": 707,
+      "total_tokens": 2807,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6866,
+      "output_tokens": 1995,
+      "total_tokens": 8861,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41817,
+      "output_tokens": 6156,
+      "total_tokens": 47973,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "抗日战争 研究 综述 1937-1949 中国历史学界",
+      "effective_query": "抗日战争 研究 综述 1937-1949 中国历史学界",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国抗日战争史 研究 领域 方法 理论",
+      "effective_query": "中国抗日战争史 研究 领域 方法 理论",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "战后中国 研究 1945-1949 历史学界 综述",
+      "effective_query": "战后中国 研究 1945-1949 历史学界 综述",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "抗日战争 研究 视角 方法 理论 运用",
+      "effective_query": "抗日战争 研究 视角 方法 理论 运用",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国近代史 研究 1937-1949 成果 论著",
+      "effective_query": "中国近代史 研究 1937-1949 成果 论著",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "抗日战争 社会史 文化史 研究 新趋向",
+      "effective_query": "抗日战争 社会史 文化史 研究 新趋向",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "抗日战争 军事史 政治史 外交史 研究 综述",
+      "effective_query": "抗日战争 军事史 政治史 外交史 研究 综述",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "解放战争 历史研究 1945-1949 中国学界",
+      "effective_query": "解放战争 历史研究 1945-1949 中国学界",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "http://jds.cssn.cn/xscg/xslw/202601/t20260130_5971445.shtml",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.541
+        }
+      ],
+      "content_length": 6951,
+      "duration_seconds": 10.541,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "http://www.1937nanjing.org/xueshujiaoliu/xueshuyanjiu/2025/1217/5730.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.387
+        }
+      ],
+      "content_length": 11653,
+      "duration_seconds": 7.388,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "http://www.xinhuanet.com/politics/2015-11/25/c_128466786.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.383
+        }
+      ],
+      "content_length": 3254,
+      "duration_seconds": 6.383,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.cssn.cn/zgdsdj/202506/t20250619_5879980.shtml",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 19.529
+        }
+      ],
+      "content_length": 3158,
+      "duration_seconds": 19.529,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "http://jds.cssn.cn/newzxdt/202101/t20210128_5301440.shtml",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.507
+        }
+      ],
+      "content_length": 2502,
+      "duration_seconds": 13.507,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.672,
+      "summary_length": 1663,
+      "summary_input_tokens": 1353,
+      "summary_output_tokens": 1251
+    },
+    {
+      "url": "http://jds.cssn.cn/xscg/ybwz/202305/t20230531_5641414.shtml",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.65
+        }
+      ],
+      "content_length": 7285,
+      "duration_seconds": 7.65,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "http://theory.people.com.cn/n1/2025/1119/c40531-40606826.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.005
+        }
+      ],
+      "content_length": 3519,
+      "duration_seconds": 7.005,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.dswxyjy.org.cn/n1/2020/0903/c219021-31848389.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.292
+        }
+      ],
+      "content_length": 46388,
+      "duration_seconds": 8.293,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.theorychina.org.cn/c/2025-12-01/1537113.shtml",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.848
+        }
+      ],
+      "content_length": 11971,
+      "duration_seconds": 17.848,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 61,
+  "duration_seconds": 1393.0067688794807,
+  "report_length": 10820,
+  "context_length": 90608,
+  "id": 32,
+  "prompt": "收集整理目前中国历史学界对1937-1949年（抗日战争以及战后）研究的成果和相关论著，横向对比分析这些成果的研究领域、研究视角、研究方法、理论运用、研究结论等方面，并为我预测未来最有研究潜力和研究空间的2-3个选题。",
+  "language": "zh",
+  "topic": "History"
+}

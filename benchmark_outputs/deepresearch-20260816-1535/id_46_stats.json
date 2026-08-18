@@ -1,0 +1,98 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 60296,
+  "total_output_tokens": 7232,
+  "total_tokens": 67528,
+  "total_search_count": 10,
+  "total_search_results": 95,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 876,
+      "output_tokens": 540,
+      "total_tokens": 1416,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 59420,
+      "output_tokens": 6692,
+      "total_tokens": 66112,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "房地产行业可持续发展动力 中国",
+      "effective_query": "房地产行业可持续发展动力 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "未来10年 房地产政策 导向 中国",
+      "effective_query": "未来10年 房地产政策 导向 中国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "房地产金融支持 政策 2024 2025 2026",
+      "effective_query": "房地产金融支持 政策 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "房地产新发展模式 政策 2025",
+      "effective_query": "房地产新发展模式 政策 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "保障性住房 政策 2025 2026 中国",
+      "effective_query": "保障性住房 政策 2025 2026 中国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "绿色建筑 智能建造 政策 2025 中国",
+      "effective_query": "绿色建筑 智能建造 政策 2025 中国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "房地产税改革 2025 2026 中国",
+      "effective_query": "房地产税改革 2025 2026 中国",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "城市更新 政策 2025 中国",
+      "effective_query": "城市更新 政策 2025 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "房地产REITs 发展 2025 中国",
+      "effective_query": "房地产REITs 发展 2025 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "房地产行业 发展趋势 2026 中国",
+      "effective_query": "房地产行业 发展趋势 2026 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 95,
+  "duration_seconds": 97.87645543925464,
+  "report_length": 11560,
+  "context_length": 128343,
+  "id": 46,
+  "prompt": "房地产行业可持续发展的动力是什么？未来10年国家在政策、资金、导向如何促进该行业有序、良性地发展。",
+  "language": "zh",
+  "topic": "Home & Hobbies"
+}

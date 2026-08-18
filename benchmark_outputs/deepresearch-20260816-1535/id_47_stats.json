@@ -1,0 +1,56 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 17330,
+  "total_output_tokens": 5785,
+  "total_tokens": 23115,
+  "total_search_count": 3,
+  "total_search_results": 29,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 786,
+      "output_tokens": 167,
+      "total_tokens": 953,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16544,
+      "output_tokens": 5618,
+      "total_tokens": 22162,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "2025 年 旅客选择目的地 影响因素",
+      "effective_query": "2025 年 旅客选择目的地 影响因素",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2025 旅游趋势 消费者决策 因素",
+      "effective_query": "2025 旅游趋势 消费者决策 因素",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2025 年 旅游目的地 选择 因素 研究报告",
+      "effective_query": "2025 年 旅游目的地 选择 因素 研究报告",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 26,
+  "duration_seconds": 74.76414376497269,
+  "report_length": 9491,
+  "context_length": 43289,
+  "id": 47,
+  "prompt": "2025 年，有哪些因素影响着旅客选择前往不同目的地旅游",
+  "language": "zh",
+  "topic": "Travel"
+}

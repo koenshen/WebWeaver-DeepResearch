@@ -1,0 +1,204 @@
+{
+  "total_llm_calls": 6,
+  "total_input_tokens": 182381,
+  "total_output_tokens": 8557,
+  "total_tokens": 190938,
+  "total_search_count": 23,
+  "total_search_results": 215,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 886,
+      "output_tokens": 963,
+      "total_tokens": 1849,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11706,
+      "output_tokens": 230,
+      "total_tokens": 11936,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22891,
+      "output_tokens": 169,
+      "total_tokens": 23060,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38034,
+      "output_tokens": 91,
+      "total_tokens": 38125,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 49508,
+      "output_tokens": 125,
+      "total_tokens": 49633,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 59356,
+      "output_tokens": 6979,
+      "total_tokens": 66335,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "碳钢 常用缓蚀剂 种类",
+      "effective_query": "碳钢 常用缓蚀剂 种类",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "carbon steel common corrosion inhibitors types",
+      "effective_query": "carbon steel common corrosion inhibitors types",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "缓蚀剂 拉曼光谱 红外光谱",
+      "effective_query": "缓蚀剂 拉曼光谱 红外光谱",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "corrosion inhibitor Raman spectroscopy",
+      "effective_query": "corrosion inhibitor Raman spectroscopy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "碳钢缓蚀剂 分类 无机 有机 缓蚀剂 例子",
+      "effective_query": "碳钢缓蚀剂 分类 无机 有机 缓蚀剂 例子",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "common corrosion inhibitors for carbon steel inorganic organic list",
+      "effective_query": "common corrosion inhibitors for carbon steel inorganic organic list",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "缓蚀剂 分子对称性 拉曼活性 红外活性 互斥规则",
+      "effective_query": "缓蚀剂 分子对称性 拉曼活性 红外活性 互斥规则",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "corrosion inhibitor molecular symmetry Raman IR activity",
+      "effective_query": "corrosion inhibitor molecular symmetry Raman IR activity",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "benzotriazole molecular symmetry point group Raman IR active",
+      "effective_query": "benzotriazole molecular symmetry point group Raman IR active",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "咪唑啉 分子对称性 拉曼 红外 活性",
+      "effective_query": "咪唑啉 分子对称性 拉曼 红外 活性",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "钼酸钠 拉曼光谱 红外活性",
+      "effective_query": "钼酸钠 拉曼光谱 红外活性",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "亚硝酸钠 拉曼 红外 活性",
+      "effective_query": "亚硝酸钠 拉曼 红外 活性",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "苯并三氮唑 拉曼光谱 红外光谱 活性",
+      "effective_query": "苯并三氮唑 拉曼光谱 红外光谱 活性",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "benzotriazole C2v point group IR Raman active vibrations",
+      "effective_query": "benzotriazole C2v point group IR Raman active vibrations",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "咪唑啉 imidazoline Raman infrared spectra corrosion inhibitor",
+      "effective_query": "咪唑啉 imidazoline Raman infrared spectra corrosion inhibitor",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "thiourea thiourea Raman IR activity carbon steel",
+      "effective_query": "thiourea thiourea Raman IR activity carbon steel",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "胺类缓蚀剂 十六胺 拉曼 红外",
+      "effective_query": "胺类缓蚀剂 十六胺 拉曼 红外",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "葡萄糖酸钠 拉曼 红外 活性",
+      "effective_query": "葡萄糖酸钠 拉曼 红外 活性",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "钼酸钠 Na2MoO4 IR Raman active modes",
+      "effective_query": "钼酸钠 Na2MoO4 IR Raman active modes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "铬酸盐 chromate IR Raman active",
+      "effective_query": "铬酸盐 chromate IR Raman active",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "硅酸钠 sodium silicate IR Raman active",
+      "effective_query": "硅酸钠 sodium silicate IR Raman active",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "锌盐 zinc sulfate Raman IR active",
+      "effective_query": "锌盐 zinc sulfate Raman IR active",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "磷酸盐 phosphate IR Raman active",
+      "effective_query": "磷酸盐 phosphate IR Raman active",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 179,
+  "duration_seconds": 211.77076214924455,
+  "report_length": 10711,
+  "context_length": 186667,
+  "id": 11,
+  "prompt": "请总结碳钢常用缓蚀剂种类，并分析每种缓蚀剂是具有拉曼活性还是红外活性。注意如果是复合缓蚀剂需要分别分析再总结。",
+  "language": "zh",
+  "topic": "Science & Technology"
+}

@@ -1,0 +1,74 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 14684,
+  "total_output_tokens": 3704,
+  "total_tokens": 18388,
+  "total_search_count": 6,
+  "total_search_results": 56,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 829,
+      "output_tokens": 196,
+      "total_tokens": 1025,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13855,
+      "output_tokens": 3508,
+      "total_tokens": 17363,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "quantitative trading strategy evaluation framework benchmark returns risk adaptability",
+      "effective_query": "quantitative trading strategy evaluation framework benchmark returns risk adaptability",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "multi-factor strategy performance evaluation metrics",
+      "effective_query": "multi-factor strategy performance evaluation metrics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "high-frequency trading performance benchmark comparison",
+      "effective_query": "high-frequency trading performance benchmark comparison",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "quantitative strategy evaluation framework academic paper",
+      "effective_query": "quantitative strategy evaluation framework academic paper",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "standardized benchmark for quant strategies returns risk adaptability",
+      "effective_query": "standardized benchmark for quant strategies returns risk adaptability",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "trading strategy evaluation dimensions returns risk adaptability market conditions",
+      "effective_query": "trading strategy evaluation dimensions returns risk adaptability market conditions",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 52,
+  "duration_seconds": 976.9878792380914,
+  "report_length": 14779,
+  "context_length": 82736,
+  "id": 55,
+  "prompt": "While the market features diverse quantitative strategies like multi-factor and high-frequency trading, it lacks a single, standardized benchmark for assessing their performance across multiple dimensions such as returns, risk, and adaptability to market conditions. Could we develop a general yet rigorous evaluation framework to enable accurate comparison and analysis of various advanced quant strategies?",
+  "language": "en",
+  "topic": "Finance & Business"
+}

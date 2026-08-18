@@ -1,0 +1,257 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 291583,
+  "total_output_tokens": 20291,
+  "total_tokens": 311874,
+  "total_search_count": 10,
+  "total_search_results": 91,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 893,
+      "output_tokens": 202,
+      "total_tokens": 1095,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11037,
+      "output_tokens": 253,
+      "total_tokens": 11290,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 52930,
+      "output_tokens": 2679,
+      "total_tokens": 55609,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 56213,
+      "output_tokens": 4001,
+      "total_tokens": 60214,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 56134,
+      "output_tokens": 1610,
+      "total_tokens": 57744,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 63644,
+      "output_tokens": 2577,
+      "total_tokens": 66221,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1707,
+      "output_tokens": 1646,
+      "total_tokens": 3353,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4750,
+      "output_tokens": 1300,
+      "total_tokens": 6050,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16750,
+      "output_tokens": 105,
+      "total_tokens": 16855,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27525,
+      "output_tokens": 5918,
+      "total_tokens": 33443,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "predominant types of gut probiotics Lactobacillus Bifidobacterium",
+      "effective_query": "predominant types of gut probiotics Lactobacillus Bifidobacterium",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "prebiotics definition mechanism of action gut health",
+      "effective_query": "prebiotics definition mechanism of action gut health",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "pathogenic gut bacteria toxic metabolites colorectal cancer",
+      "effective_query": "pathogenic gut bacteria toxic metabolites colorectal cancer",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "dietary recommendations gut microbiota probiotics prebiotics diet",
+      "effective_query": "dietary recommendations gut microbiota probiotics prebiotics diet",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Fusobacterium nucleatum colorectal cancer mechanism metabolites",
+      "effective_query": "Fusobacterium nucleatum colorectal cancer mechanism metabolites",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "colibactin Escherichia coli DNA damage colorectal cancer",
+      "effective_query": "colibactin Escherichia coli DNA damage colorectal cancer",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "hydrogen sulfide sulfate-reducing bacteria colorectal cancer",
+      "effective_query": "hydrogen sulfide sulfate-reducing bacteria colorectal cancer",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Clostridium difficile toxin colorectal cancer",
+      "effective_query": "Clostridium difficile toxin colorectal cancer",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "enterotoxigenic Bacteroides fragilis toxin BFT",
+      "effective_query": "enterotoxigenic Bacteroides fragilis toxin BFT",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "high fiber diet reduces colorectal cancer risk mechanism",
+      "effective_query": "high fiber diet reduces colorectal cancer risk mechanism",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8558397",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.847
+        }
+      ],
+      "content_length": 171220,
+      "duration_seconds": 2.848,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.838,
+      "summary_length": 9389,
+      "summary_input_tokens": 52930,
+      "summary_output_tokens": 2679
+    },
+    {
+      "url": "https://www.mdpi.com/2072-6643/18/3/372",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.961
+        }
+      ],
+      "content_length": 186934,
+      "duration_seconds": 6.961,
+      "summary_status": "success",
+      "summary_duration_seconds": 43.055,
+      "summary_length": 1498,
+      "summary_input_tokens": 56213,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231265",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.389
+        }
+      ],
+      "content_length": 193889,
+      "duration_seconds": 1.389,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.hopkinsmedicine.org/news/newsroom/news-releases/2026/05/solving-a-15-year-mystery-scientists-discover-how-gut-bacteria-toxin-invades-colon-cells-to-trigger-cancer",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.721
+        }
+      ],
+      "content_length": 6783,
+      "duration_seconds": 6.722,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.779,
+      "summary_length": 5814,
+      "summary_input_tokens": 1707,
+      "summary_output_tokens": 1646
+    },
+    {
+      "url": "https://nutritionsource.hsph.harvard.edu/probiotics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.043
+        }
+      ],
+      "content_length": 19820,
+      "duration_seconds": 3.043,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 89,
+  "duration_seconds": 406.7028178181499,
+  "report_length": 25903,
+  "context_length": 157194,
+  "id": 76,
+  "prompt": "The significance of the gut microbiota in maintaining normal intestinal function has emerged as a prominent focus in contemporary research, revealing both beneficial and detrimental impacts on the equilibrium of gut health. Disruption of microbial homeostasis can precipitate intestinal inflammation and has been implicated in the pathogenesis of colorectal cancer. Conversely, probiotics have demonstrated the capacity to mitigate inflammation and retard the progression of colorectal cancer. Within this domain, key questions arise: What are the predominant types of gut probiotics? What precisely constitutes prebiotics and their mechanistic role? Which pathogenic bacteria warrant concern, and what toxic metabolites do they produce? How might these findings inform and optimize our daily dietary choices?",
+  "language": "en",
+  "topic": "Health"
+}

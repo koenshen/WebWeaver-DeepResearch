@@ -1,0 +1,415 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 246674,
+  "total_output_tokens": 31126,
+  "total_tokens": 277800,
+  "total_search_count": 22,
+  "total_search_results": 212,
+  "total_visit_count": 8,
+  "total_visit_success": 8,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 962,
+      "output_tokens": 203,
+      "total_tokens": 1165,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18110,
+      "output_tokens": 158,
+      "total_tokens": 18268,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39031,
+      "output_tokens": 431,
+      "total_tokens": 39462,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 635,
+      "output_tokens": 846,
+      "total_tokens": 1481,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5092,
+      "output_tokens": 3014,
+      "total_tokens": 8106,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2037,
+      "output_tokens": 2865,
+      "total_tokens": 4902,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2523,
+      "output_tokens": 1627,
+      "total_tokens": 4150,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24218,
+      "output_tokens": 4001,
+      "total_tokens": 28219,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 696,
+      "output_tokens": 2166,
+      "total_tokens": 2862,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 647,
+      "output_tokens": 786,
+      "total_tokens": 1433,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24280,
+      "output_tokens": 4001,
+      "total_tokens": 28281,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24280,
+      "output_tokens": 4001,
+      "total_tokens": 28281,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43536,
+      "output_tokens": 181,
+      "total_tokens": 43717,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60627,
+      "output_tokens": 6846,
+      "total_tokens": 67473,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "spatial understanding vision-language models NeurIPS ICLR 2022 2023 2024",
+      "effective_query": "spatial understanding vision-language models NeurIPS ICLR 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "3D spatial reasoning vision-language models conference 2023 2024",
+      "effective_query": "3D spatial reasoning vision-language models conference 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "visual grounding localization vision-language model ICML NeurIPS 2022 2023 2024",
+      "effective_query": "visual grounding localization vision-language model ICML NeurIPS 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "object counting vision-language model benchmark 2023 2024",
+      "effective_query": "object counting vision-language model benchmark 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "spatial VLM evaluation benchmark AAAI EMNLP 2023 2024",
+      "effective_query": "spatial VLM evaluation benchmark AAAI EMNLP 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "navigation vision-language model ICLR NeurIPS 2023 2024",
+      "effective_query": "navigation vision-language model ICLR NeurIPS 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SpatialRGPT NeurIPS 2024 grounded spatial reasoning",
+      "effective_query": "SpatialRGPT NeurIPS 2024 grounded spatial reasoning",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "What's up with vision-language models spatial reasoning EMNLP 2023",
+      "effective_query": "What's up with vision-language models spatial reasoning EMNLP 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ViperGPT visual reasoning ICCV 2023",
+      "effective_query": "ViperGPT visual reasoning ICCV 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ferret ICLR 2024 visual grounding",
+      "effective_query": "Ferret ICLR 2024 visual grounding",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BLIP-2 ICML 2023 vision-language model",
+      "effective_query": "BLIP-2 ICML 2023 vision-language model",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "InstructBLIP NeurIPS 2023 instruction tuning",
+      "effective_query": "InstructBLIP NeurIPS 2023 instruction tuning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shikra visual grounding MMLLM 2023",
+      "effective_query": "Shikra visual grounding MMLLM 2023",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "VisionLLM NeurIPS 2023 vision-centric",
+      "effective_query": "VisionLLM NeurIPS 2023 vision-centric",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CoVLM ICLR 2024 composing visual entities",
+      "effective_query": "CoVLM ICLR 2024 composing visual entities",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "MMRel relation understanding MLLM benchmark 2024",
+      "effective_query": "MMRel relation understanding MLLM benchmark 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "BLINK multimodal benchmark 2024 Fu",
+      "effective_query": "BLINK multimodal benchmark 2024 Fu",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "GSR-BENCH grounded spatial reasoning 2024",
+      "effective_query": "GSR-BENCH grounded spatial reasoning 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "3D-LLM 3D understanding NeurIPS 2023",
+      "effective_query": "3D-LLM 3D understanding NeurIPS 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SPHERE spatial perception reasoning benchmark 2024",
+      "effective_query": "SPHERE spatial perception reasoning benchmark 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "3DSRBench 3D spatial reasoning benchmark 2024",
+      "effective_query": "3DSRBench 3D spatial reasoning benchmark 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Cambrian-1 NeurIPS 2024 spatial vision aggregator",
+      "effective_query": "Cambrian-1 NeurIPS 2024 spatial vision aggregator",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/f38cb4cf9a5eaa92b3cfa481832719c6-Abstract-Conference.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.183
+        }
+      ],
+      "content_length": 2148,
+      "duration_seconds": 3.183,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.146,
+      "summary_length": 2906,
+      "summary_input_tokens": 635,
+      "summary_output_tokens": 846
+    },
+    {
+      "url": "https://aclanthology.org/2023.emnlp-main.568/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.443
+        }
+      ],
+      "content_length": 18018,
+      "duration_seconds": 3.443,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.816,
+      "summary_length": 3020,
+      "summary_input_tokens": 5092,
+      "summary_output_tokens": 3014
+    },
+    {
+      "url": "https://spatial-vlm.github.io",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.343
+        }
+      ],
+      "content_length": 8092,
+      "duration_seconds": 3.343,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.267,
+      "summary_length": 6396,
+      "summary_input_tokens": 2037,
+      "summary_output_tokens": 2865
+    },
+    {
+      "url": "https://neurips.cc/virtual/2024/poster/94371",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.745
+        }
+      ],
+      "content_length": 7658,
+      "duration_seconds": 1.745,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.342,
+      "summary_length": 3373,
+      "summary_input_tokens": 2523,
+      "summary_output_tokens": 1627
+    },
+    {
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/fd6613131889a4b656206c50a8bd7790-Paper-Conference.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.344
+        }
+      ],
+      "content_length": 94162,
+      "duration_seconds": 4.344,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9a6a435e75419a836fe47ab6793623e6-Abstract-Conference.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.749
+        }
+      ],
+      "content_length": 2129,
+      "duration_seconds": 2.749,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.648,
+      "summary_length": 3294,
+      "summary_input_tokens": 696,
+      "summary_output_tokens": 2166
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/c1f7b1ed763e9c75e4db74b49b76db5f-Abstract-Conference.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.532
+        }
+      ],
+      "content_length": 2198,
+      "duration_seconds": 2.532,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.837,
+      "summary_length": 2897,
+      "summary_input_tokens": 647,
+      "summary_output_tokens": 786
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7f2257d2b291b8d7e712c70b67e09412-Paper-Conference.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.35
+        }
+      ],
+      "content_length": 102109,
+      "duration_seconds": 4.351,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 196,
+  "duration_seconds": 603.938681954518,
+  "report_length": 20361,
+  "context_length": 280521,
+  "qid": "review7WR9DY30D57MosM2",
+  "query": "I would like to understand the recent development of 2D and 3D spatial understanding/reasoning of vision-language models (general-purpose or task-specific ones). Please help me draft a literature review section in the style of NeurIPS/ICML/ICLR papers. The section should contain multiple paragraphs, where each paragraph illustrates the progression of a coherent line of research .\nRequirements: (1) Only include papers published in top AI conferences and journals (ICML, NeurIPS, ICLR, EMNLP, ACL, AAAI, TPAMI, COLING, TMLR, IJCV, etc.). Do not include preprints from arXiv. (2) Focus specifically on the development of the field from 2022–2025. (3)  Spatial understanding includes tasks such as object counting, navigation, grounding/localization, and general visual reasoning. (4) You should cover model architectures, evaluation & benchmarks/datasets, and methodologies."
+}

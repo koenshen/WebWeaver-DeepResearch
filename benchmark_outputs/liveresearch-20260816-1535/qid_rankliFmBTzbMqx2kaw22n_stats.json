@@ -1,0 +1,910 @@
+{
+  "total_llm_calls": 35,
+  "total_input_tokens": 2060429,
+  "total_output_tokens": 58852,
+  "total_tokens": 2119281,
+  "total_search_count": 40,
+  "total_search_results": 312,
+  "total_visit_count": 20,
+  "total_visit_success": 20,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 833,
+      "output_tokens": 125,
+      "total_tokens": 958,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9919,
+      "output_tokens": 164,
+      "total_tokens": 10083,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14900,
+      "output_tokens": 1521,
+      "total_tokens": 16421,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27123,
+      "output_tokens": 984,
+      "total_tokens": 28107,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12602,
+      "output_tokens": 1312,
+      "total_tokens": 13914,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12879,
+      "output_tokens": 286,
+      "total_tokens": 13165,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25234,
+      "output_tokens": 241,
+      "total_tokens": 25475,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 97004,
+      "output_tokens": 3762,
+      "total_tokens": 100766,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96780,
+      "output_tokens": 2982,
+      "total_tokens": 99762,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34677,
+      "output_tokens": 648,
+      "total_tokens": 35325,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96185,
+      "output_tokens": 1377,
+      "total_tokens": 97562,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96367,
+      "output_tokens": 3523,
+      "total_tokens": 99890,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28639,
+      "output_tokens": 133,
+      "total_tokens": 28772,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47342,
+      "output_tokens": 193,
+      "total_tokens": 47535,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96278,
+      "output_tokens": 1271,
+      "total_tokens": 97549,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29170,
+      "output_tokens": 4001,
+      "total_tokens": 33171,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29091,
+      "output_tokens": 1013,
+      "total_tokens": 30104,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29091,
+      "output_tokens": 500,
+      "total_tokens": 29591,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34082,
+      "output_tokens": 677,
+      "total_tokens": 34759,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96615,
+      "output_tokens": 3536,
+      "total_tokens": 100151,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96281,
+      "output_tokens": 986,
+      "total_tokens": 97267,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 49791,
+      "output_tokens": 144,
+      "total_tokens": 49935,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 61928,
+      "output_tokens": 177,
+      "total_tokens": 62105,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96302,
+      "output_tokens": 1010,
+      "total_tokens": 97312,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 97172,
+      "output_tokens": 736,
+      "total_tokens": 97908,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 63089,
+      "output_tokens": 1718,
+      "total_tokens": 64807,
+      "message_count": 18
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 79827,
+      "output_tokens": 1217,
+      "total_tokens": 81044,
+      "message_count": 20
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29123,
+      "output_tokens": 641,
+      "total_tokens": 29764,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96667,
+      "output_tokens": 2834,
+      "total_tokens": 99501,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96828,
+      "output_tokens": 3767,
+      "total_tokens": 100595,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 96591,
+      "output_tokens": 3474,
+      "total_tokens": 100065,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 432,
+      "output_tokens": 669,
+      "total_tokens": 1101,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 82712,
+      "output_tokens": 2609,
+      "total_tokens": 85321,
+      "message_count": 22
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 92408,
+      "output_tokens": 1650,
+      "total_tokens": 94058,
+      "message_count": 24
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 106467,
+      "output_tokens": 8971,
+      "total_tokens": 115438,
+      "message_count": 26
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "best wireless headphones 2026 noise cancelling Amazon top rated",
+      "effective_query": "best wireless headphones 2026 noise cancelling Amazon top rated",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "top wireless headphones 2026 Amazon customer rating",
+      "effective_query": "top wireless headphones 2026 Amazon customer rating",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "best noise cancelling headphones 2026 dB rating comparison",
+      "effective_query": "best noise cancelling headphones 2026 dB rating comparison",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Sony WH-1000XM6 Amazon customer rating battery life specs",
+      "effective_query": "Sony WH-1000XM6 Amazon customer rating battery life specs",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bose QuietComfort Ultra 2nd Gen Amazon rating battery life",
+      "effective_query": "Bose QuietComfort Ultra 2nd Gen Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Apple AirPods Max 2 Amazon customer rating battery life",
+      "effective_query": "Apple AirPods Max 2 Amazon customer rating battery life",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Sennheiser Momentum 5 Wireless Amazon rating battery life",
+      "effective_query": "Sennheiser Momentum 5 Wireless Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "JBL Live 780NC Amazon customer rating battery",
+      "effective_query": "JBL Live 780NC Amazon customer rating battery",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Anker Soundcore Space One Amazon rating battery life",
+      "effective_query": "Anker Soundcore Space One Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Nothing Headphone 1 Amazon rating battery life",
+      "effective_query": "Nothing Headphone 1 Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "TOZO HT3 Amazon rating battery life noise cancelling",
+      "effective_query": "TOZO HT3 Amazon rating battery life noise cancelling",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Beats Studio Pro Amazon rating battery life",
+      "effective_query": "Beats Studio Pro Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Soundcore Space Q45 Amazon rating battery life",
+      "effective_query": "Soundcore Space Q45 Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Sony WH-1000XM5 Amazon rating battery life",
+      "effective_query": "Sony WH-1000XM5 Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Anker Soundcore Liberty 5 Pro Amazon rating battery",
+      "effective_query": "Anker Soundcore Liberty 5 Pro Amazon rating battery",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Nothing Headphone 1 Amazon customer rating 2026",
+      "effective_query": "Nothing Headphone 1 Amazon customer rating 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Sonos Ace Amazon rating battery life",
+      "effective_query": "Sonos Ace Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 5
+    },
+    {
+      "query": "Soundcore Space One Pro Amazon rating battery",
+      "effective_query": "Soundcore Space One Pro Amazon rating battery",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Sennheiser HDB 630 Amazon rating battery life",
+      "effective_query": "Sennheiser HDB 630 Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Technics EAH-AZ100 Amazon rating battery",
+      "effective_query": "Technics EAH-AZ100 Amazon rating battery",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "JBL Tour One M3 Amazon rating battery",
+      "effective_query": "JBL Tour One M3 Amazon rating battery",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Sennheiser Momentum 5 noise cancellation dB rating",
+      "effective_query": "Sennheiser Momentum 5 noise cancellation dB rating",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Nothing Headphone 1 noise cancellation dB rating test",
+      "effective_query": "Nothing Headphone 1 noise cancellation dB rating test",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "JBL Live 780NC noise cancellation dB rating",
+      "effective_query": "JBL Live 780NC noise cancellation dB rating",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Beats Studio Pro noise cancellation dB rating",
+      "effective_query": "Beats Studio Pro noise cancellation dB rating",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Sennheiser HDB 630 noise cancellation dB rating",
+      "effective_query": "Sennheiser HDB 630 noise cancellation dB rating",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "TOZO HT3 noise cancellation dB rating measured",
+      "effective_query": "TOZO HT3 noise cancellation dB rating measured",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Sonos Ace noise cancellation dB rating",
+      "effective_query": "Sonos Ace noise cancellation dB rating",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Technics AZ100 noise cancellation dB rating",
+      "effective_query": "Technics AZ100 noise cancellation dB rating",
+      "retriever": "tavily",
+      "num_results": 5
+    },
+    {
+      "query": "Samsung Galaxy Buds4 Pro Amazon rating 2026",
+      "effective_query": "Samsung Galaxy Buds4 Pro Amazon rating 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bose QuietComfort Ultra Earbuds 2nd Gen Amazon rating",
+      "effective_query": "Bose QuietComfort Ultra Earbuds 2nd Gen Amazon rating",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "EarFun Air Pro 4 Amazon rating battery life",
+      "effective_query": "EarFun Air Pro 4 Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "1More SonoFlow Amazon rating battery",
+      "effective_query": "1More SonoFlow Amazon rating battery",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Google Pixel Buds Pro 2 Amazon rating",
+      "effective_query": "Google Pixel Buds Pro 2 Amazon rating",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Sony WF-1000XM6 Amazon rating battery life",
+      "effective_query": "Sony WF-1000XM6 Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Apple AirPods Pro 3 Amazon rating battery life",
+      "effective_query": "Apple AirPods Pro 3 Amazon rating battery life",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bose QuietComfort Ultra Earbuds 2nd Gen Amazon rating 2026",
+      "effective_query": "Bose QuietComfort Ultra Earbuds 2nd Gen Amazon rating 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Sony WH-1000XM4 Amazon rating 2026",
+      "effective_query": "Sony WH-1000XM4 Amazon rating 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "JBL Tour One M3 Amazon rating 4.4",
+      "effective_query": "JBL Tour One M3 Amazon rating 4.4",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "Bose QuietComfort headphones Amazon rating 2026",
+      "effective_query": "Bose QuietComfort headphones Amazon rating 2026",
+      "retriever": "tavily",
+      "num_results": 6
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.techgearlab.com/topics/audio/best-noise-cancelling-headphones",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.416
+        }
+      ],
+      "content_length": 57615,
+      "duration_seconds": 1.416,
+      "summary_status": "success",
+      "summary_duration_seconds": 105.99,
+      "summary_length": 4597,
+      "summary_input_tokens": 14900,
+      "summary_output_tokens": 1521
+    },
+    {
+      "url": "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.23
+        }
+      ],
+      "content_length": 84309,
+      "duration_seconds": 1.231,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.639,
+      "summary_length": 2931,
+      "summary_input_tokens": 27123,
+      "summary_output_tokens": 984
+    },
+    {
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-noise-cancelling-headphones",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.697
+        }
+      ],
+      "content_length": 50963,
+      "duration_seconds": 7.697,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.543,
+      "summary_length": 3306,
+      "summary_input_tokens": 12602,
+      "summary_output_tokens": 1312
+    },
+    {
+      "url": "https://www.amazon.com/Sony-WH-1000XM6-Headphones-Microphones-Studio-Quality/dp/B0F3PQHWTZ",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.037
+        }
+      ],
+      "content_length": 238509,
+      "duration_seconds": 17.04,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.amazon.com/Bose-QuietComfort-Bluetooth-Headphones-Cancelling/dp/B0FDKRX5G9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.412
+        }
+      ],
+      "content_length": 269888,
+      "duration_seconds": 9.413,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.661,
+      "summary_length": 2779,
+      "summary_input_tokens": 96780,
+      "summary_output_tokens": 2982
+    },
+    {
+      "url": "https://www.amazon.com/Apple-Headphones-Cancellation-Personalized-Translation/dp/B0GSRYXZM5",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.861
+        }
+      ],
+      "content_length": 120997,
+      "duration_seconds": 6.861,
+      "summary_status": "success",
+      "summary_duration_seconds": 40.282,
+      "summary_length": 2718,
+      "summary_input_tokens": 34677,
+      "summary_output_tokens": 648
+    },
+    {
+      "url": "https://www.amazon.com/Sennheiser-Momentum-Wireless-Headphones-Battery/dp/B0H1YDZJQP",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.322
+        }
+      ],
+      "content_length": 267911,
+      "duration_seconds": 12.322,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.784,
+      "summary_length": 2187,
+      "summary_input_tokens": 96185,
+      "summary_output_tokens": 1377
+    },
+    {
+      "url": "https://www.amazon.com/JBL-Live-780NC-Cancelling-Headphones/dp/B0GLMM6YYG",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.918
+        }
+      ],
+      "content_length": 215453,
+      "duration_seconds": 7.919,
+      "summary_status": "success",
+      "summary_duration_seconds": 46.79,
+      "summary_length": 2409,
+      "summary_input_tokens": 96367,
+      "summary_output_tokens": 3523
+    },
+    {
+      "url": "https://www.amazon.com/Soundcore-Cancelling-Headphones-Reduction-Comfortable/dp/B0C6KKQ7ND",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.169
+        }
+      ],
+      "content_length": 272747,
+      "duration_seconds": 12.169,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.013,
+      "summary_length": 2398,
+      "summary_input_tokens": 96278,
+      "summary_output_tokens": 1271
+    },
+    {
+      "url": "https://www.amazon.com/TOZO-Cancelling-Headphones-Bluetooth-Assistant/dp/B0GRXTK39J",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.637
+        }
+      ],
+      "content_length": 83544,
+      "duration_seconds": 12.638,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.661,
+      "summary_length": 2743,
+      "summary_input_tokens": 29170,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.amazon.com/Beats-Studio-Pro-Personalized-Compatibility/dp/B0C8PSMPTH",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.679
+        }
+      ],
+      "content_length": 118823,
+      "duration_seconds": 3.68,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.amazon.com/Soundcore-Adaptive-Active-Cancelling-Headphones/dp/B0B5VHRX7F",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.673
+        }
+      ],
+      "content_length": 279879,
+      "duration_seconds": 11.675,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.695,
+      "summary_length": 2584,
+      "summary_input_tokens": 96615,
+      "summary_output_tokens": 3536
+    },
+    {
+      "url": "https://www.amazon.com/Soundcore-Liberty-Cancelling-Wireless-Earbuds/dp/B0GWLKRWH7",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 19.363
+        }
+      ],
+      "content_length": 350393,
+      "duration_seconds": 19.364,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.129,
+      "summary_length": 4042,
+      "summary_input_tokens": 96281,
+      "summary_output_tokens": 986
+    },
+    {
+      "url": "https://www.amazon.com/Nothing-Headphone-Cancelling-Headphones-KEF-Tuned/dp/B0F66XD5LF",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.983
+        }
+      ],
+      "content_length": 270457,
+      "duration_seconds": 11.984,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.288,
+      "summary_length": 2615,
+      "summary_input_tokens": 96302,
+      "summary_output_tokens": 1010
+    },
+    {
+      "url": "https://www.amazon.com/Sonos-Ace-Wireless-Headphones-Cancellation/dp/B0CYHGPP1L",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.304
+        }
+      ],
+      "content_length": 233588,
+      "duration_seconds": 11.305,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.495,
+      "summary_length": 1941,
+      "summary_input_tokens": 97172,
+      "summary_output_tokens": 736
+    },
+    {
+      "url": "https://www.amazon.com/TOZO-Cancelling-Headphones-Bluetooth-Assistant/dp/B0GRXTK39J",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.903
+        }
+      ],
+      "content_length": 83544,
+      "duration_seconds": 0.903,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.627,
+      "summary_length": 2559,
+      "summary_input_tokens": 29123,
+      "summary_output_tokens": 641
+    },
+    {
+      "url": "https://www.amazon.com/Sennheiser-HDB-Wireless-Over-Ear-Headphones/dp/B0FK4K5Z37",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.531
+        }
+      ],
+      "content_length": 250976,
+      "duration_seconds": 10.532,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.434,
+      "summary_length": 2467,
+      "summary_input_tokens": 96667,
+      "summary_output_tokens": 2834
+    },
+    {
+      "url": "https://www.amazon.com/Technics-Reference-Wireless-Cancelling-Multipoint/dp/B0DSCMKZGP",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.871
+        }
+      ],
+      "content_length": 272041,
+      "duration_seconds": 10.872,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.64,
+      "summary_length": 3365,
+      "summary_input_tokens": 96828,
+      "summary_output_tokens": 3767
+    },
+    {
+      "url": "https://www.amazon.com/Soundcore-Wireless-Over-Ear-Headphones-Foldable/dp/B0CZ8G716J",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.674
+        }
+      ],
+      "content_length": 255827,
+      "duration_seconds": 11.675,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.442,
+      "summary_length": 2173,
+      "summary_input_tokens": 96591,
+      "summary_output_tokens": 3474
+    },
+    {
+      "url": "https://www.amazon.com/EarFun-Headphones-Cancelling-Transparency-Bluetooth/dp/B0D2L6P33D",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.333
+        }
+      ],
+      "content_length": 460,
+      "duration_seconds": 1.333,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.132,
+      "summary_length": 1177,
+      "summary_input_tokens": 432,
+      "summary_output_tokens": 669
+    }
+  ],
+  "source_urls_count": 274,
+  "duration_seconds": 1561.1864346098155,
+  "report_length": 21641,
+  "context_length": 434217,
+  "qid": "rankliFmBTzbMqx2kaw22n",
+  "query": "What are the top 25 wireless headphones available on Amazon in 2026, ranked equally by noise cancellation rating (dB), battery life (hours), and Amazon customer rating (stars)? In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking."
+}

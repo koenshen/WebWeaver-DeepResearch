@@ -1,0 +1,80 @@
+{
+  "total_llm_calls": 2,
+  "total_input_tokens": 39865,
+  "total_output_tokens": 7871,
+  "total_tokens": 47736,
+  "total_search_count": 7,
+  "total_search_results": 66,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 821,
+      "output_tokens": 336,
+      "total_tokens": 1157,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39044,
+      "output_tokens": 7535,
+      "total_tokens": 46579,
+      "message_count": 4
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "中国死刑执行数量 2024 2025 最高法工作报告",
+      "effective_query": "中国死刑执行数量 2024 2025 最高法工作报告",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国死刑缓期执行 死缓 数量 比例 2023",
+      "effective_query": "中国死刑缓期执行 死缓 数量 比例 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国无期徒刑 减刑率 数据 司法统计",
+      "effective_query": "中国无期徒刑 减刑率 数据 司法统计",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Amnesty International death penalty China 2024 executions",
+      "effective_query": "Amnesty International death penalty China 2024 executions",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国终身监禁 贪污受贿 减刑 规定",
+      "effective_query": "中国终身监禁 贪污受贿 减刑 规定",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "China death penalty statistics 2024 official",
+      "effective_query": "China death penalty statistics 2024 official",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "中国废除死刑 预测 时间表 学者观点",
+      "effective_query": "中国废除死刑 预测 时间表 学者观点",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 63,
+  "duration_seconds": 111.4067153884098,
+  "report_length": 13181,
+  "context_length": 100301,
+  "id": 40,
+  "prompt": "中国当前的刑罚体系中，死刑、死刑缓期执行、终身监禁的数量、比例、减刑率。 你能否结合中国刑罚执行的全部数据，进行量化分析？更进一步，能否评估出中国预计什么时候会彻底废除死刑？",
+  "language": "zh",
+  "topic": "Crime & Law"
+}

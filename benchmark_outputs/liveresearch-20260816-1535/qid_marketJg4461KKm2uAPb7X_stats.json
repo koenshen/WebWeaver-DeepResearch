@@ -1,0 +1,184 @@
+{
+  "total_llm_calls": 6,
+  "total_input_tokens": 158214,
+  "total_output_tokens": 11358,
+  "total_tokens": 169572,
+  "total_search_count": 20,
+  "total_search_results": 184,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 900,
+      "output_tokens": 218,
+      "total_tokens": 1118,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10062,
+      "output_tokens": 99,
+      "total_tokens": 10161,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17502,
+      "output_tokens": 167,
+      "total_tokens": 17669,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31961,
+      "output_tokens": 800,
+      "total_tokens": 32761,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43958,
+      "output_tokens": 142,
+      "total_tokens": 44100,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53831,
+      "output_tokens": 9932,
+      "total_tokens": 63763,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "global cryptocurrency exchange market size 2025 2026",
+      "effective_query": "global cryptocurrency exchange market size 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "crypto exchange trading volume distribution 2025 2026",
+      "effective_query": "crypto exchange trading volume distribution 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "cryptocurrency exchange regulatory environment 2025 2026",
+      "effective_query": "cryptocurrency exchange regulatory environment 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Coinbase Binance Kraken FTX spot trading volume comparison 2025 2026",
+      "effective_query": "Coinbase Binance Kraken FTX spot trading volume comparison 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "crypto exchange fee structure comparison 2025 2026",
+      "effective_query": "crypto exchange fee structure comparison 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cryptocurrency exchange user segments retail institutional cross-border 2025 2026",
+      "effective_query": "cryptocurrency exchange user segments retail institutional cross-border 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Coinbase institutional trading volume 2025 2026",
+      "effective_query": "Coinbase institutional trading volume 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Binance compliance record fines 2025 2026",
+      "effective_query": "Binance compliance record fines 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kraken compliance regulatory record 2025 2026",
+      "effective_query": "Kraken compliance regulatory record 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FTX pre-collapse trading volume fee structure",
+      "effective_query": "FTX pre-collapse trading volume fee structure",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "MiCA regulation impact crypto exchanges 2025 2026",
+      "effective_query": "MiCA regulation impact crypto exchanges 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "US crypto regulation 2025 2026 exchange compliance",
+      "effective_query": "US crypto regulation 2025 2026 exchange compliance",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Binance spot trading volume Q1 2026 Q2 2026",
+      "effective_query": "Binance spot trading volume Q1 2026 Q2 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Coinbase spot trading volume Q1 2026 Q2 2026",
+      "effective_query": "Coinbase spot trading volume Q1 2026 Q2 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Kraken spot trading volume 2025 2026 quarterly",
+      "effective_query": "Kraken spot trading volume 2025 2026 quarterly",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "crypto exchange cross-border payments volume 2025 2026",
+      "effective_query": "crypto exchange cross-border payments volume 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FTX exchange daily trading volume 2021 2022 pre-collapse",
+      "effective_query": "FTX exchange daily trading volume 2021 2022 pre-collapse",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "FTX fee structure maker taker before collapse",
+      "effective_query": "FTX fee structure maker taker before collapse",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "crypto exchange regulatory barriers compliance costs 2026",
+      "effective_query": "crypto exchange regulatory barriers compliance costs 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "crypto exchange geographic strategy US EU Asia 2026",
+      "effective_query": "crypto exchange geographic strategy US EU Asia 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 153,
+  "duration_seconds": 323.7821962609887,
+  "report_length": 34527,
+  "context_length": 264129,
+  "qid": "marketJg4461KKm2uAPb7X",
+  "query": "What is the size, trading volume distribution, and regulatory environment of the global cryptocurrency exchange market from January 2025 to {{current_date}}? Which user segments (retail, institutional, cross-border payments) dominate, and what regulatory/compliance barriers exist? How do Coinbase, Binance, Kraken, and the pre-collapse FTX compare in spot trading volumes, fee structures, compliance track records, and flagship service offerings? How are geographic differences (US, EU, Asia) shaping competitive strategy? The report should be structured with clear sections (and subsections when appropriate), include tables or charts for quantitative comparisons, and provide cited data where available."
+}

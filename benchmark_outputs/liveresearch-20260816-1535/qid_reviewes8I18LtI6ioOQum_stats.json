@@ -1,0 +1,816 @@
+{
+  "total_llm_calls": 32,
+  "total_input_tokens": 444111,
+  "total_output_tokens": 72439,
+  "total_tokens": 516550,
+  "total_search_count": 23,
+  "total_search_results": 218,
+  "total_visit_count": 21,
+  "total_visit_success": 21,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1081,
+      "output_tokens": 979,
+      "total_tokens": 2060,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22413,
+      "output_tokens": 179,
+      "total_tokens": 22592,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1026,
+      "output_tokens": 4001,
+      "total_tokens": 5027,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2968,
+      "output_tokens": 591,
+      "total_tokens": 3559,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3047,
+      "output_tokens": 4001,
+      "total_tokens": 7048,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 862,
+      "output_tokens": 2908,
+      "total_tokens": 3770,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1084,
+      "output_tokens": 4001,
+      "total_tokens": 5085,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1084,
+      "output_tokens": 2614,
+      "total_tokens": 3698,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3002,
+      "output_tokens": 2664,
+      "total_tokens": 5666,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 967,
+      "output_tokens": 1526,
+      "total_tokens": 2493,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2787,
+      "output_tokens": 2450,
+      "total_tokens": 5237,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25119,
+      "output_tokens": 173,
+      "total_tokens": 25292,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13688,
+      "output_tokens": 1823,
+      "total_tokens": 15511,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13767,
+      "output_tokens": 4001,
+      "total_tokens": 17768,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21556,
+      "output_tokens": 2476,
+      "total_tokens": 24032,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 357,
+      "output_tokens": 2164,
+      "total_tokens": 2521,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 337,
+      "output_tokens": 3526,
+      "total_tokens": 3863,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 331,
+      "output_tokens": 2002,
+      "total_tokens": 2333,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14071,
+      "output_tokens": 1418,
+      "total_tokens": 15489,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27355,
+      "output_tokens": 213,
+      "total_tokens": 27568,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 46341,
+      "output_tokens": 191,
+      "total_tokens": 46532,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 67501,
+      "output_tokens": 161,
+      "total_tokens": 67662,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13768,
+      "output_tokens": 4001,
+      "total_tokens": 17769,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13689,
+      "output_tokens": 1664,
+      "total_tokens": 15353,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21636,
+      "output_tokens": 4001,
+      "total_tokens": 25637,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21557,
+      "output_tokens": 2337,
+      "total_tokens": 23894,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 378,
+      "output_tokens": 2455,
+      "total_tokens": 2833,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 279,
+      "output_tokens": 400,
+      "total_tokens": 679,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15518,
+      "output_tokens": 1844,
+      "total_tokens": 17362,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14091,
+      "output_tokens": 1860,
+      "total_tokens": 15951,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 288,
+      "output_tokens": 520,
+      "total_tokens": 808,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 72163,
+      "output_tokens": 9295,
+      "total_tokens": 81458,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "TaskCraft Shi 2025 arxiv tool augmented agent training data synthesis",
+      "effective_query": "TaskCraft Shi 2025 arxiv tool augmented agent training data synthesis",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Beyond Ten Turns Gao 2025 arxiv tool augmented agent training data synthesis",
+      "effective_query": "Beyond Ten Turns Gao 2025 arxiv tool augmented agent training data synthesis",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "DeepDive Lu 2025 arxiv web search agent data synthesis",
+      "effective_query": "DeepDive Lu 2025 arxiv web search agent data synthesis",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WebThinker Li 2025 arxiv web search agent",
+      "effective_query": "WebThinker Li 2025 arxiv web search agent",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WebShaper Tao 2025 arxiv web agent data synthesis",
+      "effective_query": "WebShaper Tao 2025 arxiv web agent data synthesis",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WebWalkerQA Wu 2025 arxiv benchmark",
+      "effective_query": "WebWalkerQA Wu 2025 arxiv benchmark",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Search-R1 Li 2025 arxiv retrieval augmented generation",
+      "effective_query": "Search-R1 Li 2025 arxiv retrieval augmented generation",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AutoCoA Zhang 2025 arxiv chain of action tool",
+      "effective_query": "AutoCoA Zhang 2025 arxiv chain of action tool",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DeepDive Lu 2025 BrowseComp results GLM Qwen",
+      "effective_query": "DeepDive Lu 2025 BrowseComp results GLM Qwen",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WebShaper Tao 2025 GAIA WebWalkerQA results SFT RL",
+      "effective_query": "WebShaper Tao 2025 GAIA WebWalkerQA results SFT RL",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Search-R1 Jin 2025 empirical results benchmark accuracy",
+      "effective_query": "Search-R1 Jin 2025 empirical results benchmark accuracy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "TaskCraft Shi 2025 empirical results GAIA Qwen2.5",
+      "effective_query": "TaskCraft Shi 2025 empirical results GAIA Qwen2.5",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Beyond Ten Turns Gao 2025 ASearcher xBench GAIA results",
+      "effective_query": "Beyond Ten Turns Gao 2025 ASearcher xBench GAIA results",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AutoCoA Zhang 2025 results HotpotQA NQ TriviaQA",
+      "effective_query": "AutoCoA Zhang 2025 results HotpotQA NQ TriviaQA",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WebThinker Li 2025 results GPQA GAIA HLE benchmark",
+      "effective_query": "WebThinker Li 2025 results GPQA GAIA HLE benchmark",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WebWalkerQA Wu 2025 benchmark results accuracy",
+      "effective_query": "WebWalkerQA Wu 2025 benchmark results accuracy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DeepDive Lu 2025 training data compute budget",
+      "effective_query": "DeepDive Lu 2025 training data compute budget",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WebShaper Tao 2025 training data size compute",
+      "effective_query": "WebShaper Tao 2025 training data size compute",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "TaskCraft Shi 2025 training config compute budget limitations",
+      "effective_query": "TaskCraft Shi 2025 training config compute budget limitations",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Search-R1 Jin 2025 limitations failure modes",
+      "effective_query": "Search-R1 Jin 2025 limitations failure modes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Beyond Ten Turns Gao 2025 limitations failure modes",
+      "effective_query": "Beyond Ten Turns Gao 2025 limitations failure modes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "WebThinker Li 2025 limitations failure modes",
+      "effective_query": "WebThinker Li 2025 limitations failure modes",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AutoCoA Zhang 2025 limitations failure modes further details",
+      "effective_query": "AutoCoA Zhang 2025 limitations failure modes further details",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://arxiv.org/abs/2506.10055",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.901
+        }
+      ],
+      "content_length": 9646,
+      "duration_seconds": 0.901,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.07976",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.326
+        }
+      ],
+      "content_length": 2859,
+      "duration_seconds": 2.326,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.10446",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.717
+        }
+      ],
+      "content_length": 9544,
+      "duration_seconds": 0.717,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.21776",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.243
+        }
+      ],
+      "content_length": 2422,
+      "duration_seconds": 5.244,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.736,
+      "summary_length": 2779,
+      "summary_input_tokens": 862,
+      "summary_output_tokens": 2908
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.15061",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.272
+        }
+      ],
+      "content_length": 3087,
+      "duration_seconds": 2.273,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.172,
+      "summary_length": 136,
+      "summary_input_tokens": 1084,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.07572",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.769
+        }
+      ],
+      "content_length": 9145,
+      "duration_seconds": 0.769,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.09516",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.832
+        }
+      ],
+      "content_length": 2461,
+      "duration_seconds": 0.832,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.06580",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.926
+        }
+      ],
+      "content_length": 8820,
+      "duration_seconds": 0.926,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.602,
+      "summary_length": 2247,
+      "summary_input_tokens": 2787,
+      "summary_output_tokens": 2450
+    },
+    {
+      "url": "https://arxiv.org/html/2506.10055v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.594
+        }
+      ],
+      "content_length": 54523,
+      "duration_seconds": 1.594,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/html/2508.07976v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.576
+        }
+      ],
+      "content_length": 79213,
+      "duration_seconds": 6.576,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/html/2509.10446v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.887
+        }
+      ],
+      "content_length": 281,
+      "duration_seconds": 2.887,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/html/2507.15061",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.567
+        }
+      ],
+      "content_length": 225,
+      "duration_seconds": 3.567,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.396,
+      "summary_length": 1451,
+      "summary_input_tokens": 337,
+      "summary_output_tokens": 3526
+    },
+    {
+      "url": "https://arxiv.org/html/2503.09516",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.182
+        }
+      ],
+      "content_length": 209,
+      "duration_seconds": 3.183,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.138,
+      "summary_length": 1346,
+      "summary_input_tokens": 331,
+      "summary_output_tokens": 2002
+    },
+    {
+      "url": "https://arxiv.org/html/2503.06580v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.587
+        }
+      ],
+      "content_length": 62068,
+      "duration_seconds": 2.587,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.42,
+      "summary_length": 6089,
+      "summary_input_tokens": 14071,
+      "summary_output_tokens": 1418
+    },
+    {
+      "url": "https://arxiv.org/html/2506.10055v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.625
+        }
+      ],
+      "content_length": 54523,
+      "duration_seconds": 0.626,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/html/2508.07976v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.088
+        }
+      ],
+      "content_length": 79213,
+      "duration_seconds": 1.089,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/html/2509.10446v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.586
+        }
+      ],
+      "content_length": 376,
+      "duration_seconds": 0.586,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/html/2507.15061",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.615
+        }
+      ],
+      "content_length": 320,
+      "duration_seconds": 0.615,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.615,
+      "summary_length": 2084,
+      "summary_input_tokens": 279,
+      "summary_output_tokens": 400
+    },
+    {
+      "url": "https://arxiv.org/html/2503.09516v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.233
+        }
+      ],
+      "content_length": 57538,
+      "duration_seconds": 1.233,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.938,
+      "summary_length": 4978,
+      "summary_input_tokens": 15518,
+      "summary_output_tokens": 1844
+    },
+    {
+      "url": "https://arxiv.org/html/2503.06580v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.692
+        }
+      ],
+      "content_length": 62115,
+      "duration_seconds": 0.692,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.861,
+      "summary_length": 4351,
+      "summary_input_tokens": 14091,
+      "summary_output_tokens": 1860
+    },
+    {
+      "url": "https://arxiv.org/html/2504.21776v2",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.336
+        }
+      ],
+      "content_length": 314,
+      "duration_seconds": 7.336,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.923,
+      "summary_length": 984,
+      "summary_input_tokens": 288,
+      "summary_output_tokens": 520
+    }
+  ],
+  "source_urls_count": 152,
+  "duration_seconds": 1511.5590503988788,
+  "report_length": 27306,
+  "context_length": 323317,
+  "qid": "reviewes8I18LtI6ioOQum",
+  "query": "As a researcher specializing in large language model (LLM), I would like to have a comprehensive literature review of recent data synthesis methods for tool-augmented (e.g., web search) LLM agent training, including but not limited to TaskCraft (Shi et al., 2025), Beyond Ten Turns (Gao et al., 2025), DeepDive (Lu et al., 2025), WebThinker (Li et al., 2025), WebShaper (Tao et al., 2025), WebWalkerQA (Wu et al., 2025), Search-R1 (Li et al., 2025), and AutoCoA (Zhang et al., 2025). \nFor each algorithm, provide:\n- Motivation and the core idea/innovation. \n- Key takeaways and claimed contributions. \n- Empirical setup: baselines, model(s) used, training configs, compute budget, and evaluation benchmarks/datasets with results (include metrics and headline numbers where available).\n- Limitations and reported failure modes. \n- Only focus on works published (including Arxiv preprints) in 2025. "
+}

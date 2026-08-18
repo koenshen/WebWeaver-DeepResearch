@@ -1,0 +1,570 @@
+{
+  "total_llm_calls": 18,
+  "total_input_tokens": 450009,
+  "total_output_tokens": 35443,
+  "total_tokens": 485452,
+  "total_search_count": 40,
+  "total_search_results": 305,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 926,
+      "output_tokens": 2457,
+      "total_tokens": 3383,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21683,
+      "output_tokens": 259,
+      "total_tokens": 21942,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4770,
+      "output_tokens": 2058,
+      "total_tokens": 6828,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5456,
+      "output_tokens": 2491,
+      "total_tokens": 7947,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18267,
+      "output_tokens": 3909,
+      "total_tokens": 22176,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4802,
+      "output_tokens": 704,
+      "total_tokens": 5506,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1373,
+      "output_tokens": 1510,
+      "total_tokens": 2883,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2596,
+      "output_tokens": 1981,
+      "total_tokens": 4577,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8694,
+      "output_tokens": 784,
+      "total_tokens": 9478,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8322,
+      "output_tokens": 4001,
+      "total_tokens": 12323,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8322,
+      "output_tokens": 2429,
+      "total_tokens": 10751,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26629,
+      "output_tokens": 170,
+      "total_tokens": 26799,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43253,
+      "output_tokens": 1288,
+      "total_tokens": 44541,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 60123,
+      "output_tokens": 165,
+      "total_tokens": 60288,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5447,
+      "output_tokens": 1332,
+      "total_tokens": 6779,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 61324,
+      "output_tokens": 1736,
+      "total_tokens": 63060,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 74385,
+      "output_tokens": 4523,
+      "total_tokens": 78908,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 93637,
+      "output_tokens": 3646,
+      "total_tokens": 97283,
+      "message_count": 16
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "2026 electric vehicles ranked by EPA range",
+      "effective_query": "2026 electric vehicles ranked by EPA range",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 EV 0-60 mph list",
+      "effective_query": "2026 EV 0-60 mph list",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2026 electric car starting MSRP list",
+      "effective_query": "2026 electric car starting MSRP list",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2026 Lucid Air specs range 0-60 MSRP",
+      "effective_query": "2026 Lucid Air specs range 0-60 MSRP",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 Tesla Model S Plaid range 0-60",
+      "effective_query": "2026 Tesla Model S Plaid range 0-60",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 Chevrolet Silverado EV range 0-60 price",
+      "effective_query": "2026 Chevrolet Silverado EV range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 Rivian R1S range 0-60 MSRP",
+      "effective_query": "2026 Rivian R1S range 0-60 MSRP",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 Hyundai Ioniq 6 range 0-60 price",
+      "effective_query": "2026 Hyundai Ioniq 6 range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "2026 Porsche Taycan range 0-60 MSRP",
+      "effective_query": "2026 Porsche Taycan range 0-60 MSRP",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "2026 Kia EV6 GT range 0-60 price",
+      "effective_query": "2026 Kia EV6 GT range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 BMW i4 range 0-60 MSRP",
+      "effective_query": "2026 BMW i4 range 0-60 MSRP",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "2026 Mercedes-Benz EQS range 0-60 price",
+      "effective_query": "2026 Mercedes-Benz EQS range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 4
+    },
+    {
+      "query": "2026 Ford F-150 Lightning range 0-60 price",
+      "effective_query": "2026 Ford F-150 Lightning range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 GMC Sierra EV range 0-60 price",
+      "effective_query": "2026 GMC Sierra EV range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 Cadillac Escalade IQ range 0-60 price",
+      "effective_query": "2026 Cadillac Escalade IQ range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 Lucid Gravity range 0-60 price",
+      "effective_query": "2026 Lucid Gravity range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "2026 Tesla Model 3 Performance range 0-60 MSRP",
+      "effective_query": "2026 Tesla Model 3 Performance range 0-60 MSRP",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 Tesla Model Y Performance range 0-60 price",
+      "effective_query": "2026 Tesla Model Y Performance range 0-60 price",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "2026 Rivian R1T range 0-60 MSRP",
+      "effective_query": "2026 Rivian R1T range 0-60 MSRP",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 Ford F-150 Lightning 0-60 time",
+      "effective_query": "2026 Ford F-150 Lightning 0-60 time",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 GMC Sierra EV 0-60 time",
+      "effective_query": "2026 GMC Sierra EV 0-60 time",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 Mercedes-Benz EQS 450+ range 0-60 MSRP",
+      "effective_query": "2026 Mercedes-Benz EQS 450+ range 0-60 MSRP",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 Hyundai IONIQ 6 0-60 time",
+      "effective_query": "2026 Hyundai IONIQ 6 0-60 time",
+      "retriever": "tavily",
+      "num_results": 5
+    },
+    {
+      "query": "2026 Chevrolet Equinox EV 0-60 time",
+      "effective_query": "2026 Chevrolet Equinox EV 0-60 time",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 Lucid Gravity 0-60 time",
+      "effective_query": "2026 Lucid Gravity 0-60 time",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "2026 Mercedes-Benz Electric CLA 0-60 time",
+      "effective_query": "2026 Mercedes-Benz Electric CLA 0-60 time",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 Hyundai IONIQ 9 0-60 time",
+      "effective_query": "2026 Hyundai IONIQ 9 0-60 time",
+      "retriever": "tavily",
+      "num_results": 4
+    },
+    {
+      "query": "2026 BMW iX xDrive50 0-60 time",
+      "effective_query": "2026 BMW iX xDrive50 0-60 time",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 Porsche Macan Electric 0-60 time",
+      "effective_query": "2026 Porsche Macan Electric 0-60 time",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "2026 Cadillac Lyriq 0-60 time",
+      "effective_query": "2026 Cadillac Lyriq 0-60 time",
+      "retriever": "tavily",
+      "num_results": 5
+    },
+    {
+      "query": "2026 Nissan Leaf 0-60 time",
+      "effective_query": "2026 Nissan Leaf 0-60 time",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "2026 Kia EV6 Long Range RWD 0-60 time",
+      "effective_query": "2026 Kia EV6 Long Range RWD 0-60 time",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "2026 Lucid Air Pure starting MSRP range 0-60",
+      "effective_query": "2026 Lucid Air Pure starting MSRP range 0-60",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "2026 Tesla Model 3 base MSRP range 0-60",
+      "effective_query": "2026 Tesla Model 3 base MSRP range 0-60",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 BMW iX xDrive45 starting MSRP",
+      "effective_query": "2026 BMW iX xDrive45 starting MSRP",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "2026 Porsche Macan 4 Electric starting MSRP range 0-60",
+      "effective_query": "2026 Porsche Macan 4 Electric starting MSRP range 0-60",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 Kia EV6 Light starting MSRP range 0-60",
+      "effective_query": "2026 Kia EV6 Light starting MSRP range 0-60",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "2026 Hyundai IONIQ 6 SE Standard Range MSRP",
+      "effective_query": "2026 Hyundai IONIQ 6 SE Standard Range MSRP",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 Rivian R1T Dual Max pack range MSRP",
+      "effective_query": "2026 Rivian R1T Dual Max pack range MSRP",
+      "retriever": "tavily",
+      "num_results": 6
+    },
+    {
+      "query": "2026 Ford F-150 Lightning Pro starting MSRP range 0-60",
+      "effective_query": "2026 Ford F-150 Lightning Pro starting MSRP range 0-60",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://motorwatt.com/ratings/longest-range-electric-cars",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.067
+        }
+      ],
+      "content_length": 16555,
+      "duration_seconds": 6.067,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.731,
+      "summary_length": 3987,
+      "summary_input_tokens": 4770,
+      "summary_output_tokens": 2058
+    },
+    {
+      "url": "https://motorwatt.com/ratings/fastest-electric-cars-in-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.74
+        }
+      ],
+      "content_length": 18789,
+      "duration_seconds": 5.74,
+      "summary_status": "success",
+      "summary_duration_seconds": 48.051,
+      "summary_length": 2741,
+      "summary_input_tokens": 5456,
+      "summary_output_tokens": 2491
+    },
+    {
+      "url": "https://coltura.org/electric-car-battery-range",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.586
+        }
+      ],
+      "content_length": 59159,
+      "duration_seconds": 3.586,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.144,
+      "summary_length": 3455,
+      "summary_input_tokens": 18267,
+      "summary_output_tokens": 3909
+    },
+    {
+      "url": "https://www.kbb.com/lucid/air",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.974
+        }
+      ],
+      "content_length": 14944,
+      "duration_seconds": 10.974,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.92,
+      "summary_length": 1230,
+      "summary_input_tokens": 4802,
+      "summary_output_tokens": 704
+    },
+    {
+      "url": "https://www.kbb.com/tesla/model-s/2026/specs",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.233
+        }
+      ],
+      "content_length": 4085,
+      "duration_seconds": 12.233,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.545,
+      "summary_length": 1458,
+      "summary_input_tokens": 1373,
+      "summary_output_tokens": 1510
+    },
+    {
+      "url": "https://www.kbb.com/rivian/r1s/2026/specs",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.022
+        }
+      ],
+      "content_length": 8090,
+      "duration_seconds": 13.022,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.chevrolet.com/electric/silverado-ev",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.244
+        }
+      ],
+      "content_length": 30775,
+      "duration_seconds": 6.244,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.557,
+      "summary_length": 1080,
+      "summary_input_tokens": 8694,
+      "summary_output_tokens": 784
+    },
+    {
+      "url": "https://www.caranddriver.com/rankings/best-electric-cars",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.089
+        }
+      ],
+      "content_length": 24526,
+      "duration_seconds": 8.089,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.507,
+      "summary_length": 7116,
+      "summary_input_tokens": 8322,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://motorwatt.com/ratings/fastest-electric-cars-in-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.242
+        }
+      ],
+      "content_length": 18789,
+      "duration_seconds": 17.242,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.85,
+      "summary_length": 3244,
+      "summary_input_tokens": 5447,
+      "summary_output_tokens": 1332
+    }
+  ],
+  "source_urls_count": 265,
+  "duration_seconds": 1511.345960142091,
+  "report_length": 11515,
+  "context_length": 336935,
+  "qid": "rankliqLKYjYMVUuUxPsQk",
+  "query": "What are the top 25 electric vehicles based on EPA range (miles), 0-60 mph acceleration time, and starting MSRP, using the latest available data in 2026, and ranked by a composite score that weights each criterion equally? In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking."
+}

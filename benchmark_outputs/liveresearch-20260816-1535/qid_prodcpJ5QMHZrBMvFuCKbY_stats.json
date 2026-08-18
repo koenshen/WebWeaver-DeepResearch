@@ -1,0 +1,325 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 468921,
+  "total_output_tokens": 10572,
+  "total_tokens": 479493,
+  "total_search_count": 40,
+  "total_search_results": 378,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 895,
+      "output_tokens": 111,
+      "total_tokens": 1006,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13767,
+      "output_tokens": 144,
+      "total_tokens": 13911,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29646,
+      "output_tokens": 156,
+      "total_tokens": 29802,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42720,
+      "output_tokens": 75,
+      "total_tokens": 42795,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 53156,
+      "output_tokens": 151,
+      "total_tokens": 53307,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 65388,
+      "output_tokens": 120,
+      "total_tokens": 65508,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 75418,
+      "output_tokens": 70,
+      "total_tokens": 75488,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 85000,
+      "output_tokens": 134,
+      "total_tokens": 85134,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 102931,
+      "output_tokens": 9611,
+      "total_tokens": 112542,
+      "message_count": 18
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Stripe pricing 2026 transaction fees e-commerce",
+      "effective_query": "Stripe pricing 2026 transaction fees e-commerce",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PayPal merchant fees 2026 transaction rates",
+      "effective_query": "PayPal merchant fees 2026 transaction rates",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Square e-commerce transaction fees 2026",
+      "effective_query": "Square e-commerce transaction fees 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Braintree pricing 2026 transaction fees",
+      "effective_query": "Braintree pricing 2026 transaction fees",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Adyen pricing 2026 transaction fees e-commerce",
+      "effective_query": "Adyen pricing 2026 transaction fees e-commerce",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shopify Payments pricing 2026 transaction fees",
+      "effective_query": "Shopify Payments pricing 2026 transaction fees",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2Checkout Verifone pricing 2026 transaction fees",
+      "effective_query": "2Checkout Verifone pricing 2026 transaction fees",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Amazon Pay merchant fees 2026",
+      "effective_query": "Amazon Pay merchant fees 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Apple Pay merchant fees 2026",
+      "effective_query": "Apple Pay merchant fees 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Stripe international payments multi-currency support 2026",
+      "effective_query": "Stripe international payments multi-currency support 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PayPal international payments multi-currency 2026",
+      "effective_query": "PayPal international payments multi-currency 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Square international payments multi-currency 2026",
+      "effective_query": "Square international payments multi-currency 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Braintree international payments multi-currency 2026",
+      "effective_query": "Braintree international payments multi-currency 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Adyen international payments multi-currency 2026",
+      "effective_query": "Adyen international payments multi-currency 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Shopify Payments international multi-currency support 2026",
+      "effective_query": "Shopify Payments international multi-currency support 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2Checkout Verifone international payments multi-currency 2026",
+      "effective_query": "2Checkout Verifone international payments multi-currency 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Amazon Pay international payments multi-currency 2026",
+      "effective_query": "Amazon Pay international payments multi-currency 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Apple Pay international payments multi-currency 2026",
+      "effective_query": "Apple Pay international payments multi-currency 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Stripe supported payment methods digital wallets BNPL 2026",
+      "effective_query": "Stripe supported payment methods digital wallets BNPL 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PayPal supported payment methods digital wallets BNPL 2026",
+      "effective_query": "PayPal supported payment methods digital wallets BNPL 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Square supported payment methods digital wallets BNPL 2026",
+      "effective_query": "Square supported payment methods digital wallets BNPL 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Braintree supported payment methods digital wallets BNPL 2026",
+      "effective_query": "Braintree supported payment methods digital wallets BNPL 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Adyen supported payment methods digital wallets BNPL 2026",
+      "effective_query": "Adyen supported payment methods digital wallets BNPL 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Stripe fraud protection security features 2026 Radar",
+      "effective_query": "Stripe fraud protection security features 2026 Radar",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "PayPal fraud protection seller protection 2026",
+      "effective_query": "PayPal fraud protection seller protection 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Square fraud protection security features 2026",
+      "effective_query": "Square fraud protection security features 2026",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Braintree fraud protection security features 2026",
+      "effective_query": "Braintree fraud protection security features 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Adyen fraud protection security features 2026 RevenueProtect",
+      "effective_query": "Adyen fraud protection security features 2026 RevenueProtect",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2Checkout Verifone fraud protection security features 2026",
+      "effective_query": "2Checkout Verifone fraud protection security features 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Amazon Pay fraud protection security 2026",
+      "effective_query": "Amazon Pay fraud protection security 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Apple Pay fraud protection security tokenization 2026",
+      "effective_query": "Apple Pay fraud protection security tokenization 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Shopify Payments fraud protection security 2026",
+      "effective_query": "Shopify Payments fraud protection security 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Stripe customer support 2026 review",
+      "effective_query": "Stripe customer support 2026 review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PayPal customer support 2026 review",
+      "effective_query": "PayPal customer support 2026 review",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Square customer support 2026 review",
+      "effective_query": "Square customer support 2026 review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Braintree customer support 2026 review",
+      "effective_query": "Braintree customer support 2026 review",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Adyen customer support 2026 review",
+      "effective_query": "Adyen customer support 2026 review",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Shopify Payments customer support 2026",
+      "effective_query": "Shopify Payments customer support 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2Checkout customer support 2026",
+      "effective_query": "2Checkout customer support 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Amazon Pay customer support 2026",
+      "effective_query": "Amazon Pay customer support 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 365,
+  "duration_seconds": 689.8494748063385,
+  "report_length": 37520,
+  "context_length": 492252,
+  "qid": "prodcpJ5QMHZrBMvFuCKbY",
+  "query": "Compare Stripe, PayPal, Square, Braintree, Adyen, Shopify Payments, 2Checkout (Verifone), Amazon Pay, and Apple Pay for e-commerce integration capabilities, transaction fees and pricing structures, international payment support and multi-currency processing, ease of setup and technical requirements, supported payment methods (including digital wallets and buy-now-pay-later options), fraud protection and security features, customer support quality, and scalability for small to medium-sized businesses in the United States in 2026. In the final report, you should include a detailed table for the summarized results, and provide cited data where available."
+}

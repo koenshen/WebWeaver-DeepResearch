@@ -1,0 +1,363 @@
+{
+  "total_llm_calls": 10,
+  "total_input_tokens": 185845,
+  "total_output_tokens": 24299,
+  "total_tokens": 210144,
+  "total_search_count": 14,
+  "total_search_results": 131,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 883,
+      "output_tokens": 143,
+      "total_tokens": 1026,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13899,
+      "output_tokens": 292,
+      "total_tokens": 14191,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 72035,
+      "output_tokens": 3162,
+      "total_tokens": 75197,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 402,
+      "output_tokens": 2793,
+      "total_tokens": 3195,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37483,
+      "output_tokens": 3335,
+      "total_tokens": 40818,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 393,
+      "output_tokens": 2555,
+      "total_tokens": 2948,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4217,
+      "output_tokens": 2900,
+      "total_tokens": 7117,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 388,
+      "output_tokens": 361,
+      "total_tokens": 749,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18468,
+      "output_tokens": 220,
+      "total_tokens": 18688,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37677,
+      "output_tokens": 8538,
+      "total_tokens": 46215,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "horizontal gene transfer plants animals examples non-microbial",
+      "effective_query": "horizontal gene transfer plants animals examples non-microbial",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "horizontal gene transfer eukaryotes rare evolutionary significance",
+      "effective_query": "horizontal gene transfer eukaryotes rare evolutionary significance",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "recent discoveries horizontal gene transfer plants",
+      "effective_query": "recent discoveries horizontal gene transfer plants",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "horizontal gene transfer animals insects",
+      "effective_query": "horizontal gene transfer animals insects",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "horizontal gene transfer plants fungi bacteria",
+      "effective_query": "horizontal gene transfer plants fungi bacteria",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "horizontal gene transfer evolutionary benefit eukaryotes",
+      "effective_query": "horizontal gene transfer evolutionary benefit eukaryotes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "whitefly horizontal gene transfer plant detoxification gene Bemisia tabaci",
+      "effective_query": "whitefly horizontal gene transfer plant detoxification gene Bemisia tabaci",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Wolbachia horizontal gene transfer insect genomes",
+      "effective_query": "Wolbachia horizontal gene transfer insect genomes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "bdelloid rotifer horizontal gene transfer 8% genome",
+      "effective_query": "bdelloid rotifer horizontal gene transfer 8% genome",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Cuscuta horizontal gene transfer parasitic plant",
+      "effective_query": "Cuscuta horizontal gene transfer parasitic plant",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "nematode horizontal gene transfer plant cell wall degrading enzymes",
+      "effective_query": "nematode horizontal gene transfer plant cell wall degrading enzymes",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Fhb7 gene horizontal gene transfer wheat fungus",
+      "effective_query": "Fhb7 gene horizontal gene transfer wheat fungus",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Maverick transposon horizontal gene transfer nematode",
+      "effective_query": "Maverick transposon horizontal gene transfer nematode",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "sap-feeding insect horizontal gene transfer endosymbiont",
+      "effective_query": "sap-feeding insect horizontal gene transfer endosymbiont",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Horizontal_gene_transfer",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.066
+        }
+      ],
+      "content_length": 242964,
+      "duration_seconds": 4.067,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/pei3.70087",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.905
+        }
+      ],
+      "content_length": 515,
+      "duration_seconds": 5.905,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.622,
+      "summary_length": 1567,
+      "summary_input_tokens": 402,
+      "summary_output_tokens": 2793
+    },
+    {
+      "url": "https://www.the-scientist.com/horizontal-gene-transfer-happens-more-often-than-anyone-thought-70118",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.491
+        }
+      ],
+      "content_length": 29546,
+      "duration_seconds": 4.491,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4033532",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.311
+        }
+      ],
+      "content_length": 116461,
+      "duration_seconds": 1.311,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.814,
+      "summary_length": 11685,
+      "summary_input_tokens": 37483,
+      "summary_output_tokens": 3335
+    },
+    {
+      "url": "https://www.nature.com/articles/nrg2386",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.483
+        }
+      ],
+      "content_length": 125900,
+      "duration_seconds": 5.483,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8401529",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.009
+        }
+      ],
+      "content_length": 104314,
+      "duration_seconds": 2.009,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://academic.oup.com/ismecommun/article/4/1/ycae073/7671050",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.417
+        }
+      ],
+      "content_length": 498,
+      "duration_seconds": 4.417,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.067,
+      "summary_length": 1555,
+      "summary_input_tokens": 393,
+      "summary_output_tokens": 2555
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168952520302067",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.124
+        }
+      ],
+      "content_length": 16419,
+      "duration_seconds": 10.124,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.519,
+      "summary_length": 4545,
+      "summary_input_tokens": 4217,
+      "summary_output_tokens": 2900
+    },
+    {
+      "url": "https://www3.botany.ubc.ca/keeling/PDF/24HGT.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.963
+        }
+      ],
+      "content_length": 773,
+      "duration_seconds": 1.963,
+      "summary_status": "success",
+      "summary_duration_seconds": 1.632,
+      "summary_length": 1695,
+      "summary_input_tokens": 388,
+      "summary_output_tokens": 361
+    }
+  ],
+  "source_urls_count": 109,
+  "duration_seconds": 862.5151064507663,
+  "report_length": 34245,
+  "context_length": 207295,
+  "id": 58,
+  "prompt": "Exploring Horizontal Gene Transfer (HGT) in Plants and animals (ie Non-Microbial Systems)\nYou could examine instances of horizontal gene transfer in eukaryotes—particularly plants and animals—and evaluate the evolutionary significance of these transfers. Its very rare and therefore must have a really interesting reason behind this adaptation!\nEspecially as this horizontal gene transfer has been well -studied in microbial systems, but not in plants and animals (this is a relatively new discovery).  Understanding  how commonly genes move between eukaryotic species and whether these transfers confer benefits would be really interesting to find out",
+  "language": "en",
+  "topic": "Science & Technology"
+}

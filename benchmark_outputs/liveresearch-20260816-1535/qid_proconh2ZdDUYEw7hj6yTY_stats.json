@@ -1,0 +1,368 @@
+{
+  "total_llm_calls": 11,
+  "total_input_tokens": 214421,
+  "total_output_tokens": 32720,
+  "total_tokens": 247141,
+  "total_search_count": 28,
+  "total_search_results": 261,
+  "total_visit_count": 5,
+  "total_visit_success": 5,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1067,
+      "output_tokens": 3225,
+      "total_tokens": 4292,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23479,
+      "output_tokens": 348,
+      "total_tokens": 23827,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 48336,
+      "output_tokens": 223,
+      "total_tokens": 48559,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6300,
+      "output_tokens": 3900,
+      "total_tokens": 10200,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2212,
+      "output_tokens": 3455,
+      "total_tokens": 5667,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9784,
+      "output_tokens": 2955,
+      "total_tokens": 12739,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2600,
+      "output_tokens": 4001,
+      "total_tokens": 6601,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 596,
+      "output_tokens": 4001,
+      "total_tokens": 4597,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 596,
+      "output_tokens": 2792,
+      "total_tokens": 3388,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50835,
+      "output_tokens": 179,
+      "total_tokens": 51014,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 68616,
+      "output_tokens": 7641,
+      "total_tokens": 76257,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Bureau of Labor Statistics earnings and unemployment by educational attainment 2024",
+      "effective_query": "Bureau of Labor Statistics earnings and unemployment by educational attainment 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Georgetown Center on Education and the Workforce college payoff 2021",
+      "effective_query": "Georgetown Center on Education and the Workforce college payoff 2021",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Federal Reserve Bank of New York college graduate labor market underemployment",
+      "effective_query": "Federal Reserve Bank of New York college graduate labor market underemployment",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "student loan debt statistics 2025 average debt",
+      "effective_query": "student loan debt statistics 2025 average debt",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "college graduation rate 6 year 4 year institution",
+      "effective_query": "college graduation rate 6 year 4 year institution",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "degree inflation burning glass hiring requirements bachelor degree",
+      "effective_query": "degree inflation burning glass hiring requirements bachelor degree",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "college education non-market benefits health civic engagement",
+      "effective_query": "college education non-market benefits health civic engagement",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "opportunity cost of college tuition foregone wages",
+      "effective_query": "opportunity cost of college tuition foregone wages",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "strada education network underemployment college graduates",
+      "effective_query": "strada education network underemployment college graduates",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Pew Research Center value of college education",
+      "effective_query": "Pew Research Center value of college education",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "college degree lifetime earnings premium vs high school 2024 2025",
+      "effective_query": "college degree lifetime earnings premium vs high school 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "student loan default rate by institution type 2024",
+      "effective_query": "student loan default rate by institution type 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "college graduates health outcomes civic participation statistics",
+      "effective_query": "college graduates health outcomes civic participation statistics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "six year graduation rate by race income 2023",
+      "effective_query": "six year graduation rate by race income 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "social mobility college degree second generation",
+      "effective_query": "social mobility college degree second generation",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "average net price college tuition fees 2024 2025",
+      "effective_query": "average net price college tuition fees 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "college degree ROI by major field of study 2024",
+      "effective_query": "college degree ROI by major field of study 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "college graduate earnings premium declining millennials",
+      "effective_query": "college graduate earnings premium declining millennials",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "skills based hiring trend 2024 2025 companies dropping degree requirements",
+      "effective_query": "skills based hiring trend 2024 2025 companies dropping degree requirements",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "college wage premium over time 2024",
+      "effective_query": "college wage premium over time 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "college degree health outcomes smoking rates exercise statistics",
+      "effective_query": "college degree health outcomes smoking rates exercise statistics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "college graduates voting rates civic engagement 2024",
+      "effective_query": "college graduates voting rates civic engagement 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "opportunity cost of college 4 years foregone wages 2024",
+      "effective_query": "opportunity cost of college 4 years foregone wages 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "student loan debt forgiveness default rates 2025",
+      "effective_query": "student loan debt forgiveness default rates 2025",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "college degree not worth it arguments 2024",
+      "effective_query": "college degree not worth it arguments 2024",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "social mobility college degree first generation outcomes",
+      "effective_query": "social mobility college degree first generation outcomes",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "college degree worth it debate 2024 2025",
+      "effective_query": "college degree worth it debate 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "college education returns to society tax revenue",
+      "effective_query": "college education returns to society tax revenue",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.bls.gov/careeroutlook/2025/data-on-display/education-pays.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.194
+        }
+      ],
+      "content_length": 20483,
+      "duration_seconds": 1.194,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.413,
+      "summary_length": 3501,
+      "summary_input_tokens": 6300,
+      "summary_output_tokens": 3900
+    },
+    {
+      "url": "https://cew.georgetown.edu/cew-reports/collegepayoff2021",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.218
+        }
+      ],
+      "content_length": 7095,
+      "duration_seconds": 3.218,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.248,
+      "summary_length": 2808,
+      "summary_input_tokens": 2212,
+      "summary_output_tokens": 3455
+    },
+    {
+      "url": "https://www.newyorkfed.org/research/college-labor-market",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.909
+        }
+      ],
+      "content_length": 39550,
+      "duration_seconds": 0.909,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.566,
+      "summary_length": 3168,
+      "summary_input_tokens": 9784,
+      "summary_output_tokens": 2955
+    },
+    {
+      "url": "https://www.pewresearch.org/social-trends/2024/05/23/public-views-on-the-value-of-a-college-degree",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.028
+        }
+      ],
+      "content_length": 9639,
+      "duration_seconds": 8.028,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.41,
+      "summary_length": 3977,
+      "summary_input_tokens": 2600,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.burningglassinstitute.org/research/underemployment",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.487
+        }
+      ],
+      "content_length": 1618,
+      "duration_seconds": 5.488,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.316,
+      "summary_length": 2677,
+      "summary_input_tokens": 596,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 232,
+  "duration_seconds": 940.5744932861999,
+  "report_length": 32342,
+  "context_length": 340517,
+  "qid": "proconh2ZdDUYEw7hj6yTY",
+  "query": "Conduct a comprehensive analysis on whether a college education is worth the investment in the United States, focusing primarily on undergraduate (bachelor’s degree) education. For this analysis, define ‘worth the investment’ using three main dimensions: (1) financial return (e.g. lifetime earnings premium relative to costs such as tuition, fees, and opportunity cost of foregone wages), (2) career stability and mobility (e.g. employment rates, job security, and promotion opportunities), and (3) broader personal and societal benefits (e.g. health outcomes, civic engagement, networking, and social mobility). In the report, I would like to have 4 pro arguments and 4 con arguments. Each pro or con argument should include: (1) A clear thesis statement (2) Multiple supporting points substantiated with credible evidence (including but not limited to statistics, direct quotes, case studies, expert testimony, industry or government reports, academic research, news sources, and online forums), followed by in-depth reasoning and analysis. Prioritize data and research from the past 10 years where available."
+}

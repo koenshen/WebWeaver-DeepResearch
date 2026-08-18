@@ -1,0 +1,494 @@
+{
+  "total_llm_calls": 21,
+  "total_input_tokens": 248227,
+  "total_output_tokens": 44128,
+  "total_tokens": 292355,
+  "total_search_count": 20,
+  "total_search_results": 190,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 891,
+      "output_tokens": 2635,
+      "total_tokens": 3526,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12449,
+      "output_tokens": 168,
+      "total_tokens": 12617,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23739,
+      "output_tokens": 371,
+      "total_tokens": 24110,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4175,
+      "output_tokens": 1953,
+      "total_tokens": 6128,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2591,
+      "output_tokens": 3516,
+      "total_tokens": 6107,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5816,
+      "output_tokens": 4001,
+      "total_tokens": 9817,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5737,
+      "output_tokens": 1290,
+      "total_tokens": 7027,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2664,
+      "output_tokens": 689,
+      "total_tokens": 3353,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2743,
+      "output_tokens": 3459,
+      "total_tokens": 6202,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14603,
+      "output_tokens": 4001,
+      "total_tokens": 18604,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14603,
+      "output_tokens": 4001,
+      "total_tokens": 18604,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25523,
+      "output_tokens": 194,
+      "total_tokens": 25717,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36128,
+      "output_tokens": 142,
+      "total_tokens": 36270,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 810,
+      "output_tokens": 1147,
+      "total_tokens": 1957,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 808,
+      "output_tokens": 1981,
+      "total_tokens": 2789,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2935,
+      "output_tokens": 744,
+      "total_tokens": 3679,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 787,
+      "output_tokens": 4001,
+      "total_tokens": 4788,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 708,
+      "output_tokens": 881,
+      "total_tokens": 1589,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 760,
+      "output_tokens": 752,
+      "total_tokens": 1512,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38931,
+      "output_tokens": 167,
+      "total_tokens": 39098,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 50826,
+      "output_tokens": 8035,
+      "total_tokens": 58861,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "reinforcement learning exploration sparse rewards 2024 2025",
+      "effective_query": "reinforcement learning exploration sparse rewards 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "go explore reinforcement learning 2024",
+      "effective_query": "go explore reinforcement learning 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "curiosity driven exploration 2025",
+      "effective_query": "curiosity driven exploration 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "dreamerv3 exploration 2024",
+      "effective_query": "dreamerv3 exploration 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "LLM guided exploration reinforcement learning 2025",
+      "effective_query": "LLM guided exploration reinforcement learning 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "constrained reinforcement learning exploration 2024 2025",
+      "effective_query": "constrained reinforcement learning exploration 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "safe exploration reinforcement learning 2025",
+      "effective_query": "safe exploration reinforcement learning 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "trajectory planning reinforcement learning sparse rewards 2024",
+      "effective_query": "trajectory planning reinforcement learning sparse rewards 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "risk-aware exploration constrained RL 2024",
+      "effective_query": "risk-aware exploration constrained RL 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "exploration strategies trajectory optimization 2025",
+      "effective_query": "exploration strategies trajectory optimization 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DISCOVER automated curricula sparse reward reinforcement learning 2025",
+      "effective_query": "DISCOVER automated curricula sparse reward reinforcement learning 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ORAC optimistic risk averse actor critic constrained RL 2025",
+      "effective_query": "ORAC optimistic risk averse actor critic constrained RL 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ActSafe active exploration safety constraints ICLR 2025",
+      "effective_query": "ActSafe active exploration safety constraints ICLR 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "curiosity driven exploration ICM 2025 robotics",
+      "effective_query": "curiosity driven exploration ICM 2025 robotics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "offline to online reinforcement learning exploration 2025",
+      "effective_query": "offline to online reinforcement learning exploration 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "trajectory planning safe RL constraints exploration 2024 2025",
+      "effective_query": "trajectory planning safe RL constraints exploration 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "reward shaping exploration guided sparse rewards 2024",
+      "effective_query": "reward shaping exploration guided sparse rewards 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "model based reinforcement learning trajectory optimization 2025",
+      "effective_query": "model based reinforcement learning trajectory optimization 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "exploration constrained MDP trajectory planning",
+      "effective_query": "exploration constrained MDP trajectory planning",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "hierarchical reinforcement learning navigation trajectory planning 2025",
+      "effective_query": "hierarchical reinforcement learning navigation trajectory planning 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.uber.com/us/en/blog/go-explore",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.39
+        }
+      ],
+      "content_length": 11161,
+      "duration_seconds": 4.391,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.061,
+      "summary_length": 1655,
+      "summary_input_tokens": 4175,
+      "summary_output_tokens": 1953
+    },
+    {
+      "url": "https://icml.cc/virtual/2024/35852",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.952
+        }
+      ],
+      "content_length": 7899,
+      "duration_seconds": 2.952,
+      "summary_status": "success",
+      "summary_duration_seconds": 25.607,
+      "summary_length": 3574,
+      "summary_input_tokens": 2591,
+      "summary_output_tokens": 3516
+    },
+    {
+      "url": "https://www.findingtheta.com/blog/the-evolution-of-imagination-a-deep-dive-into-dreamerv3-and-its-conquest-of-minecraft",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.599
+        }
+      ],
+      "content_length": 26984,
+      "duration_seconds": 1.599,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.21418",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.121
+        }
+      ],
+      "content_length": 8410,
+      "duration_seconds": 4.121,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pure.mpg.de/rest/items/item_3513103_1/component/file_3513104/content",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.192
+        }
+      ],
+      "content_length": 52916,
+      "duration_seconds": 4.192,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.285,
+      "summary_length": 3866,
+      "summary_input_tokens": 14603,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.19850",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.918
+        }
+      ],
+      "content_length": 2444,
+      "duration_seconds": 0.918,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.694,
+      "summary_length": 3721,
+      "summary_input_tokens": 810,
+      "summary_output_tokens": 1147
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.08793",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.729
+        }
+      ],
+      "content_length": 2224,
+      "duration_seconds": 1.729,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.768,
+      "summary_length": 2525,
+      "summary_input_tokens": 808,
+      "summary_output_tokens": 1981
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.09486",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.895
+        }
+      ],
+      "content_length": 9516,
+      "duration_seconds": 0.896,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.987,
+      "summary_length": 2521,
+      "summary_input_tokens": 2935,
+      "summary_output_tokens": 744
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.08779",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.866
+        }
+      ],
+      "content_length": 2269,
+      "duration_seconds": 0.866,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.638,
+      "summary_length": 803,
+      "summary_input_tokens": 787,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.16615",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.847
+        }
+      ],
+      "content_length": 2150,
+      "duration_seconds": 1.847,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.813,
+      "summary_length": 2620,
+      "summary_input_tokens": 760,
+      "summary_output_tokens": 752
+    }
+  ],
+  "source_urls_count": 169,
+  "duration_seconds": 847.9331462774426,
+  "report_length": 33964,
+  "context_length": 264711,
+  "id": 67,
+  "prompt": "Summarize recent research progress in reinforcement learning focused on enabling agents to explore efficiently and proactively under conditions of sparse rewards and constraints, respectively. Additionally, analyze and discuss the potential implications and insights this research provides for trajectory planning problems.",
+  "language": "en",
+  "topic": "Software Development"
+}

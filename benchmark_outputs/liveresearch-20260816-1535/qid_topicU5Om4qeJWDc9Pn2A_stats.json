@@ -1,0 +1,501 @@
+{
+  "total_llm_calls": 22,
+  "total_input_tokens": 555059,
+  "total_output_tokens": 48906,
+  "total_tokens": 603965,
+  "total_search_count": 13,
+  "total_search_results": 123,
+  "total_visit_count": 12,
+  "total_visit_success": 12,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 905,
+      "output_tokens": 204,
+      "total_tokens": 1109,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13972,
+      "output_tokens": 247,
+      "total_tokens": 14219,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25410,
+      "output_tokens": 1892,
+      "total_tokens": 27302,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26429,
+      "output_tokens": 2434,
+      "total_tokens": 28863,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 69912,
+      "output_tokens": 4001,
+      "total_tokens": 73913,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 69912,
+      "output_tokens": 4001,
+      "total_tokens": 73913,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 69912,
+      "output_tokens": 4001,
+      "total_tokens": 73913,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29309,
+      "output_tokens": 1762,
+      "total_tokens": 31071,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6398,
+      "output_tokens": 1786,
+      "total_tokens": 8184,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 930,
+      "output_tokens": 1087,
+      "total_tokens": 2017,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6955,
+      "output_tokens": 4001,
+      "total_tokens": 10956,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6876,
+      "output_tokens": 1429,
+      "total_tokens": 8305,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19482,
+      "output_tokens": 198,
+      "total_tokens": 19680,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47970,
+      "output_tokens": 3189,
+      "total_tokens": 51159,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38169,
+      "output_tokens": 584,
+      "total_tokens": 38753,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45965,
+      "output_tokens": 382,
+      "total_tokens": 46347,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6950,
+      "output_tokens": 1460,
+      "total_tokens": 8410,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6950,
+      "output_tokens": 1994,
+      "total_tokens": 8944,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 410,
+      "output_tokens": 2049,
+      "total_tokens": 2459,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 410,
+      "output_tokens": 1387,
+      "total_tokens": 1797,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22648,
+      "output_tokens": 187,
+      "total_tokens": 22835,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39185,
+      "output_tokens": 10631,
+      "total_tokens": 49816,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "ultra-processed foods health effects 2024 2025 systematic review",
+      "effective_query": "ultra-processed foods health effects 2024 2025 systematic review",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "food processing additives brain health addiction",
+      "effective_query": "food processing additives brain health addiction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "food industry marketing influence eating behavior product design",
+      "effective_query": "food industry marketing influence eating behavior product design",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "individual susceptibility food addiction genetics",
+      "effective_query": "individual susceptibility food addiction genetics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "food deserts economic inequality ultra-processed food consumption",
+      "effective_query": "food deserts economic inequality ultra-processed food consumption",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ultra-processed foods public health policy approaches 2024",
+      "effective_query": "ultra-processed foods public health policy approaches 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "emulsifiers gut microbiome ultra-processed foods health",
+      "effective_query": "emulsifiers gut microbiome ultra-processed foods health",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "NOVA classification ultra-processed foods definition",
+      "effective_query": "NOVA classification ultra-processed foods definition",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Yale Food Addiction Scale prevalence 2024",
+      "effective_query": "Yale Food Addiction Scale prevalence 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "food deserts statistics United States 2024 2025",
+      "effective_query": "food deserts statistics United States 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ultra-processed foods Latin America warning labels policy",
+      "effective_query": "ultra-processed foods Latin America warning labels policy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "food industry child marketing social media influence",
+      "effective_query": "food industry child marketing social media influence",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "food addiction dopamine reward pathway brain ultra-processed",
+      "effective_query": "food addiction dopamine reward pathway brain ultra-processed",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.bmj.com/content/384/bmj-2023-077310",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 11.227
+        }
+      ],
+      "content_length": 98912,
+      "duration_seconds": 11.227,
+      "summary_status": "success",
+      "summary_duration_seconds": 45.826,
+      "summary_length": 5197,
+      "summary_input_tokens": 25410,
+      "summary_output_tokens": 1892
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s13643-025-02800-8",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.725
+        }
+      ],
+      "content_length": 86725,
+      "duration_seconds": 6.725,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.56,
+      "summary_length": 8101,
+      "summary_input_tokens": 26429,
+      "summary_output_tokens": 2434
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7399967",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.705
+        }
+      ],
+      "content_length": 222010,
+      "duration_seconds": 1.706,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.clinicalnutritionjournal.com/article/S0261-5614(24)00122-5/fulltext",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 37.515
+        }
+      ],
+      "content_length": 108422,
+      "duration_seconds": 37.516,
+      "summary_status": "success",
+      "summary_duration_seconds": 33.862,
+      "summary_length": 5825,
+      "summary_input_tokens": 29309,
+      "summary_output_tokens": 1762
+    },
+    {
+      "url": "https://ihpi.umich.edu/news-events/news/policy-brief-recognizing-and-addressing-addictive-nature-ultra-processed-foods",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.689
+        }
+      ],
+      "content_length": 23454,
+      "duration_seconds": 2.689,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.utmb.edu/pedi/categories-tags/2023/11/13/toxic-stress-and-the-long-term-effects",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.68
+        }
+      ],
+      "content_length": 3621,
+      "duration_seconds": 4.68,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.917,
+      "summary_length": 4343,
+      "summary_input_tokens": 930,
+      "summary_output_tokens": 1087
+    },
+    {
+      "url": "https://usrtk.org/ultra-processed-foods/addictive",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.92
+        }
+      ],
+      "content_length": 28414,
+      "duration_seconds": 3.92,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12425943",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.52
+        }
+      ],
+      "content_length": 179454,
+      "duration_seconds": 1.52,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0031938413001558",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.131
+        }
+      ],
+      "content_length": 113000,
+      "duration_seconds": 7.131,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.157,
+      "summary_length": 1224,
+      "summary_input_tokens": 38169,
+      "summary_output_tokens": 584
+    },
+    {
+      "url": "https://link.springer.com/article/10.1186/s40337-025-01387-8",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.499
+        }
+      ],
+      "content_length": 147971,
+      "duration_seconds": 4.499,
+      "summary_status": "success",
+      "summary_duration_seconds": 46.27,
+      "summary_length": 1948,
+      "summary_input_tokens": 45965,
+      "summary_output_tokens": 382
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0140673625015661",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.098
+        }
+      ],
+      "content_length": 29783,
+      "duration_seconds": 13.099,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.healthaffairs.org/content/forefront/multilayered-public-policy-approach-ultraprocessed-foods",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.736
+        }
+      ],
+      "content_length": 589,
+      "duration_seconds": 3.736,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 121,
+  "duration_seconds": 1728.5674707489088,
+  "report_length": 50192,
+  "context_length": 234373,
+  "qid": "topicU5Om4qeJWDc9Pn2A",
+  "query": "As a researcher in healthcare, help me understand the relationship between ultra-processed foods and modern health problems. I want to analyze (1) how food processing technologies and additives affect our bodies and brains in ways we're still discovering, (2) how the food industry's marketing and product design influence our eating behaviors and food choices, (3) why some people seem more susceptible to processed food addiction and health effects than others, and (4) how environmental factors like food deserts and economic inequality complicate individual choice. Show me the latest research worldwide on food science and public health policy approaches, including both peer-reviewed scientific studies and accessible policy reports. The report is expected to be scientific and scholarly."
+}

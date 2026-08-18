@@ -1,0 +1,470 @@
+{
+  "total_llm_calls": 20,
+  "total_input_tokens": 159216,
+  "total_output_tokens": 29194,
+  "total_tokens": 188410,
+  "total_search_count": 4,
+  "total_search_results": 39,
+  "total_visit_count": 14,
+  "total_visit_success": 14,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 875,
+      "output_tokens": 326,
+      "total_tokens": 1201,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22676,
+      "output_tokens": 383,
+      "total_tokens": 23059,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19077,
+      "output_tokens": 1865,
+      "total_tokens": 20942,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3899,
+      "output_tokens": 2272,
+      "total_tokens": 6171,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2761,
+      "output_tokens": 4001,
+      "total_tokens": 6762,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2682,
+      "output_tokens": 1035,
+      "total_tokens": 3717,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 233,
+      "output_tokens": 291,
+      "total_tokens": 524,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2165,
+      "output_tokens": 748,
+      "total_tokens": 2913,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1761,
+      "output_tokens": 888,
+      "total_tokens": 2649,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26178,
+      "output_tokens": 256,
+      "total_tokens": 26434,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 275,
+      "output_tokens": 583,
+      "total_tokens": 858,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1289,
+      "output_tokens": 1030,
+      "total_tokens": 2319,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 723,
+      "output_tokens": 2149,
+      "total_tokens": 2872,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2924,
+      "output_tokens": 2558,
+      "total_tokens": 5482,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2589,
+      "output_tokens": 2341,
+      "total_tokens": 4930,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29101,
+      "output_tokens": 198,
+      "total_tokens": 29299,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4791,
+      "output_tokens": 1301,
+      "total_tokens": 6092,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1066,
+      "output_tokens": 514,
+      "total_tokens": 1580,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3596,
+      "output_tokens": 499,
+      "total_tokens": 4095,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30555,
+      "output_tokens": 5956,
+      "total_tokens": 36511,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "全国高校教师教学创新大赛 一等奖 课程",
+      "effective_query": "全国高校教师教学创新大赛 一等奖 课程",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "青教赛 一等奖 课程",
+      "effective_query": "青教赛 一等奖 课程",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "教学创新大赛 一等奖 课程展示",
+      "effective_query": "教学创新大赛 一等奖 课程展示",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "全国高校青年教师教学竞赛 一等奖 课程资料",
+      "effective_query": "全国高校青年教师教学竞赛 一等奖 课程资料",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E9%AB%98%E6%A0%A1%E6%95%99%E5%B8%88%E6%95%99%E5%AD%A6%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B/56958863",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 20.619
+        }
+      ],
+      "content_length": 31242,
+      "duration_seconds": 20.619,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.2,
+      "summary_length": 970,
+      "summary_input_tokens": 19077,
+      "summary_output_tokens": 1865
+    },
+    {
+      "url": "https://baike.baidu.com/item/%E5%85%A8%E5%9B%BD%E9%AB%98%E6%A0%A1%E9%9D%92%E5%B9%B4%E6%95%99%E5%B8%88%E6%95%99%E5%AD%A6%E7%AB%9E%E8%B5%9B/62928939",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.949
+        }
+      ],
+      "content_length": 6871,
+      "duration_seconds": 13.949,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://chetc.cahe.edu.cn/h/news/news/2024-07-31/3975.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.342
+        }
+      ],
+      "content_length": 6397,
+      "duration_seconds": 2.342,
+      "summary_status": "success",
+      "summary_duration_seconds": 57.147,
+      "summary_length": 783,
+      "summary_input_tokens": 2761,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://teacher.higher.smartedu.cn/h/subject/young",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.391
+        }
+      ],
+      "content_length": 157,
+      "duration_seconds": 4.391,
+      "summary_status": "success",
+      "summary_duration_seconds": 3.935,
+      "summary_length": 785,
+      "summary_input_tokens": 233,
+      "summary_output_tokens": 291
+    },
+    {
+      "url": "https://www.tsinghua.edu.cn/info/1179/115244.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.646
+        }
+      ],
+      "content_length": 3420,
+      "duration_seconds": 5.646,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.434,
+      "summary_length": 838,
+      "summary_input_tokens": 2165,
+      "summary_output_tokens": 748
+    },
+    {
+      "url": "https://www.tsinghua.edu.cn/info/1367/81628.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.143
+        }
+      ],
+      "content_length": 2778,
+      "duration_seconds": 5.144,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.416,
+      "summary_length": 1118,
+      "summary_input_tokens": 1761,
+      "summary_output_tokens": 888
+    },
+    {
+      "url": "https://case.bit.edu.cn/docs//2021-08/8550a4b5377f4146bc8c00d4a1be1e60.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.714
+        }
+      ],
+      "content_length": 262,
+      "duration_seconds": 7.714,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.832,
+      "summary_length": 1002,
+      "summary_input_tokens": 275,
+      "summary_output_tokens": 583
+    },
+    {
+      "url": "http://www.hlj.xinhuanet.com/20260725/34ee913700d74cbea22c1a9b6f481a52/c.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.155
+        }
+      ],
+      "content_length": 2031,
+      "duration_seconds": 6.155,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.291,
+      "summary_length": 1577,
+      "summary_input_tokens": 1289,
+      "summary_output_tokens": 1030
+    },
+    {
+      "url": "https://www.yzu.edu.cn/info/1120/126500.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.955
+        }
+      ],
+      "content_length": 837,
+      "duration_seconds": 6.955,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.021,
+      "summary_length": 1910,
+      "summary_input_tokens": 723,
+      "summary_output_tokens": 2149
+    },
+    {
+      "url": "https://news.ustb.edu.cn/info/1087/76090.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.447
+        }
+      ],
+      "content_length": 6156,
+      "duration_seconds": 2.447,
+      "summary_status": "success",
+      "summary_duration_seconds": 19.766,
+      "summary_length": 2066,
+      "summary_input_tokens": 2924,
+      "summary_output_tokens": 2558
+    },
+    {
+      "url": "https://news.buaa.edu.cn/info/1002/66599.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.297
+        }
+      ],
+      "content_length": 4237,
+      "duration_seconds": 2.297,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.97,
+      "summary_length": 2725,
+      "summary_input_tokens": 2589,
+      "summary_output_tokens": 2341
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/1968982719821247796",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.908
+        }
+      ],
+      "content_length": 8156,
+      "duration_seconds": 4.908,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.361,
+      "summary_length": 2716,
+      "summary_input_tokens": 4791,
+      "summary_output_tokens": 1301
+    },
+    {
+      "url": "https://www.nwpu.edu.cn/info/1198/91078.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.119
+        }
+      ],
+      "content_length": 1618,
+      "duration_seconds": 3.119,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.956,
+      "summary_length": 755,
+      "summary_input_tokens": 1066,
+      "summary_output_tokens": 514
+    },
+    {
+      "url": "https://jpyjfzx.sqnu.edu.cn/info/1133/8870.htm",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.386
+        }
+      ],
+      "content_length": 7895,
+      "duration_seconds": 2.386,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.001,
+      "summary_length": 659,
+      "summary_input_tokens": 3596,
+      "summary_output_tokens": 499
+    }
+  ],
+  "source_urls_count": 35,
+  "duration_seconds": 523.0426903311163,
+  "report_length": 11204,
+  "context_length": 75682,
+  "id": 23,
+  "prompt": "我们部门正在辅导高校老师竞赛，比较想了解创新赛、青教赛的全国一等奖课程的情况和资料。",
+  "language": "zh",
+  "topic": "Education & Jobs"
+}

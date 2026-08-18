@@ -1,0 +1,495 @@
+{
+  "total_llm_calls": 25,
+  "total_input_tokens": 577349,
+  "total_output_tokens": 75850,
+  "total_tokens": 653199,
+  "total_search_count": 15,
+  "total_search_results": 140,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 878,
+      "output_tokens": 998,
+      "total_tokens": 1876,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11559,
+      "output_tokens": 70,
+      "total_tokens": 11629,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21076,
+      "output_tokens": 121,
+      "total_tokens": 21197,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 31042,
+      "output_tokens": 256,
+      "total_tokens": 31298,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22940,
+      "output_tokens": 4001,
+      "total_tokens": 26941,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22940,
+      "output_tokens": 4001,
+      "total_tokens": 26941,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22861,
+      "output_tokens": 2869,
+      "total_tokens": 25730,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26912,
+      "output_tokens": 4001,
+      "total_tokens": 30913,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26912,
+      "output_tokens": 4001,
+      "total_tokens": 30913,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26833,
+      "output_tokens": 970,
+      "total_tokens": 27803,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15525,
+      "output_tokens": 3606,
+      "total_tokens": 19131,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20853,
+      "output_tokens": 4001,
+      "total_tokens": 24854,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20853,
+      "output_tokens": 4001,
+      "total_tokens": 24854,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20853,
+      "output_tokens": 4001,
+      "total_tokens": 24854,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16958,
+      "output_tokens": 4001,
+      "total_tokens": 20959,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16879,
+      "output_tokens": 2954,
+      "total_tokens": 19833,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34339,
+      "output_tokens": 182,
+      "total_tokens": 34521,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21674,
+      "output_tokens": 4001,
+      "total_tokens": 25675,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28952,
+      "output_tokens": 4001,
+      "total_tokens": 32953,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34270,
+      "output_tokens": 1413,
+      "total_tokens": 35683,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 34270,
+      "output_tokens": 1977,
+      "total_tokens": 36247,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21546,
+      "output_tokens": 4001,
+      "total_tokens": 25547,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20409,
+      "output_tokens": 4001,
+      "total_tokens": 24410,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20409,
+      "output_tokens": 3832,
+      "total_tokens": 24241,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 35606,
+      "output_tokens": 8590,
+      "total_tokens": 44196,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "multimodal data fusion sports intelligent tutoring system",
+      "effective_query": "multimodal data fusion sports intelligent tutoring system",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI sports coaching system multimodal",
+      "effective_query": "AI sports coaching system multimodal",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "deep learning sports skill assessment",
+      "effective_query": "deep learning sports skill assessment",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "intelligent tutoring system physical education",
+      "effective_query": "intelligent tutoring system physical education",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "wearable sensors sports performance analysis feedback",
+      "effective_query": "wearable sensors sports performance analysis feedback",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "multimodal learning analytics physical education student modeling",
+      "effective_query": "multimodal learning analytics physical education student modeling",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "pose estimation sports training feedback system",
+      "effective_query": "pose estimation sports training feedback system",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "kinesthetic learning AI tutor movement correction",
+      "effective_query": "kinesthetic learning AI tutor movement correction",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "sports pedagogy digital twin athlete training system",
+      "effective_query": "sports pedagogy digital twin athlete training system",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "multimodal feedback motor skill acquisition technology",
+      "effective_query": "multimodal feedback motor skill acquisition technology",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "multimodal data fusion architecture framework sports training",
+      "effective_query": "multimodal data fusion architecture framework sports training",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "explainable AI sports coaching system",
+      "effective_query": "explainable AI sports coaching system",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "real-time feedback system motor learning sports",
+      "effective_query": "real-time feedback system motor learning sports",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "personalized learning path physical education AI",
+      "effective_query": "personalized learning path physical education AI",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "affective computing emotion detection sports training",
+      "effective_query": "affective computing emotion detection sports training",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1777749/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.601
+        }
+      ],
+      "content_length": 101822,
+      "duration_seconds": 5.602,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11824982",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.302
+        }
+      ],
+      "content_length": 122765,
+      "duration_seconds": 1.302,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.201,
+      "summary_length": 3635,
+      "summary_input_tokens": 26912,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-026-45928-w.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.623
+        }
+      ],
+      "content_length": 70337,
+      "duration_seconds": 8.623,
+      "summary_status": "success",
+      "summary_duration_seconds": 26.989,
+      "summary_length": 10971,
+      "summary_input_tokens": 15525,
+      "summary_output_tokens": 3606
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12800030",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.151
+        }
+      ],
+      "content_length": 107183,
+      "duration_seconds": 1.151,
+      "summary_status": "success",
+      "summary_duration_seconds": 30.595,
+      "summary_length": 4568,
+      "summary_input_tokens": 20853,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s44163-026-00984-z",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 17.23
+        }
+      ],
+      "content_length": 77921,
+      "duration_seconds": 17.231,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2026.1744594/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.96
+        }
+      ],
+      "content_length": 77222,
+      "duration_seconds": 9.961,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.361,
+      "summary_length": 6891,
+      "summary_input_tokens": 21674,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12338817",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.226
+        }
+      ],
+      "content_length": 111358,
+      "duration_seconds": 1.226,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-025-12920-9",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.894
+        }
+      ],
+      "content_length": 135545,
+      "duration_seconds": 7.894,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12714985",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.008
+        }
+      ],
+      "content_length": 81592,
+      "duration_seconds": 1.009,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-025-02168-8",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.772
+        }
+      ],
+      "content_length": 79995,
+      "duration_seconds": 4.773,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.805,
+      "summary_length": 4323,
+      "summary_input_tokens": 20409,
+      "summary_output_tokens": 4001
+    }
+  ],
+  "source_urls_count": 137,
+  "duration_seconds": 1343.2890639426187,
+  "report_length": 37855,
+  "context_length": 221174,
+  "id": 74,
+  "prompt": "Please conduct a study and prepare a report on the 'Construction and Application of a Sports Intelligent Tutoring and Learning Guidance System Driven by Multimodal Data Fusion.'",
+  "language": "en",
+  "topic": "Education & Jobs"
+}

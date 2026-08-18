@@ -1,0 +1,142 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 91883,
+  "total_output_tokens": 7012,
+  "total_tokens": 98895,
+  "total_search_count": 15,
+  "total_search_results": 142,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 843,
+      "output_tokens": 491,
+      "total_tokens": 1334,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17700,
+      "output_tokens": 775,
+      "total_tokens": 18475,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30466,
+      "output_tokens": 116,
+      "total_tokens": 30582,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42874,
+      "output_tokens": 5630,
+      "total_tokens": 48504,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "advanced process metal deposition PVD ALD CVD copper interconnect",
+      "effective_query": "advanced process metal deposition PVD ALD CVD copper interconnect",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "先进制程 金属薄膜 沉积 PVD CVD ALD",
+      "effective_query": "先进制程 金属薄膜 沉积 PVD CVD ALD",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "which metal deposition technique used in 5nm 3nm chip manufacturing",
+      "effective_query": "which metal deposition technique used in 5nm 3nm chip manufacturing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "atomic layer deposition metal films advanced CMOS",
+      "effective_query": "atomic layer deposition metal films advanced CMOS",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "e-beam evaporation metal film semiconductor manufacturing",
+      "effective_query": "e-beam evaporation metal film semiconductor manufacturing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "molecular beam epitaxy metal film CMOS",
+      "effective_query": "molecular beam epitaxy metal film CMOS",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PVD TaN Ta barrier 5nm 3nm interconnect",
+      "effective_query": "PVD TaN Ta barrier 5nm 3nm interconnect",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ALD metal gate TiN TaN advanced CMOS 5nm 3nm",
+      "effective_query": "ALD metal gate TiN TaN advanced CMOS 5nm 3nm",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CVD tungsten plug advanced logic 5nm 3nm",
+      "effective_query": "CVD tungsten plug advanced logic 5nm 3nm",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "e-beam evaporation semiconductor manufacturing 5nm 3nm",
+      "effective_query": "e-beam evaporation semiconductor manufacturing 5nm 3nm",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "MBE silicon CMOS production metal film",
+      "effective_query": "MBE silicon CMOS production metal film",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "advanced logic 5nm 3nm interconnect metal deposition PVD ALD CVD copper cobalt ruthenium",
+      "effective_query": "advanced logic 5nm 3nm interconnect metal deposition PVD ALD CVD copper cobalt ruthenium",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "BEOL metal deposition 5nm 3nm TSMC Applied Materials",
+      "effective_query": "BEOL metal deposition 5nm 3nm TSMC Applied Materials",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Lam Research ALD metal deposition 5nm 3nm",
+      "effective_query": "Lam Research ALD metal deposition 5nm 3nm",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "先进制程 BEOL 金属薄膜 沉积 PVD ALD CVD 铜 钴 钌",
+      "effective_query": "先进制程 BEOL 金属薄膜 沉积 PVD ALD CVD 铜 钴 钌",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 126,
+  "duration_seconds": 396.7998584508896,
+  "report_length": 11137,
+  "context_length": 176321,
+  "id": 33,
+  "prompt": "在微电子工艺中，金属薄膜的生长可以使用多种设备，物理气相沉积设备，化学气相沉积设备，电子束蒸发沉积设备，原子层沉积设备和分子束外研设备。为我调研在如今先进制程的芯片工艺中金属薄膜的生长运用到了上面哪几种设备？分别用来沉积什么金属薄膜？为什么选择它们呢？",
+  "language": "zh",
+  "topic": "Hardware"
+}

@@ -1,0 +1,362 @@
+{
+  "total_llm_calls": 16,
+  "total_input_tokens": 254325,
+  "total_output_tokens": 44859,
+  "total_tokens": 299184,
+  "total_search_count": 7,
+  "total_search_results": 68,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 884,
+      "output_tokens": 672,
+      "total_tokens": 1556,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 28408,
+      "output_tokens": 942,
+      "total_tokens": 29350,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6631,
+      "output_tokens": 4001,
+      "total_tokens": 10632,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6631,
+      "output_tokens": 3817,
+      "total_tokens": 10448,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6631,
+      "output_tokens": 2876,
+      "total_tokens": 9507,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1390,
+      "output_tokens": 4001,
+      "total_tokens": 5391,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1390,
+      "output_tokens": 3814,
+      "total_tokens": 5204,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29919,
+      "output_tokens": 232,
+      "total_tokens": 30151,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7113,
+      "output_tokens": 1291,
+      "total_tokens": 8404,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13563,
+      "output_tokens": 4001,
+      "total_tokens": 17564,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13563,
+      "output_tokens": 3572,
+      "total_tokens": 17135,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33960,
+      "output_tokens": 1253,
+      "total_tokens": 35213,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3013,
+      "output_tokens": 1121,
+      "total_tokens": 4134,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16641,
+      "output_tokens": 2089,
+      "total_tokens": 18730,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36624,
+      "output_tokens": 115,
+      "total_tokens": 36739,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47964,
+      "output_tokens": 11062,
+      "total_tokens": 59026,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "2024 珠宝设计 流行趋势",
+      "effective_query": "2024 珠宝设计 流行趋势",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2025 珠宝设计 趋势",
+      "effective_query": "2025 珠宝设计 趋势",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "2026 珠宝设计 流行趋势",
+      "effective_query": "2026 珠宝设计 流行趋势",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "高级珠宝 品牌 新系列 2024 2025 2026",
+      "effective_query": "高级珠宝 品牌 新系列 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "高定珠宝 拍卖 趋势 2024 2025 2026",
+      "effective_query": "高定珠宝 拍卖 趋势 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "2024 2025 2026 高定珠宝 拍卖 佳士得 苏富比 趋势",
+      "effective_query": "2024 2025 2026 高定珠宝 拍卖 佳士得 苏富比 趋势",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Cartier Tiffany Van Cleef 高级珠宝 新系列 2025 2026",
+      "effective_query": "Cartier Tiffany Van Cleef 高级珠宝 新系列 2025 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.harpersbazaar.com.hk/fashion/latest-high-jewelry-collection",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 13.506
+        }
+      ],
+      "content_length": 11804,
+      "duration_seconds": 13.506,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.vogue.com.tw/article/2026-high-jewelry-trend",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.505
+        }
+      ],
+      "content_length": 7132,
+      "duration_seconds": 12.506,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://news.jewellerynet.com/sc/jnanews/blog/26886/010526-2026%E5%B9%B4%E7%8F%A0%E5%AE%9D%E8%AE%BE%E8%AE%A1%E8%B6%8B%E5%8A%BF%EF%BC%9A%E9%A2%82%E6%89%AC%E5%B8%8C%E6%9C%9B%E3%80%81%E4%BC%A0%E6%89%BF%E4%B8%8E%E5%88%9B%E6%84%8F",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.793
+        }
+      ],
+      "content_length": 14606,
+      "duration_seconds": 5.794,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.226,
+      "summary_length": 870,
+      "summary_input_tokens": 6631,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://shop.baoxilan.com/gemstone-timeline-242",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.404
+        }
+      ],
+      "content_length": 2102,
+      "duration_seconds": 16.404,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.luxurywatcher.com/zh-Hans/article/35500",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.997
+        }
+      ],
+      "content_length": 16473,
+      "duration_seconds": 3.997,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.783,
+      "summary_length": 2144,
+      "summary_input_tokens": 7113,
+      "summary_output_tokens": 1291
+    },
+    {
+      "url": "https://www.elle.com/fashion/accessories/a46059128/2024-jewelry-trends",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.875
+        }
+      ],
+      "content_length": 31602,
+      "duration_seconds": 8.875,
+      "summary_status": "success",
+      "summary_duration_seconds": 31.377,
+      "summary_length": 3357,
+      "summary_input_tokens": 13563,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.net-a-porter.com/en-us/porter/article-221f5bdc21234c96/jewelry-watches/jewelry-trends/jewelry-trends-2024",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.014
+        }
+      ],
+      "content_length": 98559,
+      "duration_seconds": 10.014,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.86,
+      "summary_length": 4522,
+      "summary_input_tokens": 33960,
+      "summary_output_tokens": 1253
+    },
+    {
+      "url": "https://royisal.com/zh-CN/classic-to-cutting-edge-exploring-2025s-jewelry-trends",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 12.522
+        }
+      ],
+      "content_length": 5031,
+      "duration_seconds": 12.522,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.193,
+      "summary_length": 1623,
+      "summary_input_tokens": 3013,
+      "summary_output_tokens": 1121
+    },
+    {
+      "url": "https://australianopaldirect.com/blog/2025-luxury-jewelry-trends-guide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.993
+        }
+      ],
+      "content_length": 52480,
+      "duration_seconds": 10.993,
+      "summary_status": "success",
+      "summary_duration_seconds": 20.24,
+      "summary_length": 4440,
+      "summary_input_tokens": 16641,
+      "summary_output_tokens": 2089
+    }
+  ],
+  "source_urls_count": 62,
+  "duration_seconds": 931.093024183996,
+  "report_length": 19578,
+  "context_length": 127284,
+  "id": 38,
+  "prompt": "收集针对近三年内珠宝设计流行趋势变化，如高奢类品牌珠宝以及高定类竞拍品等，总结其共通点以及特色亮点。",
+  "language": "zh",
+  "topic": "Art & Design"
+}

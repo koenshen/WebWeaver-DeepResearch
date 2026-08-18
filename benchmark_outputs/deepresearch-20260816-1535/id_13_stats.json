@@ -1,0 +1,296 @@
+{
+  "total_llm_calls": 12,
+  "total_input_tokens": 141545,
+  "total_output_tokens": 18593,
+  "total_tokens": 160138,
+  "total_search_count": 11,
+  "total_search_results": 103,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 865,
+      "output_tokens": 300,
+      "total_tokens": 1165,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18474,
+      "output_tokens": 463,
+      "total_tokens": 18937,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2993,
+      "output_tokens": 1022,
+      "total_tokens": 4015,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12563,
+      "output_tokens": 4001,
+      "total_tokens": 16564,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12484,
+      "output_tokens": 2100,
+      "total_tokens": 14584,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 258,
+      "output_tokens": 262,
+      "total_tokens": 520,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19012,
+      "output_tokens": 285,
+      "total_tokens": 19297,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4371,
+      "output_tokens": 1203,
+      "total_tokens": 5574,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 361,
+      "output_tokens": 1076,
+      "total_tokens": 1437,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10791,
+      "output_tokens": 1915,
+      "total_tokens": 12706,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21443,
+      "output_tokens": 92,
+      "total_tokens": 21535,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 37930,
+      "output_tokens": 5874,
+      "total_tokens": 43804,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "AI 算法 电子学 读出 时幅修正",
+      "effective_query": "AI 算法 电子学 读出 时幅修正",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "神经网络 时间幅度修正 电子学 读出",
+      "effective_query": "神经网络 时间幅度修正 电子学 读出",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "深度学习 时间数字转换器 校准",
+      "effective_query": "深度学习 时间数字转换器 校准",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "machine learning time walk correction",
+      "effective_query": "machine learning time walk correction",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "neural network timing correction for readout electronics",
+      "effective_query": "neural network timing correction for readout electronics",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "AI for time amplitude correction in particle detectors",
+      "effective_query": "AI for time amplitude correction in particle detectors",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "time walk correction neural network FPGA",
+      "effective_query": "time walk correction neural network FPGA",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "deep learning timing calibration detector readout",
+      "effective_query": "deep learning timing calibration detector readout",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "机器学习 时幅修正 探测器 电子学",
+      "effective_query": "机器学习 时幅修正 探测器 电子学",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "neural network time over threshold correction",
+      "effective_query": "neural network time over threshold correction",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI algorithm time amplitude correction LHC",
+      "effective_query": "AI algorithm time amplitude correction LHC",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://arxiv.org/abs/1902.00480",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.373
+        }
+      ],
+      "content_length": 9523,
+      "duration_seconds": 2.373,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.292,
+      "summary_length": 2089,
+      "summary_input_tokens": 2993,
+      "summary_output_tokens": 1022
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5739333",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.867
+        }
+      ],
+      "content_length": 42523,
+      "duration_seconds": 0.867,
+      "summary_status": "success",
+      "summary_duration_seconds": 38.951,
+      "summary_length": 1961,
+      "summary_input_tokens": 12563,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://arxiv.org/html/2504.17272v1",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.291
+        }
+      ],
+      "content_length": 243,
+      "duration_seconds": 6.292,
+      "summary_status": "success",
+      "summary_duration_seconds": 4.116,
+      "summary_length": 781,
+      "summary_input_tokens": 258,
+      "summary_output_tokens": 262
+    },
+    {
+      "url": "https://indico.ihep.ac.cn/event/16065/contributions/43632/attachments/62052/71698/%E5%9F%BA%E4%BA%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E9%AB%98%E6%97%B6%E9%97%B4%E5%88%86%E8%BE%A8ECAL%E8%AF%BB%E5%87%BA%E7%94%B5%E5%AD%90%E5%AD%A6%E7%A0%94%E7%A9%B6.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.112
+        }
+      ],
+      "content_length": 9043,
+      "duration_seconds": 5.113,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.028,
+      "summary_length": 1984,
+      "summary_input_tokens": 4371,
+      "summary_output_tokens": 1203
+    },
+    {
+      "url": "https://www.sciengine.com/doi/pdf/474C11AA8DA84007AC3D648EFF345BBA",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.025
+        }
+      ],
+      "content_length": 306,
+      "duration_seconds": 5.025,
+      "summary_status": "success",
+      "summary_duration_seconds": 9.055,
+      "summary_length": 850,
+      "summary_input_tokens": 361,
+      "summary_output_tokens": 1076
+    },
+    {
+      "url": "https://wulixb.iphy.ac.cn/article/pdf/preview/10.7498/aps.68.20182192.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 16.076
+        }
+      ],
+      "content_length": 22357,
+      "duration_seconds": 16.076,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 101,
+  "duration_seconds": 838.3443489270285,
+  "report_length": 12555,
+  "context_length": 126066,
+  "id": 13,
+  "prompt": "为我调研AI算法能否提升现有电子学读出时幅修正方法",
+  "language": "zh",
+  "topic": "Science & Technology"
+}

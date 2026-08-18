@@ -1,0 +1,295 @@
+{
+  "total_llm_calls": 14,
+  "total_input_tokens": 187808,
+  "total_output_tokens": 10931,
+  "total_tokens": 198739,
+  "total_search_count": 9,
+  "total_search_results": 85,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 858,
+      "output_tokens": 193,
+      "total_tokens": 1051,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12470,
+      "output_tokens": 125,
+      "total_tokens": 12595,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3876,
+      "output_tokens": 570,
+      "total_tokens": 4446,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 12939,
+      "output_tokens": 118,
+      "total_tokens": 13057,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16190,
+      "output_tokens": 2704,
+      "total_tokens": 18894,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14060,
+      "output_tokens": 104,
+      "total_tokens": 14164,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22099,
+      "output_tokens": 111,
+      "total_tokens": 22210,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8519,
+      "output_tokens": 950,
+      "total_tokens": 9469,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22669,
+      "output_tokens": 134,
+      "total_tokens": 22803,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32440,
+      "output_tokens": 221,
+      "total_tokens": 32661,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2782,
+      "output_tokens": 461,
+      "total_tokens": 3243,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2191,
+      "output_tokens": 527,
+      "total_tokens": 2718,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3366,
+      "output_tokens": 712,
+      "total_tokens": 4078,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33349,
+      "output_tokens": 4001,
+      "total_tokens": 37350,
+      "message_count": 16
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Runner's World running shoe ratings 2026",
+      "effective_query": "Runner's World running shoe ratings 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Runner's World best running shoes 2026",
+      "effective_query": "Runner's World best running shoes 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Runner's World shoe review database heel drop weight",
+      "effective_query": "Runner's World shoe review database heel drop weight",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Runner's World shoe review rating score 2026",
+      "effective_query": "Runner's World shoe review rating score 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Runner's World shoe test score 2026",
+      "effective_query": "Runner's World shoe test score 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Runner's World editors choice best running shoes 2026",
+      "effective_query": "Runner's World editors choice best running shoes 2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Runner's World shoe review rating score out of 10",
+      "effective_query": "Runner's World shoe review rating score out of 10",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Runner's World shoe rating system",
+      "effective_query": "Runner's World shoe rating system",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Runner's World best running shoes 2026 rating",
+      "effective_query": "Runner's World best running shoes 2026 rating",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.runnersworld.com/gear/a71282136/shoe-awards-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.147
+        }
+      ],
+      "content_length": 10153,
+      "duration_seconds": 7.147,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.726,
+      "summary_length": 1787,
+      "summary_input_tokens": 3876,
+      "summary_output_tokens": 570
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a19663621/best-running-shoes",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 14.15
+        }
+      ],
+      "content_length": 48229,
+      "duration_seconds": 14.15,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.496,
+      "summary_length": 3407,
+      "summary_input_tokens": 16190,
+      "summary_output_tokens": 2704
+    },
+    {
+      "url": "https://www.runnersworld.com/running-shoes",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.464
+        }
+      ],
+      "content_length": 25095,
+      "duration_seconds": 8.465,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.785,
+      "summary_length": 2595,
+      "summary_input_tokens": 8519,
+      "summary_output_tokens": 950
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a71931047/altra-torin-9-review/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.49
+        }
+      ],
+      "content_length": 9394,
+      "duration_seconds": 7.491,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.724,
+      "summary_length": 1065,
+      "summary_input_tokens": 2782,
+      "summary_output_tokens": 461
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a71943637/hoka-skyward-x-2-review/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.965
+        }
+      ],
+      "content_length": 6964,
+      "duration_seconds": 9.965,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.988,
+      "summary_length": 952,
+      "summary_input_tokens": 2191,
+      "summary_output_tokens": 527
+    },
+    {
+      "url": "https://www.runnersworld.com/gear/a73191544/saucony-guide-19-run-walk-review/",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.09
+        }
+      ],
+      "content_length": 9813,
+      "duration_seconds": 10.09,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.324,
+      "summary_length": 2244,
+      "summary_input_tokens": 3366,
+      "summary_output_tokens": 712
+    }
+  ],
+  "source_urls_count": 27,
+  "duration_seconds": 218.98528200294822,
+  "report_length": 11264,
+  "context_length": 131256,
+  "qid": "ranklidfdj3RVVH31L5VPo",
+  "query": "What are the top 12 running shoes based on heel-to-toe drop (mm), weight (ounces), and Runner's World rating score, considering the most recent Runner's World ratings as of now ({{current_date}})? Please assume all three criteria are weighted equally, and include only currently available models. In the final report, you should include a detailed table for the summarized ranked results, and also provide an analysis explaining the rationale behind the ranking."
+}

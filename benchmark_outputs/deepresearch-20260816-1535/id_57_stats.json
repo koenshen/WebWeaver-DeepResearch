@@ -1,0 +1,214 @@
+{
+  "total_llm_calls": 4,
+  "total_input_tokens": 149289,
+  "total_output_tokens": 14606,
+  "total_tokens": 163895,
+  "total_search_count": 27,
+  "total_search_results": 246,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 912,
+      "output_tokens": 2858,
+      "total_tokens": 3770,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27222,
+      "output_tokens": 433,
+      "total_tokens": 27655,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 52134,
+      "output_tokens": 737,
+      "total_tokens": 52871,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 69021,
+      "output_tokens": 10578,
+      "total_tokens": 79599,
+      "message_count": 8
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "Accenture $3 billion AI investment 2023 Applied Intelligence",
+      "effective_query": "Accenture $3 billion AI investment 2023 Applied Intelligence",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Deloitte AI strategy investment Lead the Way AI",
+      "effective_query": "Deloitte AI strategy investment Lead the Way AI",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "PwC $1 billion GenAI investment Harvey",
+      "effective_query": "PwC $1 billion GenAI investment Harvey",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "EY ai platform $1.4 billion investment EYQ",
+      "effective_query": "EY ai platform $1.4 billion investment EYQ",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "KPMG $2 billion AI Microsoft investment",
+      "effective_query": "KPMG $2 billion AI Microsoft investment",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "McKinsey QuantumBlack Lilli AI assistant",
+      "effective_query": "McKinsey QuantumBlack Lilli AI assistant",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "BCG AI investment OpenAI partnership",
+      "effective_query": "BCG AI investment OpenAI partnership",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bain $1.2 billion AI Cohere investment",
+      "effective_query": "Bain $1.2 billion AI Cohere investment",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "IBM consulting watsonx AI investment",
+      "effective_query": "IBM consulting watsonx AI investment",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Capgemini $2 billion AI investment Applied AI Exchange",
+      "effective_query": "Capgemini $2 billion AI investment Applied AI Exchange",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Accenture AI case study clients generative AI manufacturing",
+      "effective_query": "Accenture AI case study clients generative AI manufacturing",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Deloitte AI case study examples clients",
+      "effective_query": "Deloitte AI case study examples clients",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "PwC AI case study client examples",
+      "effective_query": "PwC AI case study client examples",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "EY AI case study client examples",
+      "effective_query": "EY AI case study client examples",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "KPMG AI case study client examples",
+      "effective_query": "KPMG AI case study client examples",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "McKinsey QuantumBlack AI case studies clients",
+      "effective_query": "McKinsey QuantumBlack AI case studies clients",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BCG AI case studies clients examples",
+      "effective_query": "BCG AI case studies clients examples",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Bain AI case study client examples",
+      "effective_query": "Bain AI case study client examples",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "IBM watsonx case study clients",
+      "effective_query": "IBM watsonx case study clients",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Capgemini AI case study client examples",
+      "effective_query": "Capgemini AI case study client examples",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "Accenture AI Refinery platform NVIDIA partnership 2024",
+      "effective_query": "Accenture AI Refinery platform NVIDIA partnership 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Deloitte AI Institute NVIDIA partnership",
+      "effective_query": "Deloitte AI Institute NVIDIA partnership",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Bain Sage AI tool",
+      "effective_query": "Bain Sage AI tool",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bain $2 trillion AI revenue report 2025",
+      "effective_query": "Bain $2 trillion AI revenue report 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "McKinsey $5 billion AI investment",
+      "effective_query": "McKinsey $5 billion AI investment",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "PwC ChatPwC AI upskilling",
+      "effective_query": "PwC ChatPwC AI upskilling",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "Capgemini $3.3 billion WNS acquisition AI",
+      "effective_query": "Capgemini $3.3 billion WNS acquisition AI",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 243,
+  "duration_seconds": 205.0167904328555,
+  "report_length": 42032,
+  "context_length": 368975,
+  "id": 57,
+  "prompt": "Summarize the global investments, key initiatives, and outputs related to Artificial Intelligence (AI) by major international consulting firms (e.g., Big Four, Accenture, MBB, IBM, Capgemini). Cover aspects such as AI-driven products/services, client case studies, application scenarios, strategic directions, and talent development programs.",
+  "language": "en",
+  "topic": "Finance & Business"
+}

@@ -1,0 +1,224 @@
+{
+  "total_llm_calls": 9,
+  "total_input_tokens": 214740,
+  "total_output_tokens": 20576,
+  "total_tokens": 235316,
+  "total_search_count": 9,
+  "total_search_results": 87,
+  "total_visit_count": 4,
+  "total_visit_success": 4,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 871,
+      "output_tokens": 265,
+      "total_tokens": 1136,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29599,
+      "output_tokens": 295,
+      "total_tokens": 29894,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5615,
+      "output_tokens": 4001,
+      "total_tokens": 9616,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29684,
+      "output_tokens": 114,
+      "total_tokens": 29798,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23075,
+      "output_tokens": 3394,
+      "total_tokens": 26469,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5081,
+      "output_tokens": 2331,
+      "total_tokens": 7412,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26983,
+      "output_tokens": 2315,
+      "total_tokens": 29298,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36065,
+      "output_tokens": 133,
+      "total_tokens": 36198,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57767,
+      "output_tokens": 7728,
+      "total_tokens": 65495,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "金融机构间借贷关系 系统性风险 建模",
+      "effective_query": "金融机构间借贷关系 系统性风险 建模",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "银行间市场 系统性风险 传染模型",
+      "effective_query": "银行间市场 系统性风险 传染模型",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "金融网络 系统性风险 中国 研究",
+      "effective_query": "金融网络 系统性风险 中国 研究",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "系统性风险 金融机构 借贷关系 网络模型",
+      "effective_query": "系统性风险 金融机构 借贷关系 网络模型",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "国内金融机构 投资借贷 系统性风险 传染",
+      "effective_query": "国内金融机构 投资借贷 系统性风险 传染",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "中国银行间市场 系统性风险 最大熵模型 敞口矩阵",
+      "effective_query": "中国银行间市场 系统性风险 最大熵模型 敞口矩阵",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Eisenberg-Noe 清算算法 系统性风险 中国",
+      "effective_query": "Eisenberg-Noe 清算算法 系统性风险 中国",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CoVaR SRISK 系统性风险 中国金融机构",
+      "effective_query": "CoVaR SRISK 系统性风险 中国金融机构",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "银行间网络 系统性风险 压力测试 中国 2023 2024 2025",
+      "effective_query": "银行间网络 系统性风险 压力测试 中国 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.bohrium.com/sciencepedia/feynman/keyword/interbank_networks",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.566
+        }
+      ],
+      "content_length": 11574,
+      "duration_seconds": 10.567,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://bijiao.caixin.com/m/2022-05-06/101881413_all.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.199
+        }
+      ],
+      "content_length": 51721,
+      "duration_seconds": 1.2,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.616,
+      "summary_length": 5742,
+      "summary_input_tokens": 23075,
+      "summary_output_tokens": 3394
+    },
+    {
+      "url": "https://www.fcipub.org/articleDetail/4045?periodicalId=30",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.768
+        }
+      ],
+      "content_length": 10188,
+      "duration_seconds": 0.768,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://swarma.org?p=63263",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.83
+        }
+      ],
+      "content_length": 60706,
+      "duration_seconds": 6.831,
+      "summary_status": "success",
+      "summary_duration_seconds": 21.478,
+      "summary_length": 3184,
+      "summary_input_tokens": 26983,
+      "summary_output_tokens": 2315
+    }
+  ],
+  "source_urls_count": 67,
+  "duration_seconds": 497.17982617765665,
+  "report_length": 15140,
+  "context_length": 138970,
+  "id": 5,
+  "prompt": "调研国内金融机构之间的投资借贷关系与系统性风险的联系？对不同层次或类型的借贷关系和风险建模",
+  "language": "zh",
+  "topic": "Finance & Business"
+}

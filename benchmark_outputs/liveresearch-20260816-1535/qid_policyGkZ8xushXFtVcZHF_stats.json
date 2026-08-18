@@ -1,0 +1,372 @@
+{
+  "total_llm_calls": 17,
+  "total_input_tokens": 154932,
+  "total_output_tokens": 40558,
+  "total_tokens": 195490,
+  "total_search_count": 5,
+  "total_search_results": 48,
+  "total_visit_count": 10,
+  "total_visit_success": 10,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 858,
+      "output_tokens": 180,
+      "total_tokens": 1038,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 15116,
+      "output_tokens": 401,
+      "total_tokens": 15517,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11381,
+      "output_tokens": 1666,
+      "total_tokens": 13047,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11687,
+      "output_tokens": 4001,
+      "total_tokens": 15688,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11687,
+      "output_tokens": 1541,
+      "total_tokens": 13228,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11687,
+      "output_tokens": 651,
+      "total_tokens": 12338,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10287,
+      "output_tokens": 4001,
+      "total_tokens": 14288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10287,
+      "output_tokens": 4001,
+      "total_tokens": 14288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 10287,
+      "output_tokens": 4001,
+      "total_tokens": 14288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7856,
+      "output_tokens": 989,
+      "total_tokens": 8845,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5518,
+      "output_tokens": 2562,
+      "total_tokens": 8080,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4108,
+      "output_tokens": 1589,
+      "total_tokens": 5697,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8996,
+      "output_tokens": 1207,
+      "total_tokens": 10203,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5242,
+      "output_tokens": 3098,
+      "total_tokens": 8340,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1600,
+      "output_tokens": 1237,
+      "total_tokens": 2837,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2068,
+      "output_tokens": 3001,
+      "total_tokens": 5069,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26267,
+      "output_tokens": 6432,
+      "total_tokens": 32699,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "OCR HIPAA enforcement actions 2021 2022 2023 2024 2025 2026 over $1 million settlement",
+      "effective_query": "OCR HIPAA enforcement actions 2021 2022 2023 2024 2025 2026 over $1 million settlement",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OCR HIPAA penalties $1 million healthcare providers business associates 2021-2026",
+      "effective_query": "OCR HIPAA penalties $1 million healthcare providers business associates 2021-2026",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "HHS OCR HIPAA settlement million dollars 2021 2022 2023 2024 2025 2026",
+      "effective_query": "HHS OCR HIPAA settlement million dollars 2021 2022 2023 2024 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OCR HIPAA Security Rule violations most common large penalties",
+      "effective_query": "OCR HIPAA Security Rule violations most common large penalties",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OCR HIPAA risk assessment failures examples corrective actions resolution agreements",
+      "effective_query": "OCR HIPAA risk assessment failures examples corrective actions resolution agreements",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.hipaajournal.com/hipaa-violation-fines",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.809
+        }
+      ],
+      "content_length": 47990,
+      "duration_seconds": 4.81,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.206,
+      "summary_length": 5157,
+      "summary_input_tokens": 11381,
+      "summary_output_tokens": 1666
+    },
+    {
+      "url": "https://compliancy-group.com/hipaa-fines-directory-year",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.032
+        }
+      ],
+      "content_length": 42231,
+      "duration_seconds": 7.032,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.842,
+      "summary_length": 11796,
+      "summary_input_tokens": 11687,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/agreements/index.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.535
+        }
+      ],
+      "content_length": 37115,
+      "duration_seconds": 0.536,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.228,
+      "summary_length": 727,
+      "summary_input_tokens": 10287,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/data/enforcement-highlights/index.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.011
+        }
+      ],
+      "content_length": 29552,
+      "duration_seconds": 1.012,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.466,
+      "summary_length": 3456,
+      "summary_input_tokens": 7856,
+      "summary_output_tokens": 989
+    },
+    {
+      "url": "https://www.faxsipit.com/blogs/hipaa-violation-statistics",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.722
+        }
+      ],
+      "content_length": 22626,
+      "duration_seconds": 3.722,
+      "summary_status": "success",
+      "summary_duration_seconds": 23.035,
+      "summary_length": 8768,
+      "summary_input_tokens": 5518,
+      "summary_output_tokens": 2562
+    },
+    {
+      "url": "https://medcurity.com/risk-analysis-failure-pattern-hhs-ocr-settlements-2026",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.232
+        }
+      ],
+      "content_length": 19707,
+      "duration_seconds": 5.232,
+      "summary_status": "success",
+      "summary_duration_seconds": 15.451,
+      "summary_length": 5173,
+      "summary_input_tokens": 4108,
+      "summary_output_tokens": 1589
+    },
+    {
+      "url": "https://ogletree.com/insights-resources/blog-posts/2025-enforcement-trends-risk-analysis-failures-at-the-center-of-hhss-multimillion-dollar-hipaa-penalties",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.163
+        }
+      ],
+      "content_length": 34568,
+      "duration_seconds": 4.163,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.18,
+      "summary_length": 5223,
+      "summary_input_tokens": 8996,
+      "summary_output_tokens": 1207
+    },
+    {
+      "url": "https://legalclarity.org/ocr-hipaa-settlement-news-latest-enforcement-actions",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.733
+        }
+      ],
+      "content_length": 22000,
+      "duration_seconds": 3.733,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.361,
+      "summary_length": 11429,
+      "summary_input_tokens": 5242,
+      "summary_output_tokens": 3098
+    },
+    {
+      "url": "https://www.legalhie.com/a-look-back-at-2024-hipaa-enforcement-year-in-review",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.71
+        }
+      ],
+      "content_length": 6721,
+      "duration_seconds": 9.71,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.915,
+      "summary_length": 2894,
+      "summary_input_tokens": 1600,
+      "summary_output_tokens": 1237
+    },
+    {
+      "url": "https://medcomply.ai/enforcement",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.333
+        }
+      ],
+      "content_length": 5656,
+      "duration_seconds": 5.334,
+      "summary_status": "success",
+      "summary_duration_seconds": 27.562,
+      "summary_length": 7903,
+      "summary_input_tokens": 2068,
+      "summary_output_tokens": 3001
+    }
+  ],
+  "source_urls_count": 39,
+  "duration_seconds": 498.53966342285275,
+  "report_length": 18447,
+  "context_length": 136342,
+  "qid": "policyGkZ8xushXFtVcZHF",
+  "query": "I work on healthcare compliance. Please help me analyze the most recent OCR HIPAA enforcement actions from the past 5 years, focusing on high-penalty cases (over $1 million). Include actions against both large healthcare providers and business associates. Provide:\n\n- The top 10 Security Rule violations that most often lead to large penalties\n- 2–3 common risk assessment failures with concrete examples\n- The typical corrective actions OCR requires in resolution agreements"
+}

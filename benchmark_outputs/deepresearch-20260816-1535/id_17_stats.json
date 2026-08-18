@@ -1,0 +1,105 @@
+{
+  "total_llm_calls": 3,
+  "total_input_tokens": 64471,
+  "total_output_tokens": 7798,
+  "total_tokens": 72269,
+  "total_search_count": 10,
+  "total_search_results": 94,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1003,
+      "output_tokens": 216,
+      "total_tokens": 1219,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23717,
+      "output_tokens": 183,
+      "total_tokens": 23900,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 39751,
+      "output_tokens": 7399,
+      "total_tokens": 47150,
+      "message_count": 6
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "低代码 无代码 平台 影响 传统开发 效率 维护成本 2024 2025",
+      "effective_query": "低代码 无代码 平台 影响 传统开发 效率 维护成本 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "low-code no-code impact traditional development efficiency maintenance cost 2024",
+      "effective_query": "low-code no-code impact traditional development efficiency maintenance cost 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "低代码 无代码 开发效率 研究 报告",
+      "effective_query": "低代码 无代码 开发效率 研究 报告",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "low-code no-code platforms productivity vs maintenance cost",
+      "effective_query": "low-code no-code platforms productivity vs maintenance cost",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "低代码 无代码 优势 劣势 适用场景",
+      "effective_query": "低代码 无代码 优势 劣势 适用场景",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "低代码 无代码 维护成本 供应商锁定 影子IT 风险",
+      "effective_query": "低代码 无代码 维护成本 供应商锁定 影子IT 风险",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "low-code no-code vendor lock-in shadow IT maintenance burden",
+      "effective_query": "low-code no-code vendor lock-in shadow IT maintenance burden",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "低代码 无代码 案例 失败 教训",
+      "effective_query": "低代码 无代码 案例 失败 教训",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "low-code no-code platform limitations future trends 2025 2026",
+      "effective_query": "low-code no-code platform limitations future trends 2025 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "低代码 无代码 开发者视角 批评",
+      "effective_query": "低代码 无代码 开发者视角 批评",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 82,
+  "duration_seconds": 126.13980897516012,
+  "report_length": 16806,
+  "context_length": 126161,
+  "id": 17,
+  "prompt": "\"“在当今软件开发行业中，低代码/无代码平台对传统开发流程的影响有多大？它们是否真正提高了开发效率，还是在特定场景下反而增加了维护成本？”\n为什么这个问题有价值？\n行业趋势：低代码/无代码开发近年来发展迅速，许多企业尝试采用它们来加快产品交付速度。 \n生产力 vs. 维护成本：这些工具宣称能降低开发门槛，但长期来看，它们是否真的能提高效率，还是在维护和扩展时带来了更多问题？ \n开发者视角 vs. 业务视角：企业管理者可能认为它们降低了成本，但开发者可能认为它们限制了可扩展性和灵活性。 \n未来发展预测：是否会有越来越多企业完全转向低代码/无代码，还是它们只适用于特定业务场景？\"",
+  "language": "zh",
+  "topic": "Software Development"
+}

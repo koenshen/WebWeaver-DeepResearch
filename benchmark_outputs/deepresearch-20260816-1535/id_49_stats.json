@@ -1,0 +1,347 @@
+{
+  "total_llm_calls": 13,
+  "total_input_tokens": 313470,
+  "total_output_tokens": 16481,
+  "total_tokens": 329951,
+  "total_search_count": 18,
+  "total_search_results": 165,
+  "total_visit_count": 6,
+  "total_visit_success": 6,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 804,
+      "output_tokens": 590,
+      "total_tokens": 1394,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 9307,
+      "output_tokens": 159,
+      "total_tokens": 9466,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16482,
+      "output_tokens": 130,
+      "total_tokens": 16612,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24088,
+      "output_tokens": 162,
+      "total_tokens": 24250,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 33009,
+      "output_tokens": 853,
+      "total_tokens": 33862,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43987,
+      "output_tokens": 1673,
+      "total_tokens": 45660,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2781,
+      "output_tokens": 911,
+      "total_tokens": 3692,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27328,
+      "output_tokens": 2022,
+      "total_tokens": 29350,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14277,
+      "output_tokens": 1428,
+      "total_tokens": 15705,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1890,
+      "output_tokens": 551,
+      "total_tokens": 2441,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 57323,
+      "output_tokens": 1662,
+      "total_tokens": 58985,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 36865,
+      "output_tokens": 107,
+      "total_tokens": 36972,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 45329,
+      "output_tokens": 6233,
+      "total_tokens": 51562,
+      "message_count": 14
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "global orthodontics market women 20-30 age group demand",
+      "effective_query": "global orthodontics market women 20-30 age group demand",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "medical aesthetics market female 20-30 demographic data",
+      "effective_query": "medical aesthetics market female 20-30 demographic data",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "orthodontics medical aesthetics crossover trends 2024 2025",
+      "effective_query": "orthodontics medical aesthetics crossover trends 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "orthodontics medical aesthetics combined clinic trends",
+      "effective_query": "orthodontics medical aesthetics combined clinic trends",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "orthodontic treatment demand for aesthetics women 20-30",
+      "effective_query": "orthodontic treatment demand for aesthetics women 20-30",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "clear aligners cosmetic dentistry synergy medical aesthetics",
+      "effective_query": "clear aligners cosmetic dentistry synergy medical aesthetics",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "smile aesthetics facial harmony orthodontics injectables",
+      "effective_query": "smile aesthetics facial harmony orthodontics injectables",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "orthodontics and injectables combined treatment trends",
+      "effective_query": "orthodontics and injectables combined treatment trends",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "dental spa orthodontic aesthetic clinic model",
+      "effective_query": "dental spa orthodontic aesthetic clinic model",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "adult orthodontic patients motivation cosmetic vs health",
+      "effective_query": "adult orthodontic patients motivation cosmetic vs health",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "clear aligners market share by age group 2024",
+      "effective_query": "clear aligners market share by age group 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "ISAPS global aesthetic procedures 2023 age groups",
+      "effective_query": "ISAPS global aesthetic procedures 2023 age groups",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "American Academy of Facial Plastic Surgery statistics 2024 millennial",
+      "effective_query": "American Academy of Facial Plastic Surgery statistics 2024 millennial",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "young women cosmetic procedures statistics 2024 2025",
+      "effective_query": "young women cosmetic procedures statistics 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "orthodontics facial aesthetics synergy clinic model 2025",
+      "effective_query": "orthodontics facial aesthetics synergy clinic model 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "clear aligners botox combined treatment plan",
+      "effective_query": "clear aligners botox combined treatment plan",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "dental aesthetics medical aesthetics convergence market",
+      "effective_query": "dental aesthetics medical aesthetics convergence market",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Smile facial aesthetics market size 2025",
+      "effective_query": "Smile facial aesthetics market size 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.isaps.org/media/rxnfqibn/isaps-global-survey_2023.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 10.482
+        }
+      ],
+      "content_length": 115248,
+      "duration_seconds": 10.482,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.americanmedspa.org/news/youth-movement",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.504
+        }
+      ],
+      "content_length": 11697,
+      "duration_seconds": 4.505,
+      "summary_status": "success",
+      "summary_duration_seconds": 8.892,
+      "summary_length": 2579,
+      "summary_input_tokens": 2781,
+      "summary_output_tokens": 911
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10908024",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.129
+        }
+      ],
+      "content_length": 96955,
+      "duration_seconds": 1.13,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8916849",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.937
+        }
+      ],
+      "content_length": 46825,
+      "duration_seconds": 0.937,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://aaoinfo.org/blog/number-of-adults-seeing-an-orthodontist-is-at-an-all-time-high",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.675
+        }
+      ],
+      "content_length": 8343,
+      "duration_seconds": 4.675,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.353,
+      "summary_length": 1577,
+      "summary_input_tokens": 1890,
+      "summary_output_tokens": 551
+    },
+    {
+      "url": "https://www.isaps.org/media/oogpzodr/isaps-global-survey_2024.pdf",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.324
+        }
+      ],
+      "content_length": 152974,
+      "duration_seconds": 3.325,
+      "summary_status": "success",
+      "summary_duration_seconds": 13.942,
+      "summary_length": 3808,
+      "summary_input_tokens": 57323,
+      "summary_output_tokens": 1662
+    }
+  ],
+  "source_urls_count": 147,
+  "duration_seconds": 447.09254577104,
+  "report_length": 14802,
+  "context_length": 209517,
+  "id": 49,
+  "prompt": "为我调研全球范围内，20-30岁的女性对口腔正畸和医美的共同需求的比重。未来有没有把正畸和医美联系起来的可能性",
+  "language": "zh",
+  "topic": "Fashion & Beauty"
+}

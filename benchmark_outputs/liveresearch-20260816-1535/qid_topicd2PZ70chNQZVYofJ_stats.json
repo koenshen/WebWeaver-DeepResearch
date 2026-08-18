@@ -1,0 +1,558 @@
+{
+  "total_llm_calls": 22,
+  "total_input_tokens": 611916,
+  "total_output_tokens": 54011,
+  "total_tokens": 665927,
+  "total_search_count": 12,
+  "total_search_results": 113,
+  "total_visit_count": 15,
+  "total_visit_success": 15,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 965,
+      "output_tokens": 785,
+      "total_tokens": 1750,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 11204,
+      "output_tokens": 713,
+      "total_tokens": 11917,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 407,
+      "output_tokens": 3271,
+      "total_tokens": 3678,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47375,
+      "output_tokens": 1093,
+      "total_tokens": 48468,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 47454,
+      "output_tokens": 4001,
+      "total_tokens": 51455,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 334,
+      "output_tokens": 2491,
+      "total_tokens": 2825,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2890,
+      "output_tokens": 865,
+      "total_tokens": 3755,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38259,
+      "output_tokens": 1399,
+      "total_tokens": 39658,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 73838,
+      "output_tokens": 1956,
+      "total_tokens": 75794,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 73917,
+      "output_tokens": 4001,
+      "total_tokens": 77918,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38182,
+      "output_tokens": 286,
+      "total_tokens": 38468,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16591,
+      "output_tokens": 1357,
+      "total_tokens": 17948,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2535,
+      "output_tokens": 3682,
+      "total_tokens": 6217,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 13263,
+      "output_tokens": 178,
+      "total_tokens": 13441,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 27845,
+      "output_tokens": 866,
+      "total_tokens": 28711,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16689,
+      "output_tokens": 2427,
+      "total_tokens": 19116,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43578,
+      "output_tokens": 3852,
+      "total_tokens": 47430,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41206,
+      "output_tokens": 4001,
+      "total_tokens": 45207,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41127,
+      "output_tokens": 3432,
+      "total_tokens": 44559,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14436,
+      "output_tokens": 4001,
+      "total_tokens": 18437,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 29496,
+      "output_tokens": 3247,
+      "total_tokens": 32743,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 30325,
+      "output_tokens": 6107,
+      "total_tokens": 36432,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "smartphone social media neuroscience attention memory emotional regulation 2023 2024 2025",
+      "effective_query": "smartphone social media neuroscience attention memory emotional regulation 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "adolescent brain development social media connectivity 2022 2023 2024",
+      "effective_query": "adolescent brain development social media connectivity 2022 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "digital technology boredom solitude deep thinking cognitive science",
+      "effective_query": "digital technology boredom solitude deep thinking cognitive science",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cognitive abilities decline smartphones research 2023 2024",
+      "effective_query": "cognitive abilities decline smartphones research 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "smartphones rewiring brain consciousness research synthesis",
+      "effective_query": "smartphones rewiring brain consciousness research synthesis",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "social media adolescent brain development longitudinal study 2023 2024 2025",
+      "effective_query": "social media adolescent brain development longitudinal study 2023 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "smartphone attention span cognitive control research 2023 2024",
+      "effective_query": "smartphone attention span cognitive control research 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "digital technology default mode network deep thinking boredom 2023 2024",
+      "effective_query": "digital technology default mode network deep thinking boredom 2023 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "social media dopamine reward pathway adolescent brain 2023 2024",
+      "effective_query": "social media dopamine reward pathway adolescent brain 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "smartphone cognitive offloading memory effects 2023 2024",
+      "effective_query": "smartphone cognitive offloading memory effects 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "social media emotional regulation prefrontal cortex adolescents 2023 2024",
+      "effective_query": "social media emotional regulation prefrontal cortex adolescents 2023 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "digital dementia cognitive decline screen time 2023 2024",
+      "effective_query": "digital dementia cognitive decline screen time 2023 2024",
+      "retriever": "tavily",
+      "num_results": 8
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2799812",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 5.693
+        }
+      ],
+      "content_length": 499,
+      "duration_seconds": 5.694,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.952,
+      "summary_length": 1807,
+      "summary_input_tokens": 407,
+      "summary_output_tokens": 3271
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-024-63566-y",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.57
+        }
+      ],
+      "content_length": 154488,
+      "duration_seconds": 4.57,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2023.1203077/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 9.883
+        }
+      ],
+      "content_length": 141709,
+      "duration_seconds": 9.884,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.apa.org/news/apa/2022/social-media-children-teens",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 29.639
+        }
+      ],
+      "content_length": 203,
+      "duration_seconds": 29.64,
+      "summary_status": "success",
+      "summary_duration_seconds": 22.755,
+      "summary_length": 1331,
+      "summary_input_tokens": 334,
+      "summary_output_tokens": 2491
+    },
+    {
+      "url": "https://www.aap.org/en/patient-care/media-and-children/center-of-excellence-on-social-media-and-youth-mental-health/qa-portal/qa-portal-library/qa-portal-library-questions/social-media-use-and-the-brain",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.002
+        }
+      ],
+      "content_length": 8622,
+      "duration_seconds": 4.003,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001771",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.705
+        }
+      ],
+      "content_length": 112996,
+      "duration_seconds": 8.706,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.306,
+      "summary_length": 806,
+      "summary_input_tokens": 38259,
+      "summary_output_tokens": 1399
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12333551",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.727
+        }
+      ],
+      "content_length": 233903,
+      "duration_seconds": 1.727,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2451958823000465",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.683
+        }
+      ],
+      "content_length": 112998,
+      "duration_seconds": 7.684,
+      "summary_status": "success",
+      "summary_duration_seconds": 5.629,
+      "summary_length": 1434,
+      "summary_input_tokens": 38182,
+      "summary_output_tokens": 286
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12329480",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.98
+        }
+      ],
+      "content_length": 63377,
+      "duration_seconds": 0.98,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://theconversation.com/deep-reading-can-boost-your-critical-thinking-and-help-you-resist-misinformation-heres-how-to-build-the-skill-268082",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.352
+        }
+      ],
+      "content_length": 9269,
+      "duration_seconds": 2.352,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11499077",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.542
+        }
+      ],
+      "content_length": 68709,
+      "duration_seconds": 1.543,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8881643",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.759
+        }
+      ],
+      "content_length": 150395,
+      "duration_seconds": 3.76,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.67,
+      "summary_length": 6289,
+      "summary_input_tokens": 43578,
+      "summary_output_tokens": 3852
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9671478",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.015
+        }
+      ],
+      "content_length": 160214,
+      "duration_seconds": 3.015,
+      "summary_status": "success",
+      "summary_duration_seconds": 34.291,
+      "summary_length": 685,
+      "summary_input_tokens": 41206,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11532334",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.068
+        }
+      ],
+      "content_length": 56832,
+      "duration_seconds": 3.068,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2024.1383913/full",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.611
+        }
+      ],
+      "content_length": 99844,
+      "duration_seconds": 7.612,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    }
+  ],
+  "source_urls_count": 99,
+  "duration_seconds": 1561.764806526713,
+  "report_length": 29036,
+  "context_length": 177119,
+  "qid": "topicd2PZ70chNQZVYofJ",
+  "query": "Help me understand how smartphones and social media are rewiring our brains and changing human consciousness through a comprehensive analysis. Focus on two groups: adolescents and adults. I want to analyze (1) what neuroscience tells us about how constant connectivity affects attention, memory, and emotional regulation across different developmental stages, (2) how these technological changes might be altering fundamental aspects of human experience like solitude, boredom, and deep thinking, (3) whether we're losing cognitive abilities that took millennia to develop and what the implications are for human development. You should only focus on studies from the past 5 years ."
+}

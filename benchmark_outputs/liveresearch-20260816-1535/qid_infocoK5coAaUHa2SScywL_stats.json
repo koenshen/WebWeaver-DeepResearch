@@ -1,0 +1,316 @@
+{
+  "total_llm_calls": 6,
+  "total_input_tokens": 330556,
+  "total_output_tokens": 15231,
+  "total_tokens": 345787,
+  "total_search_count": 42,
+  "total_search_results": 400,
+  "total_visit_count": 0,
+  "total_visit_success": 0,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1005,
+      "output_tokens": 2367,
+      "total_tokens": 3372,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 26373,
+      "output_tokens": 843,
+      "total_tokens": 27216,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51692,
+      "output_tokens": 898,
+      "total_tokens": 52590,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 66461,
+      "output_tokens": 921,
+      "total_tokens": 67382,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 84323,
+      "output_tokens": 149,
+      "total_tokens": 84472,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 100702,
+      "output_tokens": 10053,
+      "total_tokens": 110755,
+      "message_count": 12
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "client-facing AI assistant wealth management 2024",
+      "effective_query": "client-facing AI assistant wealth management 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "AI copilot financial planning bank 2024",
+      "effective_query": "AI copilot financial planning bank 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Morgan Stanley AI @ Morgan Stanley client launch",
+      "effective_query": "Morgan Stanley AI @ Morgan Stanley client launch",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "JPMorgan IndexGPT launch 2024",
+      "effective_query": "JPMorgan IndexGPT launch 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Goldman Sachs AI wealth management advisor",
+      "effective_query": "Goldman Sachs AI wealth management advisor",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Wells Fargo Vantage AI assistant",
+      "effective_query": "Wells Fargo Vantage AI assistant",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Charles Schwab AI assistant 2024",
+      "effective_query": "Charles Schwab AI assistant 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Fidelity AI copilot wealth management",
+      "effective_query": "Fidelity AI copilot wealth management",
+      "retriever": "tavily",
+      "num_results": 8
+    },
+    {
+      "query": "RBC AI copilot wealth management",
+      "effective_query": "RBC AI copilot wealth management",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CIBC Aiscend AI advisor",
+      "effective_query": "CIBC Aiscend AI advisor",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "client-facing AI copilot wealth management launch 2024",
+      "effective_query": "client-facing AI copilot wealth management launch 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "\"AI portfolio manager\" bank launch 2025",
+      "effective_query": "\"AI portfolio manager\" bank launch 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "financial planning AI assistant bank launch 2026",
+      "effective_query": "financial planning AI assistant bank launch 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "generative AI wealth management client launch 2025",
+      "effective_query": "generative AI wealth management client launch 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Bank of America AI copilot wealth management 2024",
+      "effective_query": "Bank of America AI copilot wealth management 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Citi AI copilot wealth management 2024",
+      "effective_query": "Citi AI copilot wealth management 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "TD Bank AI advisor 2024",
+      "effective_query": "TD Bank AI advisor 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "BMO AI copilot wealth management 2024",
+      "effective_query": "BMO AI copilot wealth management 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Scotiabank AI wealth management 2025",
+      "effective_query": "Scotiabank AI wealth management 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Merrill Lynch AI copilot 2024",
+      "effective_query": "Merrill Lynch AI copilot 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "client-facing AI portfolio management tool bank launch 2025",
+      "effective_query": "client-facing AI portfolio management tool bank launch 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "client-facing AI financial planning tool bank 2025",
+      "effective_query": "client-facing AI financial planning tool bank 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "client-facing AI investment advisor bank launch 2025",
+      "effective_query": "client-facing AI investment advisor bank launch 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "client-facing AI copilot wealth management 2025 production",
+      "effective_query": "client-facing AI copilot wealth management 2025 production",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UBS AI client-facing wealth management 2024",
+      "effective_query": "UBS AI client-facing wealth management 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Vanguard AI client-facing 2025",
+      "effective_query": "Vanguard AI client-facing 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Citi Sky client-facing AI wealth assistant launch 2026",
+      "effective_query": "Citi Sky client-facing AI wealth assistant launch 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Schwab AI portfolio insights retail client 2026 launch",
+      "effective_query": "Schwab AI portfolio insights retail client 2026 launch",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Morgan Stanley AI client-facing 2026",
+      "effective_query": "Morgan Stanley AI client-facing 2026",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Bank of America Merrill AI-powered meeting journey 2026 launch",
+      "effective_query": "Bank of America Merrill AI-powered meeting journey 2026 launch",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "JPMorgan IndexGPT production launch 2024",
+      "effective_query": "JPMorgan IndexGPT production launch 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Wells Fargo Fargo virtual assistant launch 2023",
+      "effective_query": "Wells Fargo Fargo virtual assistant launch 2023",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CIBC AdvisorAssist launch 2026 client-facing",
+      "effective_query": "CIBC AdvisorAssist launch 2026 client-facing",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "RBC Assist client-facing AI wealth management 2025",
+      "effective_query": "RBC Assist client-facing AI wealth management 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "UBS AI client-facing wealth management tool name 2024 2025",
+      "effective_query": "UBS AI client-facing wealth management tool name 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Goldman Sachs Marcus AI investing 2024",
+      "effective_query": "Goldman Sachs Marcus AI investing 2024",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Goldman Sachs wealth management AI copilot client 2024",
+      "effective_query": "Goldman Sachs wealth management AI copilot client 2024",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Vanguard client-ready article summaries launch May 2025",
+      "effective_query": "Vanguard client-ready article summaries launch May 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Edward Jones AI advisor 2025",
+      "effective_query": "Edward Jones AI advisor 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Raymond James AI advisor 2025",
+      "effective_query": "Raymond James AI advisor 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "Ameriprise AI advisor 2025",
+      "effective_query": "Ameriprise AI advisor 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UBS STAAT AI wealth management 2025",
+      "effective_query": "UBS STAAT AI wealth management 2025",
+      "retriever": "tavily",
+      "num_results": 7
+    }
+  ],
+  "visit_calls_detail": [],
+  "source_urls_count": 328,
+  "duration_seconds": 294.9555311994627,
+  "report_length": 33679,
+  "context_length": 514714,
+  "qid": "infocoK5coAaUHa2SScywL",
+  "query": "Identify U.S. and Canadian banks and broker-dealers that, according to publicly available sources, launched (i.e., production, not pilot) client-facing AI portfolio-management or financial-planning ‘copilots’ during 2023–2026, and compile a due-diligence table covering: institution; assistant/product name; launch month; customer tier; geography & languages; core AI stack; safety & compliance; integrations (e.g., custodian/portfolio accounting/CRM/planning tools, SSO, audit logging); access & pricing; KPIs (e.g., adoption, satisfaction, ROI) where available; plus links to the bank/OEM press release, product page or demo, and at least one independent wealth-tech or fintech-trade article confirming the launch."
+}

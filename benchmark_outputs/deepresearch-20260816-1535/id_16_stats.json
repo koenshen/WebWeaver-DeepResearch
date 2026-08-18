@@ -1,0 +1,397 @@
+{
+  "total_llm_calls": 16,
+  "total_input_tokens": 431657,
+  "total_output_tokens": 37088,
+  "total_tokens": 468745,
+  "total_search_count": 13,
+  "total_search_results": 119,
+  "total_visit_count": 9,
+  "total_visit_success": 9,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 795,
+      "output_tokens": 280,
+      "total_tokens": 1075,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 14059,
+      "output_tokens": 204,
+      "total_tokens": 14263,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19065,
+      "output_tokens": 1285,
+      "total_tokens": 20350,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 43582,
+      "output_tokens": 1757,
+      "total_tokens": 45339,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22472,
+      "output_tokens": 4001,
+      "total_tokens": 26473,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22472,
+      "output_tokens": 4001,
+      "total_tokens": 26473,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38169,
+      "output_tokens": 510,
+      "total_tokens": 38679,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 67329,
+      "output_tokens": 3630,
+      "total_tokens": 70959,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18466,
+      "output_tokens": 145,
+      "total_tokens": 18611,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 72821,
+      "output_tokens": 2172,
+      "total_tokens": 74993,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38246,
+      "output_tokens": 936,
+      "total_tokens": 39182,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 835,
+      "output_tokens": 4001,
+      "total_tokens": 4836,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 835,
+      "output_tokens": 1815,
+      "total_tokens": 2650,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18688,
+      "output_tokens": 3782,
+      "total_tokens": 22470,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21815,
+      "output_tokens": 158,
+      "total_tokens": 21973,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 32008,
+      "output_tokens": 8411,
+      "total_tokens": 40419,
+      "message_count": 10
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "non-contact sensing best algorithms 2024 2025",
+      "effective_query": "non-contact sensing best algorithms 2024 2025",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "contactless sensing survey state-of-the-art accuracy",
+      "effective_query": "contactless sensing survey state-of-the-art accuracy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "WiFi sensing best accuracy human activity recognition",
+      "effective_query": "WiFi sensing best accuracy human activity recognition",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "mmWave radar non-contact sensing accuracy",
+      "effective_query": "mmWave radar non-contact sensing accuracy",
+      "retriever": "tavily",
+      "num_results": 7
+    },
+    {
+      "query": "RF sensing vital signs monitoring best accuracy",
+      "effective_query": "RF sensing vital signs monitoring best accuracy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "non-contact vision-based sensing best algorithms accuracy",
+      "effective_query": "non-contact vision-based sensing best algorithms accuracy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "audio sensing contactless touchless detection accuracy",
+      "effective_query": "audio sensing contactless touchless detection accuracy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "UWB radar vital signs monitoring accuracy 2024 2025",
+      "effective_query": "UWB radar vital signs monitoring accuracy 2024 2025",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "thermopile array non-contact human detection accuracy",
+      "effective_query": "thermopile array non-contact human detection accuracy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "lidar non-contact activity recognition accuracy",
+      "effective_query": "lidar non-contact activity recognition accuracy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "capacitive sensing non-contact gesture recognition accuracy",
+      "effective_query": "capacitive sensing non-contact gesture recognition accuracy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Doppler radar contactless heart rate accuracy",
+      "effective_query": "Doppler radar contactless heart rate accuracy",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "RFID passive sensing non-contact activity accuracy",
+      "effective_query": "RFID passive sensing non-contact activity accuracy",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11859840",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.182
+        }
+      ],
+      "content_length": 68105,
+      "duration_seconds": 1.182,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.051,
+      "summary_length": 4286,
+      "summary_input_tokens": 19065,
+      "summary_output_tokens": 1285
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12349365",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.802
+        }
+      ],
+      "content_length": 154153,
+      "duration_seconds": 2.803,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-025-09112-w",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.295
+        }
+      ],
+      "content_length": 86398,
+      "duration_seconds": 8.295,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231226002742",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.56
+        }
+      ],
+      "content_length": 112997,
+      "duration_seconds": 6.56,
+      "summary_status": "success",
+      "summary_duration_seconds": 6.035,
+      "summary_length": 1439,
+      "summary_input_tokens": 38169,
+      "summary_output_tokens": 510
+    },
+    {
+      "url": "https://www.mdpi.com/1424-8220/24/12/3963",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.869
+        }
+      ],
+      "content_length": 192662,
+      "duration_seconds": 6.871,
+      "summary_status": "success",
+      "summary_duration_seconds": 29.057,
+      "summary_length": 13896,
+      "summary_input_tokens": 67329,
+      "summary_output_tokens": 3630
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189504",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.634
+        }
+      ],
+      "content_length": 243632,
+      "duration_seconds": 1.634,
+      "summary_status": "success",
+      "summary_duration_seconds": 18.988,
+      "summary_length": 6874,
+      "summary_input_tokens": 72821,
+      "summary_output_tokens": 2172
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352864824000920",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.567
+        }
+      ],
+      "content_length": 112998,
+      "duration_seconds": 6.567,
+      "summary_status": "success",
+      "summary_duration_seconds": 14.327,
+      "summary_length": 1105,
+      "summary_input_tokens": 38246,
+      "summary_output_tokens": 936
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/10762264",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 8.354
+        }
+      ],
+      "content_length": 2743,
+      "duration_seconds": 8.354,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.139,
+      "summary_length": 1495,
+      "summary_input_tokens": 835,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12390021",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.581
+        }
+      ],
+      "content_length": 73584,
+      "duration_seconds": 1.581,
+      "summary_status": "success",
+      "summary_duration_seconds": 28.328,
+      "summary_length": 5282,
+      "summary_input_tokens": 18688,
+      "summary_output_tokens": 3782
+    }
+  ],
+  "source_urls_count": 113,
+  "duration_seconds": 619.0790117625147,
+  "report_length": 19332,
+  "context_length": 170423,
+  "id": 16,
+  "prompt": "收集整理目前非接触式感知领域做的最好的算法策略，并为我评估他们的输入信号与准确率",
+  "language": "zh",
+  "topic": "Software Development"
+}

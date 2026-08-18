@@ -1,0 +1,717 @@
+{
+  "total_llm_calls": 40,
+  "total_input_tokens": 631896,
+  "total_output_tokens": 51287,
+  "total_tokens": 683183,
+  "total_search_count": 15,
+  "total_search_results": 143,
+  "total_visit_count": 16,
+  "total_visit_success": 16,
+  "total_visit_failed": 0,
+  "llm_calls_detail": [
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 855,
+      "output_tokens": 292,
+      "total_tokens": 1147,
+      "message_count": 2
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16120,
+      "output_tokens": 415,
+      "total_tokens": 16535,
+      "message_count": 4
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 16539,
+      "output_tokens": 110,
+      "total_tokens": 16649,
+      "message_count": 6
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1291,
+      "output_tokens": 1154,
+      "total_tokens": 2445,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 17484,
+      "output_tokens": 105,
+      "total_tokens": 17589,
+      "message_count": 8
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1070,
+      "output_tokens": 1325,
+      "total_tokens": 2395,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 18656,
+      "output_tokens": 81,
+      "total_tokens": 18737,
+      "message_count": 10
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21080,
+      "output_tokens": 1383,
+      "total_tokens": 22463,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 19464,
+      "output_tokens": 130,
+      "total_tokens": 19594,
+      "message_count": 12
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4694,
+      "output_tokens": 1885,
+      "total_tokens": 6579,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20592,
+      "output_tokens": 120,
+      "total_tokens": 20712,
+      "message_count": 14
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4287,
+      "output_tokens": 4001,
+      "total_tokens": 8288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4287,
+      "output_tokens": 4001,
+      "total_tokens": 8288,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4287,
+      "output_tokens": 4000,
+      "total_tokens": 8287,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 20852,
+      "output_tokens": 122,
+      "total_tokens": 20974,
+      "message_count": 16
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21047,
+      "output_tokens": 85,
+      "total_tokens": 21132,
+      "message_count": 18
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2841,
+      "output_tokens": 3189,
+      "total_tokens": 6030,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21486,
+      "output_tokens": 118,
+      "total_tokens": 21604,
+      "message_count": 20
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 3244,
+      "output_tokens": 2415,
+      "total_tokens": 5659,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 21735,
+      "output_tokens": 83,
+      "total_tokens": 21818,
+      "message_count": 22
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4745,
+      "output_tokens": 1205,
+      "total_tokens": 5950,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 4745,
+      "output_tokens": 1151,
+      "total_tokens": 5896,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22027,
+      "output_tokens": 101,
+      "total_tokens": 22128,
+      "message_count": 24
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 6773,
+      "output_tokens": 730,
+      "total_tokens": 7503,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 22489,
+      "output_tokens": 114,
+      "total_tokens": 22603,
+      "message_count": 26
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5444,
+      "output_tokens": 2013,
+      "total_tokens": 7457,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 23640,
+      "output_tokens": 98,
+      "total_tokens": 23738,
+      "message_count": 28
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 5283,
+      "output_tokens": 1093,
+      "total_tokens": 6376,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 24442,
+      "output_tokens": 97,
+      "total_tokens": 24539,
+      "message_count": 30
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 1323,
+      "output_tokens": 1500,
+      "total_tokens": 2823,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 25785,
+      "output_tokens": 112,
+      "total_tokens": 25897,
+      "message_count": 32
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 38376,
+      "output_tokens": 85,
+      "total_tokens": 38461,
+      "message_count": 34
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 7759,
+      "output_tokens": 2285,
+      "total_tokens": 10044,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 40421,
+      "output_tokens": 105,
+      "total_tokens": 40526,
+      "message_count": 36
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8819,
+      "output_tokens": 4001,
+      "total_tokens": 12820,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 8819,
+      "output_tokens": 3852,
+      "total_tokens": 12671,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 41719,
+      "output_tokens": 101,
+      "total_tokens": 41820,
+      "message_count": 38
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 2913,
+      "output_tokens": 1198,
+      "total_tokens": 4111,
+      "message_count": 1
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 42767,
+      "output_tokens": 81,
+      "total_tokens": 42848,
+      "message_count": 40
+    },
+    {
+      "model": "aionly/deepseek-v4-flash",
+      "input_tokens": 51696,
+      "output_tokens": 6351,
+      "total_tokens": 58047,
+      "message_count": 42
+    }
+  ],
+  "search_calls_detail": [
+    {
+      "query": "SEC cyber incident disclosure rules 2024 ransomware payment materiality",
+      "effective_query": "SEC cyber incident disclosure rules 2024 ransomware payment materiality",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "OFAC ransomware payment guidance sanctions risk advisory",
+      "effective_query": "OFAC ransomware payment guidance sanctions risk advisory",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SEC enforcement action ransomware disclosure failure penalty",
+      "effective_query": "SEC enforcement action ransomware disclosure failure penalty",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "ransomware payment disclosure requirements healthcare HIPAA HHS",
+      "effective_query": "ransomware payment disclosure requirements healthcare HIPAA HHS",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "NYDFS cybersecurity regulation ransomware payment notification",
+      "effective_query": "NYDFS cybersecurity regulation ransomware payment notification",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "CISA ransomware disclosure requirements critical infrastructure",
+      "effective_query": "CISA ransomware disclosure requirements critical infrastructure",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SEC enforcement SolarWinds CISO cybersecurity disclosure charges 2023",
+      "effective_query": "SEC enforcement SolarWinds CISO cybersecurity disclosure charges 2023",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Ransomware payment disclosure lessons learned enterprise incident response strategy",
+      "effective_query": "Ransomware payment disclosure lessons learned enterprise incident response strategy",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "SEC Ripplewood Adelphia disclosure controls cybersecurity enforcement trend",
+      "effective_query": "SEC Ripplewood Adelphia disclosure controls cybersecurity enforcement trend",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "DOJ false claims act cybersecurity disclosure healthcare ransomware",
+      "effective_query": "DOJ false claims act cybersecurity disclosure healthcare ransomware",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "cyber insurance disclosure requirements ransomware payment SEC rules",
+      "effective_query": "cyber insurance disclosure requirements ransomware payment SEC rules",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "SEC proposed rule cybersecurity incident reporting 2025 update",
+      "effective_query": "SEC proposed rule cybersecurity incident reporting 2025 update",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "Change Healthcare ransomware disclosure regulatory impact",
+      "effective_query": "Change Healthcare ransomware disclosure regulatory impact",
+      "retriever": "tavily",
+      "num_results": 10
+    },
+    {
+      "query": "healthcare ransomware payment disclosure lessons learned",
+      "effective_query": "healthcare ransomware payment disclosure lessons learned",
+      "retriever": "tavily",
+      "num_results": 9
+    },
+    {
+      "query": "critical infrastructure ransomware payment reporting requirements overview",
+      "effective_query": "critical infrastructure ransomware payment reporting requirements overview",
+      "retriever": "tavily",
+      "num_results": 9
+    }
+  ],
+  "visit_calls_detail": [
+    {
+      "url": "https://www.mintz.com/insights-center/viewpoints/2901/2024-07-11-sec-issues-updated-guidance-cybersecurity-incident",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.513
+        }
+      ],
+      "content_length": 5296,
+      "duration_seconds": 4.513,
+      "summary_status": "success",
+      "summary_duration_seconds": 11.556,
+      "summary_length": 4468,
+      "summary_input_tokens": 1291,
+      "summary_output_tokens": 1154
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2024-174",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.513
+        }
+      ],
+      "content_length": 4383,
+      "duration_seconds": 0.513,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.804,
+      "summary_length": 5713,
+      "summary_input_tokens": 1070,
+      "summary_output_tokens": 1325
+    },
+    {
+      "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/sec-brings-cyber-disclosure-enforcement-action",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 7.346
+        }
+      ],
+      "content_length": 67874,
+      "duration_seconds": 7.346,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.91,
+      "summary_length": 4161,
+      "summary_input_tokens": 21080,
+      "summary_output_tokens": 1383
+    },
+    {
+      "url": "https://www.hklaw.com/en/insights/publications/2021/06/sec-issues-first-ever-penalties-for-deficient-cybersecurity-risk",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.352
+        }
+      ],
+      "content_length": 19942,
+      "duration_seconds": 2.352,
+      "summary_status": "success",
+      "summary_duration_seconds": 16.451,
+      "summary_length": 6182,
+      "summary_input_tokens": 4694,
+      "summary_output_tokens": 1885
+    },
+    {
+      "url": "https://ofac.treasury.gov/media/912981/download?inline=",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.682
+        }
+      ],
+      "content_length": 19588,
+      "duration_seconds": 1.682,
+      "summary_status": "success",
+      "summary_duration_seconds": 35.974,
+      "summary_length": 18110,
+      "summary_input_tokens": 4287,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.insideprivacy.com/cybersecurity-2/ofac-issues-updated-guidance-on-ransomware-payments",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.709
+        }
+      ],
+      "content_length": 15677,
+      "duration_seconds": 4.709,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://ofac.treasury.gov/recent-actions/20201001",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.203
+        }
+      ],
+      "content_length": 9567,
+      "duration_seconds": 2.203,
+      "summary_status": "success",
+      "summary_duration_seconds": 32.426,
+      "summary_length": 2498,
+      "summary_input_tokens": 2841,
+      "summary_output_tokens": 3189
+    },
+    {
+      "url": "https://www.dfs.ny.gov/industry_guidance/industry_letters/il20210630_ransomware_guidance",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.994
+        }
+      ],
+      "content_length": 14597,
+      "duration_seconds": 3.994,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://compassmsp.com/resources/articles/the-nydfs-part-500-ransomware-update-is-here-what-every-covered-entity-needs-to-know",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 3.393
+        }
+      ],
+      "content_length": 21735,
+      "duration_seconds": 3.393,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.302
+        }
+      ],
+      "content_length": 27102,
+      "duration_seconds": 4.302,
+      "summary_status": "success",
+      "summary_duration_seconds": 7.463,
+      "summary_length": 2416,
+      "summary_input_tokens": 6773,
+      "summary_output_tokens": 730
+    },
+    {
+      "url": "https://www.hhs.gov/hipaa/for-professionals/security/guidance/cybersecurity/ransomware-fact-sheet/index.html",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 1.646
+        }
+      ],
+      "content_length": 25742,
+      "duration_seconds": 1.646,
+      "summary_status": "success",
+      "summary_duration_seconds": 17.209,
+      "summary_length": 5593,
+      "summary_input_tokens": 5444,
+      "summary_output_tokens": 2013
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/speeches-statements/gerding-cybersecurity-disclosure-20231214",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 0.791
+        }
+      ],
+      "content_length": 24642,
+      "duration_seconds": 0.791,
+      "summary_status": "success",
+      "summary_duration_seconds": 10.627,
+      "summary_length": 4299,
+      "summary_input_tokens": 5283,
+      "summary_output_tokens": 1093
+    },
+    {
+      "url": "https://www.hunton.com/insights/legal/ofacs-updated-advisory-on-ransomware-payments",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 2.784
+        }
+      ],
+      "content_length": 6218,
+      "duration_seconds": 2.785,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.837,
+      "summary_length": 7402,
+      "summary_input_tokens": 1323,
+      "summary_output_tokens": 1500
+    },
+    {
+      "url": "https://www.whitecase.com/insight-alert/secs-charges-against-solarwinds-and-its-chief-information-security-officer-provide",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 4.321
+        }
+      ],
+      "content_length": 35787,
+      "duration_seconds": 4.321,
+      "summary_status": "failed",
+      "summary_duration_seconds": 0,
+      "summary_length": 0,
+      "summary_input_tokens": 0,
+      "summary_output_tokens": 0,
+      "summary_error": "Summary server returned empty content."
+    },
+    {
+      "url": "https://www.acaglobal.com/industry-insights/new-york-state-department-financial-services-expands-cybersecurity-rules",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.692
+        }
+      ],
+      "content_length": 38646,
+      "duration_seconds": 6.692,
+      "summary_status": "success",
+      "summary_duration_seconds": 38.048,
+      "summary_length": 935,
+      "summary_input_tokens": 8819,
+      "summary_output_tokens": 4001
+    },
+    {
+      "url": "https://www.mintz.com/insights-center/viewpoints/2406/2026-01-13-cybersecurity-related-enforcement-under-false-claims-act",
+      "retriever": "jina",
+      "status": "success",
+      "attempts": [
+        {
+          "attempt": 1,
+          "key_index": 1,
+          "http_status": 200,
+          "duration_seconds": 6.329
+        }
+      ],
+      "content_length": 13179,
+      "duration_seconds": 6.329,
+      "summary_status": "success",
+      "summary_duration_seconds": 12.296,
+      "summary_length": 5351,
+      "summary_input_tokens": 2913,
+      "summary_output_tokens": 1198
+    }
+  ],
+  "source_urls_count": 134,
+  "duration_seconds": 1107.4315790701658,
+  "report_length": 27018,
+  "context_length": 291897,
+  "qid": "policyfX8vyl8vSaEC7Jue",
+  "query": "As a risk analyst developing incident disclosure procedures, help me analyze ransomware payment disclosure requirements in the U.S. from both a regulatory filing and public/investor disclosure perspective. Focus on cross-industry lessons, including financial services, healthcare, and critical infrastructure. Provide:\n\n- Key disclosure requirements (e.g., SEC cyber rules, OFAC guidance, other federal frameworks)\n- Examples where enforcement highlighted shortcomings\n- Lessons for enterprises on disclosure strategy"
+}
