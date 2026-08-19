@@ -16,6 +16,7 @@ import requests
 from qwen_agent.tools.base import BaseTool
 from benchmark.benchmark_stats import current
 from benchmark.llm_trace import next_call_group, record as record_llm_trace
+from benchmark.runtime_log import heartbeat, log
 
 
 class TavilyUsageLimitExceeded(BaseException):
@@ -33,12 +34,12 @@ def raise_if_fatal() -> None:
 
 def _overflow_log(message: str) -> None:
     """Make Tavily query-length handling conspicuous in terminal output."""
-    print(f"\033[91m[Tavily overflow] {message}\033[0m", flush=True)
+    log(f"\033[91m[Tavily overflow] {message}\033[0m")
 
 
 def _quota_log(message: str) -> None:
     """Make Tavily quota exhaustion and key rotation conspicuous."""
-    print(f"\033[91m[Tavily quota] {message}\033[0m", flush=True)
+    log(f"\033[91m[Tavily quota] {message}\033[0m")
 
 
 class TavilySearchTool(BaseTool):
@@ -110,14 +111,14 @@ class TavilySearchTool(BaseTool):
                 started=time.monotonic()
                 response = client.chat.completions.create(
                     model=model,
-                    temperature=0,
+                    temperature=1,
                     max_tokens=1000,
                     messages=messages,
                 )
                 current = (response.choices[0].message.content or "").strip()
                 usage_obj=getattr(response,'usage',None)
                 usage={'input_tokens':getattr(usage_obj,'prompt_tokens',0) or 0,'output_tokens':getattr(usage_obj,'completion_tokens',0) or 0}
-                record_llm_trace(purpose='query_compression',call_group=call_group,attempt=attempt,model=model,temperature=0,messages=messages,status='success' if current else 'empty_response',duration_seconds=time.monotonic()-started,response=current,usage={**usage,'total_tokens':usage['input_tokens']+usage['output_tokens']})
+                record_llm_trace(purpose='query_compression',call_group=call_group,attempt=attempt,model=model,temperature=1,messages=messages,status='success' if current else 'empty_response',duration_seconds=time.monotonic()-started,response=current,usage={**usage,'total_tokens':usage['input_tokens']+usage['output_tokens']})
                 _overflow_log(f"LLM summary output_length={len(current)}")
                 if len(current) <= limit:
                     _overflow_log(f"LLM summary succeeded on attempt {attempt}")
@@ -126,7 +127,7 @@ class TavilySearchTool(BaseTool):
             if 'call_group' in locals() and 'messages' in locals():
                 record_llm_trace(
                     purpose='query_compression', call_group=call_group,
-                    attempt=locals().get('attempt', 1), model=model, temperature=0,
+                    attempt=locals().get('attempt', 1), model=model, temperature=1,
                     messages=messages, status='api_error',
                     duration_seconds=time.monotonic()-locals().get('started',time.monotonic()),
                     error=exc,
@@ -157,12 +158,15 @@ class TavilySearchTool(BaseTool):
                 "use_cache": True,
             }
             try:
+                log(f'[Tavily] START key={key_number}/{key_count} query={effective_query[:200]!r}')
+                stop_waiting=heartbeat(f'Tavily query key={key_number}/{key_count}')
                 response = requests.post(
                     "https://api.tavily.com/search",
                     data=json.dumps(payload),
                     headers={"Content-Type": "application/json"},
                     timeout=100,
                 )
+                duration=stop_waiting()
                 if response.status_code in (403, 432, 433):
                     _quota_log(
                         f"key {key_number}/{key_count} exhausted: "
@@ -184,8 +188,11 @@ class TavilySearchTool(BaseTool):
                     raise _fatal_error
                 response.raise_for_status()
                 results = response.json().get("results", [])
+                log(f'[Tavily] END status=success results={len(results)} duration={duration:.3f}s')
                 break
             except Exception as exc:
+                if 'stop_waiting' in locals(): stop_waiting()
+                log(f'[Tavily] END status=error error={type(exc).__name__}: {exc}')
                 if current(): current().on_search_call(query, effective_query, 'tavily', 0)
                 return f"[Search] Tavily request failed for {query!r}: {exc}"
 

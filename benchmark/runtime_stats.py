@@ -1,10 +1,12 @@
 """Runtime-only instrumentation; does not edit inference source files."""
 from __future__ import annotations
-import os, time, threading
+import os, time
 import requests
 from openai import OpenAI
 from benchmark.benchmark_stats import ResearchStats,set_current,clear_current,current,usage_dict
 from benchmark.llm_trace import begin as begin_llm_trace, finish as finish_llm_trace, next_call_group, record as record_llm_trace
+from benchmark.llm_trace import _trace_path
+from benchmark.runtime_log import heartbeat, log
 
 class JinaUsageLimitExceeded(BaseException):
     """Stop a benchmark after every configured Jina Reader key is exhausted."""
@@ -16,13 +18,13 @@ def raise_if_jina_fatal():
         raise _jina_fatal_error
 
 def _jina_quota_log(message):
-    print(f'\033[91m[Jina quota] {message}\033[0m',flush=True)
+    log(f'\033[91m[Jina quota] {message}\033[0m')
 
 def _jina_log(message):
-    print(f'[Jina] {message}',flush=True)
+    log(f'[Jina] {message}')
 
 def _jina_summary_log(message):
-    print(f'[Jina summary] {message}',flush=True)
+    log(f'[Jina summary] {message}')
 
 def install(react_agent):
     original_run=react_agent.MultiTurnReactAgent._run
@@ -47,33 +49,50 @@ def install(react_agent):
                 'context_length':len(str(result.get('messages',[]))),
             })
             result['_benchmark_stats']=summary
+            trace_path = _trace_path(question)
+            if trace_path is not None:
+                result['_benchmark_trace_path']=str(trace_path)
             return result
         finally:
             clear_current()
             finish_llm_trace()
     react_agent.MultiTurnReactAgent._run=wrapped_run
 
+    original_module_print = react_agent.print if hasattr(react_agent, 'print') else print
+    def timestamped_react_print(*args, **kwargs):
+        text = " ".join(str(arg) for arg in args)
+        if text.startswith('Round ') and ': ' in text:
+            prefix, content = text.split(': ', 1)
+            log(prefix)
+            from benchmark.runtime_log import preview
+            preview('main_agent', content)
+            return
+        log(text)
+    react_agent.print = timestamped_react_print
+
     visit=react_agent.TOOL_MAP['visit']; original_visit=visit.call_server
     raw_jina_keys=os.getenv('JINA_API_KEYS','')
     jina_keys=list(dict.fromkeys(key.strip() for key in raw_jina_keys.split(',') if key.strip()))
     jina_key_index=0
-    visit_context=threading.local()
+    visit_context={'url':'unknown'}
     if jina_keys:
         def tracked_jina_readpage(url):
             nonlocal jina_key_index
             global _jina_fatal_error
             timeout=50; attempt=0; max_retries=3; started=time.monotonic(); attempts=[]
-            visit_context.url=url
+            visit_context['url']=url
             while True:
                 key_number=jina_key_index+1; key_count=len(jina_keys)
                 request_started=time.monotonic()
                 _jina_log(f'fetching with key {key_number}/{key_count}, attempt {attempt+1}/{max_retries}: {url}')
                 try:
+                    stop_waiting=heartbeat(f'Jina fetch url={url}')
                     response=requests.get(
                         f'https://r.jina.ai/{url}',
                         headers={'Authorization':f'Bearer {jina_keys[jina_key_index]}'},
                         timeout=timeout,
                     )
+                    stop_waiting()
                     request_duration=round(time.monotonic()-request_started,3)
                     attempts.append({'attempt':attempt+1,'key_index':key_number,'http_status':response.status_code,'duration_seconds':request_duration})
                     if response.status_code == 200:
@@ -106,6 +125,7 @@ def install(react_agent):
                 except JinaUsageLimitExceeded:
                     raise
                 except Exception as exc:
+                    if 'stop_waiting' in locals(): stop_waiting()
                     request_duration=round(time.monotonic()-request_started,3)
                     if not attempts or attempts[-1].get('duration_seconds') != request_duration:
                         attempts.append({'attempt':attempt+1,'key_index':key_number,'http_status':None,'duration_seconds':request_duration,'error_type':type(exc).__name__,'error':str(exc)})
@@ -129,16 +149,18 @@ def install(react_agent):
     def tracked_visit(msgs,max_retries=2):
         key=os.getenv('API_KEY'); base=os.getenv('API_BASE'); model=os.getenv('SUMMARY_MODEL_NAME','')
         if not (key and base and model): return original_visit(msgs,max_retries)
-        url=getattr(visit_context,'url','unknown')
+        url=visit_context['url']
         call_group=next_call_group('visit_summary')
         for attempt in range(max_retries):
             started=time.monotonic()
             _jina_summary_log(f'URL {url}, attempt {attempt+1}/{max_retries}, model={model}')
             try:
-                response=OpenAI(api_key=key,base_url=base).chat.completions.create(model=model,messages=msgs,temperature=0.0 if attempt == 0 else 1.0,max_tokens=4000)
+                stop_waiting=heartbeat(f'Jina summary url={url} attempt={attempt+1}/{max_retries}')
+                response=OpenAI(api_key=key,base_url=base).chat.completions.create(model=model,messages=msgs,temperature=1,max_tokens=4000)
+                stop_waiting()
                 content=response.choices[0].message.content or ''
                 usage=usage_dict(response.usage); duration=round(time.monotonic()-started,3)
-                record_llm_trace(purpose='visit_summary',call_group=call_group,attempt=attempt+1,model=model,temperature=0.0 if attempt == 0 else 1.0,messages=msgs,status='success' if content.strip() else 'empty_response',duration_seconds=duration,response=content,usage={**usage,'total_tokens':usage['input_tokens']+usage['output_tokens']})
+                record_llm_trace(purpose='visit_summary',call_group=call_group,attempt=attempt+1,model=model,temperature=1,messages=msgs,status='success' if content.strip() else 'empty_response',duration_seconds=duration,response=content,usage={**usage,'total_tokens':usage['input_tokens']+usage['output_tokens']})
                 if content.strip():
                     _jina_summary_log(f'success: URL {url}, {len(content.strip())} chars, input_tokens={usage["input_tokens"]}, output_tokens={usage["output_tokens"]}, {duration:.3f}s')
                     if current():
@@ -150,8 +172,9 @@ def install(react_agent):
                     f'{time.monotonic()-started:.3f}s'
                 )
             except Exception as exc:
+                if 'stop_waiting' in locals(): stop_waiting()
                 duration=round(time.monotonic()-started,3)
-                record_llm_trace(purpose='visit_summary',call_group=call_group,attempt=attempt+1,model=model,temperature=0.0 if attempt == 0 else 1.0,messages=msgs,status='api_error',duration_seconds=duration,error=exc)
+                record_llm_trace(purpose='visit_summary',call_group=call_group,attempt=attempt+1,model=model,temperature=1,messages=msgs,status='api_error',duration_seconds=duration,error=exc)
                 _jina_summary_log(f'failed: URL {url}, {type(exc).__name__}: {exc}, {duration:.3f}s')
                 if attempt==max_retries-1:
                     if current(): current().on_visit_summary(url,'failed',duration,0,error=f'{type(exc).__name__}: {exc}')

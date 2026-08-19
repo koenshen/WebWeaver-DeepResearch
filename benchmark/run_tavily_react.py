@@ -34,9 +34,10 @@ def main() -> None:
 
     if use_external_main:
         from benchmark.openai_compatible_transport import install
+        from benchmark.runtime_log import log
 
         install(react_agent)
-        print("OpenAI-compatible main-model plugin enabled")
+        log("OpenAI-compatible main-model plugin enabled")
 
     if only_tavily:
         if not os.getenv("TAVILY_API_KEY"):
@@ -47,7 +48,8 @@ def main() -> None:
         react_agent.TOOL_MAP["search"] = TavilySearchTool()
         react_agent.TOOL_MAP["google_scholar"] = DisabledScholarTool()
         react_agent.SYSTEM_PROMPT = tavily_only_prompt(prompt.SYSTEM_PROMPT)
-        print("Tavily-only plugin enabled: search=Tavily, google_scholar=disabled")
+        from benchmark.runtime_log import log
+        log("Tavily-only plugin enabled: search=Tavily, google_scholar=disabled")
     elif not use_external_main:
         print("Tavily-only plugin disabled: preserving original inference behavior")
 

@@ -5,18 +5,16 @@ from __future__ import annotations
 import os
 import time
 from typing import Any
+import json5
 
 from openai import APIConnectionError, APIError, APITimeoutError, OpenAI
 from benchmark.benchmark_stats import current, usage_dict
 from benchmark.llm_trace import next_call_group, record as record_llm_trace
+from benchmark.runtime_log import heartbeat, log, preview
 
 
-NO_SUPPORT_TEMPERATURE_MODELS = {
-    "deepseek/deepseek-reasoner", "o1-mini", "o1-mini-2024-09-12",
-    "o1", "o1-2024-12-17", "o3-mini", "o3-mini-2025-01-31",
-    "o1-preview", "o3", "o3-2025-04-16", "o4-mini",
-    "o4-mini-2025-04-16", "gpt-5", "gpt-5-mini",
-}
+class LLMResponseRetriesExhausted(RuntimeError):
+    """A round exhausted its ten API/format/search-completion attempts."""
 
 
 def enabled() -> bool:
@@ -45,42 +43,58 @@ def install(react_agent_module: Any) -> None:
             raise_if_fatal()
             raise_if_jina_fatal()
             try:
-                temperature = self.llm_generate_cfg.get("temperature", 0.6)
-                if attempt >= 1 and model not in NO_SUPPORT_TEMPERATURE_MODELS:
-                    temperature = 1
+                temperature = 1
                 started = time.monotonic()
+                log(f'[main_agent call_group={call_group} attempt={attempt+1}/{max_tries}] START input_messages={len(msgs)} temperature={temperature}')
+                stop_waiting = heartbeat(f'main_agent call_group={call_group} attempt={attempt+1}/{max_tries}')
                 response = client.chat.completions.create(
                     model=model,
                     messages=msgs,
                     stop=["\n<tool_response>", "<tool_response>"],
                     temperature=temperature,
                     top_p=self.llm_generate_cfg.get("top_p", 0.95),
-                    max_tokens=10000,
+                    max_tokens=int(os.getenv("OPENAI_COMPATIBLE_MAX_OUTPUT_TOKENS", "131072")),
                     presence_penalty=self.llm_generate_cfg.get("presence_penalty", 1.1),
                 )
+                duration = stop_waiting()
                 content = response.choices[0].message.content
                 usage = usage_dict(response.usage)
+                has_tool = bool(content and '<tool_call>' in content and '</tool_call>' in content)
+                if has_tool:
+                    try:
+                        json5.loads(content.split('<tool_call>', 1)[1].split('</tool_call>', 1)[0])
+                    except Exception:
+                        has_tool = False
+                has_answer = bool(content and '<answer>' in content and '</answer>' in content)
+                valid_protocol = has_tool or has_answer
+                missing_search = has_answer and current() is not None and current().total_search_results <= 0
+                status = 'success' if content and content.strip() and valid_protocol and not missing_search else ('no_tavily_search' if missing_search else ('invalid_protocol_response' if content and content.strip() else 'empty_response'))
                 record_llm_trace(
                     purpose="main_agent", call_group=call_group, attempt=attempt + 1,
                     model=model, temperature=temperature, messages=msgs,
-                    status="success" if content and content.strip() else "empty_response",
-                    duration_seconds=time.monotonic() - started, response=content or "",
+                    status=status, duration_seconds=duration, response=content or "",
                     usage={**usage, "total_tokens": usage["input_tokens"] + usage["output_tokens"]},
+                    valid_protocol_response=valid_protocol,
                 )
-                if content and content.strip():
+                if content and content.strip() and valid_protocol and not missing_search:
+                    log(f'[main_agent call_group={call_group} attempt={attempt+1}/{max_tries}] END status=success duration={duration:.3f}s input_tokens={usage["input_tokens"]} output_tokens={usage["output_tokens"]}')
                     if current():
                         current().on_llm_call(model, msgs, content.strip(), usage)
                     return content.strip()
-                print(f"Warning: external API returned an empty response (attempt {attempt + 1}/{max_tries})")
+                reason = 'no successful Tavily search before final answer' if missing_search else ('invalid protocol response' if content and content.strip() else 'empty response')
+                log(f'[main_agent call_group={call_group} attempt={attempt+1}/{max_tries}] RETRY reason={reason} duration={duration:.3f}s')
+                if content and content.strip(): preview('main_agent invalid', content.strip())
             except (APIError, APIConnectionError, APITimeoutError) as exc:
+                if 'stop_waiting' in locals(): stop_waiting()
                 record_llm_trace(purpose="main_agent",call_group=call_group,attempt=attempt+1,model=model,temperature=locals().get('temperature'),messages=msgs,status="api_error",duration_seconds=time.monotonic()-locals().get('started',time.monotonic()),error=exc)
-                print(f"External API error (attempt {attempt + 1}/{max_tries}): {exc}")
+                log(f'[main_agent call_group={call_group} attempt={attempt+1}/{max_tries}] API_ERROR {exc}')
             except Exception as exc:
+                if 'stop_waiting' in locals(): stop_waiting()
                 record_llm_trace(purpose="main_agent",call_group=call_group,attempt=attempt+1,model=model,temperature=locals().get('temperature'),messages=msgs,status="unexpected_error",duration_seconds=time.monotonic()-locals().get('started',time.monotonic()),error=exc)
-                print(f"Unexpected external API error (attempt {attempt + 1}/{max_tries}): {exc}")
+                log(f'[main_agent call_group={call_group} attempt={attempt+1}/{max_tries}] UNEXPECTED_ERROR {exc}')
             if attempt < max_tries - 1:
                 time.sleep(min(2 ** attempt, 30))
-        return "vllm server error!!!"
+        raise LLMResponseRetriesExhausted(f'main_agent call_group={call_group} exhausted {max_tries} attempts')
 
     def count_tokens(self: Any, messages: list[dict[str, str]]) -> int:
         """Avoid loading local model weights merely to estimate context length."""

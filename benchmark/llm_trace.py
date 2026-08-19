@@ -5,14 +5,12 @@ import hashlib
 import json
 import os
 import shutil
-import threading
 import uuid
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-_LOCAL = threading.local()
-_WRITE_LOCK = threading.Lock()
+_STATE: dict[str, Any] = {}
 
 
 def _trace_path(question: str) -> Path | None:
@@ -20,24 +18,21 @@ def _trace_path(question: str) -> Path | None:
     if not root:
         return None
     digest = hashlib.sha256(question.encode("utf-8")).hexdigest()
-    return Path(root) / f"{digest}.jsonl"
+    session_id = os.getenv("BENCHMARK_TRACE_SESSION_ID", _STATE.get("session_id", ""))
+    suffix = f"_{session_id}" if session_id else ""
+    return Path(root) / f"{digest}{suffix}.jsonl"
 
 
 def begin(question: str) -> None:
-    _LOCAL.question = question
-    _LOCAL.session_id = uuid.uuid4().hex
-    _LOCAL.call_index = 0
-    _LOCAL.call_groups = {}
+    _STATE.update(question=question, session_id=uuid.uuid4().hex, call_index=0, call_groups={})
 
 
 def finish() -> None:
-    for name in ("question", "session_id", "call_index", "call_groups"):
-        if hasattr(_LOCAL, name):
-            delattr(_LOCAL, name)
+    _STATE.clear()
 
 
 def next_call_group(purpose: str) -> int:
-    groups = getattr(_LOCAL, "call_groups", None)
+    groups = _STATE.get("call_groups")
     if groups is None:
         return 1
     groups[purpose] = groups.get(purpose, 0) + 1
@@ -57,20 +52,21 @@ def record(
     response: str | None = None,
     usage: dict[str, int] | None = None,
     error: BaseException | None = None,
+    valid_protocol_response: bool | None = None,
 ) -> None:
-    question = getattr(_LOCAL, "question", "")
+    question = _STATE.get("question", "")
     path = _trace_path(question) if question else None
     if path is None:
         return
-    _LOCAL.call_index = getattr(_LOCAL, "call_index", 0) + 1
+    _STATE["call_index"] = _STATE.get("call_index", 0) + 1
     has_tool_call = bool(response and "<tool_call>" in response and "</tool_call>" in response)
     has_answer = bool(response and "<answer>" in response and "</answer>" in response)
-    valid_protocol_response = (
-        has_tool_call or has_answer if purpose == "main_agent" else bool(response)
-    )
+    computed_valid_protocol_response = has_tool_call or has_answer if purpose == "main_agent" else bool(response)
+    if valid_protocol_response is None:
+        valid_protocol_response = computed_valid_protocol_response
     event = {
-        "session_id": getattr(_LOCAL, "session_id", ""),
-        "call_index": _LOCAL.call_index,
+        "session_id": _STATE.get("session_id", ""),
+        "call_index": _STATE["call_index"],
         "purpose": purpose,
         "call_group": call_group,
         "attempt": attempt,
@@ -93,18 +89,36 @@ def record(
         event["error"] = str(error)
     path.parent.mkdir(parents=True, exist_ok=True)
     encoded = json.dumps(event, ensure_ascii=False) + "\n"
-    with _WRITE_LOCK, path.open("a", encoding="utf-8") as handle:
+    with path.open("a", encoding="utf-8") as handle:
         handle.write(encoded)
         handle.flush()
 
 
-def export(question: str, destination: Path, source_root: Path | None = None) -> None:
-    if source_root is None:
+def export(question: str, destination: Path, source_root: Path | None = None, source_path: str | None = None) -> None:
+    if source_path:
+        source = Path(source_path)
+    elif source_root is None:
         source = _trace_path(question)
     else:
         digest = hashlib.sha256(question.encode("utf-8")).hexdigest()
-        source = source_root / f"{digest}.jsonl"
+        candidates = sorted(source_root.glob(f"{digest}_*.jsonl"), key=lambda item: item.stat().st_mtime)
+        source = candidates[-1] if candidates else source_root / f"{digest}.jsonl"
     if source is None or not source.exists():
         return
     destination.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(source, destination)
+
+
+def load_events(path: str | Path) -> list[dict[str, Any]]:
+    source = Path(path)
+    if not source.exists():
+        return []
+    events = []
+    for line in source.read_text(encoding="utf-8").split("\n"):
+        if not line.strip():
+            continue
+        try:
+            events.append(json.loads(line))
+        except json.JSONDecodeError:
+            continue
+    return events

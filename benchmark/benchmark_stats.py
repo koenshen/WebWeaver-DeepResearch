@@ -1,6 +1,5 @@
 """Same statistics contract as ../gpt-researcher/benchmark_stats.py."""
 import json
-import threading
 from pathlib import Path
 from typing import Any
 try:
@@ -8,7 +7,7 @@ try:
 except ImportError:
     tiktoken = None
 
-_LOCAL = threading.local()
+_CURRENT_STATS = None
 
 class ResearchStats:
     def __init__(self):
@@ -61,9 +60,16 @@ class ResearchStats:
     def get_summary(self):
         return {'total_llm_calls':len(self.llm_calls),'total_input_tokens':self.total_input_tokens,'total_output_tokens':self.total_output_tokens,'total_tokens':self.total_input_tokens+self.total_output_tokens,'total_search_count':self.total_search_count,'total_search_results':self.total_search_results,'total_visit_count':self.total_visit_count,'total_visit_success':self.total_visit_success,'total_visit_failed':self.total_visit_failed,'llm_calls_detail':self.llm_calls,'search_calls_detail':self.search_calls,'visit_calls_detail':self.visit_calls,'source_urls_count':len(self.source_urls)}
 
-def set_current(stats): _LOCAL.stats=stats
-def current(): return getattr(_LOCAL,'stats',None)
-def clear_current(): _LOCAL.stats=None
+def set_current(stats):
+    global _CURRENT_STATS
+    _CURRENT_STATS = stats
+
+def current():
+    return _CURRENT_STATS
+
+def clear_current():
+    global _CURRENT_STATS
+    _CURRENT_STATS = None
 
 def usage_dict(usage):
     return {'input_tokens':getattr(usage,'prompt_tokens',0) or 0,'output_tokens':getattr(usage,'completion_tokens',0) or 0}

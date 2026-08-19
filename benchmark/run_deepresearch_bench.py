@@ -2,7 +2,7 @@
 """External DeepResearch Bench adapter for the unmodified ReAct inference stack.
 
 python benchmark/run_deepresearch_bench.py \
-    --run-name deepresearch-20260816-1020 \
+    --run-name deepresearch-20260816-1535 \
     --num-questions 5 \
     --max-workers 1
 """
@@ -39,7 +39,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--raw-results", type=Path)
     parser.add_argument("--model", default=os.getenv("OPENAI_COMPATIBLE_MODEL") or os.getenv("MODEL_PATH", ""))
     parser.add_argument("--max-workers", type=int, default=int(os.getenv("MAX_WORKERS", "1")))
-    parser.add_argument("--temperature", type=float, default=float(os.getenv("TEMPERATURE", "0.85")))
+    parser.add_argument("--temperature", type=float, default=float(os.getenv("TEMPERATURE", "1")))
     parser.add_argument("--presence-penalty", type=float, default=float(os.getenv("PRESENCE_PENALTY", "1.1")))
     return parser.parse_args()
 
@@ -64,9 +64,8 @@ def main() -> None:
         return
 
     staging = INFERENCE / "eval_data" / "benchmark_staging" / args.run_name / "drb_tasks.jsonl"
-    # Keep the complete target cohort in staging so the inference runner can
-    # recognize prior raw results and execute only newly added questions.
-    mapping = write_input(target, staging)
+    pending = target if args.no_resume else [task for task in target if task["id"] not in completed]
+    mapping = write_input(pending, staging)
     if args.skip_inference:
         if not args.raw_results:
             raise SystemExit("--skip-inference requires --raw-results")
@@ -74,7 +73,9 @@ def main() -> None:
     else:
         if not args.model:
             raise SystemExit("MODEL_PATH in .env or --model is required")
-        raw_results = run_inference(staging, output_dir / "raw_runs", args.model, args.max_workers, args.temperature, args.presence_penalty)
+        def export_one(result):
+            export_drb([result], mapping, output_file, output_dir)
+        raw_results = run_inference(staging, output_dir / "raw_runs", args.model, args.max_workers, args.temperature, args.presence_penalty, export_one)
     export_drb(read_results(raw_results), mapping, output_file, output_dir)
     print(f"Evaluator-ready JSONL: {output_file}")
 
